@@ -1,0 +1,24 @@
+
+tt, code, pre { font-size: 85% }
+
+table.docutils td { background-color: inherit }
+
+table.docutils tbody tr:nth-child(odd) {
+    background-color: #f6f6f6;
+}
+table.docutils tbody tr:hover {
+    background-color: #eee;
+}
+
+/*table.docutils th {                   */
+/*    white-space: nowrap;              */
+/*    transform: rotate(270deg);        */
+/*    transform: rotate(300deg);        */
+/*    [> transform-origin: 65px 60px; <]*/
+/*    transform-origin: 0px 0px;        */
+/*}                                     */
+
+table.docutils tr td:last-child {
+    width:1%;
+    white-space:nowrap;
+}
