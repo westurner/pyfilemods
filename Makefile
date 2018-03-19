@@ -10,7 +10,6 @@ build:
 		--stylesheet-dirs=_static/ \
 		--stylesheet-path=_static/pydoctheme.css,_static/pygments.css,_static/pygments_extra.css \
 		--syntax-highlight=short \
-		--title="Python File Methods and Attributes" \
 		> index.html
 
 CSS = pydoctheme.css pygments.css default.css classic.css basic.css

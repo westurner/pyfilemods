@@ -9,7 +9,9 @@ setup(
         'path.py',
     ],
     author='@westurner',
-    description='Python file modules and attributes',
+    description=(
+        'Identify and compare Python file functions/methods and attributes '
+        'from os, os.path, shutil, pathlib, and path.py'),
     license='PSF, MIT',
     url='https://github.com/westurner/pyfilemods',
     project_urls={

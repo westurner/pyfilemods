@@ -3,7 +3,7 @@
 Python file methods and attributes
 ==================================
 
-- Objective: Identify and compare Python file methods and attributes
+- Objective: Identify and compare Python file functions/methods and attributes from os, os.path, shutil, pathlib, and path.py
 - Source: https://github.com/westurner/pyfilemods
 - Docs: https://westurner.github.io/pyfilemods/
 
@@ -1463,10 +1463,10 @@ attrs
 
 ``copytree``
 =============
-| **shutil.copytree**\ ``(src, dst, symlinks=False, ignore=None, copy_function=<function copy2 at 0x7f41d2964488>, ignore_dangling_symlinks=False)``
-| **pathpy.copytree**\ ``(src, dst, symlinks=False, ignore=None, copy_function=<function copy2 at 0x7f41d2964488>, ignore_dangling_symlinks=False)``
+| **shutil.copytree**\ ``(src, dst, symlinks=False, ignore=None, copy_function=<function copy2 at 0x7f802b0f3488>, ignore_dangling_symlinks=False)``
+| **pathpy.copytree**\ ``(src, dst, symlinks=False, ignore=None, copy_function=<function copy2 at 0x7f802b0f3488>, ignore_dangling_symlinks=False)``
 
-| **shutil.copytree**\ ``(src, dst, symlinks=False, ignore=None, copy_function=<function copy2 at 0x7f41d2964488>, ignore_dangling_symlinks=False)``:
+| **shutil.copytree**\ ``(src, dst, symlinks=False, ignore=None, copy_function=<function copy2 at 0x7f802b0f3488>, ignore_dangling_symlinks=False)``:
 | `source <https://github.com/python/cpython/tree/3.6/Lib/shutil.py>`__ `docs <https://docs.python.org/3/library/shutil.html#shutil.copytree>`__
 
 .. code:: python
@@ -1561,7 +1561,7 @@ attrs
         return dst
 
 
-| **pathpy.copytree**\ ``(src, dst, symlinks=False, ignore=None, copy_function=<function copy2 at 0x7f41d2964488>, ignore_dangling_symlinks=False)``:
+| **pathpy.copytree**\ ``(src, dst, symlinks=False, ignore=None, copy_function=<function copy2 at 0x7f802b0f3488>, ignore_dangling_symlinks=False)``:
 | `source <https://github.com/jaraco/path.py/blob/master/path.py>`__ `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.copytree>`__
 
 .. code:: python
@@ -3859,10 +3859,10 @@ attrs
 
 ``move``
 =========
-| **shutil.move**\ ``(src, dst, copy_function=<function copy2 at 0x7f41d2964488>)``
-| **pathpy.move**\ ``(src, dst, copy_function=<function copy2 at 0x7f41d2964488>)``
+| **shutil.move**\ ``(src, dst, copy_function=<function copy2 at 0x7f802b0f3488>)``
+| **pathpy.move**\ ``(src, dst, copy_function=<function copy2 at 0x7f802b0f3488>)``
 
-| **shutil.move**\ ``(src, dst, copy_function=<function copy2 at 0x7f41d2964488>)``:
+| **shutil.move**\ ``(src, dst, copy_function=<function copy2 at 0x7f802b0f3488>)``:
 | `source <https://github.com/python/cpython/tree/3.6/Lib/shutil.py>`__ `docs <https://docs.python.org/3/library/shutil.html#shutil.move>`__
 
 .. code:: python
@@ -3924,7 +3924,7 @@ attrs
         return real_dst
 
 
-| **pathpy.move**\ ``(src, dst, copy_function=<function copy2 at 0x7f41d2964488>)``:
+| **pathpy.move**\ ``(src, dst, copy_function=<function copy2 at 0x7f802b0f3488>)``:
 | `source <https://github.com/jaraco/path.py/blob/master/path.py>`__ `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.move>`__
 
 .. code:: python

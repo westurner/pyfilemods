@@ -259,8 +259,9 @@ def print_report_header():
     print('Python file methods and attributes')
     print('==================================')
     print('')
-    print('- Objective: Identify and compare '
-          'Python file methods and attributes')
+    print('- Objective: Identify and compare Python file '
+          'functions/methods and attributes from '
+          'os, os.path, shutil, pathlib, and path.py')
     print('- Source: https://github.com/westurner/pyfilemods')
     print('- Docs: https://westurner.github.io/pyfilemods/')
     print('')
