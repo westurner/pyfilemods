@@ -3,7 +3,7 @@
 Python file methods and attributes
 ==================================
 
-- Objective: Identify and compare Python file functions/methods and attributes from os, os.path, shutil, pathlib, and path.py
+- Objective: Identify and compare Python file functions/methods and attributes from os, os.path, shutil, pathlib, path.py, and trio
 - Source: https://github.com/westurner/pyfilemods
 - Docs: https://westurner.github.io/pyfilemods/
 
@@ -448,6 +448,19 @@ pathpy_not_pathlib
 - `walkfiles`_
 - `write_lines`_
 - `zfill`_
+
+pathlib_not_trio
+================
+- `anchor`_
+- `drive`_
+- `name`_
+- `parent`_
+- `parents`_
+- `parts`_
+- `root`_
+- `stem`_
+- `suffix`_
+- `suffixes`_
 
 
 attrs
