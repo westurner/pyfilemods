@@ -285,16 +285,12 @@ def get_signatures(obj, additional_attrs=None):
 
 def build_methods():
     methods = {}
-
-    pathlib_path = _pathlib.Path
-    methods['pathlib'] = dict(get_signatures(pathlib_path))
-
-    pathpy_path = _path.Path
-    methods['pathpy'] = dict(get_signatures(pathpy_path,
-                                            ['__div__', '__rdiv__']))
     methods['os'] = dict(get_signatures(_os))
     methods['os.path'] = dict(get_signatures(_ospath))
     methods['shutil'] = dict(get_signatures(_shutil))
+    methods['pathlib'] = dict(get_signatures(_pathlib.Path))
+    methods['pathpy'] = dict(get_signatures(_path.Path,
+                                            ['__div__', '__rdiv__']))
     methods['trio'] = dict(get_signatures(_trio.Path))
     return methods
 
