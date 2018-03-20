@@ -37,8 +37,8 @@ Modules
 
 - pathpy
 
+  - Src: https://github.com/jaraco/path.py
   - Source: https://github.com/jaraco/path.py/blob/master/path.py
-  - Source: https://github.com/jaraco/path.py
   - Docs: https://pathpy.readthedocs.io/en/latest/
 
 Sets
@@ -454,7 +454,7 @@ attrs
 | seealso: `os.path.join <#join>`_, `pathlib.joinpath <#joinpath>`_, `pathpy.__rdiv__ <#rdiv>`_, `pathpy.joinpath <#joinpath>`_
  
 | **pathpy.__div__**\ ``(self, rel)``:
-| `source <https://github.com/jaraco/path.py/blob/master/path.py>`__ `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.__div__>`__
+| `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.__div__>`__ `source (path.py) <https://github.com/jaraco/path.py/blob/master/path.py>`__
 
 .. code:: python
 
@@ -477,7 +477,7 @@ attrs
 | seealso: `os.path.join <#join>`_, `pathlib.joinpath <#joinpath>`_, `pathpy.__div__ <#div>`_, `pathpy.joinpath <#joinpath>`_
  
 | **pathpy.__rdiv__**\ ``(self, rel)``:
-| `source <https://github.com/jaraco/path.py/blob/master/path.py>`__ `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.__rdiv__>`__
+| `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.__rdiv__>`__ `source (path.py) <https://github.com/jaraco/path.py/blob/master/path.py>`__
 
 .. code:: python
 
@@ -500,7 +500,7 @@ attrs
 | seealso: `pathlib.is_absolute <#is-absolute>`_
  
 | **pathlib.absolute**\ ``(self)``:
-| `source <https://github.com/python/cpython/blob/3.6/Lib/pathlib.py>`__ `docs <https://docs.python.org/3/library/pathlib.html#pathlib.Path.absolute>`__
+| `docs <https://docs.python.org/3/library/pathlib.html#pathlib.Path.absolute>`__ `source (pathlib.py) <https://github.com/python/cpython/blob/3.6/Lib/pathlib.py>`__
 
 .. code:: python
 
@@ -530,7 +530,7 @@ attrs
 | **pathpy.abspath**\ ``(self)``
 
 | **os.path.abspath**\ ``(path)``:
-| `source <https://github.com/python/cpython/blob/3.6/Lib/posixpath.py>`__ `docs <https://docs.python.org/3/library/os.path.html#os.path.abspath>`__
+| `docs <https://docs.python.org/3/library/os.path.html#os.path.abspath>`__ `source (posixpath.py) <https://github.com/python/cpython/blob/3.6/Lib/posixpath.py>`__ `source (ntpath.py) <https://github.com/python/cpython/tree/3.6/Lib/ntpath.py>`__ `source (macpath.py) <https://github.com/python/cpython/tree/3.6/Lib/macpath.py>`__
 
 .. code:: python
 
@@ -547,7 +547,7 @@ attrs
 
 
 | **pathpy.abspath**\ ``(self)``:
-| `source <https://github.com/jaraco/path.py/blob/master/path.py>`__ `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.abspath>`__
+| `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.abspath>`__ `source (path.py) <https://github.com/jaraco/path.py/blob/master/path.py>`__
 
 .. code:: python
 
@@ -563,7 +563,7 @@ attrs
 | **pathpy.access**\ ``(self, mode)``
 
 | **os.access**\ ``(path, mode, *, dir_fd=None, effective_ids=False, follow_symlinks=True)``:
-| `source <https://github.com/python/cpython/tree/3.6/Lib/os.py>`__ `docs <https://docs.python.org/3/library/os.html#os.access>`__
+| `docs <https://docs.python.org/3/library/os.html#os.access>`__ `source (os.py) <https://github.com/python/cpython/tree/3.6/Lib/os.py>`__
 
 .. code:: python
 
@@ -595,7 +595,7 @@ attrs
       has the specified access to the path.
 
 | **pathpy.access**\ ``(self, mode)``:
-| `source <https://github.com/jaraco/path.py/blob/master/path.py>`__ `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.access>`__
+| `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.access>`__ `source (path.py) <https://github.com/jaraco/path.py/blob/master/path.py>`__
 
 .. code:: python
 
@@ -615,15 +615,15 @@ attrs
 ===========
 
 | **os.altsep**:
-| `source <https://github.com/python/cpython/tree/3.6/Lib/os.py>`__ `docs <https://docs.python.org/3/library/os.html#os.altsep>`__
+| `docs <https://docs.python.org/3/library/os.html#os.altsep>`__ `source (os.py) <https://github.com/python/cpython/tree/3.6/Lib/os.py>`__
 | **os.path.altsep**:
-| `source <https://github.com/python/cpython/blob/3.6/Lib/posixpath.py>`__ `docs <https://docs.python.org/3/library/os.path.html#os.path.altsep>`__
+| `docs <https://docs.python.org/3/library/os.path.html#os.path.altsep>`__ `source (posixpath.py) <https://github.com/python/cpython/blob/3.6/Lib/posixpath.py>`__ `source (ntpath.py) <https://github.com/python/cpython/tree/3.6/Lib/ntpath.py>`__ `source (macpath.py) <https://github.com/python/cpython/tree/3.6/Lib/macpath.py>`__
 
 ``anchor``
 ===========
 
 | **pathlib.anchor**:
-| `source <https://github.com/python/cpython/blob/3.6/Lib/pathlib.py>`__ `docs <https://docs.python.org/3/library/pathlib.html#pathlib.Path.anchor>`__
+| `docs <https://docs.python.org/3/library/pathlib.html#pathlib.Path.anchor>`__ `source (pathlib.py) <https://github.com/python/cpython/blob/3.6/Lib/pathlib.py>`__
 
 .. code:: python
 
@@ -635,7 +635,7 @@ attrs
 | **pathlib.as_posix**\ ``(self)``
 
 | **pathlib.as_posix**\ ``(self)``:
-| `source <https://github.com/python/cpython/blob/3.6/Lib/pathlib.py>`__ `docs <https://docs.python.org/3/library/pathlib.html#pathlib.Path.as_posix>`__
+| `docs <https://docs.python.org/3/library/pathlib.html#pathlib.Path.as_posix>`__ `source (pathlib.py) <https://github.com/python/cpython/blob/3.6/Lib/pathlib.py>`__
 
 .. code:: python
 
@@ -652,7 +652,7 @@ attrs
 | **pathlib.as_uri**\ ``(self)``
 
 | **pathlib.as_uri**\ ``(self)``:
-| `source <https://github.com/python/cpython/blob/3.6/Lib/pathlib.py>`__ `docs <https://docs.python.org/3/library/pathlib.html#pathlib.Path.as_uri>`__
+| `docs <https://docs.python.org/3/library/pathlib.html#pathlib.Path.as_uri>`__ `source (pathlib.py) <https://github.com/python/cpython/blob/3.6/Lib/pathlib.py>`__
 
 .. code:: python
 
@@ -670,7 +670,7 @@ attrs
 | seealso: `os.path.getatime <#getatime>`_, `pathpy.getatime <#getatime>`_
  
 | **pathpy.atime**:
-| `source <https://github.com/jaraco/path.py/blob/master/path.py>`__ `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.atime>`__
+| `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.atime>`__ `source (path.py) <https://github.com/jaraco/path.py/blob/master/path.py>`__
 
 .. code:: python
 
@@ -687,7 +687,7 @@ attrs
 | seealso: `pathlib.name <#name>`_, `pathpy.name <#name>`_
  
 | **os.path.basename**\ ``(p)``:
-| `source <https://github.com/python/cpython/blob/3.6/Lib/posixpath.py>`__ `docs <https://docs.python.org/3/library/os.path.html#os.path.basename>`__
+| `docs <https://docs.python.org/3/library/os.path.html#os.path.basename>`__ `source (posixpath.py) <https://github.com/python/cpython/blob/3.6/Lib/posixpath.py>`__ `source (ntpath.py) <https://github.com/python/cpython/tree/3.6/Lib/ntpath.py>`__ `source (macpath.py) <https://github.com/python/cpython/tree/3.6/Lib/macpath.py>`__
 
 .. code:: python
 
@@ -700,7 +700,7 @@ attrs
 
 
 | **pathpy.basename**\ ``(self)``:
-| `source <https://github.com/jaraco/path.py/blob/master/path.py>`__ `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.basename>`__
+| `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.basename>`__ `source (path.py) <https://github.com/jaraco/path.py/blob/master/path.py>`__
 
 .. code:: python
 
@@ -715,7 +715,7 @@ attrs
 | **pathpy.bytes**\ ``(self)``
 
 | **pathpy.bytes**\ ``(self)``:
-| `source <https://github.com/jaraco/path.py/blob/master/path.py>`__ `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.bytes>`__
+| `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.bytes>`__ `source (path.py) <https://github.com/jaraco/path.py/blob/master/path.py>`__
 
 .. code:: python
 
@@ -730,7 +730,7 @@ attrs
 ===============
 
 | **pathpy.capitalize**:
-| `source <https://github.com/jaraco/path.py/blob/master/path.py>`__ `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.capitalize>`__
+| `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.capitalize>`__ `source (path.py) <https://github.com/jaraco/path.py/blob/master/path.py>`__
 
 .. code:: python
 
@@ -744,7 +744,7 @@ attrs
 =============
 
 | **pathpy.casefold**:
-| `source <https://github.com/jaraco/path.py/blob/master/path.py>`__ `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.casefold>`__
+| `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.casefold>`__ `source (path.py) <https://github.com/jaraco/path.py/blob/master/path.py>`__
 
 .. code:: python
 
@@ -760,7 +760,7 @@ attrs
 | seealso: `os.chdir <#chdir>`_
  
 | **pathpy.cd**\ ``(self)``:
-| `source <https://github.com/jaraco/path.py/blob/master/path.py>`__ `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.cd>`__
+| `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.cd>`__ `source (path.py) <https://github.com/jaraco/path.py/blob/master/path.py>`__
 
 .. code:: python
 
@@ -774,7 +774,7 @@ attrs
 ===========
 
 | **pathpy.center**:
-| `source <https://github.com/jaraco/path.py/blob/master/path.py>`__ `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.center>`__
+| `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.center>`__ `source (path.py) <https://github.com/jaraco/path.py/blob/master/path.py>`__
 
 .. code:: python
 
@@ -792,7 +792,7 @@ attrs
 | seealso: `pathpy.cd <#cd>`_
  
 | **os.chdir**\ ``(path)``:
-| `source <https://github.com/python/cpython/tree/3.6/Lib/os.py>`__ `docs <https://docs.python.org/3/library/os.html#os.chdir>`__
+| `docs <https://docs.python.org/3/library/os.html#os.chdir>`__ `source (os.py) <https://github.com/python/cpython/tree/3.6/Lib/os.py>`__
 
 .. code:: python
 
@@ -803,7 +803,7 @@ attrs
       If this functionality is unavailable, using it raises an exception.
 
 | **pathpy.chdir**\ ``(self)``:
-| `source <https://github.com/jaraco/path.py/blob/master/path.py>`__ `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.chdir>`__
+| `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.chdir>`__ `source (path.py) <https://github.com/jaraco/path.py/blob/master/path.py>`__
 
 .. code:: python
 
@@ -820,7 +820,7 @@ attrs
 | **pathpy.chmod**\ ``(self, mode)``
 
 | **os.chmod**\ ``(path, mode, *, dir_fd=None, follow_symlinks=True)``:
-| `source <https://github.com/python/cpython/tree/3.6/Lib/os.py>`__ `docs <https://docs.python.org/3/library/os.html#os.chmod>`__
+| `docs <https://docs.python.org/3/library/os.html#os.chmod>`__ `source (os.py) <https://github.com/python/cpython/tree/3.6/Lib/os.py>`__
 
 .. code:: python
 
@@ -847,7 +847,7 @@ attrs
       If they are unavailable, using them will raise a NotImplementedError.
 
 | **pathlib.chmod**\ ``(self, mode)``:
-| `source <https://github.com/python/cpython/blob/3.6/Lib/pathlib.py>`__ `docs <https://docs.python.org/3/library/pathlib.html#pathlib.Path.chmod>`__
+| `docs <https://docs.python.org/3/library/pathlib.html#pathlib.Path.chmod>`__ `source (pathlib.py) <https://github.com/python/cpython/blob/3.6/Lib/pathlib.py>`__
 
 .. code:: python
 
@@ -861,7 +861,7 @@ attrs
 
 
 | **pathpy.chmod**\ ``(self, mode)``:
-| `source <https://github.com/jaraco/path.py/blob/master/path.py>`__ `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.chmod>`__
+| `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.chmod>`__ `source (path.py) <https://github.com/jaraco/path.py/blob/master/path.py>`__
 
 .. code:: python
 
@@ -887,7 +887,7 @@ attrs
 | **pathpy.chown**\ ``(self, uid=-1, gid=-1)``
 
 | **os.chown**\ ``(path, uid, gid, *, dir_fd=None, follow_symlinks=True)``:
-| `source <https://github.com/python/cpython/tree/3.6/Lib/os.py>`__ `docs <https://docs.python.org/3/library/os.html#os.chown>`__
+| `docs <https://docs.python.org/3/library/os.html#os.chown>`__ `source (os.py) <https://github.com/python/cpython/tree/3.6/Lib/os.py>`__
 
 .. code:: python
 
@@ -918,7 +918,7 @@ attrs
       If they are unavailable, using them will raise a NotImplementedError.
 
 | **shutil.chown**\ ``(path, user=None, group=None)``:
-| `source <https://github.com/python/cpython/tree/3.6/Lib/shutil.py>`__ `docs <https://docs.python.org/3/library/shutil.html#shutil.chown>`__
+| `docs <https://docs.python.org/3/library/shutil.html#shutil.chown>`__ `source (shutil.py) <https://github.com/python/cpython/tree/3.6/Lib/shutil.py>`__
 
 .. code:: python
 
@@ -955,7 +955,7 @@ attrs
 
 
 | **pathpy.chown**\ ``(self, uid=-1, gid=-1)``:
-| `source <https://github.com/jaraco/path.py/blob/master/path.py>`__ `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.chown>`__
+| `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.chown>`__ `source (path.py) <https://github.com/jaraco/path.py/blob/master/path.py>`__
 
 .. code:: python
 
@@ -984,14 +984,14 @@ attrs
 | **pathpy.chroot**\ ``(self)``
 
 | **os.chroot**\ ``(path)``:
-| `source <https://github.com/python/cpython/tree/3.6/Lib/os.py>`__ `docs <https://docs.python.org/3/library/os.html#os.chroot>`__
+| `docs <https://docs.python.org/3/library/os.html#os.chroot>`__ `source (os.py) <https://github.com/python/cpython/tree/3.6/Lib/os.py>`__
 
 .. code:: python
 
     Change root directory to path.
 
 | **pathpy.chroot**\ ``(self)``:
-| `source <https://github.com/jaraco/path.py/blob/master/path.py>`__ `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.chroot>`__
+| `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.chroot>`__ `source (path.py) <https://github.com/jaraco/path.py/blob/master/path.py>`__
 
 .. code:: python
 
@@ -1006,7 +1006,7 @@ attrs
 | **pathpy.chunks**\ ``(self, size, *args, **kwargs)``
 
 | **pathpy.chunks**\ ``(self, size, *args, **kwargs)``:
-| `source <https://github.com/jaraco/path.py/blob/master/path.py>`__ `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.chunks>`__
+| `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.chunks>`__ `source (path.py) <https://github.com/jaraco/path.py/blob/master/path.py>`__
 
 .. code:: python
 
@@ -1035,7 +1035,7 @@ attrs
 | **os.path.commonpath**\ ``(paths)``
 
 | **os.path.commonpath**\ ``(paths)``:
-| `source <https://github.com/python/cpython/blob/3.6/Lib/posixpath.py>`__ `docs <https://docs.python.org/3/library/os.path.html#os.path.commonpath>`__
+| `docs <https://docs.python.org/3/library/os.path.html#os.path.commonpath>`__ `source (posixpath.py) <https://github.com/python/cpython/blob/3.6/Lib/posixpath.py>`__ `source (ntpath.py) <https://github.com/python/cpython/tree/3.6/Lib/ntpath.py>`__ `source (macpath.py) <https://github.com/python/cpython/tree/3.6/Lib/macpath.py>`__
 
 .. code:: python
 
@@ -1083,7 +1083,7 @@ attrs
 | **os.path.commonprefix**\ ``(m)``
 
 | **os.path.commonprefix**\ ``(m)``:
-| `source <https://github.com/python/cpython/blob/3.6/Lib/posixpath.py>`__ `docs <https://docs.python.org/3/library/os.path.html#os.path.commonprefix>`__
+| `docs <https://docs.python.org/3/library/os.path.html#os.path.commonprefix>`__ `source (posixpath.py) <https://github.com/python/cpython/blob/3.6/Lib/posixpath.py>`__ `source (ntpath.py) <https://github.com/python/cpython/tree/3.6/Lib/ntpath.py>`__ `source (macpath.py) <https://github.com/python/cpython/tree/3.6/Lib/macpath.py>`__
 
 .. code:: python
 
@@ -1111,7 +1111,7 @@ attrs
 | **pathpy.copy**\ ``(src, dst, *, follow_symlinks=True)``
 
 | **shutil.copy**\ ``(src, dst, *, follow_symlinks=True)``:
-| `source <https://github.com/python/cpython/tree/3.6/Lib/shutil.py>`__ `docs <https://docs.python.org/3/library/shutil.html#shutil.copy>`__
+| `docs <https://docs.python.org/3/library/shutil.html#shutil.copy>`__ `source (shutil.py) <https://github.com/python/cpython/tree/3.6/Lib/shutil.py>`__
 
 .. code:: python
 
@@ -1135,7 +1135,7 @@ attrs
 
 
 | **pathpy.copy**\ ``(src, dst, *, follow_symlinks=True)``:
-| `source <https://github.com/jaraco/path.py/blob/master/path.py>`__ `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.copy>`__
+| `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.copy>`__ `source (path.py) <https://github.com/jaraco/path.py/blob/master/path.py>`__
 
 .. code:: python
 
@@ -1165,7 +1165,7 @@ attrs
 | **pathpy.copy2**\ ``(src, dst, *, follow_symlinks=True)``
 
 | **shutil.copy2**\ ``(src, dst, *, follow_symlinks=True)``:
-| `source <https://github.com/python/cpython/tree/3.6/Lib/shutil.py>`__ `docs <https://docs.python.org/3/library/shutil.html#shutil.copy2>`__
+| `docs <https://docs.python.org/3/library/shutil.html#shutil.copy2>`__ `source (shutil.py) <https://github.com/python/cpython/tree/3.6/Lib/shutil.py>`__
 
 .. code:: python
 
@@ -1187,7 +1187,7 @@ attrs
 
 
 | **pathpy.copy2**\ ``(src, dst, *, follow_symlinks=True)``:
-| `source <https://github.com/jaraco/path.py/blob/master/path.py>`__ `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.copy2>`__
+| `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.copy2>`__ `source (path.py) <https://github.com/jaraco/path.py/blob/master/path.py>`__
 
 .. code:: python
 
@@ -1215,7 +1215,7 @@ attrs
 | **pathpy.copyfile**\ ``(src, dst, *, follow_symlinks=True)``
 
 | **shutil.copyfile**\ ``(src, dst, *, follow_symlinks=True)``:
-| `source <https://github.com/python/cpython/tree/3.6/Lib/shutil.py>`__ `docs <https://docs.python.org/3/library/shutil.html#shutil.copyfile>`__
+| `docs <https://docs.python.org/3/library/shutil.html#shutil.copyfile>`__ `source (shutil.py) <https://github.com/python/cpython/tree/3.6/Lib/shutil.py>`__
 
 .. code:: python
 
@@ -1250,7 +1250,7 @@ attrs
 
 
 | **pathpy.copyfile**\ ``(src, dst, *, follow_symlinks=True)``:
-| `source <https://github.com/jaraco/path.py/blob/master/path.py>`__ `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.copyfile>`__
+| `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.copyfile>`__ `source (path.py) <https://github.com/jaraco/path.py/blob/master/path.py>`__
 
 .. code:: python
 
@@ -1291,7 +1291,7 @@ attrs
 | **pathpy.copymode**\ ``(src, dst, *, follow_symlinks=True)``
 
 | **shutil.copymode**\ ``(src, dst, *, follow_symlinks=True)``:
-| `source <https://github.com/python/cpython/tree/3.6/Lib/shutil.py>`__ `docs <https://docs.python.org/3/library/shutil.html#shutil.copymode>`__
+| `docs <https://docs.python.org/3/library/shutil.html#shutil.copymode>`__ `source (shutil.py) <https://github.com/python/cpython/tree/3.6/Lib/shutil.py>`__
 
 .. code:: python
 
@@ -1318,7 +1318,7 @@ attrs
 
 
 | **pathpy.copymode**\ ``(src, dst, *, follow_symlinks=True)``:
-| `source <https://github.com/jaraco/path.py/blob/master/path.py>`__ `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.copymode>`__
+| `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.copymode>`__ `source (path.py) <https://github.com/jaraco/path.py/blob/master/path.py>`__
 
 .. code:: python
 
@@ -1351,7 +1351,7 @@ attrs
 | **pathpy.copystat**\ ``(src, dst, *, follow_symlinks=True)``
 
 | **shutil.copystat**\ ``(src, dst, *, follow_symlinks=True)``:
-| `source <https://github.com/python/cpython/tree/3.6/Lib/shutil.py>`__ `docs <https://docs.python.org/3/library/shutil.html#shutil.copystat>`__
+| `docs <https://docs.python.org/3/library/shutil.html#shutil.copystat>`__ `source (shutil.py) <https://github.com/python/cpython/tree/3.6/Lib/shutil.py>`__
 
 .. code:: python
 
@@ -1411,7 +1411,7 @@ attrs
 
 
 | **pathpy.copystat**\ ``(src, dst, *, follow_symlinks=True)``:
-| `source <https://github.com/jaraco/path.py/blob/master/path.py>`__ `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.copystat>`__
+| `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.copystat>`__ `source (path.py) <https://github.com/jaraco/path.py/blob/master/path.py>`__
 
 .. code:: python
 
@@ -1473,11 +1473,11 @@ attrs
 
 ``copytree``
 =============
-| **shutil.copytree**\ ``(src, dst, symlinks=False, ignore=None, copy_function=<function copy2 at 0x7f9b80895400>, ignore_dangling_symlinks=False)``
-| **pathpy.copytree**\ ``(src, dst, symlinks=False, ignore=None, copy_function=<function copy2 at 0x7f9b80895400>, ignore_dangling_symlinks=False)``
+| **shutil.copytree**\ ``(src, dst, symlinks=False, ignore=None, copy_function=<function copy2 at 0x7f9886f01488>, ignore_dangling_symlinks=False)``
+| **pathpy.copytree**\ ``(src, dst, symlinks=False, ignore=None, copy_function=<function copy2 at 0x7f9886f01488>, ignore_dangling_symlinks=False)``
 
-| **shutil.copytree**\ ``(src, dst, symlinks=False, ignore=None, copy_function=<function copy2 at 0x7f9b80895400>, ignore_dangling_symlinks=False)``:
-| `source <https://github.com/python/cpython/tree/3.6/Lib/shutil.py>`__ `docs <https://docs.python.org/3/library/shutil.html#shutil.copytree>`__
+| **shutil.copytree**\ ``(src, dst, symlinks=False, ignore=None, copy_function=<function copy2 at 0x7f9886f01488>, ignore_dangling_symlinks=False)``:
+| `docs <https://docs.python.org/3/library/shutil.html#shutil.copytree>`__ `source (shutil.py) <https://github.com/python/cpython/tree/3.6/Lib/shutil.py>`__
 
 .. code:: python
 
@@ -1571,8 +1571,8 @@ attrs
         return dst
 
 
-| **pathpy.copytree**\ ``(src, dst, symlinks=False, ignore=None, copy_function=<function copy2 at 0x7f9b80895400>, ignore_dangling_symlinks=False)``:
-| `source <https://github.com/jaraco/path.py/blob/master/path.py>`__ `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.copytree>`__
+| **pathpy.copytree**\ ``(src, dst, symlinks=False, ignore=None, copy_function=<function copy2 at 0x7f9886f01488>, ignore_dangling_symlinks=False)``:
+| `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.copytree>`__ `source (path.py) <https://github.com/jaraco/path.py/blob/master/path.py>`__
 
 .. code:: python
 
@@ -1671,7 +1671,7 @@ attrs
 ==========
 
 | **pathpy.count**:
-| `source <https://github.com/jaraco/path.py/blob/master/path.py>`__ `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.count>`__
+| `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.count>`__ `source (path.py) <https://github.com/jaraco/path.py/blob/master/path.py>`__
 
 .. code:: python
 
@@ -1688,7 +1688,7 @@ attrs
 | seealso: `os.path.getctime <#getctime>`_, `pathpy.getctime <#getctime>`_
  
 | **pathpy.ctime**:
-| `source <https://github.com/jaraco/path.py/blob/master/path.py>`__ `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.ctime>`__
+| `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.ctime>`__ `source (path.py) <https://github.com/jaraco/path.py/blob/master/path.py>`__
 
 .. code:: python
 
@@ -1701,7 +1701,7 @@ attrs
 ===========
 
 | **os.curdir**:
-| `source <https://github.com/python/cpython/tree/3.6/Lib/os.py>`__ `docs <https://docs.python.org/3/library/os.html#os.curdir>`__
+| `docs <https://docs.python.org/3/library/os.html#os.curdir>`__ `source (os.py) <https://github.com/python/cpython/tree/3.6/Lib/os.py>`__
 
 .. code:: python
 
@@ -1717,7 +1717,7 @@ attrs
     errors defaults to 'strict'.
 
 | **os.path.curdir**:
-| `source <https://github.com/python/cpython/blob/3.6/Lib/posixpath.py>`__ `docs <https://docs.python.org/3/library/os.path.html#os.path.curdir>`__
+| `docs <https://docs.python.org/3/library/os.path.html#os.path.curdir>`__ `source (posixpath.py) <https://github.com/python/cpython/blob/3.6/Lib/posixpath.py>`__ `source (ntpath.py) <https://github.com/python/cpython/tree/3.6/Lib/ntpath.py>`__ `source (macpath.py) <https://github.com/python/cpython/tree/3.6/Lib/macpath.py>`__
 
 .. code:: python
 
@@ -1740,7 +1740,7 @@ attrs
 | seealso: `os.getcwd <#getcwd>`_, `pathpy.getcwd <#getcwd>`_
  
 | **pathlib.cwd**\ ``()``:
-| `source <https://github.com/python/cpython/blob/3.6/Lib/pathlib.py>`__ `docs <https://docs.python.org/3/library/pathlib.html#pathlib.Path.cwd>`__
+| `docs <https://docs.python.org/3/library/pathlib.html#pathlib.Path.cwd>`__ `source (pathlib.py) <https://github.com/python/cpython/blob/3.6/Lib/pathlib.py>`__
 
 .. code:: python
 
@@ -1757,7 +1757,7 @@ attrs
 ============
 
 | **os.defpath**:
-| `source <https://github.com/python/cpython/tree/3.6/Lib/os.py>`__ `docs <https://docs.python.org/3/library/os.html#os.defpath>`__
+| `docs <https://docs.python.org/3/library/os.html#os.defpath>`__ `source (os.py) <https://github.com/python/cpython/tree/3.6/Lib/os.py>`__
 
 .. code:: python
 
@@ -1773,7 +1773,7 @@ attrs
     errors defaults to 'strict'.
 
 | **os.path.defpath**:
-| `source <https://github.com/python/cpython/blob/3.6/Lib/posixpath.py>`__ `docs <https://docs.python.org/3/library/os.path.html#os.path.defpath>`__
+| `docs <https://docs.python.org/3/library/os.path.html#os.path.defpath>`__ `source (posixpath.py) <https://github.com/python/cpython/blob/3.6/Lib/posixpath.py>`__ `source (ntpath.py) <https://github.com/python/cpython/tree/3.6/Lib/ntpath.py>`__ `source (macpath.py) <https://github.com/python/cpython/tree/3.6/Lib/macpath.py>`__
 
 .. code:: python
 
@@ -1793,7 +1793,7 @@ attrs
 ============
 
 | **os.devnull**:
-| `source <https://github.com/python/cpython/tree/3.6/Lib/os.py>`__ `docs <https://docs.python.org/3/library/os.html#os.devnull>`__
+| `docs <https://docs.python.org/3/library/os.html#os.devnull>`__ `source (os.py) <https://github.com/python/cpython/tree/3.6/Lib/os.py>`__
 
 .. code:: python
 
@@ -1809,7 +1809,7 @@ attrs
     errors defaults to 'strict'.
 
 | **os.path.devnull**:
-| `source <https://github.com/python/cpython/blob/3.6/Lib/posixpath.py>`__ `docs <https://docs.python.org/3/library/os.path.html#os.path.devnull>`__
+| `docs <https://docs.python.org/3/library/os.path.html#os.path.devnull>`__ `source (posixpath.py) <https://github.com/python/cpython/blob/3.6/Lib/posixpath.py>`__ `source (ntpath.py) <https://github.com/python/cpython/tree/3.6/Lib/ntpath.py>`__ `source (macpath.py) <https://github.com/python/cpython/tree/3.6/Lib/macpath.py>`__
 
 .. code:: python
 
@@ -1833,7 +1833,7 @@ attrs
 | seealso: `pathlib.parent <#parent>`_, `pathpy.parent <#parent>`_
  
 | **os.path.dirname**\ ``(p)``:
-| `source <https://github.com/python/cpython/blob/3.6/Lib/posixpath.py>`__ `docs <https://docs.python.org/3/library/os.path.html#os.path.dirname>`__
+| `docs <https://docs.python.org/3/library/os.path.html#os.path.dirname>`__ `source (posixpath.py) <https://github.com/python/cpython/blob/3.6/Lib/posixpath.py>`__ `source (ntpath.py) <https://github.com/python/cpython/tree/3.6/Lib/ntpath.py>`__ `source (macpath.py) <https://github.com/python/cpython/tree/3.6/Lib/macpath.py>`__
 
 .. code:: python
 
@@ -1849,7 +1849,7 @@ attrs
 
 
 | **pathpy.dirname**\ ``(self)``:
-| `source <https://github.com/jaraco/path.py/blob/master/path.py>`__ `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.dirname>`__
+| `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.dirname>`__ `source (path.py) <https://github.com/jaraco/path.py/blob/master/path.py>`__
 
 .. code:: python
 
@@ -1864,7 +1864,7 @@ attrs
 | **pathpy.dirs**\ ``(self, pattern=None)``
 
 | **pathpy.dirs**\ ``(self, pattern=None)``:
-| `source <https://github.com/jaraco/path.py/blob/master/path.py>`__ `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.dirs>`__
+| `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.dirs>`__ `source (path.py) <https://github.com/jaraco/path.py/blob/master/path.py>`__
 
 .. code:: python
 
@@ -1887,14 +1887,14 @@ attrs
 ==========
 
 | **pathlib.drive**:
-| `source <https://github.com/python/cpython/blob/3.6/Lib/pathlib.py>`__ `docs <https://docs.python.org/3/library/pathlib.html#pathlib.Path.drive>`__
+| `docs <https://docs.python.org/3/library/pathlib.html#pathlib.Path.drive>`__ `source (pathlib.py) <https://github.com/python/cpython/blob/3.6/Lib/pathlib.py>`__
 
 .. code:: python
 
     The drive prefix (letter or UNC path), if any.
 
 | **pathpy.drive**:
-| `source <https://github.com/jaraco/path.py/blob/master/path.py>`__ `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.drive>`__
+| `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.drive>`__ `source (path.py) <https://github.com/jaraco/path.py/blob/master/path.py>`__
 
 .. code:: python
 
@@ -1907,7 +1907,7 @@ attrs
 ===========
 
 | **pathpy.encode**:
-| `source <https://github.com/jaraco/path.py/blob/master/path.py>`__ `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.encode>`__
+| `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.encode>`__ `source (path.py) <https://github.com/jaraco/path.py/blob/master/path.py>`__
 
 .. code:: python
 
@@ -1925,7 +1925,7 @@ attrs
 =============
 
 | **pathpy.endswith**:
-| `source <https://github.com/jaraco/path.py/blob/master/path.py>`__ `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.endswith>`__
+| `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.endswith>`__ `source (path.py) <https://github.com/jaraco/path.py/blob/master/path.py>`__
 
 .. code:: python
 
@@ -1944,7 +1944,7 @@ attrs
 | **pathpy.exists**\ ``(self)``
 
 | **os.path.exists**\ ``(path)``:
-| `source <https://github.com/python/cpython/blob/3.6/Lib/posixpath.py>`__ `docs <https://docs.python.org/3/library/os.path.html#os.path.exists>`__
+| `docs <https://docs.python.org/3/library/os.path.html#os.path.exists>`__ `source (posixpath.py) <https://github.com/python/cpython/blob/3.6/Lib/posixpath.py>`__ `source (ntpath.py) <https://github.com/python/cpython/tree/3.6/Lib/ntpath.py>`__ `source (macpath.py) <https://github.com/python/cpython/tree/3.6/Lib/macpath.py>`__
 
 .. code:: python
 
@@ -1958,7 +1958,7 @@ attrs
 
 
 | **pathlib.exists**\ ``(self)``:
-| `source <https://github.com/python/cpython/blob/3.6/Lib/pathlib.py>`__ `docs <https://docs.python.org/3/library/pathlib.html#pathlib.Path.exists>`__
+| `docs <https://docs.python.org/3/library/pathlib.html#pathlib.Path.exists>`__ `source (pathlib.py) <https://github.com/python/cpython/blob/3.6/Lib/pathlib.py>`__
 
 .. code:: python
 
@@ -1976,7 +1976,7 @@ attrs
 
 
 | **pathpy.exists**\ ``(self)``:
-| `source <https://github.com/jaraco/path.py/blob/master/path.py>`__ `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.exists>`__
+| `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.exists>`__ `source (path.py) <https://github.com/jaraco/path.py/blob/master/path.py>`__
 
 .. code:: python
 
@@ -1991,7 +1991,7 @@ attrs
 | **pathpy.expand**\ ``(self)``
 
 | **pathpy.expand**\ ``(self)``:
-| `source <https://github.com/jaraco/path.py/blob/master/path.py>`__ `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.expand>`__
+| `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.expand>`__ `source (path.py) <https://github.com/jaraco/path.py/blob/master/path.py>`__
 
 .. code:: python
 
@@ -2010,7 +2010,7 @@ attrs
 ===============
 
 | **pathpy.expandtabs**:
-| `source <https://github.com/jaraco/path.py/blob/master/path.py>`__ `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.expandtabs>`__
+| `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.expandtabs>`__ `source (path.py) <https://github.com/jaraco/path.py/blob/master/path.py>`__
 
 .. code:: python
 
@@ -2027,7 +2027,7 @@ attrs
 | **pathpy.expanduser**\ ``(self)``
 
 | **os.path.expanduser**\ ``(path)``:
-| `source <https://github.com/python/cpython/blob/3.6/Lib/posixpath.py>`__ `docs <https://docs.python.org/3/library/os.path.html#os.path.expanduser>`__
+| `docs <https://docs.python.org/3/library/os.path.html#os.path.expanduser>`__ `source (posixpath.py) <https://github.com/python/cpython/blob/3.6/Lib/posixpath.py>`__ `source (ntpath.py) <https://github.com/python/cpython/tree/3.6/Lib/ntpath.py>`__ `source (macpath.py) <https://github.com/python/cpython/tree/3.6/Lib/macpath.py>`__
 
 .. code:: python
 
@@ -2071,7 +2071,7 @@ attrs
 
 
 | **pathlib.expanduser**\ ``(self)``:
-| `source <https://github.com/python/cpython/blob/3.6/Lib/pathlib.py>`__ `docs <https://docs.python.org/3/library/pathlib.html#pathlib.Path.expanduser>`__
+| `docs <https://docs.python.org/3/library/pathlib.html#pathlib.Path.expanduser>`__ `source (pathlib.py) <https://github.com/python/cpython/blob/3.6/Lib/pathlib.py>`__
 
 .. code:: python
 
@@ -2088,7 +2088,7 @@ attrs
 
 
 | **pathpy.expanduser**\ ``(self)``:
-| `source <https://github.com/jaraco/path.py/blob/master/path.py>`__ `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.expanduser>`__
+| `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.expanduser>`__ `source (path.py) <https://github.com/jaraco/path.py/blob/master/path.py>`__
 
 .. code:: python
 
@@ -2104,7 +2104,7 @@ attrs
 | **pathpy.expandvars**\ ``(self)``
 
 | **os.path.expandvars**\ ``(path)``:
-| `source <https://github.com/python/cpython/blob/3.6/Lib/posixpath.py>`__ `docs <https://docs.python.org/3/library/os.path.html#os.path.expandvars>`__
+| `docs <https://docs.python.org/3/library/os.path.html#os.path.expandvars>`__ `source (posixpath.py) <https://github.com/python/cpython/blob/3.6/Lib/posixpath.py>`__ `source (ntpath.py) <https://github.com/python/cpython/tree/3.6/Lib/ntpath.py>`__ `source (macpath.py) <https://github.com/python/cpython/tree/3.6/Lib/macpath.py>`__
 
 .. code:: python
 
@@ -2158,7 +2158,7 @@ attrs
 
 
 | **pathpy.expandvars**\ ``(self)``:
-| `source <https://github.com/jaraco/path.py/blob/master/path.py>`__ `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.expandvars>`__
+| `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.expandvars>`__ `source (path.py) <https://github.com/jaraco/path.py/blob/master/path.py>`__
 
 .. code:: python
 
@@ -2172,7 +2172,7 @@ attrs
 ========
 
 | **pathpy.ext**:
-| `source <https://github.com/jaraco/path.py/blob/master/path.py>`__ `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.ext>`__
+| `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.ext>`__ `source (path.py) <https://github.com/jaraco/path.py/blob/master/path.py>`__
 
 .. code:: python
 
@@ -2183,7 +2183,7 @@ attrs
 ===========
 
 | **os.extsep**:
-| `source <https://github.com/python/cpython/tree/3.6/Lib/os.py>`__ `docs <https://docs.python.org/3/library/os.html#os.extsep>`__
+| `docs <https://docs.python.org/3/library/os.html#os.extsep>`__ `source (os.py) <https://github.com/python/cpython/tree/3.6/Lib/os.py>`__
 
 .. code:: python
 
@@ -2199,7 +2199,7 @@ attrs
     errors defaults to 'strict'.
 
 | **os.path.extsep**:
-| `source <https://github.com/python/cpython/blob/3.6/Lib/posixpath.py>`__ `docs <https://docs.python.org/3/library/os.path.html#os.path.extsep>`__
+| `docs <https://docs.python.org/3/library/os.path.html#os.path.extsep>`__ `source (posixpath.py) <https://github.com/python/cpython/blob/3.6/Lib/posixpath.py>`__ `source (ntpath.py) <https://github.com/python/cpython/tree/3.6/Lib/ntpath.py>`__ `source (macpath.py) <https://github.com/python/cpython/tree/3.6/Lib/macpath.py>`__
 
 .. code:: python
 
@@ -2220,7 +2220,7 @@ attrs
 | **pathpy.files**\ ``(self, pattern=None)``
 
 | **pathpy.files**\ ``(self, pattern=None)``:
-| `source <https://github.com/jaraco/path.py/blob/master/path.py>`__ `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.files>`__
+| `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.files>`__ `source (path.py) <https://github.com/jaraco/path.py/blob/master/path.py>`__
 
 .. code:: python
 
@@ -2243,7 +2243,7 @@ attrs
 =========
 
 | **pathpy.find**:
-| `source <https://github.com/jaraco/path.py/blob/master/path.py>`__ `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.find>`__
+| `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.find>`__ `source (path.py) <https://github.com/jaraco/path.py/blob/master/path.py>`__
 
 .. code:: python
 
@@ -2261,7 +2261,7 @@ attrs
 | **pathpy.fnmatch**\ ``(self, pattern, normcase=None)``
 
 | **shutil.fnmatch**:
-| `source <https://github.com/python/cpython/tree/3.6/Lib/shutil.py>`__ `docs <https://docs.python.org/3/library/shutil.html#shutil.fnmatch>`__
+| `docs <https://docs.python.org/3/library/shutil.html#shutil.fnmatch>`__ `source (shutil.py) <https://github.com/python/cpython/tree/3.6/Lib/shutil.py>`__
 
 .. code:: python
 
@@ -2277,7 +2277,7 @@ attrs
     corresponding to PATTERN.  (It does not compile it.)
 
 | **pathpy.fnmatch**\ ``(self, pattern, normcase=None)``:
-| `source <https://github.com/jaraco/path.py/blob/master/path.py>`__ `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.fnmatch>`__
+| `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.fnmatch>`__ `source (path.py) <https://github.com/jaraco/path.py/blob/master/path.py>`__
 
 .. code:: python
 
@@ -2306,7 +2306,7 @@ attrs
 ===========
 
 | **pathpy.format**:
-| `source <https://github.com/jaraco/path.py/blob/master/path.py>`__ `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.format>`__
+| `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.format>`__ `source (path.py) <https://github.com/jaraco/path.py/blob/master/path.py>`__
 
 .. code:: python
 
@@ -2320,7 +2320,7 @@ attrs
 ===============
 
 | **pathpy.format_map**:
-| `source <https://github.com/jaraco/path.py/blob/master/path.py>`__ `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.format_map>`__
+| `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.format_map>`__ `source (path.py) <https://github.com/jaraco/path.py/blob/master/path.py>`__
 
 .. code:: python
 
@@ -2337,7 +2337,7 @@ attrs
 | seealso: `pathlib.owner <#owner>`_
  
 | **pathpy.get_owner**\ ``(self)``:
-| `source <https://github.com/jaraco/path.py/blob/master/path.py>`__ `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.get_owner>`__
+| `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.get_owner>`__ `source (path.py) <https://github.com/jaraco/path.py/blob/master/path.py>`__
 
 .. code:: python
 
@@ -2361,7 +2361,7 @@ attrs
 | seealso: `pathlib.atime <#atime>`_
  
 | **os.path.getatime**\ ``(filename)``:
-| `source <https://github.com/python/cpython/blob/3.6/Lib/posixpath.py>`__ `docs <https://docs.python.org/3/library/os.path.html#os.path.getatime>`__
+| `docs <https://docs.python.org/3/library/os.path.html#os.path.getatime>`__ `source (posixpath.py) <https://github.com/python/cpython/blob/3.6/Lib/posixpath.py>`__ `source (ntpath.py) <https://github.com/python/cpython/tree/3.6/Lib/ntpath.py>`__ `source (macpath.py) <https://github.com/python/cpython/tree/3.6/Lib/macpath.py>`__
 
 .. code:: python
 
@@ -2371,7 +2371,7 @@ attrs
 
 
 | **pathpy.getatime**\ ``(self)``:
-| `source <https://github.com/jaraco/path.py/blob/master/path.py>`__ `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.getatime>`__
+| `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.getatime>`__ `source (path.py) <https://github.com/jaraco/path.py/blob/master/path.py>`__
 
 .. code:: python
 
@@ -2389,7 +2389,7 @@ attrs
 | seealso: `pathlib.ctime <#ctime>`_
  
 | **os.path.getctime**\ ``(filename)``:
-| `source <https://github.com/python/cpython/blob/3.6/Lib/posixpath.py>`__ `docs <https://docs.python.org/3/library/os.path.html#os.path.getctime>`__
+| `docs <https://docs.python.org/3/library/os.path.html#os.path.getctime>`__ `source (posixpath.py) <https://github.com/python/cpython/blob/3.6/Lib/posixpath.py>`__ `source (ntpath.py) <https://github.com/python/cpython/tree/3.6/Lib/ntpath.py>`__ `source (macpath.py) <https://github.com/python/cpython/tree/3.6/Lib/macpath.py>`__
 
 .. code:: python
 
@@ -2399,7 +2399,7 @@ attrs
 
 
 | **pathpy.getctime**\ ``(self)``:
-| `source <https://github.com/jaraco/path.py/blob/master/path.py>`__ `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.getctime>`__
+| `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.getctime>`__ `source (path.py) <https://github.com/jaraco/path.py/blob/master/path.py>`__
 
 .. code:: python
 
@@ -2417,14 +2417,14 @@ attrs
 | seealso: `pathlib.cwd <#cwd>`_
  
 | **os.getcwd**\ ``()``:
-| `source <https://github.com/python/cpython/tree/3.6/Lib/os.py>`__ `docs <https://docs.python.org/3/library/os.html#os.getcwd>`__
+| `docs <https://docs.python.org/3/library/os.html#os.getcwd>`__ `source (os.py) <https://github.com/python/cpython/tree/3.6/Lib/os.py>`__
 
 .. code:: python
 
     Return a unicode string representing the current working directory.
 
 | **pathpy.getcwd**\ ``()``:
-| `source <https://github.com/jaraco/path.py/blob/master/path.py>`__ `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.getcwd>`__
+| `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.getcwd>`__ `source (path.py) <https://github.com/jaraco/path.py/blob/master/path.py>`__
 
 .. code:: python
 
@@ -2446,7 +2446,7 @@ attrs
 | seealso: `pathlib.mtime <#mtime>`_
  
 | **os.path.getmtime**\ ``(filename)``:
-| `source <https://github.com/python/cpython/blob/3.6/Lib/posixpath.py>`__ `docs <https://docs.python.org/3/library/os.path.html#os.path.getmtime>`__
+| `docs <https://docs.python.org/3/library/os.path.html#os.path.getmtime>`__ `source (posixpath.py) <https://github.com/python/cpython/blob/3.6/Lib/posixpath.py>`__ `source (ntpath.py) <https://github.com/python/cpython/tree/3.6/Lib/ntpath.py>`__ `source (macpath.py) <https://github.com/python/cpython/tree/3.6/Lib/macpath.py>`__
 
 .. code:: python
 
@@ -2456,7 +2456,7 @@ attrs
 
 
 | **pathpy.getmtime**\ ``(self)``:
-| `source <https://github.com/jaraco/path.py/blob/master/path.py>`__ `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.getmtime>`__
+| `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.getmtime>`__ `source (path.py) <https://github.com/jaraco/path.py/blob/master/path.py>`__
 
 .. code:: python
 
@@ -2474,7 +2474,7 @@ attrs
 | seealso: `pathpy.size <#size>`_
  
 | **os.path.getsize**\ ``(filename)``:
-| `source <https://github.com/python/cpython/blob/3.6/Lib/posixpath.py>`__ `docs <https://docs.python.org/3/library/os.path.html#os.path.getsize>`__
+| `docs <https://docs.python.org/3/library/os.path.html#os.path.getsize>`__ `source (posixpath.py) <https://github.com/python/cpython/blob/3.6/Lib/posixpath.py>`__ `source (ntpath.py) <https://github.com/python/cpython/tree/3.6/Lib/ntpath.py>`__ `source (macpath.py) <https://github.com/python/cpython/tree/3.6/Lib/macpath.py>`__
 
 .. code:: python
 
@@ -2484,7 +2484,7 @@ attrs
 
 
 | **pathpy.getsize**\ ``(self)``:
-| `source <https://github.com/jaraco/path.py/blob/master/path.py>`__ `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.getsize>`__
+| `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.getsize>`__ `source (path.py) <https://github.com/jaraco/path.py/blob/master/path.py>`__
 
 .. code:: python
 
@@ -2500,7 +2500,7 @@ attrs
 | **pathpy.glob**\ ``(self, pattern)``
 
 | **pathlib.glob**\ ``(self, pattern)``:
-| `source <https://github.com/python/cpython/blob/3.6/Lib/pathlib.py>`__ `docs <https://docs.python.org/3/library/pathlib.html#pathlib.Path.glob>`__
+| `docs <https://docs.python.org/3/library/pathlib.html#pathlib.Path.glob>`__ `source (pathlib.py) <https://github.com/python/cpython/blob/3.6/Lib/pathlib.py>`__
 
 .. code:: python
 
@@ -2520,7 +2520,7 @@ attrs
 
 
 | **pathpy.glob**\ ``(self, pattern)``:
-| `source <https://github.com/jaraco/path.py/blob/master/path.py>`__ `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.glob>`__
+| `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.glob>`__ `source (path.py) <https://github.com/jaraco/path.py/blob/master/path.py>`__
 
 .. code:: python
 
@@ -2544,7 +2544,7 @@ attrs
 | **pathlib.group**\ ``(self)``
 
 | **pathlib.group**\ ``(self)``:
-| `source <https://github.com/python/cpython/blob/3.6/Lib/pathlib.py>`__ `docs <https://docs.python.org/3/library/pathlib.html#pathlib.Path.group>`__
+| `docs <https://docs.python.org/3/library/pathlib.html#pathlib.Path.group>`__ `source (pathlib.py) <https://github.com/python/cpython/blob/3.6/Lib/pathlib.py>`__
 
 .. code:: python
 
@@ -2562,7 +2562,7 @@ attrs
 | **pathlib.home**\ ``()``
 
 | **pathlib.home**\ ``()``:
-| `source <https://github.com/python/cpython/blob/3.6/Lib/pathlib.py>`__ `docs <https://docs.python.org/3/library/pathlib.html#pathlib.Path.home>`__
+| `docs <https://docs.python.org/3/library/pathlib.html#pathlib.Path.home>`__ `source (pathlib.py) <https://github.com/python/cpython/blob/3.6/Lib/pathlib.py>`__
 
 .. code:: python
 
@@ -2580,7 +2580,7 @@ attrs
 | **pathpy.in_place**\ ``(self, mode='r', buffering=-1, encoding=None, errors=None, newline=None, backup_extension=None)``
 
 | **pathpy.in_place**\ ``(self, mode='r', buffering=-1, encoding=None, errors=None, newline=None, backup_extension=None)``:
-| `source <https://github.com/jaraco/path.py/blob/master/path.py>`__ `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.in_place>`__
+| `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.in_place>`__ `source (path.py) <https://github.com/jaraco/path.py/blob/master/path.py>`__
 
 .. code:: python
 
@@ -2681,7 +2681,7 @@ attrs
 ==========
 
 | **pathpy.index**:
-| `source <https://github.com/jaraco/path.py/blob/master/path.py>`__ `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.index>`__
+| `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.index>`__ `source (path.py) <https://github.com/jaraco/path.py/blob/master/path.py>`__
 
 .. code:: python
 
@@ -2701,7 +2701,7 @@ attrs
 | seealso: `os.path.isabs <#isabs>`_, `pathlib.absolute <#absolute>`_, `pathpy.isabs <#isabs>`_
  
 | **pathlib.is_absolute**\ ``(self)``:
-| `source <https://github.com/python/cpython/blob/3.6/Lib/pathlib.py>`__ `docs <https://docs.python.org/3/library/pathlib.html#pathlib.Path.is_absolute>`__
+| `docs <https://docs.python.org/3/library/pathlib.html#pathlib.Path.is_absolute>`__ `source (pathlib.py) <https://github.com/python/cpython/blob/3.6/Lib/pathlib.py>`__
 
 .. code:: python
 
@@ -2719,7 +2719,7 @@ attrs
 | **pathlib.is_block_device**\ ``(self)``
 
 | **pathlib.is_block_device**\ ``(self)``:
-| `source <https://github.com/python/cpython/blob/3.6/Lib/pathlib.py>`__ `docs <https://docs.python.org/3/library/pathlib.html#pathlib.Path.is_block_device>`__
+| `docs <https://docs.python.org/3/library/pathlib.html#pathlib.Path.is_block_device>`__ `source (pathlib.py) <https://github.com/python/cpython/blob/3.6/Lib/pathlib.py>`__
 
 .. code:: python
 
@@ -2743,7 +2743,7 @@ attrs
 | **pathlib.is_char_device**\ ``(self)``
 
 | **pathlib.is_char_device**\ ``(self)``:
-| `source <https://github.com/python/cpython/blob/3.6/Lib/pathlib.py>`__ `docs <https://docs.python.org/3/library/pathlib.html#pathlib.Path.is_char_device>`__
+| `docs <https://docs.python.org/3/library/pathlib.html#pathlib.Path.is_char_device>`__ `source (pathlib.py) <https://github.com/python/cpython/blob/3.6/Lib/pathlib.py>`__
 
 .. code:: python
 
@@ -2769,7 +2769,7 @@ attrs
 | seealso: `os.path.isdir <#isdir>`_, `pathpy.isdir <#isdir>`_
  
 | **pathlib.is_dir**\ ``(self)``:
-| `source <https://github.com/python/cpython/blob/3.6/Lib/pathlib.py>`__ `docs <https://docs.python.org/3/library/pathlib.html#pathlib.Path.is_dir>`__
+| `docs <https://docs.python.org/3/library/pathlib.html#pathlib.Path.is_dir>`__ `source (pathlib.py) <https://github.com/python/cpython/blob/3.6/Lib/pathlib.py>`__
 
 .. code:: python
 
@@ -2793,7 +2793,7 @@ attrs
 | **pathlib.is_fifo**\ ``(self)``
 
 | **pathlib.is_fifo**\ ``(self)``:
-| `source <https://github.com/python/cpython/blob/3.6/Lib/pathlib.py>`__ `docs <https://docs.python.org/3/library/pathlib.html#pathlib.Path.is_fifo>`__
+| `docs <https://docs.python.org/3/library/pathlib.html#pathlib.Path.is_fifo>`__ `source (pathlib.py) <https://github.com/python/cpython/blob/3.6/Lib/pathlib.py>`__
 
 .. code:: python
 
@@ -2819,7 +2819,7 @@ attrs
 | seealso: `os.path.isfile <#isfile>`_, `pathpy.isfile <#isfile>`_
  
 | **pathlib.is_file**\ ``(self)``:
-| `source <https://github.com/python/cpython/blob/3.6/Lib/pathlib.py>`__ `docs <https://docs.python.org/3/library/pathlib.html#pathlib.Path.is_file>`__
+| `docs <https://docs.python.org/3/library/pathlib.html#pathlib.Path.is_file>`__ `source (pathlib.py) <https://github.com/python/cpython/blob/3.6/Lib/pathlib.py>`__
 
 .. code:: python
 
@@ -2844,7 +2844,7 @@ attrs
 | **pathlib.is_reserved**\ ``(self)``
 
 | **pathlib.is_reserved**\ ``(self)``:
-| `source <https://github.com/python/cpython/blob/3.6/Lib/pathlib.py>`__ `docs <https://docs.python.org/3/library/pathlib.html#pathlib.Path.is_reserved>`__
+| `docs <https://docs.python.org/3/library/pathlib.html#pathlib.Path.is_reserved>`__ `source (pathlib.py) <https://github.com/python/cpython/blob/3.6/Lib/pathlib.py>`__
 
 .. code:: python
 
@@ -2860,7 +2860,7 @@ attrs
 | **pathlib.is_socket**\ ``(self)``
 
 | **pathlib.is_socket**\ ``(self)``:
-| `source <https://github.com/python/cpython/blob/3.6/Lib/pathlib.py>`__ `docs <https://docs.python.org/3/library/pathlib.html#pathlib.Path.is_socket>`__
+| `docs <https://docs.python.org/3/library/pathlib.html#pathlib.Path.is_socket>`__ `source (pathlib.py) <https://github.com/python/cpython/blob/3.6/Lib/pathlib.py>`__
 
 .. code:: python
 
@@ -2886,7 +2886,7 @@ attrs
 | seealso: `os.path.islink <#islink>`_, `pathpy.islink <#islink>`_
  
 | **pathlib.is_symlink**\ ``(self)``:
-| `source <https://github.com/python/cpython/blob/3.6/Lib/pathlib.py>`__ `docs <https://docs.python.org/3/library/pathlib.html#pathlib.Path.is_symlink>`__
+| `docs <https://docs.python.org/3/library/pathlib.html#pathlib.Path.is_symlink>`__ `source (pathlib.py) <https://github.com/python/cpython/blob/3.6/Lib/pathlib.py>`__
 
 .. code:: python
 
@@ -2912,7 +2912,7 @@ attrs
 | seealso: `pathlib.is_absolute <#is-absolute>`_
  
 | **os.path.isabs**\ ``(s)``:
-| `source <https://github.com/python/cpython/blob/3.6/Lib/posixpath.py>`__ `docs <https://docs.python.org/3/library/os.path.html#os.path.isabs>`__
+| `docs <https://docs.python.org/3/library/os.path.html#os.path.isabs>`__ `source (posixpath.py) <https://github.com/python/cpython/blob/3.6/Lib/posixpath.py>`__ `source (ntpath.py) <https://github.com/python/cpython/tree/3.6/Lib/ntpath.py>`__ `source (macpath.py) <https://github.com/python/cpython/tree/3.6/Lib/macpath.py>`__
 
 .. code:: python
 
@@ -2924,7 +2924,7 @@ attrs
 
 
 | **pathpy.isabs**\ ``(self)``:
-| `source <https://github.com/jaraco/path.py/blob/master/path.py>`__ `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.isabs>`__
+| `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.isabs>`__ `source (path.py) <https://github.com/jaraco/path.py/blob/master/path.py>`__
 
 .. code:: python
 
@@ -2938,7 +2938,7 @@ attrs
 ============
 
 | **pathpy.isalnum**:
-| `source <https://github.com/jaraco/path.py/blob/master/path.py>`__ `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.isalnum>`__
+| `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.isalnum>`__ `source (path.py) <https://github.com/jaraco/path.py/blob/master/path.py>`__
 
 .. code:: python
 
@@ -2952,7 +2952,7 @@ attrs
 ============
 
 | **pathpy.isalpha**:
-| `source <https://github.com/jaraco/path.py/blob/master/path.py>`__ `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.isalpha>`__
+| `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.isalpha>`__ `source (path.py) <https://github.com/jaraco/path.py/blob/master/path.py>`__
 
 .. code:: python
 
@@ -2966,7 +2966,7 @@ attrs
 ==============
 
 | **pathpy.isdecimal**:
-| `source <https://github.com/jaraco/path.py/blob/master/path.py>`__ `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.isdecimal>`__
+| `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.isdecimal>`__ `source (path.py) <https://github.com/jaraco/path.py/blob/master/path.py>`__
 
 .. code:: python
 
@@ -2980,7 +2980,7 @@ attrs
 ============
 
 | **pathpy.isdigit**:
-| `source <https://github.com/jaraco/path.py/blob/master/path.py>`__ `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.isdigit>`__
+| `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.isdigit>`__ `source (path.py) <https://github.com/jaraco/path.py/blob/master/path.py>`__
 
 .. code:: python
 
@@ -2998,7 +2998,7 @@ attrs
 | seealso: `pathlib.is_dir <#is-dir>`_
  
 | **os.path.isdir**\ ``(s)``:
-| `source <https://github.com/python/cpython/blob/3.6/Lib/posixpath.py>`__ `docs <https://docs.python.org/3/library/os.path.html#os.path.isdir>`__
+| `docs <https://docs.python.org/3/library/os.path.html#os.path.isdir>`__ `source (posixpath.py) <https://github.com/python/cpython/blob/3.6/Lib/posixpath.py>`__ `source (ntpath.py) <https://github.com/python/cpython/tree/3.6/Lib/ntpath.py>`__ `source (macpath.py) <https://github.com/python/cpython/tree/3.6/Lib/macpath.py>`__
 
 .. code:: python
 
@@ -3012,7 +3012,7 @@ attrs
 
 
 | **pathpy.isdir**\ ``(self)``:
-| `source <https://github.com/jaraco/path.py/blob/master/path.py>`__ `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.isdir>`__
+| `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.isdir>`__ `source (path.py) <https://github.com/jaraco/path.py/blob/master/path.py>`__
 
 .. code:: python
 
@@ -3030,7 +3030,7 @@ attrs
 | seealso: `pathlib.is_file <#is-file>`_
  
 | **os.path.isfile**\ ``(path)``:
-| `source <https://github.com/python/cpython/blob/3.6/Lib/posixpath.py>`__ `docs <https://docs.python.org/3/library/os.path.html#os.path.isfile>`__
+| `docs <https://docs.python.org/3/library/os.path.html#os.path.isfile>`__ `source (posixpath.py) <https://github.com/python/cpython/blob/3.6/Lib/posixpath.py>`__ `source (ntpath.py) <https://github.com/python/cpython/tree/3.6/Lib/ntpath.py>`__ `source (macpath.py) <https://github.com/python/cpython/tree/3.6/Lib/macpath.py>`__
 
 .. code:: python
 
@@ -3044,7 +3044,7 @@ attrs
 
 
 | **pathpy.isfile**\ ``(self)``:
-| `source <https://github.com/jaraco/path.py/blob/master/path.py>`__ `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.isfile>`__
+| `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.isfile>`__ `source (path.py) <https://github.com/jaraco/path.py/blob/master/path.py>`__
 
 .. code:: python
 
@@ -3058,7 +3058,7 @@ attrs
 =================
 
 | **pathpy.isidentifier**:
-| `source <https://github.com/jaraco/path.py/blob/master/path.py>`__ `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.isidentifier>`__
+| `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.isidentifier>`__ `source (path.py) <https://github.com/jaraco/path.py/blob/master/path.py>`__
 
 .. code:: python
 
@@ -3079,7 +3079,7 @@ attrs
 | seealso: `pathlib.is_symlink <#is-symlink>`_
  
 | **os.path.islink**\ ``(path)``:
-| `source <https://github.com/python/cpython/blob/3.6/Lib/posixpath.py>`__ `docs <https://docs.python.org/3/library/os.path.html#os.path.islink>`__
+| `docs <https://docs.python.org/3/library/os.path.html#os.path.islink>`__ `source (posixpath.py) <https://github.com/python/cpython/blob/3.6/Lib/posixpath.py>`__ `source (ntpath.py) <https://github.com/python/cpython/tree/3.6/Lib/ntpath.py>`__ `source (macpath.py) <https://github.com/python/cpython/tree/3.6/Lib/macpath.py>`__
 
 .. code:: python
 
@@ -3093,7 +3093,7 @@ attrs
 
 
 | **pathpy.islink**\ ``(self)``:
-| `source <https://github.com/jaraco/path.py/blob/master/path.py>`__ `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.islink>`__
+| `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.islink>`__ `source (path.py) <https://github.com/jaraco/path.py/blob/master/path.py>`__
 
 .. code:: python
 
@@ -3107,7 +3107,7 @@ attrs
 ============
 
 | **pathpy.islower**:
-| `source <https://github.com/jaraco/path.py/blob/master/path.py>`__ `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.islower>`__
+| `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.islower>`__ `source (path.py) <https://github.com/jaraco/path.py/blob/master/path.py>`__
 
 .. code:: python
 
@@ -3123,7 +3123,7 @@ attrs
 | **pathpy.ismount**\ ``(self)``
 
 | **os.path.ismount**\ ``(path)``:
-| `source <https://github.com/python/cpython/blob/3.6/Lib/posixpath.py>`__ `docs <https://docs.python.org/3/library/os.path.html#os.path.ismount>`__
+| `docs <https://docs.python.org/3/library/os.path.html#os.path.ismount>`__ `source (posixpath.py) <https://github.com/python/cpython/blob/3.6/Lib/posixpath.py>`__ `source (ntpath.py) <https://github.com/python/cpython/tree/3.6/Lib/ntpath.py>`__ `source (macpath.py) <https://github.com/python/cpython/tree/3.6/Lib/macpath.py>`__
 
 .. code:: python
 
@@ -3161,7 +3161,7 @@ attrs
 
 
 | **pathpy.ismount**\ ``(self)``:
-| `source <https://github.com/jaraco/path.py/blob/master/path.py>`__ `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.ismount>`__
+| `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.ismount>`__ `source (path.py) <https://github.com/jaraco/path.py/blob/master/path.py>`__
 
 .. code:: python
 
@@ -3175,7 +3175,7 @@ attrs
 ==============
 
 | **pathpy.isnumeric**:
-| `source <https://github.com/jaraco/path.py/blob/master/path.py>`__ `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.isnumeric>`__
+| `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.isnumeric>`__ `source (path.py) <https://github.com/jaraco/path.py/blob/master/path.py>`__
 
 .. code:: python
 
@@ -3189,7 +3189,7 @@ attrs
 ================
 
 | **pathpy.isprintable**:
-| `source <https://github.com/jaraco/path.py/blob/master/path.py>`__ `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.isprintable>`__
+| `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.isprintable>`__ `source (path.py) <https://github.com/jaraco/path.py/blob/master/path.py>`__
 
 .. code:: python
 
@@ -3203,7 +3203,7 @@ attrs
 ============
 
 | **pathpy.isspace**:
-| `source <https://github.com/jaraco/path.py/blob/master/path.py>`__ `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.isspace>`__
+| `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.isspace>`__ `source (path.py) <https://github.com/jaraco/path.py/blob/master/path.py>`__
 
 .. code:: python
 
@@ -3217,7 +3217,7 @@ attrs
 ============
 
 | **pathpy.istitle**:
-| `source <https://github.com/jaraco/path.py/blob/master/path.py>`__ `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.istitle>`__
+| `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.istitle>`__ `source (path.py) <https://github.com/jaraco/path.py/blob/master/path.py>`__
 
 .. code:: python
 
@@ -3233,7 +3233,7 @@ attrs
 ============
 
 | **pathpy.isupper**:
-| `source <https://github.com/jaraco/path.py/blob/master/path.py>`__ `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.isupper>`__
+| `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.isupper>`__ `source (path.py) <https://github.com/jaraco/path.py/blob/master/path.py>`__
 
 .. code:: python
 
@@ -3250,7 +3250,7 @@ attrs
 | seealso: `pathpy.listdir <#listdir>`_
  
 | **pathlib.iterdir**\ ``(self)``:
-| `source <https://github.com/python/cpython/blob/3.6/Lib/pathlib.py>`__ `docs <https://docs.python.org/3/library/pathlib.html#pathlib.Path.iterdir>`__
+| `docs <https://docs.python.org/3/library/pathlib.html#pathlib.Path.iterdir>`__ `source (pathlib.py) <https://github.com/python/cpython/blob/3.6/Lib/pathlib.py>`__
 
 .. code:: python
 
@@ -3277,7 +3277,7 @@ attrs
 | seealso: `pathlib.joinpath <#joinpath>`_, `pathpy.__div__ <#div>`_, `pathpy.__rdiv__ <#rdiv>`_
  
 | **os.path.join**\ ``(a, *p)``:
-| `source <https://github.com/python/cpython/blob/3.6/Lib/posixpath.py>`__ `docs <https://docs.python.org/3/library/os.path.html#os.path.join>`__
+| `docs <https://docs.python.org/3/library/os.path.html#os.path.join>`__ `source (posixpath.py) <https://github.com/python/cpython/blob/3.6/Lib/posixpath.py>`__ `source (ntpath.py) <https://github.com/python/cpython/tree/3.6/Lib/ntpath.py>`__ `source (macpath.py) <https://github.com/python/cpython/tree/3.6/Lib/macpath.py>`__
 
 .. code:: python
 
@@ -3306,7 +3306,7 @@ attrs
 
 
 | **pathpy.join**:
-| `source <https://github.com/jaraco/path.py/blob/master/path.py>`__ `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.join>`__
+| `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.join>`__ `source (path.py) <https://github.com/jaraco/path.py/blob/master/path.py>`__
 
 .. code:: python
 
@@ -3324,7 +3324,7 @@ attrs
 | seealso: `os.path.join <#join>`_, `pathpy.__div__ <#div>`_, `pathpy.__rdiv__ <#rdiv>`_
  
 | **pathlib.joinpath**\ ``(self, *args)``:
-| `source <https://github.com/python/cpython/blob/3.6/Lib/pathlib.py>`__ `docs <https://docs.python.org/3/library/pathlib.html#pathlib.Path.joinpath>`__
+| `docs <https://docs.python.org/3/library/pathlib.html#pathlib.Path.joinpath>`__ `source (pathlib.py) <https://github.com/python/cpython/blob/3.6/Lib/pathlib.py>`__
 
 .. code:: python
 
@@ -3338,7 +3338,7 @@ attrs
 
 
 | **pathpy.joinpath**\ ``(first, *others)``:
-| `source <https://github.com/jaraco/path.py/blob/master/path.py>`__ `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.joinpath>`__
+| `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.joinpath>`__ `source (path.py) <https://github.com/jaraco/path.py/blob/master/path.py>`__
 
 .. code:: python
 
@@ -3351,7 +3351,7 @@ attrs
 | **pathlib.lchmod**\ ``(self, mode)``
 
 | **pathlib.lchmod**\ ``(self, mode)``:
-| `source <https://github.com/python/cpython/blob/3.6/Lib/pathlib.py>`__ `docs <https://docs.python.org/3/library/pathlib.html#pathlib.Path.lchmod>`__
+| `docs <https://docs.python.org/3/library/pathlib.html#pathlib.Path.lchmod>`__ `source (pathlib.py) <https://github.com/python/cpython/blob/3.6/Lib/pathlib.py>`__
 
 .. code:: python
 
@@ -3371,7 +3371,7 @@ attrs
 | **os.path.lexists**\ ``(path)``
 
 | **os.path.lexists**\ ``(path)``:
-| `source <https://github.com/python/cpython/blob/3.6/Lib/posixpath.py>`__ `docs <https://docs.python.org/3/library/os.path.html#os.path.lexists>`__
+| `docs <https://docs.python.org/3/library/os.path.html#os.path.lexists>`__ `source (posixpath.py) <https://github.com/python/cpython/blob/3.6/Lib/posixpath.py>`__ `source (ntpath.py) <https://github.com/python/cpython/tree/3.6/Lib/ntpath.py>`__ `source (macpath.py) <https://github.com/python/cpython/tree/3.6/Lib/macpath.py>`__
 
 .. code:: python
 
@@ -3392,7 +3392,7 @@ attrs
 | seealso: `pathpy.text <#text>`_
  
 | **pathpy.lines**\ ``(self, encoding=None, errors='strict', retain=True)``:
-| `source <https://github.com/jaraco/path.py/blob/master/path.py>`__ `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.lines>`__
+| `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.lines>`__ `source (path.py) <https://github.com/jaraco/path.py/blob/master/path.py>`__
 
 .. code:: python
 
@@ -3429,7 +3429,7 @@ attrs
 | **pathpy.link**\ ``(self, newpath)``
 
 | **os.link**\ ``(src, dst, *, src_dir_fd=None, dst_dir_fd=None, follow_symlinks=True)``:
-| `source <https://github.com/python/cpython/tree/3.6/Lib/os.py>`__ `docs <https://docs.python.org/3/library/os.html#os.link>`__
+| `docs <https://docs.python.org/3/library/os.html#os.link>`__ `source (os.py) <https://github.com/python/cpython/tree/3.6/Lib/os.py>`__
 
 .. code:: python
 
@@ -3446,7 +3446,7 @@ attrs
       NotImplementedError.
 
 | **pathpy.link**\ ``(self, newpath)``:
-| `source <https://github.com/jaraco/path.py/blob/master/path.py>`__ `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.link>`__
+| `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.link>`__ `source (path.py) <https://github.com/jaraco/path.py/blob/master/path.py>`__
 
 .. code:: python
 
@@ -3468,7 +3468,7 @@ attrs
 | seealso: `pathlib.iterdir <#iterdir>`_
  
 | **os.listdir**\ ``(path=None)``:
-| `source <https://github.com/python/cpython/tree/3.6/Lib/os.py>`__ `docs <https://docs.python.org/3/library/os.html#os.listdir>`__
+| `docs <https://docs.python.org/3/library/os.html#os.listdir>`__ `source (os.py) <https://github.com/python/cpython/tree/3.6/Lib/os.py>`__
 
 .. code:: python
 
@@ -3486,7 +3486,7 @@ attrs
     entries '.' and '..' even if they are present in the directory.
 
 | **pathpy.listdir**\ ``(self, pattern=None)``:
-| `source <https://github.com/jaraco/path.py/blob/master/path.py>`__ `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.listdir>`__
+| `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.listdir>`__ `source (path.py) <https://github.com/jaraco/path.py/blob/master/path.py>`__
 
 .. code:: python
 
@@ -3517,7 +3517,7 @@ attrs
 ==========
 
 | **pathpy.ljust**:
-| `source <https://github.com/jaraco/path.py/blob/master/path.py>`__ `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.ljust>`__
+| `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.ljust>`__ `source (path.py) <https://github.com/jaraco/path.py/blob/master/path.py>`__
 
 .. code:: python
 
@@ -3531,7 +3531,7 @@ attrs
 ==========
 
 | **pathpy.lower**:
-| `source <https://github.com/jaraco/path.py/blob/master/path.py>`__ `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.lower>`__
+| `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.lower>`__ `source (path.py) <https://github.com/jaraco/path.py/blob/master/path.py>`__
 
 .. code:: python
 
@@ -3549,7 +3549,7 @@ attrs
 | seealso: `os.stat <#stat>`_, `pathlib.stat <#stat>`_, `pathpy.stat <#stat>`_
  
 | **os.lstat**\ ``(path, *, dir_fd=None)``:
-| `source <https://github.com/python/cpython/tree/3.6/Lib/os.py>`__ `docs <https://docs.python.org/3/library/os.html#os.lstat>`__
+| `docs <https://docs.python.org/3/library/os.html#os.lstat>`__ `source (os.py) <https://github.com/python/cpython/tree/3.6/Lib/os.py>`__
 
 .. code:: python
 
@@ -3559,7 +3559,7 @@ attrs
     Equivalent to stat(path, follow_symlinks=False).
 
 | **pathlib.lstat**\ ``(self)``:
-| `source <https://github.com/python/cpython/blob/3.6/Lib/pathlib.py>`__ `docs <https://docs.python.org/3/library/pathlib.html#pathlib.Path.lstat>`__
+| `docs <https://docs.python.org/3/library/pathlib.html#pathlib.Path.lstat>`__ `source (pathlib.py) <https://github.com/python/cpython/blob/3.6/Lib/pathlib.py>`__
 
 .. code:: python
 
@@ -3574,7 +3574,7 @@ attrs
 
 
 | **pathpy.lstat**\ ``(self)``:
-| `source <https://github.com/jaraco/path.py/blob/master/path.py>`__ `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.lstat>`__
+| `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.lstat>`__ `source (path.py) <https://github.com/jaraco/path.py/blob/master/path.py>`__
 
 .. code:: python
 
@@ -3591,7 +3591,7 @@ attrs
 ===========
 
 | **pathpy.lstrip**:
-| `source <https://github.com/jaraco/path.py/blob/master/path.py>`__ `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.lstrip>`__
+| `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.lstrip>`__ `source (path.py) <https://github.com/jaraco/path.py/blob/master/path.py>`__
 
 .. code:: python
 
@@ -3607,7 +3607,7 @@ attrs
 | **pathpy.makedirs**\ ``(self, mode=511)``
 
 | **os.makedirs**\ ``(name, mode=511, exist_ok=False)``:
-| `source <https://github.com/python/cpython/tree/3.6/Lib/os.py>`__ `docs <https://docs.python.org/3/library/os.html#os.makedirs>`__
+| `docs <https://docs.python.org/3/library/os.html#os.makedirs>`__ `source (os.py) <https://github.com/python/cpython/tree/3.6/Lib/os.py>`__
 
 .. code:: python
 
@@ -3645,7 +3645,7 @@ attrs
 
 
 | **pathpy.makedirs**\ ``(self, mode=511)``:
-| `source <https://github.com/jaraco/path.py/blob/master/path.py>`__ `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.makedirs>`__
+| `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.makedirs>`__ `source (path.py) <https://github.com/jaraco/path.py/blob/master/path.py>`__
 
 .. code:: python
 
@@ -3661,7 +3661,7 @@ attrs
 | **pathpy.makedirs_p**\ ``(self, mode=511)``
 
 | **pathpy.makedirs_p**\ ``(self, mode=511)``:
-| `source <https://github.com/jaraco/path.py/blob/master/path.py>`__ `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.makedirs_p>`__
+| `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.makedirs_p>`__ `source (path.py) <https://github.com/jaraco/path.py/blob/master/path.py>`__
 
 .. code:: python
 
@@ -3683,7 +3683,7 @@ attrs
 | **pathpy.maketrans**\ ``(x, y=None, z=None, /)``
 
 | **pathpy.maketrans**\ ``(x, y=None, z=None, /)``:
-| `source <https://github.com/jaraco/path.py/blob/master/path.py>`__ `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.maketrans>`__
+| `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.maketrans>`__ `source (path.py) <https://github.com/jaraco/path.py/blob/master/path.py>`__
 
 .. code:: python
 
@@ -3703,7 +3703,7 @@ attrs
 | **pathlib.match**\ ``(self, path_pattern)``
 
 | **pathlib.match**\ ``(self, path_pattern)``:
-| `source <https://github.com/python/cpython/blob/3.6/Lib/pathlib.py>`__ `docs <https://docs.python.org/3/library/pathlib.html#pathlib.Path.match>`__
+| `docs <https://docs.python.org/3/library/pathlib.html#pathlib.Path.match>`__ `source (pathlib.py) <https://github.com/python/cpython/blob/3.6/Lib/pathlib.py>`__
 
 .. code:: python
 
@@ -3739,7 +3739,7 @@ attrs
 | **pathpy.merge_tree**\ ``(self, dst, symlinks=False, *args, **kwargs)``
 
 | **pathpy.merge_tree**\ ``(self, dst, symlinks=False, *args, **kwargs)``:
-| `source <https://github.com/jaraco/path.py/blob/master/path.py>`__ `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.merge_tree>`__
+| `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.merge_tree>`__ `source (path.py) <https://github.com/jaraco/path.py/blob/master/path.py>`__
 
 .. code:: python
 
@@ -3781,7 +3781,7 @@ attrs
 | **pathpy.mkdir**\ ``(self, mode=511)``
 
 | **os.mkdir**\ ``(path, mode=511, *, dir_fd=None)``:
-| `source <https://github.com/python/cpython/tree/3.6/Lib/os.py>`__ `docs <https://docs.python.org/3/library/os.html#os.mkdir>`__
+| `docs <https://docs.python.org/3/library/os.html#os.mkdir>`__ `source (os.py) <https://github.com/python/cpython/tree/3.6/Lib/os.py>`__
 
 .. code:: python
 
@@ -3795,7 +3795,7 @@ attrs
     The mode argument is ignored on Windows.
 
 | **pathlib.mkdir**\ ``(self, mode=511, parents=False, exist_ok=False)``:
-| `source <https://github.com/python/cpython/blob/3.6/Lib/pathlib.py>`__ `docs <https://docs.python.org/3/library/pathlib.html#pathlib.Path.mkdir>`__
+| `docs <https://docs.python.org/3/library/pathlib.html#pathlib.Path.mkdir>`__ `source (pathlib.py) <https://github.com/python/cpython/blob/3.6/Lib/pathlib.py>`__
 
 .. code:: python
 
@@ -3820,7 +3820,7 @@ attrs
 
 
 | **pathpy.mkdir**\ ``(self, mode=511)``:
-| `source <https://github.com/jaraco/path.py/blob/master/path.py>`__ `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.mkdir>`__
+| `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.mkdir>`__ `source (path.py) <https://github.com/jaraco/path.py/blob/master/path.py>`__
 
 .. code:: python
 
@@ -3836,7 +3836,7 @@ attrs
 | **pathpy.mkdir_p**\ ``(self, mode=511)``
 
 | **pathpy.mkdir_p**\ ``(self, mode=511)``:
-| `source <https://github.com/jaraco/path.py/blob/master/path.py>`__ `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.mkdir_p>`__
+| `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.mkdir_p>`__ `source (path.py) <https://github.com/jaraco/path.py/blob/master/path.py>`__
 
 .. code:: python
 
@@ -3857,7 +3857,7 @@ attrs
 ===========
 
 | **pathpy.module**:
-| `source <https://github.com/jaraco/path.py/blob/master/path.py>`__ `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.module>`__
+| `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.module>`__ `source (path.py) <https://github.com/jaraco/path.py/blob/master/path.py>`__
 
 .. code:: python
 
@@ -3875,11 +3875,11 @@ attrs
 
 ``move``
 =========
-| **shutil.move**\ ``(src, dst, copy_function=<function copy2 at 0x7f9b80895400>)``
-| **pathpy.move**\ ``(src, dst, copy_function=<function copy2 at 0x7f9b80895400>)``
+| **shutil.move**\ ``(src, dst, copy_function=<function copy2 at 0x7f9886f01488>)``
+| **pathpy.move**\ ``(src, dst, copy_function=<function copy2 at 0x7f9886f01488>)``
 
-| **shutil.move**\ ``(src, dst, copy_function=<function copy2 at 0x7f9b80895400>)``:
-| `source <https://github.com/python/cpython/tree/3.6/Lib/shutil.py>`__ `docs <https://docs.python.org/3/library/shutil.html#shutil.move>`__
+| **shutil.move**\ ``(src, dst, copy_function=<function copy2 at 0x7f9886f01488>)``:
+| `docs <https://docs.python.org/3/library/shutil.html#shutil.move>`__ `source (shutil.py) <https://github.com/python/cpython/tree/3.6/Lib/shutil.py>`__
 
 .. code:: python
 
@@ -3940,8 +3940,8 @@ attrs
         return real_dst
 
 
-| **pathpy.move**\ ``(src, dst, copy_function=<function copy2 at 0x7f9b80895400>)``:
-| `source <https://github.com/jaraco/path.py/blob/master/path.py>`__ `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.move>`__
+| **pathpy.move**\ ``(src, dst, copy_function=<function copy2 at 0x7f9886f01488>)``:
+| `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.move>`__ `source (path.py) <https://github.com/jaraco/path.py/blob/master/path.py>`__
 
 .. code:: python
 
@@ -4009,7 +4009,7 @@ attrs
 | seealso: `os.path.getmtime <#getmtime>`_, `pathpy.getmtime <#getmtime>`_
  
 | **pathpy.mtime**:
-| `source <https://github.com/jaraco/path.py/blob/master/path.py>`__ `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.mtime>`__
+| `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.mtime>`__ `source (path.py) <https://github.com/jaraco/path.py/blob/master/path.py>`__
 
 .. code:: python
 
@@ -4024,7 +4024,7 @@ attrs
 | seealso: `os.path.basename <#basename>`_, `pathpy.basename <#basename>`_, `pathpy.splitpath <#splitpath>`_
  
 | **os.name**:
-| `source <https://github.com/python/cpython/tree/3.6/Lib/os.py>`__ `docs <https://docs.python.org/3/library/os.html#os.name>`__
+| `docs <https://docs.python.org/3/library/os.html#os.name>`__ `source (os.py) <https://github.com/python/cpython/tree/3.6/Lib/os.py>`__
 
 .. code:: python
 
@@ -4040,14 +4040,14 @@ attrs
     errors defaults to 'strict'.
 
 | **pathlib.name**:
-| `source <https://github.com/python/cpython/blob/3.6/Lib/pathlib.py>`__ `docs <https://docs.python.org/3/library/pathlib.html#pathlib.Path.name>`__
+| `docs <https://docs.python.org/3/library/pathlib.html#pathlib.Path.name>`__ `source (pathlib.py) <https://github.com/python/cpython/blob/3.6/Lib/pathlib.py>`__
 
 .. code:: python
 
     The final path component, if any.
 
 | **pathpy.name**:
-| `source <https://github.com/jaraco/path.py/blob/master/path.py>`__ `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.name>`__
+| `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.name>`__ `source (path.py) <https://github.com/jaraco/path.py/blob/master/path.py>`__
 
 .. code:: python
 
@@ -4063,7 +4063,7 @@ attrs
 =============
 
 | **pathpy.namebase**:
-| `source <https://github.com/jaraco/path.py/blob/master/path.py>`__ `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.namebase>`__
+| `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.namebase>`__ `source (path.py) <https://github.com/jaraco/path.py/blob/master/path.py>`__
 
 ``normcase``
 =============
@@ -4071,7 +4071,7 @@ attrs
 | **pathpy.normcase**\ ``(self)``
 
 | **os.path.normcase**\ ``(s)``:
-| `source <https://github.com/python/cpython/blob/3.6/Lib/posixpath.py>`__ `docs <https://docs.python.org/3/library/os.path.html#os.path.normcase>`__
+| `docs <https://docs.python.org/3/library/os.path.html#os.path.normcase>`__ `source (posixpath.py) <https://github.com/python/cpython/blob/3.6/Lib/posixpath.py>`__ `source (ntpath.py) <https://github.com/python/cpython/tree/3.6/Lib/ntpath.py>`__ `source (macpath.py) <https://github.com/python/cpython/tree/3.6/Lib/macpath.py>`__
 
 .. code:: python
 
@@ -4085,7 +4085,7 @@ attrs
 
 
 | **pathpy.normcase**\ ``(self)``:
-| `source <https://github.com/jaraco/path.py/blob/master/path.py>`__ `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.normcase>`__
+| `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.normcase>`__ `source (path.py) <https://github.com/jaraco/path.py/blob/master/path.py>`__
 
 .. code:: python
 
@@ -4101,7 +4101,7 @@ attrs
 | **pathpy.normpath**\ ``(self)``
 
 | **os.path.normpath**\ ``(path)``:
-| `source <https://github.com/python/cpython/blob/3.6/Lib/posixpath.py>`__ `docs <https://docs.python.org/3/library/os.path.html#os.path.normpath>`__
+| `docs <https://docs.python.org/3/library/os.path.html#os.path.normpath>`__ `source (posixpath.py) <https://github.com/python/cpython/blob/3.6/Lib/posixpath.py>`__ `source (ntpath.py) <https://github.com/python/cpython/tree/3.6/Lib/ntpath.py>`__ `source (macpath.py) <https://github.com/python/cpython/tree/3.6/Lib/macpath.py>`__
 
 .. code:: python
 
@@ -4144,7 +4144,7 @@ attrs
 
 
 | **pathpy.normpath**\ ``(self)``:
-| `source <https://github.com/jaraco/path.py/blob/master/path.py>`__ `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.normpath>`__
+| `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.normpath>`__ `source (path.py) <https://github.com/jaraco/path.py/blob/master/path.py>`__
 
 .. code:: python
 
@@ -4161,7 +4161,7 @@ attrs
 | **pathpy.open**\ ``(self, *args, **kwargs)``
 
 | **os.open**\ ``(path, flags, mode=511, *, dir_fd=None)``:
-| `source <https://github.com/python/cpython/tree/3.6/Lib/os.py>`__ `docs <https://docs.python.org/3/library/os.html#os.open>`__
+| `docs <https://docs.python.org/3/library/os.html#os.open>`__ `source (os.py) <https://github.com/python/cpython/tree/3.6/Lib/os.py>`__
 
 .. code:: python
 
@@ -4173,7 +4173,7 @@ attrs
       If it is unavailable, using it will raise a NotImplementedError.
 
 | **pathlib.open**\ ``(self, mode='r', buffering=-1, encoding=None, errors=None, newline=None)``:
-| `source <https://github.com/python/cpython/blob/3.6/Lib/pathlib.py>`__ `docs <https://docs.python.org/3/library/pathlib.html#pathlib.Path.open>`__
+| `docs <https://docs.python.org/3/library/pathlib.html#pathlib.Path.open>`__ `source (pathlib.py) <https://github.com/python/cpython/blob/3.6/Lib/pathlib.py>`__
 
 .. code:: python
 
@@ -4190,7 +4190,7 @@ attrs
 
 
 | **pathpy.open**\ ``(self, *args, **kwargs)``:
-| `source <https://github.com/jaraco/path.py/blob/master/path.py>`__ `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.open>`__
+| `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.open>`__ `source (path.py) <https://github.com/jaraco/path.py/blob/master/path.py>`__
 
 .. code:: python
 
@@ -4209,7 +4209,7 @@ attrs
 =======
 
 | **os.path.os**:
-| `source <https://github.com/python/cpython/blob/3.6/Lib/posixpath.py>`__ `docs <https://docs.python.org/3/library/os.path.html#os.path.os>`__
+| `docs <https://docs.python.org/3/library/os.path.html#os.path.os>`__ `source (posixpath.py) <https://github.com/python/cpython/blob/3.6/Lib/posixpath.py>`__ `source (ntpath.py) <https://github.com/python/cpython/tree/3.6/Lib/ntpath.py>`__ `source (macpath.py) <https://github.com/python/cpython/tree/3.6/Lib/macpath.py>`__
 
 .. code:: python
 
@@ -4236,7 +4236,7 @@ attrs
     (e.g., split and join).
 
 | **shutil.os**:
-| `source <https://github.com/python/cpython/tree/3.6/Lib/shutil.py>`__ `docs <https://docs.python.org/3/library/shutil.html#shutil.os>`__
+| `docs <https://docs.python.org/3/library/shutil.html#shutil.os>`__ `source (shutil.py) <https://github.com/python/cpython/tree/3.6/Lib/shutil.py>`__
 
 .. code:: python
 
@@ -4270,7 +4270,7 @@ attrs
 | seealso: `pathpy.get_owner <#get-owner>`_
  
 | **pathlib.owner**\ ``(self)``:
-| `source <https://github.com/python/cpython/blob/3.6/Lib/pathlib.py>`__ `docs <https://docs.python.org/3/library/pathlib.html#pathlib.Path.owner>`__
+| `docs <https://docs.python.org/3/library/pathlib.html#pathlib.Path.owner>`__ `source (pathlib.py) <https://github.com/python/cpython/blob/3.6/Lib/pathlib.py>`__
 
 .. code:: python
 
@@ -4283,7 +4283,7 @@ attrs
 
 
 | **pathpy.owner**:
-| `source <https://github.com/jaraco/path.py/blob/master/path.py>`__ `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.owner>`__
+| `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.owner>`__ `source (path.py) <https://github.com/jaraco/path.py/blob/master/path.py>`__
 
 .. code:: python
 
@@ -4296,7 +4296,7 @@ attrs
 ===========
 
 | **os.pardir**:
-| `source <https://github.com/python/cpython/tree/3.6/Lib/os.py>`__ `docs <https://docs.python.org/3/library/os.html#os.pardir>`__
+| `docs <https://docs.python.org/3/library/os.html#os.pardir>`__ `source (os.py) <https://github.com/python/cpython/tree/3.6/Lib/os.py>`__
 
 .. code:: python
 
@@ -4312,7 +4312,7 @@ attrs
     errors defaults to 'strict'.
 
 | **os.path.pardir**:
-| `source <https://github.com/python/cpython/blob/3.6/Lib/posixpath.py>`__ `docs <https://docs.python.org/3/library/os.path.html#os.path.pardir>`__
+| `docs <https://docs.python.org/3/library/os.path.html#os.path.pardir>`__ `source (posixpath.py) <https://github.com/python/cpython/blob/3.6/Lib/posixpath.py>`__ `source (ntpath.py) <https://github.com/python/cpython/tree/3.6/Lib/ntpath.py>`__ `source (macpath.py) <https://github.com/python/cpython/tree/3.6/Lib/macpath.py>`__
 
 .. code:: python
 
@@ -4334,14 +4334,14 @@ attrs
 | seealso: `os.path.dirname <#dirname>`_, `pathlib.parent <#parent>`_, `pathpy.dirname <#dirname>`_, `pathpy.parent <#parent>`_, `pathpy.splitpath <#splitpath>`_
  
 | **pathlib.parent**:
-| `source <https://github.com/python/cpython/blob/3.6/Lib/pathlib.py>`__ `docs <https://docs.python.org/3/library/pathlib.html#pathlib.Path.parent>`__
+| `docs <https://docs.python.org/3/library/pathlib.html#pathlib.Path.parent>`__ `source (pathlib.py) <https://github.com/python/cpython/blob/3.6/Lib/pathlib.py>`__
 
 .. code:: python
 
     The logical parent of the path.
 
 | **pathpy.parent**:
-| `source <https://github.com/jaraco/path.py/blob/master/path.py>`__ `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.parent>`__
+| `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.parent>`__ `source (path.py) <https://github.com/jaraco/path.py/blob/master/path.py>`__
 
 .. code:: python
 
@@ -4358,7 +4358,7 @@ attrs
 ============
 
 | **pathlib.parents**:
-| `source <https://github.com/python/cpython/blob/3.6/Lib/pathlib.py>`__ `docs <https://docs.python.org/3/library/pathlib.html#pathlib.Path.parents>`__
+| `docs <https://docs.python.org/3/library/pathlib.html#pathlib.Path.parents>`__ `source (pathlib.py) <https://github.com/python/cpython/blob/3.6/Lib/pathlib.py>`__
 
 .. code:: python
 
@@ -4369,7 +4369,7 @@ attrs
 ==============
 
 | **pathpy.partition**:
-| `source <https://github.com/jaraco/path.py/blob/master/path.py>`__ `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.partition>`__
+| `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.partition>`__ `source (path.py) <https://github.com/jaraco/path.py/blob/master/path.py>`__
 
 .. code:: python
 
@@ -4384,7 +4384,7 @@ attrs
 ==========
 
 | **pathlib.parts**:
-| `source <https://github.com/python/cpython/blob/3.6/Lib/pathlib.py>`__ `docs <https://docs.python.org/3/library/pathlib.html#pathlib.Path.parts>`__
+| `docs <https://docs.python.org/3/library/pathlib.html#pathlib.Path.parts>`__ `source (pathlib.py) <https://github.com/python/cpython/blob/3.6/Lib/pathlib.py>`__
 
 .. code:: python
 
@@ -4398,7 +4398,7 @@ attrs
 | **pathpy.pathconf**\ ``(self, name)``
 
 | **os.pathconf**\ ``(path, name)``:
-| `source <https://github.com/python/cpython/tree/3.6/Lib/os.py>`__ `docs <https://docs.python.org/3/library/os.html#os.pathconf>`__
+| `docs <https://docs.python.org/3/library/os.html#os.pathconf>`__ `source (os.py) <https://github.com/python/cpython/tree/3.6/Lib/os.py>`__
 
 .. code:: python
 
@@ -4409,7 +4409,7 @@ attrs
       If this functionality is unavailable, using it raises an exception.
 
 | **pathpy.pathconf**\ ``(self, name)``:
-| `source <https://github.com/jaraco/path.py/blob/master/path.py>`__ `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.pathconf>`__
+| `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.pathconf>`__ `source (path.py) <https://github.com/jaraco/path.py/blob/master/path.py>`__
 
 .. code:: python
 
@@ -4423,7 +4423,7 @@ attrs
 ============
 
 | **os.pathsep**:
-| `source <https://github.com/python/cpython/tree/3.6/Lib/os.py>`__ `docs <https://docs.python.org/3/library/os.html#os.pathsep>`__
+| `docs <https://docs.python.org/3/library/os.html#os.pathsep>`__ `source (os.py) <https://github.com/python/cpython/tree/3.6/Lib/os.py>`__
 
 .. code:: python
 
@@ -4439,7 +4439,7 @@ attrs
     errors defaults to 'strict'.
 
 | **os.path.pathsep**:
-| `source <https://github.com/python/cpython/blob/3.6/Lib/posixpath.py>`__ `docs <https://docs.python.org/3/library/os.path.html#os.path.pathsep>`__
+| `docs <https://docs.python.org/3/library/os.path.html#os.path.pathsep>`__ `source (posixpath.py) <https://github.com/python/cpython/blob/3.6/Lib/posixpath.py>`__ `source (ntpath.py) <https://github.com/python/cpython/tree/3.6/Lib/ntpath.py>`__ `source (macpath.py) <https://github.com/python/cpython/tree/3.6/Lib/macpath.py>`__
 
 .. code:: python
 
@@ -4460,7 +4460,7 @@ attrs
 | **pathlib.read_bytes**\ ``(self)``
 
 | **pathlib.read_bytes**\ ``(self)``:
-| `source <https://github.com/python/cpython/blob/3.6/Lib/pathlib.py>`__ `docs <https://docs.python.org/3/library/pathlib.html#pathlib.Path.read_bytes>`__
+| `docs <https://docs.python.org/3/library/pathlib.html#pathlib.Path.read_bytes>`__ `source (pathlib.py) <https://github.com/python/cpython/blob/3.6/Lib/pathlib.py>`__
 
 .. code:: python
 
@@ -4480,7 +4480,7 @@ attrs
 | seealso: `pathpy.read_md5 <#read-md5>`_
  
 | **pathpy.read_hash**\ ``(self, hash_name)``:
-| `source <https://github.com/jaraco/path.py/blob/master/path.py>`__ `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.read_hash>`__
+| `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.read_hash>`__ `source (path.py) <https://github.com/jaraco/path.py/blob/master/path.py>`__
 
 .. code:: python
 
@@ -4501,7 +4501,7 @@ attrs
 | **pathpy.read_hexhash**\ ``(self, hash_name)``
 
 | **pathpy.read_hexhash**\ ``(self, hash_name)``:
-| `source <https://github.com/jaraco/path.py/blob/master/path.py>`__ `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.read_hexhash>`__
+| `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.read_hexhash>`__ `source (path.py) <https://github.com/jaraco/path.py/blob/master/path.py>`__
 
 .. code:: python
 
@@ -4524,7 +4524,7 @@ attrs
 | seealso: `pathpy.read_hash <#read-hash>`_
  
 | **pathpy.read_md5**\ ``(self)``:
-| `source <https://github.com/jaraco/path.py/blob/master/path.py>`__ `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.read_md5>`__
+| `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.read_md5>`__ `source (path.py) <https://github.com/jaraco/path.py/blob/master/path.py>`__
 
 .. code:: python
 
@@ -4544,7 +4544,7 @@ attrs
 | **pathlib.read_text**\ ``(self, encoding=None, errors=None)``
 
 | **pathlib.read_text**\ ``(self, encoding=None, errors=None)``:
-| `source <https://github.com/python/cpython/blob/3.6/Lib/pathlib.py>`__ `docs <https://docs.python.org/3/library/pathlib.html#pathlib.Path.read_text>`__
+| `docs <https://docs.python.org/3/library/pathlib.html#pathlib.Path.read_text>`__ `source (pathlib.py) <https://github.com/python/cpython/blob/3.6/Lib/pathlib.py>`__
 
 .. code:: python
 
@@ -4565,7 +4565,7 @@ attrs
 | seealso: `pathpy.readlinkabs <#readlinkabs>`_
  
 | **os.readlink**\ ``<class 'builtin_function_or_method'>``:
-| `source <https://github.com/python/cpython/tree/3.6/Lib/os.py>`__ `docs <https://docs.python.org/3/library/os.html#os.readlink>`__
+| `docs <https://docs.python.org/3/library/os.html#os.readlink>`__ `source (os.py) <https://github.com/python/cpython/tree/3.6/Lib/os.py>`__
 
 .. code:: python
 
@@ -4579,7 +4579,7 @@ attrs
       If it is unavailable, using it will raise a NotImplementedError.
 
 | **pathpy.readlink**\ ``(self)``:
-| `source <https://github.com/jaraco/path.py/blob/master/path.py>`__ `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.readlink>`__
+| `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.readlink>`__ `source (path.py) <https://github.com/jaraco/path.py/blob/master/path.py>`__
 
 .. code:: python
 
@@ -4601,7 +4601,7 @@ attrs
 | seealso: `os.readlink <#readlink>`_, `pathpy.readlink <#readlink>`_
  
 | **pathpy.readlinkabs**\ ``(self)``:
-| `source <https://github.com/jaraco/path.py/blob/master/path.py>`__ `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.readlinkabs>`__
+| `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.readlinkabs>`__ `source (path.py) <https://github.com/jaraco/path.py/blob/master/path.py>`__
 
 .. code:: python
 
@@ -4626,7 +4626,7 @@ attrs
 | **pathpy.realpath**\ ``(self)``
 
 | **os.path.realpath**\ ``(filename)``:
-| `source <https://github.com/python/cpython/blob/3.6/Lib/posixpath.py>`__ `docs <https://docs.python.org/3/library/os.path.html#os.path.realpath>`__
+| `docs <https://docs.python.org/3/library/os.path.html#os.path.realpath>`__ `source (posixpath.py) <https://github.com/python/cpython/blob/3.6/Lib/posixpath.py>`__ `source (ntpath.py) <https://github.com/python/cpython/tree/3.6/Lib/ntpath.py>`__ `source (macpath.py) <https://github.com/python/cpython/tree/3.6/Lib/macpath.py>`__
 
 .. code:: python
 
@@ -4639,7 +4639,7 @@ attrs
 
 
 | **pathpy.realpath**\ ``(self)``:
-| `source <https://github.com/jaraco/path.py/blob/master/path.py>`__ `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.realpath>`__
+| `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.realpath>`__ `source (path.py) <https://github.com/jaraco/path.py/blob/master/path.py>`__
 
 .. code:: python
 
@@ -4654,7 +4654,7 @@ attrs
 | **pathlib.relative_to**\ ``(self, *other)``
 
 | **pathlib.relative_to**\ ``(self, *other)``:
-| `source <https://github.com/python/cpython/blob/3.6/Lib/pathlib.py>`__ `docs <https://docs.python.org/3/library/pathlib.html#pathlib.Path.relative_to>`__
+| `docs <https://docs.python.org/3/library/pathlib.html#pathlib.Path.relative_to>`__ `source (pathlib.py) <https://github.com/python/cpython/blob/3.6/Lib/pathlib.py>`__
 
 .. code:: python
 
@@ -4698,7 +4698,7 @@ attrs
 | **pathpy.relpath**\ ``(self, start='.')``
 
 | **os.path.relpath**\ ``(path, start=None)``:
-| `source <https://github.com/python/cpython/blob/3.6/Lib/posixpath.py>`__ `docs <https://docs.python.org/3/library/os.path.html#os.path.relpath>`__
+| `docs <https://docs.python.org/3/library/os.path.html#os.path.relpath>`__ `source (posixpath.py) <https://github.com/python/cpython/blob/3.6/Lib/posixpath.py>`__ `source (ntpath.py) <https://github.com/python/cpython/tree/3.6/Lib/ntpath.py>`__ `source (macpath.py) <https://github.com/python/cpython/tree/3.6/Lib/macpath.py>`__
 
 .. code:: python
 
@@ -4739,7 +4739,7 @@ attrs
 
 
 | **pathpy.relpath**\ ``(self, start='.')``:
-| `source <https://github.com/jaraco/path.py/blob/master/path.py>`__ `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.relpath>`__
+| `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.relpath>`__ `source (path.py) <https://github.com/jaraco/path.py/blob/master/path.py>`__
 
 .. code:: python
 
@@ -4757,7 +4757,7 @@ attrs
 | **pathpy.relpathto**\ ``(self, dest)``
 
 | **pathpy.relpathto**\ ``(self, dest)``:
-| `source <https://github.com/jaraco/path.py/blob/master/path.py>`__ `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.relpathto>`__
+| `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.relpathto>`__ `source (path.py) <https://github.com/jaraco/path.py/blob/master/path.py>`__
 
 .. code:: python
 
@@ -4809,7 +4809,7 @@ attrs
 | seealso: `os.unlink <#unlink>`_, `pathpy.unlink <#unlink>`_
  
 | **os.remove**\ ``(path, *, dir_fd=None)``:
-| `source <https://github.com/python/cpython/tree/3.6/Lib/os.py>`__ `docs <https://docs.python.org/3/library/os.html#os.remove>`__
+| `docs <https://docs.python.org/3/library/os.html#os.remove>`__ `source (os.py) <https://github.com/python/cpython/tree/3.6/Lib/os.py>`__
 
 .. code:: python
 
@@ -4821,7 +4821,7 @@ attrs
       If it is unavailable, using it will raise a NotImplementedError.
 
 | **pathpy.remove**\ ``(self)``:
-| `source <https://github.com/jaraco/path.py/blob/master/path.py>`__ `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.remove>`__
+| `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.remove>`__ `source (path.py) <https://github.com/jaraco/path.py/blob/master/path.py>`__
 
 .. code:: python
 
@@ -4839,7 +4839,7 @@ attrs
 | seealso: `pathpy.unlink_p <#unlink-p>`_
  
 | **pathpy.remove_p**\ ``(self)``:
-| `source <https://github.com/jaraco/path.py/blob/master/path.py>`__ `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.remove_p>`__
+| `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.remove_p>`__ `source (path.py) <https://github.com/jaraco/path.py/blob/master/path.py>`__
 
 .. code:: python
 
@@ -4862,7 +4862,7 @@ attrs
 | **pathpy.removedirs**\ ``(self)``
 
 | **os.removedirs**\ ``(name)``:
-| `source <https://github.com/python/cpython/tree/3.6/Lib/os.py>`__ `docs <https://docs.python.org/3/library/os.html#os.removedirs>`__
+| `docs <https://docs.python.org/3/library/os.html#os.removedirs>`__ `source (os.py) <https://github.com/python/cpython/tree/3.6/Lib/os.py>`__
 
 .. code:: python
 
@@ -4890,7 +4890,7 @@ attrs
 
 
 | **pathpy.removedirs**\ ``(self)``:
-| `source <https://github.com/jaraco/path.py/blob/master/path.py>`__ `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.removedirs>`__
+| `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.removedirs>`__ `source (path.py) <https://github.com/jaraco/path.py/blob/master/path.py>`__
 
 .. code:: python
 
@@ -4906,7 +4906,7 @@ attrs
 | **pathpy.removedirs_p**\ ``(self)``
 
 | **pathpy.removedirs_p**\ ``(self)``:
-| `source <https://github.com/jaraco/path.py/blob/master/path.py>`__ `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.removedirs_p>`__
+| `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.removedirs_p>`__ `source (path.py) <https://github.com/jaraco/path.py/blob/master/path.py>`__
 
 .. code:: python
 
@@ -4930,7 +4930,7 @@ attrs
 | **pathpy.rename**\ ``(self, new)``
 
 | **os.rename**\ ``(src, dst, *, src_dir_fd=None, dst_dir_fd=None)``:
-| `source <https://github.com/python/cpython/tree/3.6/Lib/os.py>`__ `docs <https://docs.python.org/3/library/os.html#os.rename>`__
+| `docs <https://docs.python.org/3/library/os.html#os.rename>`__ `source (os.py) <https://github.com/python/cpython/tree/3.6/Lib/os.py>`__
 
 .. code:: python
 
@@ -4943,7 +4943,7 @@ attrs
       If they are unavailable, using them will raise a NotImplementedError.
 
 | **pathlib.rename**\ ``(self, target)``:
-| `source <https://github.com/python/cpython/blob/3.6/Lib/pathlib.py>`__ `docs <https://docs.python.org/3/library/pathlib.html#pathlib.Path.rename>`__
+| `docs <https://docs.python.org/3/library/pathlib.html#pathlib.Path.rename>`__ `source (pathlib.py) <https://github.com/python/cpython/blob/3.6/Lib/pathlib.py>`__
 
 .. code:: python
 
@@ -4957,7 +4957,7 @@ attrs
 
 
 | **pathpy.rename**\ ``(self, new)``:
-| `source <https://github.com/jaraco/path.py/blob/master/path.py>`__ `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.rename>`__
+| `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.rename>`__ `source (path.py) <https://github.com/jaraco/path.py/blob/master/path.py>`__
 
 .. code:: python
 
@@ -4974,7 +4974,7 @@ attrs
 | **pathpy.renames**\ ``(self, new)``
 
 | **os.renames**\ ``(old, new)``:
-| `source <https://github.com/python/cpython/tree/3.6/Lib/os.py>`__ `docs <https://docs.python.org/3/library/os.html#os.renames>`__
+| `docs <https://docs.python.org/3/library/os.html#os.renames>`__ `source (os.py) <https://github.com/python/cpython/tree/3.6/Lib/os.py>`__
 
 .. code:: python
 
@@ -5006,7 +5006,7 @@ attrs
 
 
 | **pathpy.renames**\ ``(self, new)``:
-| `source <https://github.com/jaraco/path.py/blob/master/path.py>`__ `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.renames>`__
+| `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.renames>`__ `source (path.py) <https://github.com/jaraco/path.py/blob/master/path.py>`__
 
 .. code:: python
 
@@ -5023,7 +5023,7 @@ attrs
 | **pathlib.replace**\ ``(self, target)``
 
 | **os.replace**\ ``(src, dst, *, src_dir_fd=None, dst_dir_fd=None)``:
-| `source <https://github.com/python/cpython/tree/3.6/Lib/os.py>`__ `docs <https://docs.python.org/3/library/os.html#os.replace>`__
+| `docs <https://docs.python.org/3/library/os.html#os.replace>`__ `source (os.py) <https://github.com/python/cpython/tree/3.6/Lib/os.py>`__
 
 .. code:: python
 
@@ -5036,7 +5036,7 @@ attrs
       If they are unavailable, using them will raise a NotImplementedError."
 
 | **pathlib.replace**\ ``(self, target)``:
-| `source <https://github.com/python/cpython/blob/3.6/Lib/pathlib.py>`__ `docs <https://docs.python.org/3/library/pathlib.html#pathlib.Path.replace>`__
+| `docs <https://docs.python.org/3/library/pathlib.html#pathlib.Path.replace>`__ `source (pathlib.py) <https://github.com/python/cpython/blob/3.6/Lib/pathlib.py>`__
 
 .. code:: python
 
@@ -5051,7 +5051,7 @@ attrs
 
 
 | **pathpy.replace**:
-| `source <https://github.com/jaraco/path.py/blob/master/path.py>`__ `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.replace>`__
+| `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.replace>`__ `source (path.py) <https://github.com/jaraco/path.py/blob/master/path.py>`__
 
 .. code:: python
 
@@ -5067,7 +5067,7 @@ attrs
 | **pathlib.resolve**\ ``(self, strict=False)``
 
 | **pathlib.resolve**\ ``(self, strict=False)``:
-| `source <https://github.com/python/cpython/blob/3.6/Lib/pathlib.py>`__ `docs <https://docs.python.org/3/library/pathlib.html#pathlib.Path.resolve>`__
+| `docs <https://docs.python.org/3/library/pathlib.html#pathlib.Path.resolve>`__ `source (pathlib.py) <https://github.com/python/cpython/blob/3.6/Lib/pathlib.py>`__
 
 .. code:: python
 
@@ -5097,7 +5097,7 @@ attrs
 ==========
 
 | **pathpy.rfind**:
-| `source <https://github.com/jaraco/path.py/blob/master/path.py>`__ `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.rfind>`__
+| `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.rfind>`__ `source (path.py) <https://github.com/jaraco/path.py/blob/master/path.py>`__
 
 .. code:: python
 
@@ -5115,7 +5115,7 @@ attrs
 | **pathlib.rglob**\ ``(self, pattern)``
 
 | **pathlib.rglob**\ ``(self, pattern)``:
-| `source <https://github.com/python/cpython/blob/3.6/Lib/pathlib.py>`__ `docs <https://docs.python.org/3/library/pathlib.html#pathlib.Path.rglob>`__
+| `docs <https://docs.python.org/3/library/pathlib.html#pathlib.Path.rglob>`__ `source (pathlib.py) <https://github.com/python/cpython/blob/3.6/Lib/pathlib.py>`__
 
 .. code:: python
 
@@ -5137,7 +5137,7 @@ attrs
 ===========
 
 | **pathpy.rindex**:
-| `source <https://github.com/jaraco/path.py/blob/master/path.py>`__ `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.rindex>`__
+| `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.rindex>`__ `source (path.py) <https://github.com/jaraco/path.py/blob/master/path.py>`__
 
 .. code:: python
 
@@ -5154,7 +5154,7 @@ attrs
 ==========
 
 | **pathpy.rjust**:
-| `source <https://github.com/jaraco/path.py/blob/master/path.py>`__ `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.rjust>`__
+| `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.rjust>`__ `source (path.py) <https://github.com/jaraco/path.py/blob/master/path.py>`__
 
 .. code:: python
 
@@ -5171,7 +5171,7 @@ attrs
 | **pathpy.rmdir**\ ``(self)``
 
 | **os.rmdir**\ ``(path, *, dir_fd=None)``:
-| `source <https://github.com/python/cpython/tree/3.6/Lib/os.py>`__ `docs <https://docs.python.org/3/library/os.html#os.rmdir>`__
+| `docs <https://docs.python.org/3/library/os.html#os.rmdir>`__ `source (os.py) <https://github.com/python/cpython/tree/3.6/Lib/os.py>`__
 
 .. code:: python
 
@@ -5183,7 +5183,7 @@ attrs
       If it is unavailable, using it will raise a NotImplementedError.
 
 | **pathlib.rmdir**\ ``(self)``:
-| `source <https://github.com/python/cpython/blob/3.6/Lib/pathlib.py>`__ `docs <https://docs.python.org/3/library/pathlib.html#pathlib.Path.rmdir>`__
+| `docs <https://docs.python.org/3/library/pathlib.html#pathlib.Path.rmdir>`__ `source (pathlib.py) <https://github.com/python/cpython/blob/3.6/Lib/pathlib.py>`__
 
 .. code:: python
 
@@ -5197,7 +5197,7 @@ attrs
 
 
 | **pathpy.rmdir**\ ``(self)``:
-| `source <https://github.com/jaraco/path.py/blob/master/path.py>`__ `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.rmdir>`__
+| `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.rmdir>`__ `source (path.py) <https://github.com/jaraco/path.py/blob/master/path.py>`__
 
 .. code:: python
 
@@ -5213,7 +5213,7 @@ attrs
 | **pathpy.rmdir_p**\ ``(self)``
 
 | **pathpy.rmdir_p**\ ``(self)``:
-| `source <https://github.com/jaraco/path.py/blob/master/path.py>`__ `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.rmdir_p>`__
+| `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.rmdir_p>`__ `source (path.py) <https://github.com/jaraco/path.py/blob/master/path.py>`__
 
 .. code:: python
 
@@ -5237,7 +5237,7 @@ attrs
 | **pathpy.rmtree**\ ``(path, ignore_errors=False, onerror=None)``
 
 | **shutil.rmtree**\ ``(path, ignore_errors=False, onerror=None)``:
-| `source <https://github.com/python/cpython/tree/3.6/Lib/shutil.py>`__ `docs <https://docs.python.org/3/library/shutil.html#shutil.rmtree>`__
+| `docs <https://docs.python.org/3/library/shutil.html#shutil.rmtree>`__ `source (shutil.py) <https://github.com/python/cpython/tree/3.6/Lib/shutil.py>`__
 
 .. code:: python
 
@@ -5294,7 +5294,7 @@ attrs
 
 
 | **pathpy.rmtree**\ ``(path, ignore_errors=False, onerror=None)``:
-| `source <https://github.com/jaraco/path.py/blob/master/path.py>`__ `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.rmtree>`__
+| `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.rmtree>`__ `source (path.py) <https://github.com/jaraco/path.py/blob/master/path.py>`__
 
 .. code:: python
 
@@ -5356,7 +5356,7 @@ attrs
 | **pathpy.rmtree_p**\ ``(self)``
 
 | **pathpy.rmtree_p**\ ``(self)``:
-| `source <https://github.com/jaraco/path.py/blob/master/path.py>`__ `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.rmtree_p>`__
+| `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.rmtree_p>`__ `source (path.py) <https://github.com/jaraco/path.py/blob/master/path.py>`__
 
 .. code:: python
 
@@ -5377,7 +5377,7 @@ attrs
 =========
 
 | **pathlib.root**:
-| `source <https://github.com/python/cpython/blob/3.6/Lib/pathlib.py>`__ `docs <https://docs.python.org/3/library/pathlib.html#pathlib.Path.root>`__
+| `docs <https://docs.python.org/3/library/pathlib.html#pathlib.Path.root>`__ `source (pathlib.py) <https://github.com/python/cpython/blob/3.6/Lib/pathlib.py>`__
 
 .. code:: python
 
@@ -5388,7 +5388,7 @@ attrs
 ===============
 
 | **pathpy.rpartition**:
-| `source <https://github.com/jaraco/path.py/blob/master/path.py>`__ `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.rpartition>`__
+| `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.rpartition>`__ `source (path.py) <https://github.com/jaraco/path.py/blob/master/path.py>`__
 
 .. code:: python
 
@@ -5403,7 +5403,7 @@ attrs
 ===========
 
 | **pathpy.rsplit**:
-| `source <https://github.com/jaraco/path.py/blob/master/path.py>`__ `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.rsplit>`__
+| `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.rsplit>`__ `source (path.py) <https://github.com/jaraco/path.py/blob/master/path.py>`__
 
 .. code:: python
 
@@ -5420,7 +5420,7 @@ attrs
 ===========
 
 | **pathpy.rstrip**:
-| `source <https://github.com/jaraco/path.py/blob/master/path.py>`__ `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.rstrip>`__
+| `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.rstrip>`__ `source (path.py) <https://github.com/jaraco/path.py/blob/master/path.py>`__
 
 .. code:: python
 
@@ -5437,7 +5437,7 @@ attrs
 | **pathpy.samefile**\ ``(self, other)``
 
 | **os.path.samefile**\ ``(f1, f2)``:
-| `source <https://github.com/python/cpython/blob/3.6/Lib/posixpath.py>`__ `docs <https://docs.python.org/3/library/os.path.html#os.path.samefile>`__
+| `docs <https://docs.python.org/3/library/os.path.html#os.path.samefile>`__ `source (posixpath.py) <https://github.com/python/cpython/blob/3.6/Lib/posixpath.py>`__ `source (ntpath.py) <https://github.com/python/cpython/tree/3.6/Lib/ntpath.py>`__ `source (macpath.py) <https://github.com/python/cpython/tree/3.6/Lib/macpath.py>`__
 
 .. code:: python
 
@@ -5449,7 +5449,7 @@ attrs
 
 
 | **pathlib.samefile**\ ``(self, other_path)``:
-| `source <https://github.com/python/cpython/blob/3.6/Lib/pathlib.py>`__ `docs <https://docs.python.org/3/library/pathlib.html#pathlib.Path.samefile>`__
+| `docs <https://docs.python.org/3/library/pathlib.html#pathlib.Path.samefile>`__ `source (pathlib.py) <https://github.com/python/cpython/blob/3.6/Lib/pathlib.py>`__
 
 .. code:: python
 
@@ -5466,7 +5466,7 @@ attrs
 
 
 | **pathpy.samefile**\ ``(self, other)``:
-| `source <https://github.com/jaraco/path.py/blob/master/path.py>`__ `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.samefile>`__
+| `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.samefile>`__ `source (path.py) <https://github.com/jaraco/path.py/blob/master/path.py>`__
 
 .. code:: python
 
@@ -5484,7 +5484,7 @@ attrs
 | **os.path.sameopenfile**\ ``(fp1, fp2)``
 
 | **os.path.sameopenfile**\ ``(fp1, fp2)``:
-| `source <https://github.com/python/cpython/blob/3.6/Lib/posixpath.py>`__ `docs <https://docs.python.org/3/library/os.path.html#os.path.sameopenfile>`__
+| `docs <https://docs.python.org/3/library/os.path.html#os.path.sameopenfile>`__ `source (posixpath.py) <https://github.com/python/cpython/blob/3.6/Lib/posixpath.py>`__ `source (ntpath.py) <https://github.com/python/cpython/tree/3.6/Lib/ntpath.py>`__ `source (macpath.py) <https://github.com/python/cpython/tree/3.6/Lib/macpath.py>`__
 
 .. code:: python
 
@@ -5501,7 +5501,7 @@ attrs
 | **os.path.samestat**\ ``(s1, s2)``
 
 | **os.path.samestat**\ ``(s1, s2)``:
-| `source <https://github.com/python/cpython/blob/3.6/Lib/posixpath.py>`__ `docs <https://docs.python.org/3/library/os.path.html#os.path.samestat>`__
+| `docs <https://docs.python.org/3/library/os.path.html#os.path.samestat>`__ `source (posixpath.py) <https://github.com/python/cpython/blob/3.6/Lib/posixpath.py>`__ `source (ntpath.py) <https://github.com/python/cpython/tree/3.6/Lib/ntpath.py>`__ `source (macpath.py) <https://github.com/python/cpython/tree/3.6/Lib/macpath.py>`__
 
 .. code:: python
 
@@ -5516,7 +5516,7 @@ attrs
 ========
 
 | **os.sep**:
-| `source <https://github.com/python/cpython/tree/3.6/Lib/os.py>`__ `docs <https://docs.python.org/3/library/os.html#os.sep>`__
+| `docs <https://docs.python.org/3/library/os.html#os.sep>`__ `source (os.py) <https://github.com/python/cpython/tree/3.6/Lib/os.py>`__
 
 .. code:: python
 
@@ -5532,7 +5532,7 @@ attrs
     errors defaults to 'strict'.
 
 | **os.path.sep**:
-| `source <https://github.com/python/cpython/blob/3.6/Lib/posixpath.py>`__ `docs <https://docs.python.org/3/library/os.path.html#os.path.sep>`__
+| `docs <https://docs.python.org/3/library/os.path.html#os.path.sep>`__ `source (posixpath.py) <https://github.com/python/cpython/blob/3.6/Lib/posixpath.py>`__ `source (ntpath.py) <https://github.com/python/cpython/tree/3.6/Lib/ntpath.py>`__ `source (macpath.py) <https://github.com/python/cpython/tree/3.6/Lib/macpath.py>`__
 
 .. code:: python
 
@@ -5554,7 +5554,7 @@ attrs
 | seealso: `os.path.getsize <#getsize>`_, `pathpy.getsize <#getsize>`_
  
 | **pathpy.size**:
-| `source <https://github.com/jaraco/path.py/blob/master/path.py>`__ `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.size>`__
+| `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.size>`__ `source (path.py) <https://github.com/jaraco/path.py/blob/master/path.py>`__
 
 .. code:: python
 
@@ -5568,7 +5568,7 @@ attrs
 | **pathpy.special**\ ``(*args, **kwargs)``
 
 | **pathpy.special**\ ``(*args, **kwargs)``:
-| `source <https://github.com/jaraco/path.py/blob/master/path.py>`__ `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.special>`__
+| `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.special>`__ `source (path.py) <https://github.com/jaraco/path.py/blob/master/path.py>`__
 
 .. code:: python
 
@@ -5583,7 +5583,7 @@ attrs
 | seealso: `pathpy.splitpath <#splitpath>`_
  
 | **os.path.split**\ ``(p)``:
-| `source <https://github.com/python/cpython/blob/3.6/Lib/posixpath.py>`__ `docs <https://docs.python.org/3/library/os.path.html#os.path.split>`__
+| `docs <https://docs.python.org/3/library/os.path.html#os.path.split>`__ `source (posixpath.py) <https://github.com/python/cpython/blob/3.6/Lib/posixpath.py>`__ `source (ntpath.py) <https://github.com/python/cpython/tree/3.6/Lib/ntpath.py>`__ `source (macpath.py) <https://github.com/python/cpython/tree/3.6/Lib/macpath.py>`__
 
 .. code:: python
 
@@ -5600,7 +5600,7 @@ attrs
 
 
 | **pathpy.split**:
-| `source <https://github.com/jaraco/path.py/blob/master/path.py>`__ `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.split>`__
+| `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.split>`__ `source (path.py) <https://github.com/jaraco/path.py/blob/master/path.py>`__
 
 .. code:: python
 
@@ -5618,7 +5618,7 @@ attrs
 | **pathpy.splitall**\ ``(self)``
 
 | **pathpy.splitall**\ ``(self)``:
-| `source <https://github.com/jaraco/path.py/blob/master/path.py>`__ `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.splitall>`__
+| `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.splitall>`__ `source (path.py) <https://github.com/jaraco/path.py/blob/master/path.py>`__
 
 .. code:: python
 
@@ -5652,7 +5652,7 @@ attrs
 | **pathpy.splitdrive**\ ``(self)``
 
 | **os.path.splitdrive**\ ``(p)``:
-| `source <https://github.com/python/cpython/blob/3.6/Lib/posixpath.py>`__ `docs <https://docs.python.org/3/library/os.path.html#os.path.splitdrive>`__
+| `docs <https://docs.python.org/3/library/os.path.html#os.path.splitdrive>`__ `source (posixpath.py) <https://github.com/python/cpython/blob/3.6/Lib/posixpath.py>`__ `source (ntpath.py) <https://github.com/python/cpython/tree/3.6/Lib/ntpath.py>`__ `source (macpath.py) <https://github.com/python/cpython/tree/3.6/Lib/macpath.py>`__
 
 .. code:: python
 
@@ -5664,7 +5664,7 @@ attrs
 
 
 | **pathpy.splitdrive**\ ``(self)``:
-| `source <https://github.com/jaraco/path.py/blob/master/path.py>`__ `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.splitdrive>`__
+| `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.splitdrive>`__ `source (path.py) <https://github.com/jaraco/path.py/blob/master/path.py>`__
 
 .. code:: python
 
@@ -5688,7 +5688,7 @@ attrs
 | **pathpy.splitext**\ ``(self)``
 
 | **os.path.splitext**\ ``(p)``:
-| `source <https://github.com/python/cpython/blob/3.6/Lib/posixpath.py>`__ `docs <https://docs.python.org/3/library/os.path.html#os.path.splitext>`__
+| `docs <https://docs.python.org/3/library/os.path.html#os.path.splitext>`__ `source (posixpath.py) <https://github.com/python/cpython/blob/3.6/Lib/posixpath.py>`__ `source (ntpath.py) <https://github.com/python/cpython/tree/3.6/Lib/ntpath.py>`__ `source (macpath.py) <https://github.com/python/cpython/tree/3.6/Lib/macpath.py>`__
 
 .. code:: python
 
@@ -5704,7 +5704,7 @@ attrs
 
 
 | **pathpy.splitext**\ ``(self)``:
-| `source <https://github.com/jaraco/path.py/blob/master/path.py>`__ `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.splitext>`__
+| `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.splitext>`__ `source (path.py) <https://github.com/jaraco/path.py/blob/master/path.py>`__
 
 .. code:: python
 
@@ -5729,7 +5729,7 @@ attrs
 ===============
 
 | **pathpy.splitlines**:
-| `source <https://github.com/jaraco/path.py/blob/master/path.py>`__ `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.splitlines>`__
+| `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.splitlines>`__ `source (path.py) <https://github.com/jaraco/path.py/blob/master/path.py>`__
 
 .. code:: python
 
@@ -5747,7 +5747,7 @@ attrs
 | seealso: `os.path.split <#split>`_, `pathpy.name <#name>`_, `pathpy.parent <#parent>`_
  
 | **pathpy.splitpath**\ ``(self)``:
-| `source <https://github.com/jaraco/path.py/blob/master/path.py>`__ `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.splitpath>`__
+| `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.splitpath>`__ `source (path.py) <https://github.com/jaraco/path.py/blob/master/path.py>`__
 
 .. code:: python
 
@@ -5766,7 +5766,7 @@ attrs
 | **pathpy.splitunc**\ ``(self)``
 
 | **pathpy.splitunc**\ ``(self)``:
-| `source <https://github.com/jaraco/path.py/blob/master/path.py>`__ `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.splitunc>`__
+| `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.splitunc>`__ `source (path.py) <https://github.com/jaraco/path.py/blob/master/path.py>`__
 
 .. code:: python
 
@@ -5781,7 +5781,7 @@ attrs
 ===============
 
 | **pathpy.startswith**:
-| `source <https://github.com/jaraco/path.py/blob/master/path.py>`__ `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.startswith>`__
+| `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.startswith>`__ `source (path.py) <https://github.com/jaraco/path.py/blob/master/path.py>`__
 
 .. code:: python
 
@@ -5802,7 +5802,7 @@ attrs
 | seealso: `os.lstat <#lstat>`_, `pathlib.lstat <#lstat>`_, `pathpy.lstat <#lstat>`_
  
 | **os.stat**\ ``(path, *, dir_fd=None, follow_symlinks=True)``:
-| `source <https://github.com/python/cpython/tree/3.6/Lib/os.py>`__ `docs <https://docs.python.org/3/library/os.html#os.stat>`__
+| `docs <https://docs.python.org/3/library/os.html#os.stat>`__ `source (os.py) <https://github.com/python/cpython/tree/3.6/Lib/os.py>`__
 
 .. code:: python
 
@@ -5828,7 +5828,7 @@ attrs
       an open file descriptor.
 
 | **os.path.stat**:
-| `source <https://github.com/python/cpython/blob/3.6/Lib/posixpath.py>`__ `docs <https://docs.python.org/3/library/os.path.html#os.path.stat>`__
+| `docs <https://docs.python.org/3/library/os.path.html#os.path.stat>`__ `source (posixpath.py) <https://github.com/python/cpython/blob/3.6/Lib/posixpath.py>`__ `source (ntpath.py) <https://github.com/python/cpython/tree/3.6/Lib/ntpath.py>`__ `source (macpath.py) <https://github.com/python/cpython/tree/3.6/Lib/macpath.py>`__
 
 .. code:: python
 
@@ -5837,7 +5837,7 @@ attrs
     Suggested usage: from stat import *
 
 | **shutil.stat**:
-| `source <https://github.com/python/cpython/tree/3.6/Lib/shutil.py>`__ `docs <https://docs.python.org/3/library/shutil.html#shutil.stat>`__
+| `docs <https://docs.python.org/3/library/shutil.html#shutil.stat>`__ `source (shutil.py) <https://github.com/python/cpython/tree/3.6/Lib/shutil.py>`__
 
 .. code:: python
 
@@ -5846,7 +5846,7 @@ attrs
     Suggested usage: from stat import *
 
 | **pathlib.stat**\ ``(self)``:
-| `source <https://github.com/python/cpython/blob/3.6/Lib/pathlib.py>`__ `docs <https://docs.python.org/3/library/pathlib.html#pathlib.Path.stat>`__
+| `docs <https://docs.python.org/3/library/pathlib.html#pathlib.Path.stat>`__ `source (pathlib.py) <https://github.com/python/cpython/blob/3.6/Lib/pathlib.py>`__
 
 .. code:: python
 
@@ -5859,7 +5859,7 @@ attrs
 
 
 | **pathpy.stat**\ ``(self)``:
-| `source <https://github.com/jaraco/path.py/blob/master/path.py>`__ `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.stat>`__
+| `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.stat>`__ `source (path.py) <https://github.com/jaraco/path.py/blob/master/path.py>`__
 
 .. code:: python
 
@@ -5878,7 +5878,7 @@ attrs
 | **pathpy.statvfs**\ ``(self)``
 
 | **os.statvfs**\ ``(path)``:
-| `source <https://github.com/python/cpython/tree/3.6/Lib/os.py>`__ `docs <https://docs.python.org/3/library/os.html#os.statvfs>`__
+| `docs <https://docs.python.org/3/library/os.html#os.statvfs>`__ `source (os.py) <https://github.com/python/cpython/tree/3.6/Lib/os.py>`__
 
 .. code:: python
 
@@ -5889,7 +5889,7 @@ attrs
       If this functionality is unavailable, using it raises an exception.
 
 | **pathpy.statvfs**\ ``(self)``:
-| `source <https://github.com/jaraco/path.py/blob/master/path.py>`__ `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.statvfs>`__
+| `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.statvfs>`__ `source (path.py) <https://github.com/jaraco/path.py/blob/master/path.py>`__
 
 .. code:: python
 
@@ -5906,14 +5906,14 @@ attrs
 =========
 
 | **pathlib.stem**:
-| `source <https://github.com/python/cpython/blob/3.6/Lib/pathlib.py>`__ `docs <https://docs.python.org/3/library/pathlib.html#pathlib.Path.stem>`__
+| `docs <https://docs.python.org/3/library/pathlib.html#pathlib.Path.stem>`__ `source (pathlib.py) <https://github.com/python/cpython/blob/3.6/Lib/pathlib.py>`__
 
 .. code:: python
 
     The final path component, minus its last suffix.
 
 | **pathpy.stem**:
-| `source <https://github.com/jaraco/path.py/blob/master/path.py>`__ `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.stem>`__
+| `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.stem>`__ `source (path.py) <https://github.com/jaraco/path.py/blob/master/path.py>`__
 
 .. code:: python
 
@@ -5927,7 +5927,7 @@ attrs
 ==========
 
 | **pathpy.strip**:
-| `source <https://github.com/jaraco/path.py/blob/master/path.py>`__ `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.strip>`__
+| `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.strip>`__ `source (path.py) <https://github.com/jaraco/path.py/blob/master/path.py>`__
 
 .. code:: python
 
@@ -5943,7 +5943,7 @@ attrs
 | **pathpy.stripext**\ ``(self)``
 
 | **pathpy.stripext**\ ``(self)``:
-| `source <https://github.com/jaraco/path.py/blob/master/path.py>`__ `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.stripext>`__
+| `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.stripext>`__ `source (path.py) <https://github.com/jaraco/path.py/blob/master/path.py>`__
 
 .. code:: python
 
@@ -5961,7 +5961,7 @@ attrs
 ===========
 
 | **pathlib.suffix**:
-| `source <https://github.com/python/cpython/blob/3.6/Lib/pathlib.py>`__ `docs <https://docs.python.org/3/library/pathlib.html#pathlib.Path.suffix>`__
+| `docs <https://docs.python.org/3/library/pathlib.html#pathlib.Path.suffix>`__ `source (pathlib.py) <https://github.com/python/cpython/blob/3.6/Lib/pathlib.py>`__
 
 .. code:: python
 
@@ -5972,7 +5972,7 @@ attrs
 =============
 
 | **pathlib.suffixes**:
-| `source <https://github.com/python/cpython/blob/3.6/Lib/pathlib.py>`__ `docs <https://docs.python.org/3/library/pathlib.html#pathlib.Path.suffixes>`__
+| `docs <https://docs.python.org/3/library/pathlib.html#pathlib.Path.suffixes>`__ `source (pathlib.py) <https://github.com/python/cpython/blob/3.6/Lib/pathlib.py>`__
 
 .. code:: python
 
@@ -5983,7 +5983,7 @@ attrs
 =============
 
 | **pathpy.swapcase**:
-| `source <https://github.com/jaraco/path.py/blob/master/path.py>`__ `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.swapcase>`__
+| `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.swapcase>`__ `source (path.py) <https://github.com/jaraco/path.py/blob/master/path.py>`__
 
 .. code:: python
 
@@ -5999,7 +5999,7 @@ attrs
 | **pathpy.symlink**\ ``(self, newlink=None)``
 
 | **os.symlink**\ ``(src, dst, target_is_directory=False, *, dir_fd=None)``:
-| `source <https://github.com/python/cpython/tree/3.6/Lib/os.py>`__ `docs <https://docs.python.org/3/library/os.html#os.symlink>`__
+| `docs <https://docs.python.org/3/library/os.html#os.symlink>`__ `source (os.py) <https://github.com/python/cpython/tree/3.6/Lib/os.py>`__
 
 .. code:: python
 
@@ -6016,7 +6016,7 @@ attrs
       If it is unavailable, using it will raise a NotImplementedError.
 
 | **pathpy.symlink**\ ``(self, newlink=None)``:
-| `source <https://github.com/jaraco/path.py/blob/master/path.py>`__ `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.symlink>`__
+| `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.symlink>`__ `source (path.py) <https://github.com/jaraco/path.py/blob/master/path.py>`__
 
 .. code:: python
 
@@ -6040,7 +6040,7 @@ attrs
 | **pathlib.symlink_to**\ ``(self, target, target_is_directory=False)``
 
 | **pathlib.symlink_to**\ ``(self, target, target_is_directory=False)``:
-| `source <https://github.com/python/cpython/blob/3.6/Lib/pathlib.py>`__ `docs <https://docs.python.org/3/library/pathlib.html#pathlib.Path.symlink_to>`__
+| `docs <https://docs.python.org/3/library/pathlib.html#pathlib.Path.symlink_to>`__ `source (pathlib.py) <https://github.com/python/cpython/blob/3.6/Lib/pathlib.py>`__
 
 .. code:: python
 
@@ -6062,7 +6062,7 @@ attrs
 | seealso: `pathpy.lines <#lines>`_
  
 | **pathpy.text**\ ``(self, encoding=None, errors='strict')``:
-| `source <https://github.com/jaraco/path.py/blob/master/path.py>`__ `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.text>`__
+| `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.text>`__ `source (path.py) <https://github.com/jaraco/path.py/blob/master/path.py>`__
 
 .. code:: python
 
@@ -6083,7 +6083,7 @@ attrs
 ==========
 
 | **pathpy.title**:
-| `source <https://github.com/jaraco/path.py/blob/master/path.py>`__ `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.title>`__
+| `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.title>`__ `source (path.py) <https://github.com/jaraco/path.py/blob/master/path.py>`__
 
 .. code:: python
 
@@ -6099,7 +6099,7 @@ attrs
 | **pathpy.touch**\ ``(self)``
 
 | **pathlib.touch**\ ``(self, mode=438, exist_ok=True)``:
-| `source <https://github.com/python/cpython/blob/3.6/Lib/pathlib.py>`__ `docs <https://docs.python.org/3/library/pathlib.html#pathlib.Path.touch>`__
+| `docs <https://docs.python.org/3/library/pathlib.html#pathlib.Path.touch>`__ `source (pathlib.py) <https://github.com/python/cpython/blob/3.6/Lib/pathlib.py>`__
 
 .. code:: python
 
@@ -6128,7 +6128,7 @@ attrs
 
 
 | **pathpy.touch**\ ``(self)``:
-| `source <https://github.com/jaraco/path.py/blob/master/path.py>`__ `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.touch>`__
+| `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.touch>`__ `source (path.py) <https://github.com/jaraco/path.py/blob/master/path.py>`__
 
 .. code:: python
 
@@ -6147,7 +6147,7 @@ attrs
 ==============
 
 | **pathpy.translate**:
-| `source <https://github.com/jaraco/path.py/blob/master/path.py>`__ `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.translate>`__
+| `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.translate>`__ `source (path.py) <https://github.com/jaraco/path.py/blob/master/path.py>`__
 
 .. code:: python
 
@@ -6165,7 +6165,7 @@ attrs
 =============
 
 | **pathpy.uncshare**:
-| `source <https://github.com/jaraco/path.py/blob/master/path.py>`__ `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.uncshare>`__
+| `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.uncshare>`__ `source (path.py) <https://github.com/jaraco/path.py/blob/master/path.py>`__
 
 .. code:: python
 
@@ -6182,7 +6182,7 @@ attrs
 | seealso: `os.remove <#remove>`_, `pathpy.remove <#remove>`_
  
 | **os.unlink**\ ``(path, *, dir_fd=None)``:
-| `source <https://github.com/python/cpython/tree/3.6/Lib/os.py>`__ `docs <https://docs.python.org/3/library/os.html#os.unlink>`__
+| `docs <https://docs.python.org/3/library/os.html#os.unlink>`__ `source (os.py) <https://github.com/python/cpython/tree/3.6/Lib/os.py>`__
 
 .. code:: python
 
@@ -6194,7 +6194,7 @@ attrs
       If it is unavailable, using it will raise a NotImplementedError.
 
 | **pathlib.unlink**\ ``(self)``:
-| `source <https://github.com/python/cpython/blob/3.6/Lib/pathlib.py>`__ `docs <https://docs.python.org/3/library/pathlib.html#pathlib.Path.unlink>`__
+| `docs <https://docs.python.org/3/library/pathlib.html#pathlib.Path.unlink>`__ `source (pathlib.py) <https://github.com/python/cpython/blob/3.6/Lib/pathlib.py>`__
 
 .. code:: python
 
@@ -6209,7 +6209,7 @@ attrs
 
 
 | **pathpy.unlink**\ ``(self)``:
-| `source <https://github.com/jaraco/path.py/blob/master/path.py>`__ `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.unlink>`__
+| `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.unlink>`__ `source (path.py) <https://github.com/jaraco/path.py/blob/master/path.py>`__
 
 .. code:: python
 
@@ -6227,7 +6227,7 @@ attrs
 | seealso: `pathpy.remove_p <#remove-p>`_
  
 | **pathpy.unlink_p**\ ``(self)``:
-| `source <https://github.com/jaraco/path.py/blob/master/path.py>`__ `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.unlink_p>`__
+| `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.unlink_p>`__ `source (path.py) <https://github.com/jaraco/path.py/blob/master/path.py>`__
 
 .. code:: python
 
@@ -6243,7 +6243,7 @@ attrs
 ==========
 
 | **pathpy.upper**:
-| `source <https://github.com/jaraco/path.py/blob/master/path.py>`__ `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.upper>`__
+| `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.upper>`__ `source (path.py) <https://github.com/jaraco/path.py/blob/master/path.py>`__
 
 .. code:: python
 
@@ -6257,7 +6257,7 @@ attrs
 | **pathpy.using_module**\ ``(module)``
 
 | **pathpy.using_module**\ ``(module)``:
-| `source <https://github.com/jaraco/path.py/blob/master/path.py>`__ `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.using_module>`__
+| `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.using_module>`__ `source (path.py) <https://github.com/jaraco/path.py/blob/master/path.py>`__
 
 .. code:: python
 
@@ -6275,7 +6275,7 @@ attrs
 | **pathpy.utime**\ ``(self, times)``
 
 | **os.utime**\ ``(path, times=None, *, ns=None, dir_fd=None, follow_symlinks=True)``:
-| `source <https://github.com/python/cpython/tree/3.6/Lib/os.py>`__ `docs <https://docs.python.org/3/library/os.html#os.utime>`__
+| `docs <https://docs.python.org/3/library/os.html#os.utime>`__ `source (os.py) <https://github.com/python/cpython/tree/3.6/Lib/os.py>`__
 
 .. code:: python
 
@@ -6304,7 +6304,7 @@ attrs
       If they are unavailable, using them will raise a NotImplementedError.
 
 | **pathpy.utime**\ ``(self, times)``:
-| `source <https://github.com/jaraco/path.py/blob/master/path.py>`__ `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.utime>`__
+| `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.utime>`__ `source (path.py) <https://github.com/jaraco/path.py/blob/master/path.py>`__
 
 .. code:: python
 
@@ -6324,7 +6324,7 @@ attrs
 | **pathpy.walk**\ ``(self, pattern=None, errors='strict')``
 
 | **os.walk**\ ``(top, topdown=True, onerror=None, followlinks=False)``:
-| `source <https://github.com/python/cpython/tree/3.6/Lib/os.py>`__ `docs <https://docs.python.org/3/library/os.html#os.walk>`__
+| `docs <https://docs.python.org/3/library/os.html#os.walk>`__ `source (os.py) <https://github.com/python/cpython/tree/3.6/Lib/os.py>`__
 
 .. code:: python
 
@@ -6470,7 +6470,7 @@ attrs
 
 
 | **pathpy.walk**\ ``(self, pattern=None, errors='strict')``:
-| `source <https://github.com/jaraco/path.py/blob/master/path.py>`__ `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.walk>`__
+| `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.walk>`__ `source (path.py) <https://github.com/jaraco/path.py/blob/master/path.py>`__
 
 .. code:: python
 
@@ -6536,7 +6536,7 @@ attrs
 | **pathpy.walkdirs**\ ``(self, pattern=None, errors='strict')``
 
 | **pathpy.walkdirs**\ ``(self, pattern=None, errors='strict')``:
-| `source <https://github.com/jaraco/path.py/blob/master/path.py>`__ `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.walkdirs>`__
+| `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.walkdirs>`__ `source (path.py) <https://github.com/jaraco/path.py/blob/master/path.py>`__
 
 .. code:: python
 
@@ -6583,7 +6583,7 @@ attrs
 | **pathpy.walkfiles**\ ``(self, pattern=None, errors='strict')``
 
 | **pathpy.walkfiles**\ ``(self, pattern=None, errors='strict')``:
-| `source <https://github.com/jaraco/path.py/blob/master/path.py>`__ `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.walkfiles>`__
+| `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.walkfiles>`__ `source (path.py) <https://github.com/jaraco/path.py/blob/master/path.py>`__
 
 .. code:: python
 
@@ -6642,7 +6642,7 @@ attrs
 | **pathlib.with_name**\ ``(self, name)``
 
 | **pathlib.with_name**\ ``(self, name)``:
-| `source <https://github.com/python/cpython/blob/3.6/Lib/pathlib.py>`__ `docs <https://docs.python.org/3/library/pathlib.html#pathlib.Path.with_name>`__
+| `docs <https://docs.python.org/3/library/pathlib.html#pathlib.Path.with_name>`__ `source (pathlib.py) <https://github.com/python/cpython/blob/3.6/Lib/pathlib.py>`__
 
 .. code:: python
 
@@ -6665,7 +6665,7 @@ attrs
 | **pathpy.with_suffix**\ ``(self, suffix)``
 
 | **pathlib.with_suffix**\ ``(self, suffix)``:
-| `source <https://github.com/python/cpython/blob/3.6/Lib/pathlib.py>`__ `docs <https://docs.python.org/3/library/pathlib.html#pathlib.Path.with_suffix>`__
+| `docs <https://docs.python.org/3/library/pathlib.html#pathlib.Path.with_suffix>`__ `source (pathlib.py) <https://github.com/python/cpython/blob/3.6/Lib/pathlib.py>`__
 
 .. code:: python
 
@@ -6690,7 +6690,7 @@ attrs
 
 
 | **pathpy.with_suffix**\ ``(self, suffix)``:
-| `source <https://github.com/jaraco/path.py/blob/master/path.py>`__ `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.with_suffix>`__
+| `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.with_suffix>`__ `source (path.py) <https://github.com/jaraco/path.py/blob/master/path.py>`__
 
 .. code:: python
 
@@ -6721,7 +6721,7 @@ attrs
 | **pathpy.write_bytes**\ ``(self, bytes, append=False)``
 
 | **pathlib.write_bytes**\ ``(self, data)``:
-| `source <https://github.com/python/cpython/blob/3.6/Lib/pathlib.py>`__ `docs <https://docs.python.org/3/library/pathlib.html#pathlib.Path.write_bytes>`__
+| `docs <https://docs.python.org/3/library/pathlib.html#pathlib.Path.write_bytes>`__ `source (pathlib.py) <https://github.com/python/cpython/blob/3.6/Lib/pathlib.py>`__
 
 .. code:: python
 
@@ -6736,7 +6736,7 @@ attrs
 
 
 | **pathpy.write_bytes**\ ``(self, bytes, append=False)``:
-| `source <https://github.com/jaraco/path.py/blob/master/path.py>`__ `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.write_bytes>`__
+| `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.write_bytes>`__ `source (path.py) <https://github.com/jaraco/path.py/blob/master/path.py>`__
 
 .. code:: python
 
@@ -6760,7 +6760,7 @@ attrs
 | **pathpy.write_lines**\ ``(self, lines, encoding=None, errors='strict', linesep='\n', append=False)``
 
 | **pathpy.write_lines**\ ``(self, lines, encoding=None, errors='strict', linesep='\n', append=False)``:
-| `source <https://github.com/jaraco/path.py/blob/master/path.py>`__ `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.write_lines>`__
+| `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.write_lines>`__ `source (path.py) <https://github.com/jaraco/path.py/blob/master/path.py>`__
 
 .. code:: python
 
@@ -6821,7 +6821,7 @@ attrs
 | **pathpy.write_text**\ ``(self, text, encoding=None, errors='strict', linesep='\n', append=False)``
 
 | **pathlib.write_text**\ ``(self, data, encoding=None, errors=None)``:
-| `source <https://github.com/python/cpython/blob/3.6/Lib/pathlib.py>`__ `docs <https://docs.python.org/3/library/pathlib.html#pathlib.Path.write_text>`__
+| `docs <https://docs.python.org/3/library/pathlib.html#pathlib.Path.write_text>`__ `source (pathlib.py) <https://github.com/python/cpython/blob/3.6/Lib/pathlib.py>`__
 
 .. code:: python
 
@@ -6837,7 +6837,7 @@ attrs
 
 
 | **pathpy.write_text**\ ``(self, text, encoding=None, errors='strict', linesep='\n', append=False)``:
-| `source <https://github.com/jaraco/path.py/blob/master/path.py>`__ `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.write_text>`__
+| `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.write_text>`__ `source (path.py) <https://github.com/jaraco/path.py/blob/master/path.py>`__
 
 .. code:: python
 
@@ -6921,7 +6921,7 @@ attrs
 ==========
 
 | **pathpy.zfill**:
-| `source <https://github.com/jaraco/path.py/blob/master/path.py>`__ `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.zfill>`__
+| `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.zfill>`__ `source (path.py) <https://github.com/jaraco/path.py/blob/master/path.py>`__
 
 .. code:: python
 
