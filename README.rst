@@ -451,7 +451,7 @@ attrs
 ============
 | **pathpy.__div__**\ ``(self, rel)``
 
-| seealso: `os.path.join <#join>`_, `pathlib.joinpath <#joinpath>`_, `pathpy.joinpath <#joinpath>`_, `pathpy.__rdiv__ <#--rdiv-->`_
+| seealso: `os.path.join <#join>`_, `pathlib.joinpath <#joinpath>`_, `pathpy.__rdiv__ <#rdiv>`_, `pathpy.joinpath <#joinpath>`_
  
 | **pathpy.__div__**\ ``(self, rel)``:
 | `source <https://github.com/jaraco/path.py/blob/master/path.py>`__ `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.__div__>`__
@@ -474,7 +474,7 @@ attrs
 =============
 | **pathpy.__rdiv__**\ ``(self, rel)``
 
-| seealso: `pathpy.__div__ <#--div-->`_, `os.path.join <#join>`_, `pathlib.joinpath <#joinpath>`_, `pathpy.joinpath <#joinpath>`_
+| seealso: `os.path.join <#join>`_, `pathlib.joinpath <#joinpath>`_, `pathpy.__div__ <#div>`_, `pathpy.joinpath <#joinpath>`_
  
 | **pathpy.__rdiv__**\ ``(self, rel)``:
 | `source <https://github.com/jaraco/path.py/blob/master/path.py>`__ `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.__rdiv__>`__
@@ -1473,10 +1473,10 @@ attrs
 
 ``copytree``
 =============
-| **shutil.copytree**\ ``(src, dst, symlinks=False, ignore=None, copy_function=<function copy2 at 0x7fbcedb5c400>, ignore_dangling_symlinks=False)``
-| **pathpy.copytree**\ ``(src, dst, symlinks=False, ignore=None, copy_function=<function copy2 at 0x7fbcedb5c400>, ignore_dangling_symlinks=False)``
+| **shutil.copytree**\ ``(src, dst, symlinks=False, ignore=None, copy_function=<function copy2 at 0x7f9b80895400>, ignore_dangling_symlinks=False)``
+| **pathpy.copytree**\ ``(src, dst, symlinks=False, ignore=None, copy_function=<function copy2 at 0x7f9b80895400>, ignore_dangling_symlinks=False)``
 
-| **shutil.copytree**\ ``(src, dst, symlinks=False, ignore=None, copy_function=<function copy2 at 0x7fbcedb5c400>, ignore_dangling_symlinks=False)``:
+| **shutil.copytree**\ ``(src, dst, symlinks=False, ignore=None, copy_function=<function copy2 at 0x7f9b80895400>, ignore_dangling_symlinks=False)``:
 | `source <https://github.com/python/cpython/tree/3.6/Lib/shutil.py>`__ `docs <https://docs.python.org/3/library/shutil.html#shutil.copytree>`__
 
 .. code:: python
@@ -1571,7 +1571,7 @@ attrs
         return dst
 
 
-| **pathpy.copytree**\ ``(src, dst, symlinks=False, ignore=None, copy_function=<function copy2 at 0x7fbcedb5c400>, ignore_dangling_symlinks=False)``:
+| **pathpy.copytree**\ ``(src, dst, symlinks=False, ignore=None, copy_function=<function copy2 at 0x7f9b80895400>, ignore_dangling_symlinks=False)``:
 | `source <https://github.com/jaraco/path.py/blob/master/path.py>`__ `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.copytree>`__
 
 .. code:: python
@@ -2698,7 +2698,7 @@ attrs
 ================
 | **pathlib.is_absolute**\ ``(self)``
 
-| seealso: `pathlib.absolute <#absolute>`_, `os.path.isabs <#isabs>`_, `pathpy.isabs <#isabs>`_
+| seealso: `os.path.isabs <#isabs>`_, `pathlib.absolute <#absolute>`_, `pathpy.isabs <#isabs>`_
  
 | **pathlib.is_absolute**\ ``(self)``:
 | `source <https://github.com/python/cpython/blob/3.6/Lib/pathlib.py>`__ `docs <https://docs.python.org/3/library/pathlib.html#pathlib.Path.is_absolute>`__
@@ -3274,7 +3274,7 @@ attrs
 =========
 | **os.path.join**\ ``(a, *p)``
 
-| seealso: `pathpy.__div__ <#--div-->`_, `pathpy.__rdiv__ <#--rdiv-->`_, `pathlib.joinpath <#joinpath>`_
+| seealso: `pathlib.joinpath <#joinpath>`_, `pathpy.__div__ <#div>`_, `pathpy.__rdiv__ <#rdiv>`_
  
 | **os.path.join**\ ``(a, *p)``:
 | `source <https://github.com/python/cpython/blob/3.6/Lib/posixpath.py>`__ `docs <https://docs.python.org/3/library/os.path.html#os.path.join>`__
@@ -3321,7 +3321,7 @@ attrs
 | **pathlib.joinpath**\ ``(self, *args)``
 | **pathpy.joinpath**\ ``(first, *others)``
 
-| seealso: `pathpy.__div__ <#--div-->`_, `pathpy.__rdiv__ <#--rdiv-->`_, `os.path.join <#join>`_
+| seealso: `os.path.join <#join>`_, `pathpy.__div__ <#div>`_, `pathpy.__rdiv__ <#rdiv>`_
  
 | **pathlib.joinpath**\ ``(self, *args)``:
 | `source <https://github.com/python/cpython/blob/3.6/Lib/pathlib.py>`__ `docs <https://docs.python.org/3/library/pathlib.html#pathlib.Path.joinpath>`__
@@ -3875,10 +3875,10 @@ attrs
 
 ``move``
 =========
-| **shutil.move**\ ``(src, dst, copy_function=<function copy2 at 0x7fbcedb5c400>)``
-| **pathpy.move**\ ``(src, dst, copy_function=<function copy2 at 0x7fbcedb5c400>)``
+| **shutil.move**\ ``(src, dst, copy_function=<function copy2 at 0x7f9b80895400>)``
+| **pathpy.move**\ ``(src, dst, copy_function=<function copy2 at 0x7f9b80895400>)``
 
-| **shutil.move**\ ``(src, dst, copy_function=<function copy2 at 0x7fbcedb5c400>)``:
+| **shutil.move**\ ``(src, dst, copy_function=<function copy2 at 0x7f9b80895400>)``:
 | `source <https://github.com/python/cpython/tree/3.6/Lib/shutil.py>`__ `docs <https://docs.python.org/3/library/shutil.html#shutil.move>`__
 
 .. code:: python
@@ -3940,7 +3940,7 @@ attrs
         return real_dst
 
 
-| **pathpy.move**\ ``(src, dst, copy_function=<function copy2 at 0x7fbcedb5c400>)``:
+| **pathpy.move**\ ``(src, dst, copy_function=<function copy2 at 0x7f9b80895400>)``:
 | `source <https://github.com/jaraco/path.py/blob/master/path.py>`__ `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.move>`__
 
 .. code:: python
@@ -4021,7 +4021,7 @@ attrs
 ``name``
 =========
 
-| seealso: `os.path.basename <#basename>`_, `pathpy.splitpath <#splitpath>`_
+| seealso: `os.path.basename <#basename>`_, `pathpy.basename <#basename>`_, `pathpy.splitpath <#splitpath>`_
  
 | **os.name**:
 | `source <https://github.com/python/cpython/tree/3.6/Lib/os.py>`__ `docs <https://docs.python.org/3/library/os.html#os.name>`__
@@ -4331,7 +4331,7 @@ attrs
 ``parent``
 ===========
 
-| seealso: `os.path.dirname <#dirname>`_, `pathpy.splitpath <#splitpath>`_, `pathlib.parent <#parent>`_
+| seealso: `os.path.dirname <#dirname>`_, `pathlib.parent <#parent>`_, `pathpy.dirname <#dirname>`_, `pathpy.parent <#parent>`_, `pathpy.splitpath <#splitpath>`_
  
 | **pathlib.parent**:
 | `source <https://github.com/python/cpython/blob/3.6/Lib/pathlib.py>`__ `docs <https://docs.python.org/3/library/pathlib.html#pathlib.Path.parent>`__
@@ -4521,7 +4521,7 @@ attrs
 =============
 | **pathpy.read_md5**\ ``(self)``
 
-| seealso: 
+| seealso: `pathpy.read_hash <#read-hash>`_
  
 | **pathpy.read_md5**\ ``(self)``:
 | `source <https://github.com/jaraco/path.py/blob/master/path.py>`__ `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.read_md5>`__
@@ -5744,7 +5744,7 @@ attrs
 ==============
 | **pathpy.splitpath**\ ``(self)``
 
-| seealso: `os.path.split <#split>`_
+| seealso: `os.path.split <#split>`_, `pathpy.name <#name>`_, `pathpy.parent <#parent>`_
  
 | **pathpy.splitpath**\ ``(self)``:
 | `source <https://github.com/jaraco/path.py/blob/master/path.py>`__ `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.splitpath>`__
@@ -5799,7 +5799,7 @@ attrs
 | **pathlib.stat**\ ``(self)``
 | **pathpy.stat**\ ``(self)``
 
-| seealso: `os.lstat <#lstat>`_, `pathlib.lstat <#lstat>`_
+| seealso: `os.lstat <#lstat>`_, `pathlib.lstat <#lstat>`_, `pathpy.lstat <#lstat>`_
  
 | **os.stat**\ ``(path, *, dir_fd=None, follow_symlinks=True)``:
 | `source <https://github.com/python/cpython/tree/3.6/Lib/os.py>`__ `docs <https://docs.python.org/3/library/os.html#os.stat>`__
