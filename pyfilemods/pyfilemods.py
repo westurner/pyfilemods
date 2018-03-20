@@ -99,6 +99,9 @@ mappings['pathpy'] = {
     'unlink': {
         'pathpy': 'remove',
         'os': 'remove',
+    },
+    'unlink_p': {
+        'pathpy': 'remove_p',
     }
 }
 mappings['pathlib'] = {

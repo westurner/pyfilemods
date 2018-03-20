@@ -1463,10 +1463,10 @@ attrs
 
 ``copytree``
 =============
-| **shutil.copytree**\ ``(src, dst, symlinks=False, ignore=None, copy_function=<function copy2 at 0x7fe983a51488>, ignore_dangling_symlinks=False)``
-| **pathpy.copytree**\ ``(src, dst, symlinks=False, ignore=None, copy_function=<function copy2 at 0x7fe983a51488>, ignore_dangling_symlinks=False)``
+| **shutil.copytree**\ ``(src, dst, symlinks=False, ignore=None, copy_function=<function copy2 at 0x7f9ccc812488>, ignore_dangling_symlinks=False)``
+| **pathpy.copytree**\ ``(src, dst, symlinks=False, ignore=None, copy_function=<function copy2 at 0x7f9ccc812488>, ignore_dangling_symlinks=False)``
 
-| **shutil.copytree**\ ``(src, dst, symlinks=False, ignore=None, copy_function=<function copy2 at 0x7fe983a51488>, ignore_dangling_symlinks=False)``:
+| **shutil.copytree**\ ``(src, dst, symlinks=False, ignore=None, copy_function=<function copy2 at 0x7f9ccc812488>, ignore_dangling_symlinks=False)``:
 | `source <https://github.com/python/cpython/tree/3.6/Lib/shutil.py>`__ `docs <https://docs.python.org/3/library/shutil.html#shutil.copytree>`__
 
 .. code:: python
@@ -1561,7 +1561,7 @@ attrs
         return dst
 
 
-| **pathpy.copytree**\ ``(src, dst, symlinks=False, ignore=None, copy_function=<function copy2 at 0x7fe983a51488>, ignore_dangling_symlinks=False)``:
+| **pathpy.copytree**\ ``(src, dst, symlinks=False, ignore=None, copy_function=<function copy2 at 0x7f9ccc812488>, ignore_dangling_symlinks=False)``:
 | `source <https://github.com/jaraco/path.py/blob/master/path.py>`__ `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.copytree>`__
 
 .. code:: python
@@ -3859,10 +3859,10 @@ attrs
 
 ``move``
 =========
-| **shutil.move**\ ``(src, dst, copy_function=<function copy2 at 0x7fe983a51488>)``
-| **pathpy.move**\ ``(src, dst, copy_function=<function copy2 at 0x7fe983a51488>)``
+| **shutil.move**\ ``(src, dst, copy_function=<function copy2 at 0x7f9ccc812488>)``
+| **pathpy.move**\ ``(src, dst, copy_function=<function copy2 at 0x7f9ccc812488>)``
 
-| **shutil.move**\ ``(src, dst, copy_function=<function copy2 at 0x7fe983a51488>)``:
+| **shutil.move**\ ``(src, dst, copy_function=<function copy2 at 0x7f9ccc812488>)``:
 | `source <https://github.com/python/cpython/tree/3.6/Lib/shutil.py>`__ `docs <https://docs.python.org/3/library/shutil.html#shutil.move>`__
 
 .. code:: python
@@ -3924,7 +3924,7 @@ attrs
         return real_dst
 
 
-| **pathpy.move**\ ``(src, dst, copy_function=<function copy2 at 0x7fe983a51488>)``:
+| **pathpy.move**\ ``(src, dst, copy_function=<function copy2 at 0x7f9ccc812488>)``:
 | `source <https://github.com/jaraco/path.py/blob/master/path.py>`__ `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.move>`__
 
 .. code:: python
@@ -4808,6 +4808,8 @@ attrs
 =============
 | **pathpy.remove_p**\ ``(self)``
 
+| seealso: `pathpy.unlink_p <#unlink-p>`_
+ 
 | **pathpy.remove_p**\ ``(self)``:
 | `source <https://github.com/jaraco/path.py/blob/master/path.py>`__ `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.remove_p>`__
 
@@ -6186,6 +6188,8 @@ attrs
 =============
 | **pathpy.unlink_p**\ ``(self)``
 
+| seealso: `pathpy.remove_p <#remove-p>`_
+ 
 | **pathpy.unlink_p**\ ``(self)``:
 | `source <https://github.com/jaraco/path.py/blob/master/path.py>`__ `docs <https://pathpy.readthedocs.io/en/latest/api.html#path.Path.unlink_p>`__
 
