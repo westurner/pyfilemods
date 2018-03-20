@@ -53,208 +53,208 @@ Sets
 attr table
 ==========
 
-================== == ======= ====== ======= ======= ====
-attr               os os.path shutil pathlib path.py trio
-================== == ======= ====== ======= ======= ====
-`__div__`_                                    X           
-`__rdiv__`_                                   X           
-`absolute`_                          X                X   
-`abspath`_            X                       X           
-`access`_          X                          X           
-`altsep`_          X  X                                   
-`anchor`_                            X                    
-`as_posix`_                          X                X   
-`as_uri`_                            X                X   
-`atime`_                                      X           
-`basename`_           X                       X           
-`bytes`_                                      X           
-`capitalize`_                                 X           
-`casefold`_                                   X           
-`cd`_                                         X           
-`center`_                                     X           
-`chdir`_           X                          X           
-`chmod`_           X                 X        X       X   
-`chown`_           X          X               X           
-`chroot`_          X                          X           
-`chunks`_                                     X           
-`commonpath`_         X                                   
-`commonprefix`_       X                                   
-`copy`_                       X               X           
-`copy2`_                      X               X           
-`copyfile`_                   X               X           
-`copymode`_                   X               X           
-`copystat`_                   X               X           
-`copytree`_                   X               X           
-`count`_                                      X           
-`ctime`_                                      X           
-`curdir`_          X  X                                   
-`cwd`_                               X                X   
-`defpath`_         X  X                                   
-`devnull`_         X  X                                   
-`dirname`_            X                       X           
-`dirs`_                                       X           
-`drive`_                             X        X           
-`encode`_                                     X           
-`endswith`_                                   X           
-`exists`_             X              X        X       X   
-`expand`_                                     X           
-`expandtabs`_                                 X           
-`expanduser`_         X              X        X       X   
-`expandvars`_         X                       X           
-`ext`_                                        X           
-`extsep`_          X  X                                   
-`files`_                                      X           
-`find`_                                       X           
-`fnmatch`_                    X               X           
-`format`_                                     X           
-`format_map`_                                 X           
-`get_owner`_                                  X           
-`getatime`_           X                       X           
-`getctime`_           X                       X           
-`getcwd`_          X                          X           
-`getmtime`_           X                       X           
-`getsize`_            X                       X           
-`glob`_                              X        X       X   
-`group`_                             X                X   
-`home`_                              X                X   
-`in_place`_                                   X           
-`index`_                                      X           
-`is_absolute`_                       X                X   
-`is_block_device`_                   X                X   
-`is_char_device`_                    X                X   
-`is_dir`_                            X                X   
-`is_fifo`_                           X                X   
-`is_file`_                           X                X   
-`is_reserved`_                       X                X   
-`is_socket`_                         X                X   
-`is_symlink`_                        X                X   
-`isabs`_              X                       X           
-`isalnum`_                                    X           
-`isalpha`_                                    X           
-`isdecimal`_                                  X           
-`isdigit`_                                    X           
-`isdir`_              X                       X           
-`isfile`_             X                       X           
-`isidentifier`_                               X           
-`islink`_             X                       X           
-`islower`_                                    X           
-`ismount`_            X                       X           
-`isnumeric`_                                  X           
-`isprintable`_                                X           
-`isspace`_                                    X           
-`istitle`_                                    X           
-`isupper`_                                    X           
-`iterdir`_                           X                X   
-`join`_               X                       X           
-`joinpath`_                          X        X       X   
-`lchmod`_                            X                X   
-`lexists`_            X                                   
-`lines`_                                      X           
-`link`_            X                          X           
-`listdir`_         X                          X           
-`ljust`_                                      X           
-`lower`_                                      X           
-`lstat`_           X                 X        X       X   
-`lstrip`_                                     X           
-`makedirs`_        X                          X           
-`makedirs_p`_                                 X           
-`maketrans`_                                  X           
-`match`_                             X                X   
-`merge_tree`_                                 X           
-`mkdir`_           X                 X        X       X   
-`mkdir_p`_                                    X           
-`module`_                                     X           
-`move`_                       X               X           
-`mtime`_                                      X           
-`name`_            X                 X        X           
-`namebase`_                                   X           
-`normcase`_           X                       X           
-`normpath`_           X                       X           
-`open`_            X                 X        X       X   
-`os`_                 X       X                           
-`owner`_                             X        X       X   
-`pardir`_          X  X                                   
-`parent`_                            X        X           
-`parents`_                           X                    
-`partition`_                                  X           
-`parts`_                             X                    
-`pathconf`_        X                          X           
-`pathsep`_         X  X                                   
-`read_bytes`_                        X                X   
-`read_hash`_                                  X           
-`read_hexhash`_                               X           
-`read_md5`_                                   X           
-`read_text`_                         X                X   
-`readlink`_        X                          X           
-`readlinkabs`_                                X           
-`realpath`_           X                       X           
-`relative_to`_                       X                X   
-`relpath`_            X                       X           
-`relpathto`_                                  X           
-`remove`_          X                          X           
-`remove_p`_                                   X           
-`removedirs`_      X                          X           
-`removedirs_p`_                               X           
-`rename`_          X                 X        X       X   
-`renames`_         X                          X           
-`replace`_         X                 X        X       X   
-`resolve`_                           X                X   
-`rfind`_                                      X           
-`rglob`_                             X                X   
-`rindex`_                                     X           
-`rjust`_                                      X           
-`rmdir`_           X                 X        X       X   
-`rmdir_p`_                                    X           
-`rmtree`_                     X               X           
-`rmtree_p`_                                   X           
-`root`_                              X                    
-`rpartition`_                                 X           
-`rsplit`_                                     X           
-`rstrip`_                                     X           
-`samefile`_           X              X        X       X   
-`sameopenfile`_       X                                   
-`samestat`_           X                                   
-`sep`_             X  X                                   
-`size`_                                       X           
-`special`_                                    X           
-`split`_              X                       X           
-`splitall`_                                   X           
-`splitdrive`_         X                       X           
-`splitext`_           X                       X           
-`splitlines`_                                 X           
-`splitpath`_                                  X           
-`splitunc`_                                   X           
-`startswith`_                                 X           
-`stat`_            X  X       X      X        X       X   
-`statvfs`_         X                          X           
-`stem`_                              X        X           
-`strip`_                                      X           
-`stripext`_                                   X           
-`suffix`_                            X                    
-`suffixes`_                          X                    
-`swapcase`_                                   X           
-`symlink`_         X                          X           
-`symlink_to`_                        X                X   
-`text`_                                       X           
-`title`_                                      X           
-`touch`_                             X        X       X   
-`translate`_                                  X           
-`uncshare`_                                   X           
-`unlink`_          X                 X        X       X   
-`unlink_p`_                                   X           
-`upper`_                                      X           
-`using_module`_                               X           
-`utime`_           X                          X           
-`walk`_            X                          X           
-`walkdirs`_                                   X           
-`walkfiles`_                                  X           
-`with_name`_                         X                X   
-`with_suffix`_                       X        X       X   
-`write_bytes`_                       X        X       X   
-`write_lines`_                                X           
-`write_text`_                        X        X       X   
-`zfill`_                                      X           
-================== == ======= ====== ======= ======= ====
+================== == ======= ====== ======= =======
+attr               os os.path shutil pathlib path.py
+================== == ======= ====== ======= =======
+`__div__`_                                    X      
+`__rdiv__`_                                   X      
+`absolute`_                          X               
+`abspath`_            X                       X      
+`access`_          X                          X      
+`altsep`_          X  X                              
+`anchor`_                            X               
+`as_posix`_                          X               
+`as_uri`_                            X               
+`atime`_                                      X      
+`basename`_           X                       X      
+`bytes`_                                      X      
+`capitalize`_                                 X      
+`casefold`_                                   X      
+`cd`_                                         X      
+`center`_                                     X      
+`chdir`_           X                          X      
+`chmod`_           X                 X        X      
+`chown`_           X          X               X      
+`chroot`_          X                          X      
+`chunks`_                                     X      
+`commonpath`_         X                              
+`commonprefix`_       X                              
+`copy`_                       X               X      
+`copy2`_                      X               X      
+`copyfile`_                   X               X      
+`copymode`_                   X               X      
+`copystat`_                   X               X      
+`copytree`_                   X               X      
+`count`_                                      X      
+`ctime`_                                      X      
+`curdir`_          X  X                              
+`cwd`_                               X               
+`defpath`_         X  X                              
+`devnull`_         X  X                              
+`dirname`_            X                       X      
+`dirs`_                                       X      
+`drive`_                             X        X      
+`encode`_                                     X      
+`endswith`_                                   X      
+`exists`_             X              X        X      
+`expand`_                                     X      
+`expandtabs`_                                 X      
+`expanduser`_         X              X        X      
+`expandvars`_         X                       X      
+`ext`_                                        X      
+`extsep`_          X  X                              
+`files`_                                      X      
+`find`_                                       X      
+`fnmatch`_                    X               X      
+`format`_                                     X      
+`format_map`_                                 X      
+`get_owner`_                                  X      
+`getatime`_           X                       X      
+`getctime`_           X                       X      
+`getcwd`_          X                          X      
+`getmtime`_           X                       X      
+`getsize`_            X                       X      
+`glob`_                              X        X      
+`group`_                             X               
+`home`_                              X               
+`in_place`_                                   X      
+`index`_                                      X      
+`is_absolute`_                       X               
+`is_block_device`_                   X               
+`is_char_device`_                    X               
+`is_dir`_                            X               
+`is_fifo`_                           X               
+`is_file`_                           X               
+`is_reserved`_                       X               
+`is_socket`_                         X               
+`is_symlink`_                        X               
+`isabs`_              X                       X      
+`isalnum`_                                    X      
+`isalpha`_                                    X      
+`isdecimal`_                                  X      
+`isdigit`_                                    X      
+`isdir`_              X                       X      
+`isfile`_             X                       X      
+`isidentifier`_                               X      
+`islink`_             X                       X      
+`islower`_                                    X      
+`ismount`_            X                       X      
+`isnumeric`_                                  X      
+`isprintable`_                                X      
+`isspace`_                                    X      
+`istitle`_                                    X      
+`isupper`_                                    X      
+`iterdir`_                           X               
+`join`_               X                       X      
+`joinpath`_                          X        X      
+`lchmod`_                            X               
+`lexists`_            X                              
+`lines`_                                      X      
+`link`_            X                          X      
+`listdir`_         X                          X      
+`ljust`_                                      X      
+`lower`_                                      X      
+`lstat`_           X                 X        X      
+`lstrip`_                                     X      
+`makedirs`_        X                          X      
+`makedirs_p`_                                 X      
+`maketrans`_                                  X      
+`match`_                             X               
+`merge_tree`_                                 X      
+`mkdir`_           X                 X        X      
+`mkdir_p`_                                    X      
+`module`_                                     X      
+`move`_                       X               X      
+`mtime`_                                      X      
+`name`_            X                 X        X      
+`namebase`_                                   X      
+`normcase`_           X                       X      
+`normpath`_           X                       X      
+`open`_            X                 X        X      
+`os`_                 X       X                      
+`owner`_                             X        X      
+`pardir`_          X  X                              
+`parent`_                            X        X      
+`parents`_                           X               
+`partition`_                                  X      
+`parts`_                             X               
+`pathconf`_        X                          X      
+`pathsep`_         X  X                              
+`read_bytes`_                        X               
+`read_hash`_                                  X      
+`read_hexhash`_                               X      
+`read_md5`_                                   X      
+`read_text`_                         X               
+`readlink`_        X                          X      
+`readlinkabs`_                                X      
+`realpath`_           X                       X      
+`relative_to`_                       X               
+`relpath`_            X                       X      
+`relpathto`_                                  X      
+`remove`_          X                          X      
+`remove_p`_                                   X      
+`removedirs`_      X                          X      
+`removedirs_p`_                               X      
+`rename`_          X                 X        X      
+`renames`_         X                          X      
+`replace`_         X                 X        X      
+`resolve`_                           X               
+`rfind`_                                      X      
+`rglob`_                             X               
+`rindex`_                                     X      
+`rjust`_                                      X      
+`rmdir`_           X                 X        X      
+`rmdir_p`_                                    X      
+`rmtree`_                     X               X      
+`rmtree_p`_                                   X      
+`root`_                              X               
+`rpartition`_                                 X      
+`rsplit`_                                     X      
+`rstrip`_                                     X      
+`samefile`_           X              X        X      
+`sameopenfile`_       X                              
+`samestat`_           X                              
+`sep`_             X  X                              
+`size`_                                       X      
+`special`_                                    X      
+`split`_              X                       X      
+`splitall`_                                   X      
+`splitdrive`_         X                       X      
+`splitext`_           X                       X      
+`splitlines`_                                 X      
+`splitpath`_                                  X      
+`splitunc`_                                   X      
+`startswith`_                                 X      
+`stat`_            X  X       X      X        X      
+`statvfs`_         X                          X      
+`stem`_                              X        X      
+`strip`_                                      X      
+`stripext`_                                   X      
+`suffix`_                            X               
+`suffixes`_                          X               
+`swapcase`_                                   X      
+`symlink`_         X                          X      
+`symlink_to`_                        X               
+`text`_                                       X      
+`title`_                                      X      
+`touch`_                             X        X      
+`translate`_                                  X      
+`uncshare`_                                   X      
+`unlink`_          X                 X        X      
+`unlink_p`_                                   X      
+`upper`_                                      X      
+`using_module`_                               X      
+`utime`_           X                          X      
+`walk`_            X                          X      
+`walkdirs`_                                   X      
+`walkfiles`_                                  X      
+`with_name`_                         X               
+`with_suffix`_                       X        X      
+`write_bytes`_                       X        X      
+`write_lines`_                                X      
+`write_text`_                        X        X      
+`zfill`_                                      X      
+================== == ======= ====== ======= =======
 
 pathlib_and_pathpy
 ==================
@@ -449,19 +449,6 @@ pathpy_not_pathlib
 - `write_lines`_
 - `zfill`_
 
-pathlib_not_trio
-================
-- `anchor`_
-- `drive`_
-- `name`_
-- `parent`_
-- `parents`_
-- `parts`_
-- `root`_
-- `stem`_
-- `suffix`_
-- `suffixes`_
-
 
 attrs
 +++++
@@ -515,7 +502,6 @@ attrs
 ``absolute``
 =============
 | **pathlib.absolute**\ ``(self)``
-| **trio.absolute**\ ``(self, *args, **kwargs)``
 
 | seealso: `pathlib.is_absolute <#is-absolute>`_
  
@@ -541,20 +527,6 @@ attrs
             obj = self._from_parts([os.getcwd()] + self._parts, init=False)
             obj._init(template=self)
             return obj
-
-
-| **trio.absolute**\ ``(self, *args, **kwargs)``:
-| `docs <https://trio.readthedocs.io/en/latest/reference-io.html#trio.Path.absolute>`__ `source (_path.py) <https://github.com/python-trio/trio/blob/master/trio/_path.py>`__
-
-.. code:: python
-
-        @async_wraps(cls, pathlib.Path, meth_name)
-        async def wrapper(self, *args, **kwargs):
-            args = unwrap_paths(args)
-            meth = getattr(self._wrapped, meth_name)
-            func = partial(meth, *args, **kwargs)
-            value = await trio.run_sync_in_worker_thread(func)
-            return rewrap_path(value)
 
 
 
@@ -667,22 +639,9 @@ attrs
 ``as_posix``
 =============
 | **pathlib.as_posix**\ ``(self)``
-| **trio.as_posix**\ ``(self)``
 
 | **pathlib.as_posix**\ ``(self)``:
 | `docs <https://docs.python.org/3/library/pathlib.html#pathlib.Path.as_posix>`__ `source (pathlib.py) <https://github.com/python/cpython/blob/3.6/Lib/pathlib.py>`__
-
-.. code:: python
-
-        def as_posix(self):
-            """Return the string representation of the path with forward (/)
-            slashes."""
-            f = self._flavour
-            return str(self).replace(f.sep, '/')
-
-
-| **trio.as_posix**\ ``(self)``:
-| `docs <https://trio.readthedocs.io/en/latest/reference-io.html#trio.Path.as_posix>`__ `source (_path.py) <https://github.com/python-trio/trio/blob/master/trio/_path.py>`__
 
 .. code:: python
 
@@ -697,22 +656,9 @@ attrs
 ``as_uri``
 ===========
 | **pathlib.as_uri**\ ``(self)``
-| **trio.as_uri**\ ``(self)``
 
 | **pathlib.as_uri**\ ``(self)``:
 | `docs <https://docs.python.org/3/library/pathlib.html#pathlib.Path.as_uri>`__ `source (pathlib.py) <https://github.com/python/cpython/blob/3.6/Lib/pathlib.py>`__
-
-.. code:: python
-
-        def as_uri(self):
-            """Return the path as a 'file' URI."""
-            if not self.is_absolute():
-                raise ValueError("relative path can't be expressed as a file URI")
-            return self._flavour.make_uri(self)
-
-
-| **trio.as_uri**\ ``(self)``:
-| `docs <https://trio.readthedocs.io/en/latest/reference-io.html#trio.Path.as_uri>`__ `source (_path.py) <https://github.com/python-trio/trio/blob/master/trio/_path.py>`__
 
 .. code:: python
 
@@ -878,7 +824,6 @@ attrs
 | **os.chmod**\ ``(path, mode, *, dir_fd=None, follow_symlinks=True)``
 | **pathlib.chmod**\ ``(self, mode)``
 | **pathpy.chmod**\ ``(self, mode)``
-| **trio.chmod**\ ``(self, *args, **kwargs)``
 
 | **os.chmod**\ ``(path, mode, *, dir_fd=None, follow_symlinks=True)``:
 | `docs <https://docs.python.org/3/library/os.html#os.chmod>`__ `source (os.py) <https://github.com/python/cpython/tree/3.6/Lib/os.py>`__
@@ -938,20 +883,6 @@ attrs
                 mode = mask(self.stat().st_mode)
             os.chmod(self, mode)
             return self
-
-
-| **trio.chmod**\ ``(self, *args, **kwargs)``:
-| `docs <https://trio.readthedocs.io/en/latest/reference-io.html#trio.Path.chmod>`__ `source (_path.py) <https://github.com/python-trio/trio/blob/master/trio/_path.py>`__
-
-.. code:: python
-
-        @async_wraps(cls, pathlib.Path, meth_name)
-        async def wrapper(self, *args, **kwargs):
-            args = unwrap_paths(args)
-            meth = getattr(self._wrapped, meth_name)
-            func = partial(meth, *args, **kwargs)
-            value = await trio.run_sync_in_worker_thread(func)
-            return rewrap_path(value)
 
 
 
@@ -1811,25 +1742,11 @@ attrs
 ``cwd``
 ========
 | **pathlib.cwd**\ ``()``
-| **trio.cwd**\ ``()``
 
 | seealso: `os.getcwd <#getcwd>`_, `pathpy.getcwd <#getcwd>`_
  
 | **pathlib.cwd**\ ``()``:
 | `docs <https://docs.python.org/3/library/pathlib.html#pathlib.Path.cwd>`__ `source (pathlib.py) <https://github.com/python/cpython/blob/3.6/Lib/pathlib.py>`__
-
-.. code:: python
-
-        @classmethod
-        def cwd(cls):
-            """Return a new path pointing to the current working directory
-            (as returned by os.getcwd()).
-            """
-            return cls(os.getcwd())
-
-
-| **trio.cwd**\ ``()``:
-| `docs <https://trio.readthedocs.io/en/latest/reference-io.html#trio.Path.cwd>`__ `source (_path.py) <https://github.com/python-trio/trio/blob/master/trio/_path.py>`__
 
 .. code:: python
 
@@ -2031,7 +1948,6 @@ attrs
 | **os.path.exists**\ ``(path)``
 | **pathlib.exists**\ ``(self)``
 | **pathpy.exists**\ ``(self)``
-| **trio.exists**\ ``(self, *args, **kwargs)``
 
 | **os.path.exists**\ ``(path)``:
 | `docs <https://docs.python.org/3/library/os.path.html#os.path.exists>`__ `source (posixpath.py) <https://github.com/python/cpython/blob/3.6/Lib/posixpath.py>`__ `source (ntpath.py) <https://github.com/python/cpython/tree/3.6/Lib/ntpath.py>`__ `source (macpath.py) <https://github.com/python/cpython/tree/3.6/Lib/macpath.py>`__
@@ -2075,20 +1991,6 @@ attrs
             return self.module.exists(self)
 
 
-| **trio.exists**\ ``(self, *args, **kwargs)``:
-| `docs <https://trio.readthedocs.io/en/latest/reference-io.html#trio.Path.exists>`__ `source (_path.py) <https://github.com/python-trio/trio/blob/master/trio/_path.py>`__
-
-.. code:: python
-
-        @async_wraps(cls, pathlib.Path, meth_name)
-        async def wrapper(self, *args, **kwargs):
-            args = unwrap_paths(args)
-            meth = getattr(self._wrapped, meth_name)
-            func = partial(meth, *args, **kwargs)
-            value = await trio.run_sync_in_worker_thread(func)
-            return rewrap_path(value)
-
-
 
 ``expand``
 ===========
@@ -2129,7 +2031,6 @@ attrs
 | **os.path.expanduser**\ ``(path)``
 | **pathlib.expanduser**\ ``(self)``
 | **pathpy.expanduser**\ ``(self)``
-| **trio.expanduser**\ ``(self, *args, **kwargs)``
 
 | **os.path.expanduser**\ ``(path)``:
 | `docs <https://docs.python.org/3/library/os.path.html#os.path.expanduser>`__ `source (posixpath.py) <https://github.com/python/cpython/blob/3.6/Lib/posixpath.py>`__ `source (ntpath.py) <https://github.com/python/cpython/tree/3.6/Lib/ntpath.py>`__ `source (macpath.py) <https://github.com/python/cpython/tree/3.6/Lib/macpath.py>`__
@@ -2200,20 +2101,6 @@ attrs
         def expanduser(self):
             """ .. seealso:: :func:`os.path.expanduser` """
             return self._next_class(self.module.expanduser(self))
-
-
-| **trio.expanduser**\ ``(self, *args, **kwargs)``:
-| `docs <https://trio.readthedocs.io/en/latest/reference-io.html#trio.Path.expanduser>`__ `source (_path.py) <https://github.com/python-trio/trio/blob/master/trio/_path.py>`__
-
-.. code:: python
-
-        @async_wraps(cls, pathlib.Path, meth_name)
-        async def wrapper(self, *args, **kwargs):
-            args = unwrap_paths(args)
-            meth = getattr(self._wrapped, meth_name)
-            func = partial(meth, *args, **kwargs)
-            value = await trio.run_sync_in_worker_thread(func)
-            return rewrap_path(value)
 
 
 
@@ -2617,7 +2504,6 @@ attrs
 =========
 | **pathlib.glob**\ ``(self, pattern)``
 | **pathpy.glob**\ ``(self, pattern)``
-| **trio.glob**\ ``(self, *args, **kwargs)``
 
 | **pathlib.glob**\ ``(self, pattern)``:
 | `docs <https://docs.python.org/3/library/pathlib.html#pathlib.Path.glob>`__ `source (pathlib.py) <https://github.com/python/cpython/blob/3.6/Lib/pathlib.py>`__
@@ -2658,25 +2544,10 @@ attrs
             return [cls(s) for s in glob.glob(self / pattern)]
 
 
-| **trio.glob**\ ``(self, *args, **kwargs)``:
-| `docs <https://trio.readthedocs.io/en/latest/reference-io.html#trio.Path.glob>`__ `source (_path.py) <https://github.com/python-trio/trio/blob/master/trio/_path.py>`__
-
-.. code:: python
-
-        @async_wraps(cls, pathlib.Path, meth_name)
-        async def wrapper(self, *args, **kwargs):
-            args = unwrap_paths(args)
-            meth = getattr(self._wrapped, meth_name)
-            func = partial(meth, *args, **kwargs)
-            value = await trio.run_sync_in_worker_thread(func)
-            return rewrap_path(value)
-
-
 
 ``group``
 ==========
 | **pathlib.group**\ ``(self)``
-| **trio.group**\ ``(self, *args, **kwargs)``
 
 | **pathlib.group**\ ``(self)``:
 | `docs <https://docs.python.org/3/library/pathlib.html#pathlib.Path.group>`__ `source (pathlib.py) <https://github.com/python/cpython/blob/3.6/Lib/pathlib.py>`__
@@ -2691,41 +2562,13 @@ attrs
             return grp.getgrgid(self.stat().st_gid).gr_name
 
 
-| **trio.group**\ ``(self, *args, **kwargs)``:
-| `docs <https://trio.readthedocs.io/en/latest/reference-io.html#trio.Path.group>`__ `source (_path.py) <https://github.com/python-trio/trio/blob/master/trio/_path.py>`__
-
-.. code:: python
-
-        @async_wraps(cls, pathlib.Path, meth_name)
-        async def wrapper(self, *args, **kwargs):
-            args = unwrap_paths(args)
-            meth = getattr(self._wrapped, meth_name)
-            func = partial(meth, *args, **kwargs)
-            value = await trio.run_sync_in_worker_thread(func)
-            return rewrap_path(value)
-
-
 
 ``home``
 =========
 | **pathlib.home**\ ``()``
-| **trio.home**\ ``()``
 
 | **pathlib.home**\ ``()``:
 | `docs <https://docs.python.org/3/library/pathlib.html#pathlib.Path.home>`__ `source (pathlib.py) <https://github.com/python/cpython/blob/3.6/Lib/pathlib.py>`__
-
-.. code:: python
-
-        @classmethod
-        def home(cls):
-            """Return a new path pointing to the user's home directory (as
-            returned by os.path.expanduser('~')).
-            """
-            return cls(cls()._flavour.gethomedir(None))
-
-
-| **trio.home**\ ``()``:
-| `docs <https://trio.readthedocs.io/en/latest/reference-io.html#trio.Path.home>`__ `source (_path.py) <https://github.com/python-trio/trio/blob/master/trio/_path.py>`__
 
 .. code:: python
 
@@ -2860,7 +2703,6 @@ attrs
 ``is_absolute``
 ================
 | **pathlib.is_absolute**\ ``(self)``
-| **trio.is_absolute**\ ``(self)``
 
 | seealso: `os.path.isabs <#isabs>`_, `pathlib.absolute <#absolute>`_, `pathpy.isabs <#isabs>`_
  
@@ -2877,24 +2719,10 @@ attrs
             return not self._flavour.has_drv or bool(self._drv)
 
 
-| **trio.is_absolute**\ ``(self)``:
-| `docs <https://trio.readthedocs.io/en/latest/reference-io.html#trio.Path.is_absolute>`__ `source (_path.py) <https://github.com/python-trio/trio/blob/master/trio/_path.py>`__
-
-.. code:: python
-
-        def is_absolute(self):
-            """True if the path is absolute (has both a root and, if applicable,
-            a drive)."""
-            if not self._root:
-                return False
-            return not self._flavour.has_drv or bool(self._drv)
-
-
 
 ``is_block_device``
 ====================
 | **pathlib.is_block_device**\ ``(self)``
-| **trio.is_block_device**\ ``(self, *args, **kwargs)``
 
 | **pathlib.is_block_device**\ ``(self)``:
 | `docs <https://docs.python.org/3/library/pathlib.html#pathlib.Path.is_block_device>`__ `source (pathlib.py) <https://github.com/python/cpython/blob/3.6/Lib/pathlib.py>`__
@@ -2915,25 +2743,10 @@ attrs
                 return False
 
 
-| **trio.is_block_device**\ ``(self, *args, **kwargs)``:
-| `docs <https://trio.readthedocs.io/en/latest/reference-io.html#trio.Path.is_block_device>`__ `source (_path.py) <https://github.com/python-trio/trio/blob/master/trio/_path.py>`__
-
-.. code:: python
-
-        @async_wraps(cls, pathlib.Path, meth_name)
-        async def wrapper(self, *args, **kwargs):
-            args = unwrap_paths(args)
-            meth = getattr(self._wrapped, meth_name)
-            func = partial(meth, *args, **kwargs)
-            value = await trio.run_sync_in_worker_thread(func)
-            return rewrap_path(value)
-
-
 
 ``is_char_device``
 ===================
 | **pathlib.is_char_device**\ ``(self)``
-| **trio.is_char_device**\ ``(self, *args, **kwargs)``
 
 | **pathlib.is_char_device**\ ``(self)``:
 | `docs <https://docs.python.org/3/library/pathlib.html#pathlib.Path.is_char_device>`__ `source (pathlib.py) <https://github.com/python/cpython/blob/3.6/Lib/pathlib.py>`__
@@ -2954,25 +2767,10 @@ attrs
                 return False
 
 
-| **trio.is_char_device**\ ``(self, *args, **kwargs)``:
-| `docs <https://trio.readthedocs.io/en/latest/reference-io.html#trio.Path.is_char_device>`__ `source (_path.py) <https://github.com/python-trio/trio/blob/master/trio/_path.py>`__
-
-.. code:: python
-
-        @async_wraps(cls, pathlib.Path, meth_name)
-        async def wrapper(self, *args, **kwargs):
-            args = unwrap_paths(args)
-            meth = getattr(self._wrapped, meth_name)
-            func = partial(meth, *args, **kwargs)
-            value = await trio.run_sync_in_worker_thread(func)
-            return rewrap_path(value)
-
-
 
 ``is_dir``
 ===========
 | **pathlib.is_dir**\ ``(self)``
-| **trio.is_dir**\ ``(self, *args, **kwargs)``
 
 | seealso: `os.path.isdir <#isdir>`_, `pathpy.isdir <#isdir>`_
  
@@ -2995,25 +2793,10 @@ attrs
                 return False
 
 
-| **trio.is_dir**\ ``(self, *args, **kwargs)``:
-| `docs <https://trio.readthedocs.io/en/latest/reference-io.html#trio.Path.is_dir>`__ `source (_path.py) <https://github.com/python-trio/trio/blob/master/trio/_path.py>`__
-
-.. code:: python
-
-        @async_wraps(cls, pathlib.Path, meth_name)
-        async def wrapper(self, *args, **kwargs):
-            args = unwrap_paths(args)
-            meth = getattr(self._wrapped, meth_name)
-            func = partial(meth, *args, **kwargs)
-            value = await trio.run_sync_in_worker_thread(func)
-            return rewrap_path(value)
-
-
 
 ``is_fifo``
 ============
 | **pathlib.is_fifo**\ ``(self)``
-| **trio.is_fifo**\ ``(self, *args, **kwargs)``
 
 | **pathlib.is_fifo**\ ``(self)``:
 | `docs <https://docs.python.org/3/library/pathlib.html#pathlib.Path.is_fifo>`__ `source (pathlib.py) <https://github.com/python/cpython/blob/3.6/Lib/pathlib.py>`__
@@ -3034,25 +2817,10 @@ attrs
                 return False
 
 
-| **trio.is_fifo**\ ``(self, *args, **kwargs)``:
-| `docs <https://trio.readthedocs.io/en/latest/reference-io.html#trio.Path.is_fifo>`__ `source (_path.py) <https://github.com/python-trio/trio/blob/master/trio/_path.py>`__
-
-.. code:: python
-
-        @async_wraps(cls, pathlib.Path, meth_name)
-        async def wrapper(self, *args, **kwargs):
-            args = unwrap_paths(args)
-            meth = getattr(self._wrapped, meth_name)
-            func = partial(meth, *args, **kwargs)
-            value = await trio.run_sync_in_worker_thread(func)
-            return rewrap_path(value)
-
-
 
 ``is_file``
 ============
 | **pathlib.is_file**\ ``(self)``
-| **trio.is_file**\ ``(self, *args, **kwargs)``
 
 | seealso: `os.path.isfile <#isfile>`_, `pathpy.isfile <#isfile>`_
  
@@ -3076,39 +2844,13 @@ attrs
                 return False
 
 
-| **trio.is_file**\ ``(self, *args, **kwargs)``:
-| `docs <https://trio.readthedocs.io/en/latest/reference-io.html#trio.Path.is_file>`__ `source (_path.py) <https://github.com/python-trio/trio/blob/master/trio/_path.py>`__
-
-.. code:: python
-
-        @async_wraps(cls, pathlib.Path, meth_name)
-        async def wrapper(self, *args, **kwargs):
-            args = unwrap_paths(args)
-            meth = getattr(self._wrapped, meth_name)
-            func = partial(meth, *args, **kwargs)
-            value = await trio.run_sync_in_worker_thread(func)
-            return rewrap_path(value)
-
-
 
 ``is_reserved``
 ================
 | **pathlib.is_reserved**\ ``(self)``
-| **trio.is_reserved**\ ``(self)``
 
 | **pathlib.is_reserved**\ ``(self)``:
 | `docs <https://docs.python.org/3/library/pathlib.html#pathlib.Path.is_reserved>`__ `source (pathlib.py) <https://github.com/python/cpython/blob/3.6/Lib/pathlib.py>`__
-
-.. code:: python
-
-        def is_reserved(self):
-            """Return True if the path contains one of the special names reserved
-            by the system, if any."""
-            return self._flavour.is_reserved(self._parts)
-
-
-| **trio.is_reserved**\ ``(self)``:
-| `docs <https://trio.readthedocs.io/en/latest/reference-io.html#trio.Path.is_reserved>`__ `source (_path.py) <https://github.com/python-trio/trio/blob/master/trio/_path.py>`__
 
 .. code:: python
 
@@ -3122,7 +2864,6 @@ attrs
 ``is_socket``
 ==============
 | **pathlib.is_socket**\ ``(self)``
-| **trio.is_socket**\ ``(self, *args, **kwargs)``
 
 | **pathlib.is_socket**\ ``(self)``:
 | `docs <https://docs.python.org/3/library/pathlib.html#pathlib.Path.is_socket>`__ `source (pathlib.py) <https://github.com/python/cpython/blob/3.6/Lib/pathlib.py>`__
@@ -3143,25 +2884,10 @@ attrs
                 return False
 
 
-| **trio.is_socket**\ ``(self, *args, **kwargs)``:
-| `docs <https://trio.readthedocs.io/en/latest/reference-io.html#trio.Path.is_socket>`__ `source (_path.py) <https://github.com/python-trio/trio/blob/master/trio/_path.py>`__
-
-.. code:: python
-
-        @async_wraps(cls, pathlib.Path, meth_name)
-        async def wrapper(self, *args, **kwargs):
-            args = unwrap_paths(args)
-            meth = getattr(self._wrapped, meth_name)
-            func = partial(meth, *args, **kwargs)
-            value = await trio.run_sync_in_worker_thread(func)
-            return rewrap_path(value)
-
-
 
 ``is_symlink``
 ===============
 | **pathlib.is_symlink**\ ``(self)``
-| **trio.is_symlink**\ ``(self, *args, **kwargs)``
 
 | seealso: `os.path.islink <#islink>`_, `pathpy.islink <#islink>`_
  
@@ -3181,20 +2907,6 @@ attrs
                     raise
                 # Path doesn't exist
                 return False
-
-
-| **trio.is_symlink**\ ``(self, *args, **kwargs)``:
-| `docs <https://trio.readthedocs.io/en/latest/reference-io.html#trio.Path.is_symlink>`__ `source (_path.py) <https://github.com/python-trio/trio/blob/master/trio/_path.py>`__
-
-.. code:: python
-
-        @async_wraps(cls, pathlib.Path, meth_name)
-        async def wrapper(self, *args, **kwargs):
-            args = unwrap_paths(args)
-            meth = getattr(self._wrapped, meth_name)
-            func = partial(meth, *args, **kwargs)
-            value = await trio.run_sync_in_worker_thread(func)
-            return rewrap_path(value)
 
 
 
@@ -3540,7 +3252,6 @@ attrs
 ``iterdir``
 ============
 | **pathlib.iterdir**\ ``(self)``
-| **trio.iterdir**\ ``(self, *args, **kwargs)``
 
 | seealso: `pathpy.listdir <#listdir>`_
  
@@ -3562,20 +3273,6 @@ attrs
                 yield self._make_child_relpath(name)
                 if self._closed:
                     self._raise_closed()
-
-
-| **trio.iterdir**\ ``(self, *args, **kwargs)``:
-| `docs <https://trio.readthedocs.io/en/latest/reference-io.html#trio.Path.iterdir>`__ `source (_path.py) <https://github.com/python-trio/trio/blob/master/trio/_path.py>`__
-
-.. code:: python
-
-        @async_wraps(cls, pathlib.Path, meth_name)
-        async def wrapper(self, *args, **kwargs):
-            args = unwrap_paths(args)
-            meth = getattr(self._wrapped, meth_name)
-            func = partial(meth, *args, **kwargs)
-            value = await trio.run_sync_in_worker_thread(func)
-            return rewrap_path(value)
 
 
 
@@ -3629,7 +3326,6 @@ attrs
 =============
 | **pathlib.joinpath**\ ``(self, *args)``
 | **pathpy.joinpath**\ ``(first, *others)``
-| **trio.joinpath**\ ``(self, *args)``
 
 | seealso: `os.path.join <#join>`_, `pathpy.__div__ <#div>`_, `pathpy.__rdiv__ <#rdiv>`_
  
@@ -3655,25 +3351,10 @@ attrs
     partial(func, *args, **keywords) - new function with partial application
     of the given arguments and keywords.
 
-| **trio.joinpath**\ ``(self, *args)``:
-| `docs <https://trio.readthedocs.io/en/latest/reference-io.html#trio.Path.joinpath>`__ `source (_path.py) <https://github.com/python-trio/trio/blob/master/trio/_path.py>`__
-
-.. code:: python
-
-        def joinpath(self, *args):
-            """Combine this path with one or several arguments, and return a
-            new path representing either a subpath (if all arguments are relative
-            paths) or a totally different path (if one of the arguments is
-            anchored).
-            """
-            return self._make_child(args)
-
-
 
 ``lchmod``
 ===========
 | **pathlib.lchmod**\ ``(self, mode)``
-| **trio.lchmod**\ ``(self, *args, **kwargs)``
 
 | **pathlib.lchmod**\ ``(self, mode)``:
 | `docs <https://docs.python.org/3/library/pathlib.html#pathlib.Path.lchmod>`__ `source (pathlib.py) <https://github.com/python/cpython/blob/3.6/Lib/pathlib.py>`__
@@ -3688,20 +3369,6 @@ attrs
             if self._closed:
                 self._raise_closed()
             self._accessor.lchmod(self, mode)
-
-
-| **trio.lchmod**\ ``(self, *args, **kwargs)``:
-| `docs <https://trio.readthedocs.io/en/latest/reference-io.html#trio.Path.lchmod>`__ `source (_path.py) <https://github.com/python-trio/trio/blob/master/trio/_path.py>`__
-
-.. code:: python
-
-        @async_wraps(cls, pathlib.Path, meth_name)
-        async def wrapper(self, *args, **kwargs):
-            args = unwrap_paths(args)
-            meth = getattr(self._wrapped, meth_name)
-            func = partial(meth, *args, **kwargs)
-            value = await trio.run_sync_in_worker_thread(func)
-            return rewrap_path(value)
 
 
 
@@ -3884,7 +3551,6 @@ attrs
 | **os.lstat**\ ``(path, *, dir_fd=None)``
 | **pathlib.lstat**\ ``(self)``
 | **pathpy.lstat**\ ``(self)``
-| **trio.lstat**\ ``(self, *args, **kwargs)``
 
 | seealso: `os.stat <#stat>`_, `pathlib.stat <#stat>`_, `pathpy.stat <#stat>`_
  
@@ -3924,20 +3590,6 @@ attrs
             .. seealso:: :meth:`stat`, :func:`os.lstat`
             """
             return os.lstat(self)
-
-
-| **trio.lstat**\ ``(self, *args, **kwargs)``:
-| `docs <https://trio.readthedocs.io/en/latest/reference-io.html#trio.Path.lstat>`__ `source (_path.py) <https://github.com/python-trio/trio/blob/master/trio/_path.py>`__
-
-.. code:: python
-
-        @async_wraps(cls, pathlib.Path, meth_name)
-        async def wrapper(self, *args, **kwargs):
-            args = unwrap_paths(args)
-            meth = getattr(self._wrapped, meth_name)
-            func = partial(meth, *args, **kwargs)
-            value = await trio.run_sync_in_worker_thread(func)
-            return rewrap_path(value)
 
 
 
@@ -4055,41 +3707,9 @@ attrs
 ``match``
 ==========
 | **pathlib.match**\ ``(self, path_pattern)``
-| **trio.match**\ ``(self, path_pattern)``
 
 | **pathlib.match**\ ``(self, path_pattern)``:
 | `docs <https://docs.python.org/3/library/pathlib.html#pathlib.Path.match>`__ `source (pathlib.py) <https://github.com/python/cpython/blob/3.6/Lib/pathlib.py>`__
-
-.. code:: python
-
-        def match(self, path_pattern):
-            """
-            Return True if this path matches the given pattern.
-            """
-            cf = self._flavour.casefold
-            path_pattern = cf(path_pattern)
-            drv, root, pat_parts = self._flavour.parse_parts((path_pattern,))
-            if not pat_parts:
-                raise ValueError("empty pattern")
-            if drv and drv != cf(self._drv):
-                return False
-            if root and root != cf(self._root):
-                return False
-            parts = self._cparts
-            if drv or root:
-                if len(pat_parts) != len(parts):
-                    return False
-                pat_parts = pat_parts[1:]
-            elif len(pat_parts) > len(parts):
-                return False
-            for part, pat in zip(reversed(parts), reversed(pat_parts)):
-                if not fnmatch.fnmatchcase(part, pat):
-                    return False
-            return True
-
-
-| **trio.match**\ ``(self, path_pattern)``:
-| `docs <https://trio.readthedocs.io/en/latest/reference-io.html#trio.Path.match>`__ `source (_path.py) <https://github.com/python-trio/trio/blob/master/trio/_path.py>`__
 
 .. code:: python
 
@@ -4165,7 +3785,6 @@ attrs
 | **os.mkdir**\ ``(path, mode=511, *, dir_fd=None)``
 | **pathlib.mkdir**\ ``(self, mode=511, parents=False, exist_ok=False)``
 | **pathpy.mkdir**\ ``(self, mode=511)``
-| **trio.mkdir**\ ``(self, *args, **kwargs)``
 
 | **os.mkdir**\ ``(path, mode=511, *, dir_fd=None)``:
 | `docs <https://docs.python.org/3/library/os.html#os.mkdir>`__ `source (os.py) <https://github.com/python/cpython/tree/3.6/Lib/os.py>`__
@@ -4215,20 +3834,6 @@ attrs
             """ .. seealso:: :func:`os.mkdir` """
             os.mkdir(self, mode)
             return self
-
-
-| **trio.mkdir**\ ``(self, *args, **kwargs)``:
-| `docs <https://trio.readthedocs.io/en/latest/reference-io.html#trio.Path.mkdir>`__ `source (_path.py) <https://github.com/python-trio/trio/blob/master/trio/_path.py>`__
-
-.. code:: python
-
-        @async_wraps(cls, pathlib.Path, meth_name)
-        async def wrapper(self, *args, **kwargs):
-            args = unwrap_paths(args)
-            meth = getattr(self._wrapped, meth_name)
-            func = partial(meth, *args, **kwargs)
-            value = await trio.run_sync_in_worker_thread(func)
-            return rewrap_path(value)
 
 
 
@@ -4560,7 +4165,6 @@ attrs
 | **os.open**\ ``(path, flags, mode=511, *, dir_fd=None)``
 | **pathlib.open**\ ``(self, mode='r', buffering=-1, encoding=None, errors=None, newline=None)``
 | **pathpy.open**\ ``(self, *args, **kwargs)``
-| **trio.open**\ ``(self, mode='r', buffering=-1, encoding=None, errors=None, newline=None)``
 
 | **os.open**\ ``(path, flags, mode=511, *, dir_fd=None)``:
 | `docs <https://docs.python.org/3/library/os.html#os.open>`__ `source (os.py) <https://github.com/python/cpython/tree/3.6/Lib/os.py>`__
@@ -4604,23 +4208,6 @@ attrs
             """
             with io_error_compat():
                 return io.open(self, *args, **kwargs)
-
-
-| **trio.open**\ ``(self, mode='r', buffering=-1, encoding=None, errors=None, newline=None)``:
-| `docs <https://trio.readthedocs.io/en/latest/reference-io.html#trio.Path.open>`__ `source (_path.py) <https://github.com/python-trio/trio/blob/master/trio/_path.py>`__
-
-.. code:: python
-
-        def open(self, mode='r', buffering=-1, encoding=None,
-                 errors=None, newline=None):
-            """
-            Open the file pointed by this path and return a file object, as
-            the built-in open() function does.
-            """
-            if self._closed:
-                self._raise_closed()
-            return io.open(str(self), mode, buffering, encoding, errors, newline,
-                           opener=self._opener)
 
 
 
@@ -4685,7 +4272,6 @@ attrs
 ``owner``
 ==========
 | **pathlib.owner**\ ``(self)``
-| **trio.owner**\ ``(self, *args, **kwargs)``
 
 | seealso: `pathpy.get_owner <#get-owner>`_
  
@@ -4710,20 +4296,6 @@ attrs
     Name of the owner of this file or directory.
 
     .. seealso:: :meth:`get_owner`
-
-| **trio.owner**\ ``(self, *args, **kwargs)``:
-| `docs <https://trio.readthedocs.io/en/latest/reference-io.html#trio.Path.owner>`__ `source (_path.py) <https://github.com/python-trio/trio/blob/master/trio/_path.py>`__
-
-.. code:: python
-
-        @async_wraps(cls, pathlib.Path, meth_name)
-        async def wrapper(self, *args, **kwargs):
-            args = unwrap_paths(args)
-            meth = getattr(self._wrapped, meth_name)
-            func = partial(meth, *args, **kwargs)
-            value = await trio.run_sync_in_worker_thread(func)
-            return rewrap_path(value)
-
 
 
 ``pardir``
@@ -4892,7 +4464,6 @@ attrs
 ``read_bytes``
 ===============
 | **pathlib.read_bytes**\ ``(self)``
-| **trio.read_bytes**\ ``(self, *args, **kwargs)``
 
 | **pathlib.read_bytes**\ ``(self)``:
 | `docs <https://docs.python.org/3/library/pathlib.html#pathlib.Path.read_bytes>`__ `source (pathlib.py) <https://github.com/python/cpython/blob/3.6/Lib/pathlib.py>`__
@@ -4905,20 +4476,6 @@ attrs
             """
             with self.open(mode='rb') as f:
                 return f.read()
-
-
-| **trio.read_bytes**\ ``(self, *args, **kwargs)``:
-| `docs <https://trio.readthedocs.io/en/latest/reference-io.html#trio.Path.read_bytes>`__ `source (_path.py) <https://github.com/python-trio/trio/blob/master/trio/_path.py>`__
-
-.. code:: python
-
-        @async_wraps(cls, pathlib.Path, meth_name)
-        async def wrapper(self, *args, **kwargs):
-            args = unwrap_paths(args)
-            meth = getattr(self._wrapped, meth_name)
-            func = partial(meth, *args, **kwargs)
-            value = await trio.run_sync_in_worker_thread(func)
-            return rewrap_path(value)
 
 
 
@@ -4991,7 +4548,6 @@ attrs
 ``read_text``
 ==============
 | **pathlib.read_text**\ ``(self, encoding=None, errors=None)``
-| **trio.read_text**\ ``(self, *args, **kwargs)``
 
 | **pathlib.read_text**\ ``(self, encoding=None, errors=None)``:
 | `docs <https://docs.python.org/3/library/pathlib.html#pathlib.Path.read_text>`__ `source (pathlib.py) <https://github.com/python/cpython/blob/3.6/Lib/pathlib.py>`__
@@ -5004,20 +4560,6 @@ attrs
             """
             with self.open(mode='r', encoding=encoding, errors=errors) as f:
                 return f.read()
-
-
-| **trio.read_text**\ ``(self, *args, **kwargs)``:
-| `docs <https://trio.readthedocs.io/en/latest/reference-io.html#trio.Path.read_text>`__ `source (_path.py) <https://github.com/python-trio/trio/blob/master/trio/_path.py>`__
-
-.. code:: python
-
-        @async_wraps(cls, pathlib.Path, meth_name)
-        async def wrapper(self, *args, **kwargs):
-            args = unwrap_paths(args)
-            meth = getattr(self._wrapped, meth_name)
-            func = partial(meth, *args, **kwargs)
-            value = await trio.run_sync_in_worker_thread(func)
-            return rewrap_path(value)
 
 
 
@@ -5116,48 +4658,9 @@ attrs
 ``relative_to``
 ================
 | **pathlib.relative_to**\ ``(self, *other)``
-| **trio.relative_to**\ ``(self, *other)``
 
 | **pathlib.relative_to**\ ``(self, *other)``:
 | `docs <https://docs.python.org/3/library/pathlib.html#pathlib.Path.relative_to>`__ `source (pathlib.py) <https://github.com/python/cpython/blob/3.6/Lib/pathlib.py>`__
-
-.. code:: python
-
-        def relative_to(self, *other):
-            """Return the relative path to another path identified by the passed
-            arguments.  If the operation is not possible (because this is not
-            a subpath of the other path), raise ValueError.
-            """
-            # For the purpose of this method, drive and root are considered
-            # separate parts, i.e.:
-            #   Path('c:/').relative_to('c:')  gives Path('/')
-            #   Path('c:/').relative_to('/')   raise ValueError
-            if not other:
-                raise TypeError("need at least one argument")
-            parts = self._parts
-            drv = self._drv
-            root = self._root
-            if root:
-                abs_parts = [drv, root] + parts[1:]
-            else:
-                abs_parts = parts
-            to_drv, to_root, to_parts = self._parse_args(other)
-            if to_root:
-                to_abs_parts = [to_drv, to_root] + to_parts[1:]
-            else:
-                to_abs_parts = to_parts
-            n = len(to_abs_parts)
-            cf = self._flavour.casefold_parts
-            if (root or drv) if n == 0 else cf(abs_parts[:n]) != cf(to_abs_parts):
-                formatted = self._format_parsed_parts(to_drv, to_root, to_parts)
-                raise ValueError("{!r} does not start with {!r}"
-                                 .format(str(self), str(formatted)))
-            return self._from_parsed_parts('', root if n == 1 else '',
-                                           abs_parts[n:])
-
-
-| **trio.relative_to**\ ``(self, *other)``:
-| `docs <https://trio.readthedocs.io/en/latest/reference-io.html#trio.Path.relative_to>`__ `source (_path.py) <https://github.com/python-trio/trio/blob/master/trio/_path.py>`__
 
 .. code:: python
 
@@ -5431,7 +4934,6 @@ attrs
 | **os.rename**\ ``(src, dst, *, src_dir_fd=None, dst_dir_fd=None)``
 | **pathlib.rename**\ ``(self, target)``
 | **pathpy.rename**\ ``(self, new)``
-| **trio.rename**\ ``(self, *args, **kwargs)``
 
 | **os.rename**\ ``(src, dst, *, src_dir_fd=None, dst_dir_fd=None)``:
 | `docs <https://docs.python.org/3/library/os.html#os.rename>`__ `source (os.py) <https://github.com/python/cpython/tree/3.6/Lib/os.py>`__
@@ -5469,20 +4971,6 @@ attrs
             """ .. seealso:: :func:`os.rename` """
             os.rename(self, new)
             return self._next_class(new)
-
-
-| **trio.rename**\ ``(self, *args, **kwargs)``:
-| `docs <https://trio.readthedocs.io/en/latest/reference-io.html#trio.Path.rename>`__ `source (_path.py) <https://github.com/python-trio/trio/blob/master/trio/_path.py>`__
-
-.. code:: python
-
-        @async_wraps(cls, pathlib.Path, meth_name)
-        async def wrapper(self, *args, **kwargs):
-            args = unwrap_paths(args)
-            meth = getattr(self._wrapped, meth_name)
-            func = partial(meth, *args, **kwargs)
-            value = await trio.run_sync_in_worker_thread(func)
-            return rewrap_path(value)
 
 
 
@@ -5539,7 +5027,6 @@ attrs
 ============
 | **os.replace**\ ``(src, dst, *, src_dir_fd=None, dst_dir_fd=None)``
 | **pathlib.replace**\ ``(self, target)``
-| **trio.replace**\ ``(self, *args, **kwargs)``
 
 | **os.replace**\ ``(src, dst, *, src_dir_fd=None, dst_dir_fd=None)``:
 | `docs <https://docs.python.org/3/library/os.html#os.replace>`__ `source (os.py) <https://github.com/python/cpython/tree/3.6/Lib/os.py>`__
@@ -5580,25 +5067,10 @@ attrs
     old replaced by new.  If the optional argument count is
     given, only the first count occurrences are replaced.
 
-| **trio.replace**\ ``(self, *args, **kwargs)``:
-| `docs <https://trio.readthedocs.io/en/latest/reference-io.html#trio.Path.replace>`__ `source (_path.py) <https://github.com/python-trio/trio/blob/master/trio/_path.py>`__
-
-.. code:: python
-
-        @async_wraps(cls, pathlib.Path, meth_name)
-        async def wrapper(self, *args, **kwargs):
-            args = unwrap_paths(args)
-            meth = getattr(self._wrapped, meth_name)
-            func = partial(meth, *args, **kwargs)
-            value = await trio.run_sync_in_worker_thread(func)
-            return rewrap_path(value)
-
-
 
 ``resolve``
 ============
 | **pathlib.resolve**\ ``(self, strict=False)``
-| **trio.resolve**\ ``(self, *args, **kwargs)``
 
 | **pathlib.resolve**\ ``(self, strict=False)``:
 | `docs <https://docs.python.org/3/library/pathlib.html#pathlib.Path.resolve>`__ `source (pathlib.py) <https://github.com/python/cpython/blob/3.6/Lib/pathlib.py>`__
@@ -5626,20 +5098,6 @@ attrs
             return obj
 
 
-| **trio.resolve**\ ``(self, *args, **kwargs)``:
-| `docs <https://trio.readthedocs.io/en/latest/reference-io.html#trio.Path.resolve>`__ `source (_path.py) <https://github.com/python-trio/trio/blob/master/trio/_path.py>`__
-
-.. code:: python
-
-        @async_wraps(cls, pathlib.Path, meth_name)
-        async def wrapper(self, *args, **kwargs):
-            args = unwrap_paths(args)
-            meth = getattr(self._wrapped, meth_name)
-            func = partial(meth, *args, **kwargs)
-            value = await trio.run_sync_in_worker_thread(func)
-            return rewrap_path(value)
-
-
 
 ``rfind``
 ==========
@@ -5661,7 +5119,6 @@ attrs
 ``rglob``
 ==========
 | **pathlib.rglob**\ ``(self, pattern)``
-| **trio.rglob**\ ``(self, *args, **kwargs)``
 
 | **pathlib.rglob**\ ``(self, pattern)``:
 | `docs <https://docs.python.org/3/library/pathlib.html#pathlib.Path.rglob>`__ `source (pathlib.py) <https://github.com/python/cpython/blob/3.6/Lib/pathlib.py>`__
@@ -5679,20 +5136,6 @@ attrs
             selector = _make_selector(("**",) + tuple(pattern_parts))
             for p in selector.select_from(self):
                 yield p
-
-
-| **trio.rglob**\ ``(self, *args, **kwargs)``:
-| `docs <https://trio.readthedocs.io/en/latest/reference-io.html#trio.Path.rglob>`__ `source (_path.py) <https://github.com/python-trio/trio/blob/master/trio/_path.py>`__
-
-.. code:: python
-
-        @async_wraps(cls, pathlib.Path, meth_name)
-        async def wrapper(self, *args, **kwargs):
-            args = unwrap_paths(args)
-            meth = getattr(self._wrapped, meth_name)
-            func = partial(meth, *args, **kwargs)
-            value = await trio.run_sync_in_worker_thread(func)
-            return rewrap_path(value)
 
 
 
@@ -5732,7 +5175,6 @@ attrs
 | **os.rmdir**\ ``(path, *, dir_fd=None)``
 | **pathlib.rmdir**\ ``(self)``
 | **pathpy.rmdir**\ ``(self)``
-| **trio.rmdir**\ ``(self, *args, **kwargs)``
 
 | **os.rmdir**\ ``(path, *, dir_fd=None)``:
 | `docs <https://docs.python.org/3/library/os.html#os.rmdir>`__ `source (os.py) <https://github.com/python/cpython/tree/3.6/Lib/os.py>`__
@@ -5769,20 +5211,6 @@ attrs
             """ .. seealso:: :func:`os.rmdir` """
             os.rmdir(self)
             return self
-
-
-| **trio.rmdir**\ ``(self, *args, **kwargs)``:
-| `docs <https://trio.readthedocs.io/en/latest/reference-io.html#trio.Path.rmdir>`__ `source (_path.py) <https://github.com/python-trio/trio/blob/master/trio/_path.py>`__
-
-.. code:: python
-
-        @async_wraps(cls, pathlib.Path, meth_name)
-        async def wrapper(self, *args, **kwargs):
-            args = unwrap_paths(args)
-            meth = getattr(self._wrapped, meth_name)
-            func = partial(meth, *args, **kwargs)
-            value = await trio.run_sync_in_worker_thread(func)
-            return rewrap_path(value)
 
 
 
@@ -6013,7 +5441,6 @@ attrs
 | **os.path.samefile**\ ``(f1, f2)``
 | **pathlib.samefile**\ ``(self, other_path)``
 | **pathpy.samefile**\ ``(self, other)``
-| **trio.samefile**\ ``(self, *args, **kwargs)``
 
 | **os.path.samefile**\ ``(f1, f2)``:
 | `docs <https://docs.python.org/3/library/os.path.html#os.path.samefile>`__ `source (posixpath.py) <https://github.com/python/cpython/blob/3.6/Lib/posixpath.py>`__ `source (ntpath.py) <https://github.com/python/cpython/tree/3.6/Lib/ntpath.py>`__ `source (macpath.py) <https://github.com/python/cpython/tree/3.6/Lib/macpath.py>`__
@@ -6055,20 +5482,6 @@ attrs
                 other = Path(other).realpath().normpath().normcase()
                 return self.realpath().normpath().normcase() == other
             return self.module.samefile(self, other)
-
-
-| **trio.samefile**\ ``(self, *args, **kwargs)``:
-| `docs <https://trio.readthedocs.io/en/latest/reference-io.html#trio.Path.samefile>`__ `source (_path.py) <https://github.com/python-trio/trio/blob/master/trio/_path.py>`__
-
-.. code:: python
-
-        @async_wraps(cls, pathlib.Path, meth_name)
-        async def wrapper(self, *args, **kwargs):
-            args = unwrap_paths(args)
-            meth = getattr(self._wrapped, meth_name)
-            func = partial(meth, *args, **kwargs)
-            value = await trio.run_sync_in_worker_thread(func)
-            return rewrap_path(value)
 
 
 
@@ -6391,7 +5804,6 @@ attrs
 | **os.stat**\ ``(path, *, dir_fd=None, follow_symlinks=True)``
 | **pathlib.stat**\ ``(self)``
 | **pathpy.stat**\ ``(self)``
-| **trio.stat**\ ``(self, *args, **kwargs)``
 
 | seealso: `os.lstat <#lstat>`_, `pathlib.lstat <#lstat>`_, `pathpy.lstat <#lstat>`_
  
@@ -6463,20 +5875,6 @@ attrs
             .. seealso:: :meth:`lstat`, :func:`os.stat`
             """
             return os.stat(self)
-
-
-| **trio.stat**\ ``(self, *args, **kwargs)``:
-| `docs <https://trio.readthedocs.io/en/latest/reference-io.html#trio.Path.stat>`__ `source (_path.py) <https://github.com/python-trio/trio/blob/master/trio/_path.py>`__
-
-.. code:: python
-
-        @async_wraps(cls, pathlib.Path, meth_name)
-        async def wrapper(self, *args, **kwargs):
-            args = unwrap_paths(args)
-            meth = getattr(self._wrapped, meth_name)
-            func = partial(meth, *args, **kwargs)
-            value = await trio.run_sync_in_worker_thread(func)
-            return rewrap_path(value)
 
 
 
@@ -6646,7 +6044,6 @@ attrs
 ``symlink_to``
 ===============
 | **pathlib.symlink_to**\ ``(self, target, target_is_directory=False)``
-| **trio.symlink_to**\ ``(self, *args, **kwargs)``
 
 | **pathlib.symlink_to**\ ``(self, target, target_is_directory=False)``:
 | `docs <https://docs.python.org/3/library/pathlib.html#pathlib.Path.symlink_to>`__ `source (pathlib.py) <https://github.com/python/cpython/blob/3.6/Lib/pathlib.py>`__
@@ -6661,20 +6058,6 @@ attrs
             if self._closed:
                 self._raise_closed()
             self._accessor.symlink(target, self, target_is_directory)
-
-
-| **trio.symlink_to**\ ``(self, *args, **kwargs)``:
-| `docs <https://trio.readthedocs.io/en/latest/reference-io.html#trio.Path.symlink_to>`__ `source (_path.py) <https://github.com/python-trio/trio/blob/master/trio/_path.py>`__
-
-.. code:: python
-
-        @async_wraps(cls, pathlib.Path, meth_name)
-        async def wrapper(self, *args, **kwargs):
-            args = unwrap_paths(args)
-            meth = getattr(self._wrapped, meth_name)
-            func = partial(meth, *args, **kwargs)
-            value = await trio.run_sync_in_worker_thread(func)
-            return rewrap_path(value)
 
 
 
@@ -6720,7 +6103,6 @@ attrs
 ==========
 | **pathlib.touch**\ ``(self, mode=438, exist_ok=True)``
 | **pathpy.touch**\ ``(self)``
-| **trio.touch**\ ``(self, *args, **kwargs)``
 
 | **pathlib.touch**\ ``(self, mode=438, exist_ok=True)``:
 | `docs <https://docs.python.org/3/library/pathlib.html#pathlib.Path.touch>`__ `source (pathlib.py) <https://github.com/python/cpython/blob/3.6/Lib/pathlib.py>`__
@@ -6766,20 +6148,6 @@ attrs
             return self
 
 
-| **trio.touch**\ ``(self, *args, **kwargs)``:
-| `docs <https://trio.readthedocs.io/en/latest/reference-io.html#trio.Path.touch>`__ `source (_path.py) <https://github.com/python-trio/trio/blob/master/trio/_path.py>`__
-
-.. code:: python
-
-        @async_wraps(cls, pathlib.Path, meth_name)
-        async def wrapper(self, *args, **kwargs):
-            args = unwrap_paths(args)
-            meth = getattr(self._wrapped, meth_name)
-            func = partial(meth, *args, **kwargs)
-            value = await trio.run_sync_in_worker_thread(func)
-            return rewrap_path(value)
-
-
 
 ``translate``
 ==============
@@ -6816,7 +6184,6 @@ attrs
 | **os.unlink**\ ``(path, *, dir_fd=None)``
 | **pathlib.unlink**\ ``(self)``
 | **pathpy.unlink**\ ``(self)``
-| **trio.unlink**\ ``(self, *args, **kwargs)``
 
 | seealso: `os.remove <#remove>`_, `pathpy.remove <#remove>`_
  
@@ -6856,20 +6223,6 @@ attrs
             """ .. seealso:: :func:`os.unlink` """
             os.unlink(self)
             return self
-
-
-| **trio.unlink**\ ``(self, *args, **kwargs)``:
-| `docs <https://trio.readthedocs.io/en/latest/reference-io.html#trio.Path.unlink>`__ `source (_path.py) <https://github.com/python-trio/trio/blob/master/trio/_path.py>`__
-
-.. code:: python
-
-        @async_wraps(cls, pathlib.Path, meth_name)
-        async def wrapper(self, *args, **kwargs):
-            args = unwrap_paths(args)
-            meth = getattr(self._wrapped, meth_name)
-            func = partial(meth, *args, **kwargs)
-            value = await trio.run_sync_in_worker_thread(func)
-            return rewrap_path(value)
 
 
 
@@ -7293,27 +6646,9 @@ attrs
 ``with_name``
 ==============
 | **pathlib.with_name**\ ``(self, name)``
-| **trio.with_name**\ ``(self, name)``
 
 | **pathlib.with_name**\ ``(self, name)``:
 | `docs <https://docs.python.org/3/library/pathlib.html#pathlib.Path.with_name>`__ `source (pathlib.py) <https://github.com/python/cpython/blob/3.6/Lib/pathlib.py>`__
-
-.. code:: python
-
-        def with_name(self, name):
-            """Return a new path with the file name changed."""
-            if not self.name:
-                raise ValueError("%r has an empty name" % (self,))
-            drv, root, parts = self._flavour.parse_parts((name,))
-            if (not name or name[-1] in [self._flavour.sep, self._flavour.altsep]
-                or drv or root or len(parts) != 1):
-                raise ValueError("Invalid name %r" % (name))
-            return self._from_parsed_parts(self._drv, self._root,
-                                           self._parts[:-1] + [name])
-
-
-| **trio.with_name**\ ``(self, name)``:
-| `docs <https://trio.readthedocs.io/en/latest/reference-io.html#trio.Path.with_name>`__ `source (_path.py) <https://github.com/python-trio/trio/blob/master/trio/_path.py>`__
 
 .. code:: python
 
@@ -7334,7 +6669,6 @@ attrs
 ================
 | **pathlib.with_suffix**\ ``(self, suffix)``
 | **pathpy.with_suffix**\ ``(self, suffix)``
-| **trio.with_suffix**\ ``(self, suffix)``
 
 | **pathlib.with_suffix**\ ``(self, suffix)``:
 | `docs <https://docs.python.org/3/library/pathlib.html#pathlib.Path.with_suffix>`__ `source (pathlib.py) <https://github.com/python/cpython/blob/3.6/Lib/pathlib.py>`__
@@ -7386,37 +6720,11 @@ attrs
             return self.stripext() + suffix
 
 
-| **trio.with_suffix**\ ``(self, suffix)``:
-| `docs <https://trio.readthedocs.io/en/latest/reference-io.html#trio.Path.with_suffix>`__ `source (_path.py) <https://github.com/python-trio/trio/blob/master/trio/_path.py>`__
-
-.. code:: python
-
-        def with_suffix(self, suffix):
-            """Return a new path with the file suffix changed (or added, if none)."""
-            # XXX if suffix is None, should the current suffix be removed?
-            f = self._flavour
-            if f.sep in suffix or f.altsep and f.altsep in suffix:
-                raise ValueError("Invalid suffix %r" % (suffix))
-            if suffix and not suffix.startswith('.') or suffix == '.':
-                raise ValueError("Invalid suffix %r" % (suffix))
-            name = self.name
-            if not name:
-                raise ValueError("%r has an empty name" % (self,))
-            old_suffix = self.suffix
-            if not old_suffix:
-                name = name + suffix
-            else:
-                name = name[:-len(old_suffix)] + suffix
-            return self._from_parsed_parts(self._drv, self._root,
-                                           self._parts[:-1] + [name])
-
-
 
 ``write_bytes``
 ================
 | **pathlib.write_bytes**\ ``(self, data)``
 | **pathpy.write_bytes**\ ``(self, bytes, append=False)``
-| **trio.write_bytes**\ ``(self, *args, **kwargs)``
 
 | **pathlib.write_bytes**\ ``(self, data)``:
 | `docs <https://docs.python.org/3/library/pathlib.html#pathlib.Path.write_bytes>`__ `source (pathlib.py) <https://github.com/python/cpython/blob/3.6/Lib/pathlib.py>`__
@@ -7450,20 +6758,6 @@ attrs
                 mode = 'wb'
             with self.open(mode) as f:
                 f.write(bytes)
-
-
-| **trio.write_bytes**\ ``(self, *args, **kwargs)``:
-| `docs <https://trio.readthedocs.io/en/latest/reference-io.html#trio.Path.write_bytes>`__ `source (_path.py) <https://github.com/python-trio/trio/blob/master/trio/_path.py>`__
-
-.. code:: python
-
-        @async_wraps(cls, pathlib.Path, meth_name)
-        async def wrapper(self, *args, **kwargs):
-            args = unwrap_paths(args)
-            meth = getattr(self._wrapped, meth_name)
-            func = partial(meth, *args, **kwargs)
-            value = await trio.run_sync_in_worker_thread(func)
-            return rewrap_path(value)
 
 
 
@@ -7531,7 +6825,6 @@ attrs
 ===============
 | **pathlib.write_text**\ ``(self, data, encoding=None, errors=None)``
 | **pathpy.write_text**\ ``(self, text, encoding=None, errors='strict', linesep='\n', append=False)``
-| **trio.write_text**\ ``(self, *args, **kwargs)``
 
 | **pathlib.write_text**\ ``(self, data, encoding=None, errors=None)``:
 | `docs <https://docs.python.org/3/library/pathlib.html#pathlib.Path.write_text>`__ `source (pathlib.py) <https://github.com/python/cpython/blob/3.6/Lib/pathlib.py>`__
@@ -7627,20 +6920,6 @@ attrs
                 assert encoding is None
                 text = NEWLINE.sub(linesep, text)
             self.write_bytes(text, append=append)
-
-
-| **trio.write_text**\ ``(self, *args, **kwargs)``:
-| `docs <https://trio.readthedocs.io/en/latest/reference-io.html#trio.Path.write_text>`__ `source (_path.py) <https://github.com/python-trio/trio/blob/master/trio/_path.py>`__
-
-.. code:: python
-
-        @async_wraps(cls, pathlib.Path, meth_name)
-        async def wrapper(self, *args, **kwargs):
-            args = unwrap_paths(args)
-            meth = getattr(self._wrapped, meth_name)
-            func = partial(meth, *args, **kwargs)
-            value = await trio.run_sync_in_worker_thread(func)
-            return rewrap_path(value)
 
 
 
