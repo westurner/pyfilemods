@@ -88,13 +88,60 @@ mappings['os'] = {
         'pathpy': 'remove',
         'os': 'remove',
     },
+    'lstat': {
+        'os': 'stat',
+        'pathlib': 'stat',
+    }
 }
 mappings['pathpy'] = {
     # 'getcwd': {
-    #     'pathpy': 'getcwdu',
+    #     'os': ['getcwdu', 'getcwdb'],
     # },
+    '__div__': {
+        'os.path': 'join',
+        'pathlib': 'joinpath',
+        'pathpy': ['__rdiv__', 'joinpath'],
+    },
+    '__rdiv__': {
+        'os.path': 'join',
+        'pathlib': 'joinpath',
+        'pathpy': ['__div__', 'joinpath'],
+    },
+    'cd': {
+        'os': 'chdir',
+    },
     'getsize': {
         'pathpy': 'size'
+    },
+    'lines': {
+        'pathpy': 'text',
+    },
+    'name': {
+        'os.path': 'basename',
+        'path.py': 'basename',
+    },
+    'parent': {
+        'os.path': 'dirname',
+        'path.py': 'dirname',
+    },
+    'read_md5': {
+        'path.py': 'read_hash',
+    },
+    'readlink': {
+        'path.py': 'readlinkabs',
+    },
+    'readlinkabs': {
+        'os': 'readlink',
+    },
+    'splitpath': {
+        'path.py': ['parent', 'name'],
+        'os.path': 'split',
+    },
+    'stat': {
+        'path.py': 'lstat',
+    },
+    'size': {
+        'os.path': 'getsize',
     },
     'unlink': {
         'pathpy': 'remove',
@@ -121,8 +168,19 @@ mappings['pathlib'] = {
         'pathpy': 'getcwd',
         'os': 'getcwd',
     },
+    'name': {
+        'os.path': 'basename',
+        'path.py': 'basename',
+    },
     'owner': {
         'pathpy': 'get_owner',
+    },
+    'parent': {
+        'os.path': 'dirname',
+        'path.py': ['parent', 'dirname'],
+    },
+    'stat': {
+        'pathlib': 'lstat',
     },
     'is_absolute': {
         'pathlib': 'absolute',
@@ -161,9 +219,10 @@ def build_seealso(mappings=mappings):
     seealso = {}
     for mapsetname, mappingset in mappings.items():
         for attrname, mappings in mappingset.items():
-            for modname, destattr in mappings.items():
-                seealso.setdefault(attrname, {}).setdefault(destattr, {}).setdefault(modname, True)
-                seealso.setdefault(destattr, {}).setdefault(attrname, {}).setdefault(mapsetname, True)
+            for modname, destattrs in mappings.items():
+                for destattr in maybe_list(destattrs):
+                    seealso.setdefault(attrname, {}).setdefault(destattr, {}).setdefault(modname, True)
+                    seealso.setdefault(destattr, {}).setdefault(attrname, {}).setdefault(mapsetname, True)
     return seealso
 
 
