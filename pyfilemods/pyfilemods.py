@@ -26,7 +26,7 @@ import pathlib as _pathlib
 import textwrap
 
 import path as _path
-import trio as _trio
+#import trio as _trio
 
 meta = {}
 meta['os'] = {
@@ -291,7 +291,7 @@ def build_methods():
     methods['pathlib'] = dict(get_signatures(_pathlib.Path))
     methods['pathpy'] = dict(get_signatures(_path.Path,
                                             ['__div__', '__rdiv__']))
-    methods['trio'] = dict(get_signatures(_trio.Path))
+    # methods['trio'] = dict(get_signatures(_trio.Path))
     return methods
 
 
@@ -321,8 +321,8 @@ def build_sets(methods):
         set(methods['pathlib']).difference(methods['pathpy']))
     sets['pathpy_not_pathlib'] = sorted(
         set(methods['pathpy']).difference(methods['pathlib']))
-    sets['pathlib_not_trio'] = sorted(
-        set(methods['pathlib']).difference(methods['trio']))
+    # sets['pathlib_not_trio'] = sorted(
+    #     set(methods['pathlib']).difference(methods['trio']))
     return sets
 
 
@@ -354,19 +354,19 @@ print_report_header()
 
 
 def print_table(sets=sets, methods=methods):
-    hdr = '================== == ======= ====== ======= ======= ===='
+    hdr = '================== == ======= ====== ======= ======='
     print(hdr)
-    print('attr               os os.path shutil pathlib path.py trio')
+    print('attr               os os.path shutil pathlib path.py')
     print(hdr)
     for attr in sets['union']:
-        print('%-18s %-2s %-7s %-6s %-8s %-7s %-4s' % (
+        print('%-18s %-2s %-7s %-6s %-8s %-7s' % (
             '`%s`_' % attr,
             'X' if attr in methods['os'] else ' ',
             'X' if attr in methods['os.path'] else ' ',
             'X' if attr in methods['shutil'] else ' ',
             'X' if attr in methods['pathlib'] else ' ',
             'X' if attr in methods['pathpy'] else ' ',
-            'X' if attr in methods['trio'] else ' '
+            #'X' if attr in methods['trio'] else ' '
         ))
     print(hdr)
     print('')
@@ -393,7 +393,7 @@ setnames = [
     'pathlib_and_pathpy',
     'pathlib_not_pathpy',
     'pathpy_not_pathlib',
-    'pathlib_not_trio',
+    #'pathlib_not_trio',
 ]
 for x in setnames:
     print_thing(x, sets=sets)
@@ -437,7 +437,7 @@ def fmtsignature(obj):
         return '*attribute*'
 
 
-modnames = ['os', 'os.path', 'shutil', 'pathlib', 'pathpy', 'trio']
+modnames = ['os', 'os.path', 'shutil', 'pathlib', 'pathpy'] # , 'trio']
 
 
 def print_attr_methods(sets=sets, methods=methods, modnames=modnames):
