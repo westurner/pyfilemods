@@ -25,6 +25,7 @@ import inspect
 import itertools
 import os as _os
 import os.path as _ospath
+import re
 import shutil as _shutil
 import pathlib as _pathlib
 import textwrap
@@ -420,7 +421,12 @@ def fmtsignature(obj):
     if obj is None:
         return '``None``'
     if obj.iscallable:
-        return '``%s``' % obj.signature if obj.signature else ' '
+        if not obj.signature:
+            return ' '
+        return '``%s``' % (re.sub(
+            r'<function (.*?) at 0x[\da-f]+>',
+            r'<function \1 at 0x...>',
+            str(obj.signature), 1))
     else:
         return '*attribute*'
 
