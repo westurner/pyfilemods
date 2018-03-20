@@ -19,225 +19,225 @@
 <li>Docs: <a class="reference external" href="https://westurner.github.io/pyfilemods/">https://westurner.github.io/pyfilemods/</a></li>
 </ul>
 <div class="section" id="contents">
-<h1><a class="toc-backref" href="#id3">Contents</a></h1>
+<h1><a class="toc-backref" href="#id15">Contents</a></h1>
 <div class="contents topic" id="id1">
 <p class="topic-title first">Contents</p>
 <ul class="simple">
-<li><a class="reference internal" href="#contents" id="id3">Contents</a></li>
-<li><a class="reference internal" href="#modules" id="id4">Modules</a></li>
-<li><a class="reference internal" href="#sets" id="id5">Sets</a><ul>
-<li><a class="reference internal" href="#attr-table" id="id6">attr table</a></li>
-<li><a class="reference internal" href="#pathlib-and-pathpy" id="id7">pathlib_and_pathpy</a></li>
-<li><a class="reference internal" href="#pathlib-not-pathpy" id="id8">pathlib_not_pathpy</a></li>
-<li><a class="reference internal" href="#pathpy-not-pathlib" id="id9">pathpy_not_pathlib</a></li>
+<li><a class="reference internal" href="#contents" id="id15">Contents</a></li>
+<li><a class="reference internal" href="#modules" id="id16">Modules</a></li>
+<li><a class="reference internal" href="#sets" id="id17">Sets</a><ul>
+<li><a class="reference internal" href="#attr-table" id="id18">attr table</a></li>
+<li><a class="reference internal" href="#pathlib-and-pathpy" id="id19">pathlib_and_pathpy</a></li>
+<li><a class="reference internal" href="#pathlib-not-pathpy" id="id20">pathlib_not_pathpy</a></li>
+<li><a class="reference internal" href="#pathpy-not-pathlib" id="id21">pathpy_not_pathlib</a></li>
 </ul>
 </li>
-<li><a class="reference internal" href="#attrs" id="id10">attrs</a><ul>
-<li><a class="reference internal" href="#div" id="id11"><tt class="docutils literal">__div__</tt></a></li>
-<li><a class="reference internal" href="#rdiv" id="id12"><tt class="docutils literal">__rdiv__</tt></a></li>
-<li><a class="reference internal" href="#absolute" id="id13"><tt class="docutils literal">absolute</tt></a></li>
-<li><a class="reference internal" href="#abspath" id="id14"><tt class="docutils literal">abspath</tt></a></li>
-<li><a class="reference internal" href="#access" id="id15"><tt class="docutils literal">access</tt></a></li>
-<li><a class="reference internal" href="#altsep" id="id16"><tt class="docutils literal">altsep</tt></a></li>
-<li><a class="reference internal" href="#anchor" id="id17"><tt class="docutils literal">anchor</tt></a></li>
-<li><a class="reference internal" href="#as-posix" id="id18"><tt class="docutils literal">as_posix</tt></a></li>
-<li><a class="reference internal" href="#as-uri" id="id19"><tt class="docutils literal">as_uri</tt></a></li>
-<li><a class="reference internal" href="#atime" id="id20"><tt class="docutils literal">atime</tt></a></li>
-<li><a class="reference internal" href="#basename" id="id21"><tt class="docutils literal">basename</tt></a></li>
-<li><a class="reference internal" href="#bytes" id="id22"><tt class="docutils literal">bytes</tt></a></li>
-<li><a class="reference internal" href="#capitalize" id="id23"><tt class="docutils literal">capitalize</tt></a></li>
-<li><a class="reference internal" href="#casefold" id="id24"><tt class="docutils literal">casefold</tt></a></li>
-<li><a class="reference internal" href="#cd" id="id25"><tt class="docutils literal">cd</tt></a></li>
-<li><a class="reference internal" href="#center" id="id26"><tt class="docutils literal">center</tt></a></li>
-<li><a class="reference internal" href="#chdir" id="id27"><tt class="docutils literal">chdir</tt></a></li>
-<li><a class="reference internal" href="#chmod" id="id28"><tt class="docutils literal">chmod</tt></a></li>
-<li><a class="reference internal" href="#chown" id="id29"><tt class="docutils literal">chown</tt></a></li>
-<li><a class="reference internal" href="#chroot" id="id30"><tt class="docutils literal">chroot</tt></a></li>
-<li><a class="reference internal" href="#chunks" id="id31"><tt class="docutils literal">chunks</tt></a></li>
-<li><a class="reference internal" href="#commonpath" id="id32"><tt class="docutils literal">commonpath</tt></a></li>
-<li><a class="reference internal" href="#commonprefix" id="id33"><tt class="docutils literal">commonprefix</tt></a></li>
-<li><a class="reference internal" href="#copy" id="id34"><tt class="docutils literal">copy</tt></a></li>
-<li><a class="reference internal" href="#copy2" id="id35"><tt class="docutils literal">copy2</tt></a></li>
-<li><a class="reference internal" href="#copyfile" id="id36"><tt class="docutils literal">copyfile</tt></a></li>
-<li><a class="reference internal" href="#copymode" id="id37"><tt class="docutils literal">copymode</tt></a></li>
-<li><a class="reference internal" href="#copystat" id="id38"><tt class="docutils literal">copystat</tt></a></li>
-<li><a class="reference internal" href="#copytree" id="id39"><tt class="docutils literal">copytree</tt></a></li>
-<li><a class="reference internal" href="#count" id="id40"><tt class="docutils literal">count</tt></a></li>
-<li><a class="reference internal" href="#ctime" id="id41"><tt class="docutils literal">ctime</tt></a></li>
-<li><a class="reference internal" href="#curdir" id="id42"><tt class="docutils literal">curdir</tt></a></li>
-<li><a class="reference internal" href="#cwd" id="id43"><tt class="docutils literal">cwd</tt></a></li>
-<li><a class="reference internal" href="#defpath" id="id44"><tt class="docutils literal">defpath</tt></a></li>
-<li><a class="reference internal" href="#devnull" id="id45"><tt class="docutils literal">devnull</tt></a></li>
-<li><a class="reference internal" href="#dirname" id="id46"><tt class="docutils literal">dirname</tt></a></li>
-<li><a class="reference internal" href="#dirs" id="id47"><tt class="docutils literal">dirs</tt></a></li>
-<li><a class="reference internal" href="#drive" id="id48"><tt class="docutils literal">drive</tt></a></li>
-<li><a class="reference internal" href="#encode" id="id49"><tt class="docutils literal">encode</tt></a></li>
-<li><a class="reference internal" href="#endswith" id="id50"><tt class="docutils literal">endswith</tt></a></li>
-<li><a class="reference internal" href="#exists" id="id51"><tt class="docutils literal">exists</tt></a></li>
-<li><a class="reference internal" href="#expand" id="id52"><tt class="docutils literal">expand</tt></a></li>
-<li><a class="reference internal" href="#expandtabs" id="id53"><tt class="docutils literal">expandtabs</tt></a></li>
-<li><a class="reference internal" href="#expanduser" id="id54"><tt class="docutils literal">expanduser</tt></a></li>
-<li><a class="reference internal" href="#expandvars" id="id55"><tt class="docutils literal">expandvars</tt></a></li>
-<li><a class="reference internal" href="#ext" id="id56"><tt class="docutils literal">ext</tt></a></li>
-<li><a class="reference internal" href="#extsep" id="id57"><tt class="docutils literal">extsep</tt></a></li>
-<li><a class="reference internal" href="#files" id="id58"><tt class="docutils literal">files</tt></a></li>
-<li><a class="reference internal" href="#find" id="id59"><tt class="docutils literal">find</tt></a></li>
-<li><a class="reference internal" href="#fnmatch" id="id60"><tt class="docutils literal">fnmatch</tt></a></li>
-<li><a class="reference internal" href="#format" id="id61"><tt class="docutils literal">format</tt></a></li>
-<li><a class="reference internal" href="#format-map" id="id62"><tt class="docutils literal">format_map</tt></a></li>
-<li><a class="reference internal" href="#get-owner" id="id63"><tt class="docutils literal">get_owner</tt></a></li>
-<li><a class="reference internal" href="#getatime" id="id64"><tt class="docutils literal">getatime</tt></a></li>
-<li><a class="reference internal" href="#getctime" id="id65"><tt class="docutils literal">getctime</tt></a></li>
-<li><a class="reference internal" href="#getcwd" id="id66"><tt class="docutils literal">getcwd</tt></a></li>
-<li><a class="reference internal" href="#getmtime" id="id67"><tt class="docutils literal">getmtime</tt></a></li>
-<li><a class="reference internal" href="#getsize" id="id68"><tt class="docutils literal">getsize</tt></a></li>
-<li><a class="reference internal" href="#glob" id="id69"><tt class="docutils literal">glob</tt></a></li>
-<li><a class="reference internal" href="#group" id="id70"><tt class="docutils literal">group</tt></a></li>
-<li><a class="reference internal" href="#home" id="id71"><tt class="docutils literal">home</tt></a></li>
-<li><a class="reference internal" href="#in-place" id="id72"><tt class="docutils literal">in_place</tt></a></li>
-<li><a class="reference internal" href="#index" id="id73"><tt class="docutils literal">index</tt></a></li>
-<li><a class="reference internal" href="#is-absolute" id="id74"><tt class="docutils literal">is_absolute</tt></a></li>
-<li><a class="reference internal" href="#is-block-device" id="id75"><tt class="docutils literal">is_block_device</tt></a></li>
-<li><a class="reference internal" href="#is-char-device" id="id76"><tt class="docutils literal">is_char_device</tt></a></li>
-<li><a class="reference internal" href="#is-dir" id="id77"><tt class="docutils literal">is_dir</tt></a></li>
-<li><a class="reference internal" href="#is-fifo" id="id78"><tt class="docutils literal">is_fifo</tt></a></li>
-<li><a class="reference internal" href="#is-file" id="id79"><tt class="docutils literal">is_file</tt></a></li>
-<li><a class="reference internal" href="#is-reserved" id="id80"><tt class="docutils literal">is_reserved</tt></a></li>
-<li><a class="reference internal" href="#is-socket" id="id81"><tt class="docutils literal">is_socket</tt></a></li>
-<li><a class="reference internal" href="#is-symlink" id="id82"><tt class="docutils literal">is_symlink</tt></a></li>
-<li><a class="reference internal" href="#isabs" id="id83"><tt class="docutils literal">isabs</tt></a></li>
-<li><a class="reference internal" href="#isalnum" id="id84"><tt class="docutils literal">isalnum</tt></a></li>
-<li><a class="reference internal" href="#isalpha" id="id85"><tt class="docutils literal">isalpha</tt></a></li>
-<li><a class="reference internal" href="#isdecimal" id="id86"><tt class="docutils literal">isdecimal</tt></a></li>
-<li><a class="reference internal" href="#isdigit" id="id87"><tt class="docutils literal">isdigit</tt></a></li>
-<li><a class="reference internal" href="#isdir" id="id88"><tt class="docutils literal">isdir</tt></a></li>
-<li><a class="reference internal" href="#isfile" id="id89"><tt class="docutils literal">isfile</tt></a></li>
-<li><a class="reference internal" href="#isidentifier" id="id90"><tt class="docutils literal">isidentifier</tt></a></li>
-<li><a class="reference internal" href="#islink" id="id91"><tt class="docutils literal">islink</tt></a></li>
-<li><a class="reference internal" href="#islower" id="id92"><tt class="docutils literal">islower</tt></a></li>
-<li><a class="reference internal" href="#ismount" id="id93"><tt class="docutils literal">ismount</tt></a></li>
-<li><a class="reference internal" href="#isnumeric" id="id94"><tt class="docutils literal">isnumeric</tt></a></li>
-<li><a class="reference internal" href="#isprintable" id="id95"><tt class="docutils literal">isprintable</tt></a></li>
-<li><a class="reference internal" href="#isspace" id="id96"><tt class="docutils literal">isspace</tt></a></li>
-<li><a class="reference internal" href="#istitle" id="id97"><tt class="docutils literal">istitle</tt></a></li>
-<li><a class="reference internal" href="#isupper" id="id98"><tt class="docutils literal">isupper</tt></a></li>
-<li><a class="reference internal" href="#iterdir" id="id99"><tt class="docutils literal">iterdir</tt></a></li>
-<li><a class="reference internal" href="#join" id="id100"><tt class="docutils literal">join</tt></a></li>
-<li><a class="reference internal" href="#joinpath" id="id101"><tt class="docutils literal">joinpath</tt></a></li>
-<li><a class="reference internal" href="#lchmod" id="id102"><tt class="docutils literal">lchmod</tt></a></li>
-<li><a class="reference internal" href="#lexists" id="id103"><tt class="docutils literal">lexists</tt></a></li>
-<li><a class="reference internal" href="#lines" id="id104"><tt class="docutils literal">lines</tt></a></li>
-<li><a class="reference internal" href="#link" id="id105"><tt class="docutils literal">link</tt></a></li>
-<li><a class="reference internal" href="#listdir" id="id106"><tt class="docutils literal">listdir</tt></a></li>
-<li><a class="reference internal" href="#ljust" id="id107"><tt class="docutils literal">ljust</tt></a></li>
-<li><a class="reference internal" href="#lower" id="id108"><tt class="docutils literal">lower</tt></a></li>
-<li><a class="reference internal" href="#lstat" id="id109"><tt class="docutils literal">lstat</tt></a></li>
-<li><a class="reference internal" href="#lstrip" id="id110"><tt class="docutils literal">lstrip</tt></a></li>
-<li><a class="reference internal" href="#makedirs" id="id111"><tt class="docutils literal">makedirs</tt></a></li>
-<li><a class="reference internal" href="#makedirs-p" id="id112"><tt class="docutils literal">makedirs_p</tt></a></li>
-<li><a class="reference internal" href="#maketrans" id="id113"><tt class="docutils literal">maketrans</tt></a></li>
-<li><a class="reference internal" href="#match" id="id114"><tt class="docutils literal">match</tt></a></li>
-<li><a class="reference internal" href="#merge-tree" id="id115"><tt class="docutils literal">merge_tree</tt></a></li>
-<li><a class="reference internal" href="#mkdir" id="id116"><tt class="docutils literal">mkdir</tt></a></li>
-<li><a class="reference internal" href="#mkdir-p" id="id117"><tt class="docutils literal">mkdir_p</tt></a></li>
-<li><a class="reference internal" href="#module" id="id118"><tt class="docutils literal">module</tt></a></li>
-<li><a class="reference internal" href="#move" id="id119"><tt class="docutils literal">move</tt></a></li>
-<li><a class="reference internal" href="#mtime" id="id120"><tt class="docutils literal">mtime</tt></a></li>
-<li><a class="reference internal" href="#name" id="id121"><tt class="docutils literal">name</tt></a></li>
-<li><a class="reference internal" href="#namebase" id="id122"><tt class="docutils literal">namebase</tt></a></li>
-<li><a class="reference internal" href="#normcase" id="id123"><tt class="docutils literal">normcase</tt></a></li>
-<li><a class="reference internal" href="#normpath" id="id124"><tt class="docutils literal">normpath</tt></a></li>
-<li><a class="reference internal" href="#open" id="id125"><tt class="docutils literal">open</tt></a></li>
-<li><a class="reference internal" href="#os" id="id126"><tt class="docutils literal">os</tt></a></li>
-<li><a class="reference internal" href="#owner" id="id127"><tt class="docutils literal">owner</tt></a></li>
-<li><a class="reference internal" href="#pardir" id="id128"><tt class="docutils literal">pardir</tt></a></li>
-<li><a class="reference internal" href="#parent" id="id129"><tt class="docutils literal">parent</tt></a></li>
-<li><a class="reference internal" href="#parents" id="id130"><tt class="docutils literal">parents</tt></a></li>
-<li><a class="reference internal" href="#partition" id="id131"><tt class="docutils literal">partition</tt></a></li>
-<li><a class="reference internal" href="#parts" id="id132"><tt class="docutils literal">parts</tt></a></li>
-<li><a class="reference internal" href="#pathconf" id="id133"><tt class="docutils literal">pathconf</tt></a></li>
-<li><a class="reference internal" href="#pathsep" id="id134"><tt class="docutils literal">pathsep</tt></a></li>
-<li><a class="reference internal" href="#read-bytes" id="id135"><tt class="docutils literal">read_bytes</tt></a></li>
-<li><a class="reference internal" href="#read-hash" id="id136"><tt class="docutils literal">read_hash</tt></a></li>
-<li><a class="reference internal" href="#read-hexhash" id="id137"><tt class="docutils literal">read_hexhash</tt></a></li>
-<li><a class="reference internal" href="#read-md5" id="id138"><tt class="docutils literal">read_md5</tt></a></li>
-<li><a class="reference internal" href="#read-text" id="id139"><tt class="docutils literal">read_text</tt></a></li>
-<li><a class="reference internal" href="#readlink" id="id140"><tt class="docutils literal">readlink</tt></a></li>
-<li><a class="reference internal" href="#readlinkabs" id="id141"><tt class="docutils literal">readlinkabs</tt></a></li>
-<li><a class="reference internal" href="#realpath" id="id142"><tt class="docutils literal">realpath</tt></a></li>
-<li><a class="reference internal" href="#relative-to" id="id143"><tt class="docutils literal">relative_to</tt></a></li>
-<li><a class="reference internal" href="#relpath" id="id144"><tt class="docutils literal">relpath</tt></a></li>
-<li><a class="reference internal" href="#relpathto" id="id145"><tt class="docutils literal">relpathto</tt></a></li>
-<li><a class="reference internal" href="#remove" id="id146"><tt class="docutils literal">remove</tt></a></li>
-<li><a class="reference internal" href="#remove-p" id="id147"><tt class="docutils literal">remove_p</tt></a></li>
-<li><a class="reference internal" href="#removedirs" id="id148"><tt class="docutils literal">removedirs</tt></a></li>
-<li><a class="reference internal" href="#removedirs-p" id="id149"><tt class="docutils literal">removedirs_p</tt></a></li>
-<li><a class="reference internal" href="#rename" id="id150"><tt class="docutils literal">rename</tt></a></li>
-<li><a class="reference internal" href="#renames" id="id151"><tt class="docutils literal">renames</tt></a></li>
-<li><a class="reference internal" href="#replace" id="id152"><tt class="docutils literal">replace</tt></a></li>
-<li><a class="reference internal" href="#resolve" id="id153"><tt class="docutils literal">resolve</tt></a></li>
-<li><a class="reference internal" href="#rfind" id="id154"><tt class="docutils literal">rfind</tt></a></li>
-<li><a class="reference internal" href="#rglob" id="id155"><tt class="docutils literal">rglob</tt></a></li>
-<li><a class="reference internal" href="#rindex" id="id156"><tt class="docutils literal">rindex</tt></a></li>
-<li><a class="reference internal" href="#rjust" id="id157"><tt class="docutils literal">rjust</tt></a></li>
-<li><a class="reference internal" href="#rmdir" id="id158"><tt class="docutils literal">rmdir</tt></a></li>
-<li><a class="reference internal" href="#rmdir-p" id="id159"><tt class="docutils literal">rmdir_p</tt></a></li>
-<li><a class="reference internal" href="#rmtree" id="id160"><tt class="docutils literal">rmtree</tt></a></li>
-<li><a class="reference internal" href="#rmtree-p" id="id161"><tt class="docutils literal">rmtree_p</tt></a></li>
-<li><a class="reference internal" href="#root" id="id162"><tt class="docutils literal">root</tt></a></li>
-<li><a class="reference internal" href="#rpartition" id="id163"><tt class="docutils literal">rpartition</tt></a></li>
-<li><a class="reference internal" href="#rsplit" id="id164"><tt class="docutils literal">rsplit</tt></a></li>
-<li><a class="reference internal" href="#rstrip" id="id165"><tt class="docutils literal">rstrip</tt></a></li>
-<li><a class="reference internal" href="#samefile" id="id166"><tt class="docutils literal">samefile</tt></a></li>
-<li><a class="reference internal" href="#sameopenfile" id="id167"><tt class="docutils literal">sameopenfile</tt></a></li>
-<li><a class="reference internal" href="#samestat" id="id168"><tt class="docutils literal">samestat</tt></a></li>
-<li><a class="reference internal" href="#sep" id="id169"><tt class="docutils literal">sep</tt></a></li>
-<li><a class="reference internal" href="#size" id="id170"><tt class="docutils literal">size</tt></a></li>
-<li><a class="reference internal" href="#special" id="id171"><tt class="docutils literal">special</tt></a></li>
-<li><a class="reference internal" href="#split" id="id172"><tt class="docutils literal">split</tt></a></li>
-<li><a class="reference internal" href="#splitall" id="id173"><tt class="docutils literal">splitall</tt></a></li>
-<li><a class="reference internal" href="#splitdrive" id="id174"><tt class="docutils literal">splitdrive</tt></a></li>
-<li><a class="reference internal" href="#splitext" id="id175"><tt class="docutils literal">splitext</tt></a></li>
-<li><a class="reference internal" href="#splitlines" id="id176"><tt class="docutils literal">splitlines</tt></a></li>
-<li><a class="reference internal" href="#splitpath" id="id177"><tt class="docutils literal">splitpath</tt></a></li>
-<li><a class="reference internal" href="#splitunc" id="id178"><tt class="docutils literal">splitunc</tt></a></li>
-<li><a class="reference internal" href="#startswith" id="id179"><tt class="docutils literal">startswith</tt></a></li>
-<li><a class="reference internal" href="#stat" id="id180"><tt class="docutils literal">stat</tt></a></li>
-<li><a class="reference internal" href="#statvfs" id="id181"><tt class="docutils literal">statvfs</tt></a></li>
-<li><a class="reference internal" href="#stem" id="id182"><tt class="docutils literal">stem</tt></a></li>
-<li><a class="reference internal" href="#strip" id="id183"><tt class="docutils literal">strip</tt></a></li>
-<li><a class="reference internal" href="#stripext" id="id184"><tt class="docutils literal">stripext</tt></a></li>
-<li><a class="reference internal" href="#suffix" id="id185"><tt class="docutils literal">suffix</tt></a></li>
-<li><a class="reference internal" href="#suffixes" id="id186"><tt class="docutils literal">suffixes</tt></a></li>
-<li><a class="reference internal" href="#swapcase" id="id187"><tt class="docutils literal">swapcase</tt></a></li>
-<li><a class="reference internal" href="#symlink" id="id188"><tt class="docutils literal">symlink</tt></a></li>
-<li><a class="reference internal" href="#symlink-to" id="id189"><tt class="docutils literal">symlink_to</tt></a></li>
-<li><a class="reference internal" href="#text" id="id190"><tt class="docutils literal">text</tt></a></li>
-<li><a class="reference internal" href="#title" id="id191"><tt class="docutils literal">title</tt></a></li>
-<li><a class="reference internal" href="#touch" id="id192"><tt class="docutils literal">touch</tt></a></li>
-<li><a class="reference internal" href="#translate" id="id193"><tt class="docutils literal">translate</tt></a></li>
-<li><a class="reference internal" href="#uncshare" id="id194"><tt class="docutils literal">uncshare</tt></a></li>
-<li><a class="reference internal" href="#unlink" id="id195"><tt class="docutils literal">unlink</tt></a></li>
-<li><a class="reference internal" href="#unlink-p" id="id196"><tt class="docutils literal">unlink_p</tt></a></li>
-<li><a class="reference internal" href="#upper" id="id197"><tt class="docutils literal">upper</tt></a></li>
-<li><a class="reference internal" href="#using-module" id="id198"><tt class="docutils literal">using_module</tt></a></li>
-<li><a class="reference internal" href="#utime" id="id199"><tt class="docutils literal">utime</tt></a></li>
-<li><a class="reference internal" href="#walk" id="id200"><tt class="docutils literal">walk</tt></a></li>
-<li><a class="reference internal" href="#walkdirs" id="id201"><tt class="docutils literal">walkdirs</tt></a></li>
-<li><a class="reference internal" href="#walkfiles" id="id202"><tt class="docutils literal">walkfiles</tt></a></li>
-<li><a class="reference internal" href="#with-name" id="id203"><tt class="docutils literal">with_name</tt></a></li>
-<li><a class="reference internal" href="#with-suffix" id="id204"><tt class="docutils literal">with_suffix</tt></a></li>
-<li><a class="reference internal" href="#write-bytes" id="id205"><tt class="docutils literal">write_bytes</tt></a></li>
-<li><a class="reference internal" href="#write-lines" id="id206"><tt class="docutils literal">write_lines</tt></a></li>
-<li><a class="reference internal" href="#write-text" id="id207"><tt class="docutils literal">write_text</tt></a></li>
-<li><a class="reference internal" href="#zfill" id="id208"><tt class="docutils literal">zfill</tt></a></li>
+<li><a class="reference internal" href="#attrs" id="id22">attrs</a><ul>
+<li><a class="reference internal" href="#div" id="id23"><tt class="docutils literal">__div__</tt></a></li>
+<li><a class="reference internal" href="#rdiv" id="id24"><tt class="docutils literal">__rdiv__</tt></a></li>
+<li><a class="reference internal" href="#absolute" id="id25"><tt class="docutils literal">absolute</tt></a></li>
+<li><a class="reference internal" href="#abspath" id="id26"><tt class="docutils literal">abspath</tt></a></li>
+<li><a class="reference internal" href="#access" id="id27"><tt class="docutils literal">access</tt></a></li>
+<li><a class="reference internal" href="#altsep" id="id28"><tt class="docutils literal">altsep</tt></a></li>
+<li><a class="reference internal" href="#anchor" id="id29"><tt class="docutils literal">anchor</tt></a></li>
+<li><a class="reference internal" href="#as-posix" id="id30"><tt class="docutils literal">as_posix</tt></a></li>
+<li><a class="reference internal" href="#as-uri" id="id31"><tt class="docutils literal">as_uri</tt></a></li>
+<li><a class="reference internal" href="#atime" id="id32"><tt class="docutils literal">atime</tt></a></li>
+<li><a class="reference internal" href="#basename" id="id33"><tt class="docutils literal">basename</tt></a></li>
+<li><a class="reference internal" href="#bytes" id="id34"><tt class="docutils literal">bytes</tt></a></li>
+<li><a class="reference internal" href="#capitalize" id="id35"><tt class="docutils literal">capitalize</tt></a></li>
+<li><a class="reference internal" href="#casefold" id="id36"><tt class="docutils literal">casefold</tt></a></li>
+<li><a class="reference internal" href="#cd" id="id37"><tt class="docutils literal">cd</tt></a></li>
+<li><a class="reference internal" href="#center" id="id38"><tt class="docutils literal">center</tt></a></li>
+<li><a class="reference internal" href="#chdir" id="id39"><tt class="docutils literal">chdir</tt></a></li>
+<li><a class="reference internal" href="#chmod" id="id40"><tt class="docutils literal">chmod</tt></a></li>
+<li><a class="reference internal" href="#chown" id="id41"><tt class="docutils literal">chown</tt></a></li>
+<li><a class="reference internal" href="#chroot" id="id42"><tt class="docutils literal">chroot</tt></a></li>
+<li><a class="reference internal" href="#chunks" id="id43"><tt class="docutils literal">chunks</tt></a></li>
+<li><a class="reference internal" href="#commonpath" id="id44"><tt class="docutils literal">commonpath</tt></a></li>
+<li><a class="reference internal" href="#commonprefix" id="id45"><tt class="docutils literal">commonprefix</tt></a></li>
+<li><a class="reference internal" href="#copy" id="id46"><tt class="docutils literal">copy</tt></a></li>
+<li><a class="reference internal" href="#copy2" id="id47"><tt class="docutils literal">copy2</tt></a></li>
+<li><a class="reference internal" href="#copyfile" id="id48"><tt class="docutils literal">copyfile</tt></a></li>
+<li><a class="reference internal" href="#copymode" id="id49"><tt class="docutils literal">copymode</tt></a></li>
+<li><a class="reference internal" href="#copystat" id="id50"><tt class="docutils literal">copystat</tt></a></li>
+<li><a class="reference internal" href="#copytree" id="id51"><tt class="docutils literal">copytree</tt></a></li>
+<li><a class="reference internal" href="#count" id="id52"><tt class="docutils literal">count</tt></a></li>
+<li><a class="reference internal" href="#ctime" id="id53"><tt class="docutils literal">ctime</tt></a></li>
+<li><a class="reference internal" href="#curdir" id="id54"><tt class="docutils literal">curdir</tt></a></li>
+<li><a class="reference internal" href="#cwd" id="id55"><tt class="docutils literal">cwd</tt></a></li>
+<li><a class="reference internal" href="#defpath" id="id56"><tt class="docutils literal">defpath</tt></a></li>
+<li><a class="reference internal" href="#devnull" id="id57"><tt class="docutils literal">devnull</tt></a></li>
+<li><a class="reference internal" href="#dirname" id="id58"><tt class="docutils literal">dirname</tt></a></li>
+<li><a class="reference internal" href="#dirs" id="id59"><tt class="docutils literal">dirs</tt></a></li>
+<li><a class="reference internal" href="#drive" id="id60"><tt class="docutils literal">drive</tt></a></li>
+<li><a class="reference internal" href="#encode" id="id61"><tt class="docutils literal">encode</tt></a></li>
+<li><a class="reference internal" href="#endswith" id="id62"><tt class="docutils literal">endswith</tt></a></li>
+<li><a class="reference internal" href="#exists" id="id63"><tt class="docutils literal">exists</tt></a></li>
+<li><a class="reference internal" href="#expand" id="id64"><tt class="docutils literal">expand</tt></a></li>
+<li><a class="reference internal" href="#expandtabs" id="id65"><tt class="docutils literal">expandtabs</tt></a></li>
+<li><a class="reference internal" href="#expanduser" id="id66"><tt class="docutils literal">expanduser</tt></a></li>
+<li><a class="reference internal" href="#expandvars" id="id67"><tt class="docutils literal">expandvars</tt></a></li>
+<li><a class="reference internal" href="#ext" id="id68"><tt class="docutils literal">ext</tt></a></li>
+<li><a class="reference internal" href="#extsep" id="id69"><tt class="docutils literal">extsep</tt></a></li>
+<li><a class="reference internal" href="#files" id="id70"><tt class="docutils literal">files</tt></a></li>
+<li><a class="reference internal" href="#find" id="id71"><tt class="docutils literal">find</tt></a></li>
+<li><a class="reference internal" href="#fnmatch" id="id72"><tt class="docutils literal">fnmatch</tt></a></li>
+<li><a class="reference internal" href="#format" id="id73"><tt class="docutils literal">format</tt></a></li>
+<li><a class="reference internal" href="#format-map" id="id74"><tt class="docutils literal">format_map</tt></a></li>
+<li><a class="reference internal" href="#get-owner" id="id75"><tt class="docutils literal">get_owner</tt></a></li>
+<li><a class="reference internal" href="#getatime" id="id76"><tt class="docutils literal">getatime</tt></a></li>
+<li><a class="reference internal" href="#getctime" id="id77"><tt class="docutils literal">getctime</tt></a></li>
+<li><a class="reference internal" href="#getcwd" id="id78"><tt class="docutils literal">getcwd</tt></a></li>
+<li><a class="reference internal" href="#getmtime" id="id79"><tt class="docutils literal">getmtime</tt></a></li>
+<li><a class="reference internal" href="#getsize" id="id80"><tt class="docutils literal">getsize</tt></a></li>
+<li><a class="reference internal" href="#glob" id="id81"><tt class="docutils literal">glob</tt></a></li>
+<li><a class="reference internal" href="#group" id="id82"><tt class="docutils literal">group</tt></a></li>
+<li><a class="reference internal" href="#home" id="id83"><tt class="docutils literal">home</tt></a></li>
+<li><a class="reference internal" href="#in-place" id="id84"><tt class="docutils literal">in_place</tt></a></li>
+<li><a class="reference internal" href="#index" id="id85"><tt class="docutils literal">index</tt></a></li>
+<li><a class="reference internal" href="#is-absolute" id="id86"><tt class="docutils literal">is_absolute</tt></a></li>
+<li><a class="reference internal" href="#is-block-device" id="id87"><tt class="docutils literal">is_block_device</tt></a></li>
+<li><a class="reference internal" href="#is-char-device" id="id88"><tt class="docutils literal">is_char_device</tt></a></li>
+<li><a class="reference internal" href="#is-dir" id="id89"><tt class="docutils literal">is_dir</tt></a></li>
+<li><a class="reference internal" href="#is-fifo" id="id90"><tt class="docutils literal">is_fifo</tt></a></li>
+<li><a class="reference internal" href="#is-file" id="id91"><tt class="docutils literal">is_file</tt></a></li>
+<li><a class="reference internal" href="#is-reserved" id="id92"><tt class="docutils literal">is_reserved</tt></a></li>
+<li><a class="reference internal" href="#is-socket" id="id93"><tt class="docutils literal">is_socket</tt></a></li>
+<li><a class="reference internal" href="#is-symlink" id="id94"><tt class="docutils literal">is_symlink</tt></a></li>
+<li><a class="reference internal" href="#isabs" id="id95"><tt class="docutils literal">isabs</tt></a></li>
+<li><a class="reference internal" href="#isalnum" id="id96"><tt class="docutils literal">isalnum</tt></a></li>
+<li><a class="reference internal" href="#isalpha" id="id97"><tt class="docutils literal">isalpha</tt></a></li>
+<li><a class="reference internal" href="#isdecimal" id="id98"><tt class="docutils literal">isdecimal</tt></a></li>
+<li><a class="reference internal" href="#isdigit" id="id99"><tt class="docutils literal">isdigit</tt></a></li>
+<li><a class="reference internal" href="#isdir" id="id100"><tt class="docutils literal">isdir</tt></a></li>
+<li><a class="reference internal" href="#isfile" id="id101"><tt class="docutils literal">isfile</tt></a></li>
+<li><a class="reference internal" href="#isidentifier" id="id102"><tt class="docutils literal">isidentifier</tt></a></li>
+<li><a class="reference internal" href="#islink" id="id103"><tt class="docutils literal">islink</tt></a></li>
+<li><a class="reference internal" href="#islower" id="id104"><tt class="docutils literal">islower</tt></a></li>
+<li><a class="reference internal" href="#ismount" id="id105"><tt class="docutils literal">ismount</tt></a></li>
+<li><a class="reference internal" href="#isnumeric" id="id106"><tt class="docutils literal">isnumeric</tt></a></li>
+<li><a class="reference internal" href="#isprintable" id="id107"><tt class="docutils literal">isprintable</tt></a></li>
+<li><a class="reference internal" href="#isspace" id="id108"><tt class="docutils literal">isspace</tt></a></li>
+<li><a class="reference internal" href="#istitle" id="id109"><tt class="docutils literal">istitle</tt></a></li>
+<li><a class="reference internal" href="#isupper" id="id110"><tt class="docutils literal">isupper</tt></a></li>
+<li><a class="reference internal" href="#iterdir" id="id111"><tt class="docutils literal">iterdir</tt></a></li>
+<li><a class="reference internal" href="#join" id="id112"><tt class="docutils literal">join</tt></a></li>
+<li><a class="reference internal" href="#joinpath" id="id113"><tt class="docutils literal">joinpath</tt></a></li>
+<li><a class="reference internal" href="#lchmod" id="id114"><tt class="docutils literal">lchmod</tt></a></li>
+<li><a class="reference internal" href="#lexists" id="id115"><tt class="docutils literal">lexists</tt></a></li>
+<li><a class="reference internal" href="#lines" id="id116"><tt class="docutils literal">lines</tt></a></li>
+<li><a class="reference internal" href="#link" id="id117"><tt class="docutils literal">link</tt></a></li>
+<li><a class="reference internal" href="#listdir" id="id118"><tt class="docutils literal">listdir</tt></a></li>
+<li><a class="reference internal" href="#ljust" id="id119"><tt class="docutils literal">ljust</tt></a></li>
+<li><a class="reference internal" href="#lower" id="id120"><tt class="docutils literal">lower</tt></a></li>
+<li><a class="reference internal" href="#lstat" id="id121"><tt class="docutils literal">lstat</tt></a></li>
+<li><a class="reference internal" href="#lstrip" id="id122"><tt class="docutils literal">lstrip</tt></a></li>
+<li><a class="reference internal" href="#makedirs" id="id123"><tt class="docutils literal">makedirs</tt></a></li>
+<li><a class="reference internal" href="#makedirs-p" id="id124"><tt class="docutils literal">makedirs_p</tt></a></li>
+<li><a class="reference internal" href="#maketrans" id="id125"><tt class="docutils literal">maketrans</tt></a></li>
+<li><a class="reference internal" href="#match" id="id126"><tt class="docutils literal">match</tt></a></li>
+<li><a class="reference internal" href="#merge-tree" id="id127"><tt class="docutils literal">merge_tree</tt></a></li>
+<li><a class="reference internal" href="#mkdir" id="id128"><tt class="docutils literal">mkdir</tt></a></li>
+<li><a class="reference internal" href="#mkdir-p" id="id129"><tt class="docutils literal">mkdir_p</tt></a></li>
+<li><a class="reference internal" href="#module" id="id130"><tt class="docutils literal">module</tt></a></li>
+<li><a class="reference internal" href="#move" id="id131"><tt class="docutils literal">move</tt></a></li>
+<li><a class="reference internal" href="#mtime" id="id132"><tt class="docutils literal">mtime</tt></a></li>
+<li><a class="reference internal" href="#name" id="id133"><tt class="docutils literal">name</tt></a></li>
+<li><a class="reference internal" href="#namebase" id="id134"><tt class="docutils literal">namebase</tt></a></li>
+<li><a class="reference internal" href="#normcase" id="id135"><tt class="docutils literal">normcase</tt></a></li>
+<li><a class="reference internal" href="#normpath" id="id136"><tt class="docutils literal">normpath</tt></a></li>
+<li><a class="reference internal" href="#open" id="id137"><tt class="docutils literal">open</tt></a></li>
+<li><a class="reference internal" href="#os" id="id138"><tt class="docutils literal">os</tt></a></li>
+<li><a class="reference internal" href="#owner" id="id139"><tt class="docutils literal">owner</tt></a></li>
+<li><a class="reference internal" href="#pardir" id="id140"><tt class="docutils literal">pardir</tt></a></li>
+<li><a class="reference internal" href="#parent" id="id141"><tt class="docutils literal">parent</tt></a></li>
+<li><a class="reference internal" href="#parents" id="id142"><tt class="docutils literal">parents</tt></a></li>
+<li><a class="reference internal" href="#partition" id="id143"><tt class="docutils literal">partition</tt></a></li>
+<li><a class="reference internal" href="#parts" id="id144"><tt class="docutils literal">parts</tt></a></li>
+<li><a class="reference internal" href="#pathconf" id="id145"><tt class="docutils literal">pathconf</tt></a></li>
+<li><a class="reference internal" href="#pathsep" id="id146"><tt class="docutils literal">pathsep</tt></a></li>
+<li><a class="reference internal" href="#read-bytes" id="id147"><tt class="docutils literal">read_bytes</tt></a></li>
+<li><a class="reference internal" href="#read-hash" id="id148"><tt class="docutils literal">read_hash</tt></a></li>
+<li><a class="reference internal" href="#read-hexhash" id="id149"><tt class="docutils literal">read_hexhash</tt></a></li>
+<li><a class="reference internal" href="#read-md5" id="id150"><tt class="docutils literal">read_md5</tt></a></li>
+<li><a class="reference internal" href="#read-text" id="id151"><tt class="docutils literal">read_text</tt></a></li>
+<li><a class="reference internal" href="#readlink" id="id152"><tt class="docutils literal">readlink</tt></a></li>
+<li><a class="reference internal" href="#readlinkabs" id="id153"><tt class="docutils literal">readlinkabs</tt></a></li>
+<li><a class="reference internal" href="#realpath" id="id154"><tt class="docutils literal">realpath</tt></a></li>
+<li><a class="reference internal" href="#relative-to" id="id155"><tt class="docutils literal">relative_to</tt></a></li>
+<li><a class="reference internal" href="#relpath" id="id156"><tt class="docutils literal">relpath</tt></a></li>
+<li><a class="reference internal" href="#relpathto" id="id157"><tt class="docutils literal">relpathto</tt></a></li>
+<li><a class="reference internal" href="#remove" id="id158"><tt class="docutils literal">remove</tt></a></li>
+<li><a class="reference internal" href="#remove-p" id="id159"><tt class="docutils literal">remove_p</tt></a></li>
+<li><a class="reference internal" href="#removedirs" id="id160"><tt class="docutils literal">removedirs</tt></a></li>
+<li><a class="reference internal" href="#removedirs-p" id="id161"><tt class="docutils literal">removedirs_p</tt></a></li>
+<li><a class="reference internal" href="#rename" id="id162"><tt class="docutils literal">rename</tt></a></li>
+<li><a class="reference internal" href="#renames" id="id163"><tt class="docutils literal">renames</tt></a></li>
+<li><a class="reference internal" href="#replace" id="id164"><tt class="docutils literal">replace</tt></a></li>
+<li><a class="reference internal" href="#resolve" id="id165"><tt class="docutils literal">resolve</tt></a></li>
+<li><a class="reference internal" href="#rfind" id="id166"><tt class="docutils literal">rfind</tt></a></li>
+<li><a class="reference internal" href="#rglob" id="id167"><tt class="docutils literal">rglob</tt></a></li>
+<li><a class="reference internal" href="#rindex" id="id168"><tt class="docutils literal">rindex</tt></a></li>
+<li><a class="reference internal" href="#rjust" id="id169"><tt class="docutils literal">rjust</tt></a></li>
+<li><a class="reference internal" href="#rmdir" id="id170"><tt class="docutils literal">rmdir</tt></a></li>
+<li><a class="reference internal" href="#rmdir-p" id="id171"><tt class="docutils literal">rmdir_p</tt></a></li>
+<li><a class="reference internal" href="#rmtree" id="id172"><tt class="docutils literal">rmtree</tt></a></li>
+<li><a class="reference internal" href="#rmtree-p" id="id173"><tt class="docutils literal">rmtree_p</tt></a></li>
+<li><a class="reference internal" href="#root" id="id174"><tt class="docutils literal">root</tt></a></li>
+<li><a class="reference internal" href="#rpartition" id="id175"><tt class="docutils literal">rpartition</tt></a></li>
+<li><a class="reference internal" href="#rsplit" id="id176"><tt class="docutils literal">rsplit</tt></a></li>
+<li><a class="reference internal" href="#rstrip" id="id177"><tt class="docutils literal">rstrip</tt></a></li>
+<li><a class="reference internal" href="#samefile" id="id178"><tt class="docutils literal">samefile</tt></a></li>
+<li><a class="reference internal" href="#sameopenfile" id="id179"><tt class="docutils literal">sameopenfile</tt></a></li>
+<li><a class="reference internal" href="#samestat" id="id180"><tt class="docutils literal">samestat</tt></a></li>
+<li><a class="reference internal" href="#sep" id="id181"><tt class="docutils literal">sep</tt></a></li>
+<li><a class="reference internal" href="#size" id="id182"><tt class="docutils literal">size</tt></a></li>
+<li><a class="reference internal" href="#special" id="id183"><tt class="docutils literal">special</tt></a></li>
+<li><a class="reference internal" href="#split" id="id184"><tt class="docutils literal">split</tt></a></li>
+<li><a class="reference internal" href="#splitall" id="id185"><tt class="docutils literal">splitall</tt></a></li>
+<li><a class="reference internal" href="#splitdrive" id="id186"><tt class="docutils literal">splitdrive</tt></a></li>
+<li><a class="reference internal" href="#splitext" id="id187"><tt class="docutils literal">splitext</tt></a></li>
+<li><a class="reference internal" href="#splitlines" id="id188"><tt class="docutils literal">splitlines</tt></a></li>
+<li><a class="reference internal" href="#splitpath" id="id189"><tt class="docutils literal">splitpath</tt></a></li>
+<li><a class="reference internal" href="#splitunc" id="id190"><tt class="docutils literal">splitunc</tt></a></li>
+<li><a class="reference internal" href="#startswith" id="id191"><tt class="docutils literal">startswith</tt></a></li>
+<li><a class="reference internal" href="#stat" id="id192"><tt class="docutils literal">stat</tt></a></li>
+<li><a class="reference internal" href="#statvfs" id="id193"><tt class="docutils literal">statvfs</tt></a></li>
+<li><a class="reference internal" href="#stem" id="id194"><tt class="docutils literal">stem</tt></a></li>
+<li><a class="reference internal" href="#strip" id="id195"><tt class="docutils literal">strip</tt></a></li>
+<li><a class="reference internal" href="#stripext" id="id196"><tt class="docutils literal">stripext</tt></a></li>
+<li><a class="reference internal" href="#suffix" id="id197"><tt class="docutils literal">suffix</tt></a></li>
+<li><a class="reference internal" href="#suffixes" id="id198"><tt class="docutils literal">suffixes</tt></a></li>
+<li><a class="reference internal" href="#swapcase" id="id199"><tt class="docutils literal">swapcase</tt></a></li>
+<li><a class="reference internal" href="#symlink" id="id200"><tt class="docutils literal">symlink</tt></a></li>
+<li><a class="reference internal" href="#symlink-to" id="id201"><tt class="docutils literal">symlink_to</tt></a></li>
+<li><a class="reference internal" href="#text" id="id202"><tt class="docutils literal">text</tt></a></li>
+<li><a class="reference internal" href="#title" id="id203"><tt class="docutils literal">title</tt></a></li>
+<li><a class="reference internal" href="#touch" id="id204"><tt class="docutils literal">touch</tt></a></li>
+<li><a class="reference internal" href="#translate" id="id205"><tt class="docutils literal">translate</tt></a></li>
+<li><a class="reference internal" href="#uncshare" id="id206"><tt class="docutils literal">uncshare</tt></a></li>
+<li><a class="reference internal" href="#unlink" id="id207"><tt class="docutils literal">unlink</tt></a></li>
+<li><a class="reference internal" href="#unlink-p" id="id208"><tt class="docutils literal">unlink_p</tt></a></li>
+<li><a class="reference internal" href="#upper" id="id209"><tt class="docutils literal">upper</tt></a></li>
+<li><a class="reference internal" href="#using-module" id="id210"><tt class="docutils literal">using_module</tt></a></li>
+<li><a class="reference internal" href="#utime" id="id211"><tt class="docutils literal">utime</tt></a></li>
+<li><a class="reference internal" href="#walk" id="id212"><tt class="docutils literal">walk</tt></a></li>
+<li><a class="reference internal" href="#walkdirs" id="id213"><tt class="docutils literal">walkdirs</tt></a></li>
+<li><a class="reference internal" href="#walkfiles" id="id214"><tt class="docutils literal">walkfiles</tt></a></li>
+<li><a class="reference internal" href="#with-name" id="id215"><tt class="docutils literal">with_name</tt></a></li>
+<li><a class="reference internal" href="#with-suffix" id="id216"><tt class="docutils literal">with_suffix</tt></a></li>
+<li><a class="reference internal" href="#write-bytes" id="id217"><tt class="docutils literal">write_bytes</tt></a></li>
+<li><a class="reference internal" href="#write-lines" id="id218"><tt class="docutils literal">write_lines</tt></a></li>
+<li><a class="reference internal" href="#write-text" id="id219"><tt class="docutils literal">write_text</tt></a></li>
+<li><a class="reference internal" href="#zfill" id="id220"><tt class="docutils literal">zfill</tt></a></li>
 </ul>
 </li>
 </ul>
 </div>
 </div>
 <div class="section" id="modules">
-<h1><a class="toc-backref" href="#id4">Modules</a></h1>
+<h1><a class="toc-backref" href="#id16">Modules</a></h1>
 <ul class="simple">
 <li>os<ul>
 <li>Source: <a class="reference external" href="https://github.com/python/cpython/tree/3.6/Lib/os.py">https://github.com/python/cpython/tree/3.6/Lib/os.py</a></li>
@@ -270,9 +270,9 @@
 </ul>
 </div>
 <div class="section" id="sets">
-<h1><a class="toc-backref" href="#id5">Sets</a></h1>
+<h1><a class="toc-backref" href="#id17">Sets</a></h1>
 <div class="section" id="attr-table">
-<h2><a class="toc-backref" href="#id6">attr table</a></h2>
+<h2><a class="toc-backref" href="#id18">attr table</a></h2>
 <table border="1" class="docutils">
 <colgroup>
 <col width="38%" />
@@ -1682,7 +1682,7 @@
 </table>
 </div>
 <div class="section" id="pathlib-and-pathpy">
-<h2><a class="toc-backref" href="#id7">pathlib_and_pathpy</a></h2>
+<h2><a class="toc-backref" href="#id19">pathlib_and_pathpy</a></h2>
 <ul class="simple">
 <li><a class="reference internal" href="#chmod">chmod</a></li>
 <li><a class="reference internal" href="#drive">drive</a></li>
@@ -1710,7 +1710,7 @@
 </ul>
 </div>
 <div class="section" id="pathlib-not-pathpy">
-<h2><a class="toc-backref" href="#id8">pathlib_not_pathpy</a></h2>
+<h2><a class="toc-backref" href="#id20">pathlib_not_pathpy</a></h2>
 <ul class="simple">
 <li><a class="reference internal" href="#absolute">absolute</a></li>
 <li><a class="reference internal" href="#anchor">anchor</a></li>
@@ -1746,7 +1746,7 @@
 </ul>
 </div>
 <div class="section" id="pathpy-not-pathlib">
-<h2><a class="toc-backref" href="#id9">pathpy_not_pathlib</a></h2>
+<h2><a class="toc-backref" href="#id21">pathpy_not_pathlib</a></h2>
 <ul class="simple">
 <li><a class="reference internal" href="#div">__div__</a></li>
 <li><a class="reference internal" href="#rdiv">__rdiv__</a></li>
@@ -1882,11 +1882,14 @@
 </div>
 </div>
 <div class="section" id="attrs">
-<h1><a class="toc-backref" href="#id10">attrs</a></h1>
+<h1><a class="toc-backref" href="#id22">attrs</a></h1>
 <div class="section" id="div">
-<h2><a class="toc-backref" href="#id11"><tt class="docutils literal">__div__</tt></a></h2>
+<h2><a class="toc-backref" href="#id23"><tt class="docutils literal">__div__</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>pathpy.__div__</strong><tt class="docutils literal">(self, rel)</tt></div>
+</div>
+<div class="line-block">
+<div class="line">seealso: <a class="reference external" href="#join">os.path.join</a>, <a class="reference external" href="#joinpath">pathlib.joinpath</a>, <a class="reference external" href="#joinpath">pathpy.joinpath</a>, <a class="reference external" href="#--rdiv--">pathpy.__rdiv__</a></div>
 </div>
 <div class="line-block">
 <div class="line"><strong>pathpy.__div__</strong><tt class="docutils literal">(self, rel)</tt>:</div>
@@ -1905,9 +1908,12 @@
 </pre>
 </div>
 <div class="section" id="rdiv">
-<h2><a class="toc-backref" href="#id12"><tt class="docutils literal">__rdiv__</tt></a></h2>
+<h2><a class="toc-backref" href="#id24"><tt class="docutils literal">__rdiv__</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>pathpy.__rdiv__</strong><tt class="docutils literal">(self, rel)</tt></div>
+</div>
+<div class="line-block">
+<div class="line">seealso: <a class="reference external" href="#--div--">pathpy.__div__</a>, <a class="reference external" href="#join">os.path.join</a>, <a class="reference external" href="#joinpath">pathlib.joinpath</a>, <a class="reference external" href="#joinpath">pathpy.joinpath</a></div>
 </div>
 <div class="line-block">
 <div class="line"><strong>pathpy.__rdiv__</strong><tt class="docutils literal">(self, rel)</tt>:</div>
@@ -1926,7 +1932,7 @@
 </pre>
 </div>
 <div class="section" id="absolute">
-<h2><a class="toc-backref" href="#id13"><tt class="docutils literal">absolute</tt></a></h2>
+<h2><a class="toc-backref" href="#id25"><tt class="docutils literal">absolute</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>pathlib.absolute</strong><tt class="docutils literal">(self)</tt></div>
 </div>
@@ -1958,7 +1964,7 @@
 </pre>
 </div>
 <div class="section" id="abspath">
-<h2><a class="toc-backref" href="#id14"><tt class="docutils literal">abspath</tt></a></h2>
+<h2><a class="toc-backref" href="#id26"><tt class="docutils literal">abspath</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>os.path.abspath</strong><tt class="docutils literal">(path)</tt></div>
 <div class="line"><strong>pathpy.abspath</strong><tt class="docutils literal">(self)</tt></div>
@@ -1990,7 +1996,7 @@
 </pre>
 </div>
 <div class="section" id="access">
-<h2><a class="toc-backref" href="#id15"><tt class="docutils literal">access</tt></a></h2>
+<h2><a class="toc-backref" href="#id27"><tt class="docutils literal">access</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>os.access</strong><tt class="docutils literal">(path, mode, *, dir_fd=None, effective_ids=False, follow_symlinks=True)</tt></div>
 <div class="line"><strong>pathpy.access</strong><tt class="docutils literal">(self, mode)</tt></div>
@@ -2044,7 +2050,7 @@
 </pre>
 </div>
 <div class="section" id="altsep">
-<h2><a class="toc-backref" href="#id16"><tt class="docutils literal">altsep</tt></a></h2>
+<h2><a class="toc-backref" href="#id28"><tt class="docutils literal">altsep</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>os.altsep</strong>:</div>
 <div class="line"><a class="reference external" href="https://github.com/python/cpython/tree/3.6/Lib/os.py">source</a> <a class="reference external" href="https://docs.python.org/3/library/os.html#os.altsep">docs</a></div>
@@ -2053,7 +2059,7 @@
 </div>
 </div>
 <div class="section" id="anchor">
-<h2><a class="toc-backref" href="#id17"><tt class="docutils literal">anchor</tt></a></h2>
+<h2><a class="toc-backref" href="#id29"><tt class="docutils literal">anchor</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>pathlib.anchor</strong>:</div>
 <div class="line"><a class="reference external" href="https://github.com/python/cpython/blob/3.6/Lib/pathlib.py">source</a> <a class="reference external" href="https://docs.python.org/3/library/pathlib.html#pathlib.Path.anchor">docs</a></div>
@@ -2063,7 +2069,7 @@
 </pre>
 </div>
 <div class="section" id="as-posix">
-<h2><a class="toc-backref" href="#id18"><tt class="docutils literal">as_posix</tt></a></h2>
+<h2><a class="toc-backref" href="#id30"><tt class="docutils literal">as_posix</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>pathlib.as_posix</strong><tt class="docutils literal">(self)</tt></div>
 </div>
@@ -2080,7 +2086,7 @@
 </pre>
 </div>
 <div class="section" id="as-uri">
-<h2><a class="toc-backref" href="#id19"><tt class="docutils literal">as_uri</tt></a></h2>
+<h2><a class="toc-backref" href="#id31"><tt class="docutils literal">as_uri</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>pathlib.as_uri</strong><tt class="docutils literal">(self)</tt></div>
 </div>
@@ -2097,9 +2103,9 @@
 </pre>
 </div>
 <div class="section" id="atime">
-<h2><a class="toc-backref" href="#id20"><tt class="docutils literal">atime</tt></a></h2>
+<h2><a class="toc-backref" href="#id32"><tt class="docutils literal">atime</tt></a></h2>
 <div class="line-block">
-<div class="line">seealso: <a class="reference external" href="#getatime">pathpy.getatime</a>, <a class="reference external" href="#getatime">os.path.getatime</a></div>
+<div class="line">seealso: <a class="reference external" href="#getatime">os.path.getatime</a>, <a class="reference external" href="#getatime">pathpy.getatime</a></div>
 </div>
 <div class="line-block">
 <div class="line"><strong>pathpy.atime</strong>:</div>
@@ -2112,10 +2118,13 @@
 </pre>
 </div>
 <div class="section" id="basename">
-<h2><a class="toc-backref" href="#id21"><tt class="docutils literal">basename</tt></a></h2>
+<h2><a class="toc-backref" href="#id33"><tt class="docutils literal">basename</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>os.path.basename</strong><tt class="docutils literal">(p)</tt></div>
 <div class="line"><strong>pathpy.basename</strong><tt class="docutils literal">(self)</tt></div>
+</div>
+<div class="line-block">
+<div class="line">seealso: <a class="reference external" href="#name">pathlib.name</a>, <a class="reference external" href="#name">pathpy.name</a></div>
 </div>
 <div class="line-block">
 <div class="line"><strong>os.path.basename</strong><tt class="docutils literal">(p)</tt>:</div>
@@ -2140,7 +2149,7 @@
 </pre>
 </div>
 <div class="section" id="bytes">
-<h2><a class="toc-backref" href="#id22"><tt class="docutils literal">bytes</tt></a></h2>
+<h2><a class="toc-backref" href="#id34"><tt class="docutils literal">bytes</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>pathpy.bytes</strong><tt class="docutils literal">(self)</tt></div>
 </div>
@@ -2156,7 +2165,7 @@
 </pre>
 </div>
 <div class="section" id="capitalize">
-<h2><a class="toc-backref" href="#id23"><tt class="docutils literal">capitalize</tt></a></h2>
+<h2><a class="toc-backref" href="#id35"><tt class="docutils literal">capitalize</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>pathpy.capitalize</strong>:</div>
 <div class="line"><a class="reference external" href="https://github.com/jaraco/path.py/blob/master/path.py">source</a> <a class="reference external" href="https://pathpy.readthedocs.io/en/latest/api.html#path.Path.capitalize">docs</a></div>
@@ -2169,7 +2178,7 @@
 </pre>
 </div>
 <div class="section" id="casefold">
-<h2><a class="toc-backref" href="#id24"><tt class="docutils literal">casefold</tt></a></h2>
+<h2><a class="toc-backref" href="#id36"><tt class="docutils literal">casefold</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>pathpy.casefold</strong>:</div>
 <div class="line"><a class="reference external" href="https://github.com/jaraco/path.py/blob/master/path.py">source</a> <a class="reference external" href="https://pathpy.readthedocs.io/en/latest/api.html#path.Path.casefold">docs</a></div>
@@ -2181,9 +2190,12 @@
 </pre>
 </div>
 <div class="section" id="cd">
-<h2><a class="toc-backref" href="#id25"><tt class="docutils literal">cd</tt></a></h2>
+<h2><a class="toc-backref" href="#id37"><tt class="docutils literal">cd</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>pathpy.cd</strong><tt class="docutils literal">(self)</tt></div>
+</div>
+<div class="line-block">
+<div class="line">seealso: <a class="reference external" href="#chdir">os.chdir</a></div>
 </div>
 <div class="line-block">
 <div class="line"><strong>pathpy.cd</strong><tt class="docutils literal">(self)</tt>:</div>
@@ -2196,7 +2208,7 @@
 </pre>
 </div>
 <div class="section" id="center">
-<h2><a class="toc-backref" href="#id26"><tt class="docutils literal">center</tt></a></h2>
+<h2><a class="toc-backref" href="#id38"><tt class="docutils literal">center</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>pathpy.center</strong>:</div>
 <div class="line"><a class="reference external" href="https://github.com/jaraco/path.py/blob/master/path.py">source</a> <a class="reference external" href="https://pathpy.readthedocs.io/en/latest/api.html#path.Path.center">docs</a></div>
@@ -2209,10 +2221,13 @@
 </pre>
 </div>
 <div class="section" id="chdir">
-<h2><a class="toc-backref" href="#id27"><tt class="docutils literal">chdir</tt></a></h2>
+<h2><a class="toc-backref" href="#id39"><tt class="docutils literal">chdir</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>os.chdir</strong><tt class="docutils literal">(path)</tt></div>
 <div class="line"><strong>pathpy.chdir</strong><tt class="docutils literal">(self)</tt></div>
+</div>
+<div class="line-block">
+<div class="line">seealso: <a class="reference external" href="#cd">pathpy.cd</a></div>
 </div>
 <div class="line-block">
 <div class="line"><strong>os.chdir</strong><tt class="docutils literal">(path)</tt>:</div>
@@ -2236,7 +2251,7 @@
 </pre>
 </div>
 <div class="section" id="chmod">
-<h2><a class="toc-backref" href="#id28"><tt class="docutils literal">chmod</tt></a></h2>
+<h2><a class="toc-backref" href="#id40"><tt class="docutils literal">chmod</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>os.chmod</strong><tt class="docutils literal">(path, mode, *, dir_fd=None, follow_symlinks=True)</tt></div>
 <div class="line"><strong>pathlib.chmod</strong><tt class="docutils literal">(self, mode)</tt></div>
@@ -2302,7 +2317,7 @@
 </pre>
 </div>
 <div class="section" id="chown">
-<h2><a class="toc-backref" href="#id29"><tt class="docutils literal">chown</tt></a></h2>
+<h2><a class="toc-backref" href="#id41"><tt class="docutils literal">chown</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>os.chown</strong><tt class="docutils literal">(path, uid, gid, *, dir_fd=None, follow_symlinks=True)</tt></div>
 <div class="line"><strong>shutil.chown</strong><tt class="docutils literal">(path, user=None, group=None)</tt></div>
@@ -2399,7 +2414,7 @@
 </pre>
 </div>
 <div class="section" id="chroot">
-<h2><a class="toc-backref" href="#id30"><tt class="docutils literal">chroot</tt></a></h2>
+<h2><a class="toc-backref" href="#id42"><tt class="docutils literal">chroot</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>os.chroot</strong><tt class="docutils literal">(path)</tt></div>
 <div class="line"><strong>pathpy.chroot</strong><tt class="docutils literal">(self)</tt></div>
@@ -2422,7 +2437,7 @@
 </pre>
 </div>
 <div class="section" id="chunks">
-<h2><a class="toc-backref" href="#id31"><tt class="docutils literal">chunks</tt></a></h2>
+<h2><a class="toc-backref" href="#id43"><tt class="docutils literal">chunks</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>pathpy.chunks</strong><tt class="docutils literal">(self, size, *args, **kwargs)</tt></div>
 </div>
@@ -2451,7 +2466,7 @@
 </pre>
 </div>
 <div class="section" id="commonpath">
-<h2><a class="toc-backref" href="#id32"><tt class="docutils literal">commonpath</tt></a></h2>
+<h2><a class="toc-backref" href="#id44"><tt class="docutils literal">commonpath</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>os.path.commonpath</strong><tt class="docutils literal">(paths)</tt></div>
 </div>
@@ -2499,7 +2514,7 @@
 </pre>
 </div>
 <div class="section" id="commonprefix">
-<h2><a class="toc-backref" href="#id33"><tt class="docutils literal">commonprefix</tt></a></h2>
+<h2><a class="toc-backref" href="#id45"><tt class="docutils literal">commonprefix</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>os.path.commonprefix</strong><tt class="docutils literal">(m)</tt></div>
 </div>
@@ -2526,7 +2541,7 @@
 </pre>
 </div>
 <div class="section" id="copy">
-<h2><a class="toc-backref" href="#id34"><tt class="docutils literal">copy</tt></a></h2>
+<h2><a class="toc-backref" href="#id46"><tt class="docutils literal">copy</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>shutil.copy</strong><tt class="docutils literal">(src, dst, *, follow_symlinks=True)</tt></div>
 <div class="line"><strong>pathpy.copy</strong><tt class="docutils literal">(src, dst, *, follow_symlinks=True)</tt></div>
@@ -2579,7 +2594,7 @@
 </pre>
 </div>
 <div class="section" id="copy2">
-<h2><a class="toc-backref" href="#id35"><tt class="docutils literal">copy2</tt></a></h2>
+<h2><a class="toc-backref" href="#id47"><tt class="docutils literal">copy2</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>shutil.copy2</strong><tt class="docutils literal">(src, dst, *, follow_symlinks=True)</tt></div>
 <div class="line"><strong>pathpy.copy2</strong><tt class="docutils literal">(src, dst, *, follow_symlinks=True)</tt></div>
@@ -2628,7 +2643,7 @@
 </pre>
 </div>
 <div class="section" id="copyfile">
-<h2><a class="toc-backref" href="#id36"><tt class="docutils literal">copyfile</tt></a></h2>
+<h2><a class="toc-backref" href="#id48"><tt class="docutils literal">copyfile</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>shutil.copyfile</strong><tt class="docutils literal">(src, dst, *, follow_symlinks=True)</tt></div>
 <div class="line"><strong>pathpy.copyfile</strong><tt class="docutils literal">(src, dst, *, follow_symlinks=True)</tt></div>
@@ -2703,7 +2718,7 @@
 </pre>
 </div>
 <div class="section" id="copymode">
-<h2><a class="toc-backref" href="#id37"><tt class="docutils literal">copymode</tt></a></h2>
+<h2><a class="toc-backref" href="#id49"><tt class="docutils literal">copymode</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>shutil.copymode</strong><tt class="docutils literal">(src, dst, *, follow_symlinks=True)</tt></div>
 <div class="line"><strong>pathpy.copymode</strong><tt class="docutils literal">(src, dst, *, follow_symlinks=True)</tt></div>
@@ -2762,7 +2777,7 @@
 </pre>
 </div>
 <div class="section" id="copystat">
-<h2><a class="toc-backref" href="#id38"><tt class="docutils literal">copystat</tt></a></h2>
+<h2><a class="toc-backref" href="#id50"><tt class="docutils literal">copystat</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>shutil.copystat</strong><tt class="docutils literal">(src, dst, *, follow_symlinks=True)</tt></div>
 <div class="line"><strong>pathpy.copystat</strong><tt class="docutils literal">(src, dst, *, follow_symlinks=True)</tt></div>
@@ -2887,13 +2902,13 @@
 </pre>
 </div>
 <div class="section" id="copytree">
-<h2><a class="toc-backref" href="#id39"><tt class="docutils literal">copytree</tt></a></h2>
+<h2><a class="toc-backref" href="#id51"><tt class="docutils literal">copytree</tt></a></h2>
 <div class="line-block">
-<div class="line"><strong>shutil.copytree</strong><tt class="docutils literal">(src, dst, symlinks=False, ignore=None, <span class="pre">copy_function=&lt;function</span> copy2 at 0x7f9ccc812488&gt;, ignore_dangling_symlinks=False)</tt></div>
-<div class="line"><strong>pathpy.copytree</strong><tt class="docutils literal">(src, dst, symlinks=False, ignore=None, <span class="pre">copy_function=&lt;function</span> copy2 at 0x7f9ccc812488&gt;, ignore_dangling_symlinks=False)</tt></div>
+<div class="line"><strong>shutil.copytree</strong><tt class="docutils literal">(src, dst, symlinks=False, ignore=None, <span class="pre">copy_function=&lt;function</span> copy2 at 0x7fbcedb5c400&gt;, ignore_dangling_symlinks=False)</tt></div>
+<div class="line"><strong>pathpy.copytree</strong><tt class="docutils literal">(src, dst, symlinks=False, ignore=None, <span class="pre">copy_function=&lt;function</span> copy2 at 0x7fbcedb5c400&gt;, ignore_dangling_symlinks=False)</tt></div>
 </div>
 <div class="line-block">
-<div class="line"><strong>shutil.copytree</strong><tt class="docutils literal">(src, dst, symlinks=False, ignore=None, <span class="pre">copy_function=&lt;function</span> copy2 at 0x7f9ccc812488&gt;, ignore_dangling_symlinks=False)</tt>:</div>
+<div class="line"><strong>shutil.copytree</strong><tt class="docutils literal">(src, dst, symlinks=False, ignore=None, <span class="pre">copy_function=&lt;function</span> copy2 at 0x7fbcedb5c400&gt;, ignore_dangling_symlinks=False)</tt>:</div>
 <div class="line"><a class="reference external" href="https://github.com/python/cpython/tree/3.6/Lib/shutil.py">source</a> <a class="reference external" href="https://docs.python.org/3/library/shutil.html#shutil.copytree">docs</a></div>
 </div>
 <pre class="code python literal-block">
@@ -2987,7 +3002,7 @@
     <span class="k">return</span> <span class="n">dst</span>
 </pre>
 <div class="line-block">
-<div class="line"><strong>pathpy.copytree</strong><tt class="docutils literal">(src, dst, symlinks=False, ignore=None, <span class="pre">copy_function=&lt;function</span> copy2 at 0x7f9ccc812488&gt;, ignore_dangling_symlinks=False)</tt>:</div>
+<div class="line"><strong>pathpy.copytree</strong><tt class="docutils literal">(src, dst, symlinks=False, ignore=None, <span class="pre">copy_function=&lt;function</span> copy2 at 0x7fbcedb5c400&gt;, ignore_dangling_symlinks=False)</tt>:</div>
 <div class="line"><a class="reference external" href="https://github.com/jaraco/path.py/blob/master/path.py">source</a> <a class="reference external" href="https://pathpy.readthedocs.io/en/latest/api.html#path.Path.copytree">docs</a></div>
 </div>
 <pre class="code python literal-block">
@@ -3082,7 +3097,7 @@
 </pre>
 </div>
 <div class="section" id="count">
-<h2><a class="toc-backref" href="#id40"><tt class="docutils literal">count</tt></a></h2>
+<h2><a class="toc-backref" href="#id52"><tt class="docutils literal">count</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>pathpy.count</strong>:</div>
 <div class="line"><a class="reference external" href="https://github.com/jaraco/path.py/blob/master/path.py">source</a> <a class="reference external" href="https://pathpy.readthedocs.io/en/latest/api.html#path.Path.count">docs</a></div>
@@ -3096,9 +3111,9 @@
 </pre>
 </div>
 <div class="section" id="ctime">
-<h2><a class="toc-backref" href="#id41"><tt class="docutils literal">ctime</tt></a></h2>
+<h2><a class="toc-backref" href="#id53"><tt class="docutils literal">ctime</tt></a></h2>
 <div class="line-block">
-<div class="line">seealso: <a class="reference external" href="#getctime">pathpy.getctime</a>, <a class="reference external" href="#getctime">os.path.getctime</a></div>
+<div class="line">seealso: <a class="reference external" href="#getctime">os.path.getctime</a>, <a class="reference external" href="#getctime">pathpy.getctime</a></div>
 </div>
 <div class="line-block">
 <div class="line"><strong>pathpy.ctime</strong>:</div>
@@ -3111,7 +3126,7 @@
 </pre>
 </div>
 <div class="section" id="curdir">
-<h2><a class="toc-backref" href="#id42"><tt class="docutils literal">curdir</tt></a></h2>
+<h2><a class="toc-backref" href="#id54"><tt class="docutils literal">curdir</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>os.curdir</strong>:</div>
 <div class="line"><a class="reference external" href="https://github.com/python/cpython/tree/3.6/Lib/os.py">source</a> <a class="reference external" href="https://docs.python.org/3/library/os.html#os.curdir">docs</a></div>
@@ -3146,12 +3161,12 @@
 </pre>
 </div>
 <div class="section" id="cwd">
-<h2><a class="toc-backref" href="#id43"><tt class="docutils literal">cwd</tt></a></h2>
+<h2><a class="toc-backref" href="#id55"><tt class="docutils literal">cwd</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>pathlib.cwd</strong><tt class="docutils literal">()</tt></div>
 </div>
 <div class="line-block">
-<div class="line">seealso: <a class="reference external" href="#getcwd">pathpy.getcwd</a>, <a class="reference external" href="#getcwd">os.getcwd</a></div>
+<div class="line">seealso: <a class="reference external" href="#getcwd">os.getcwd</a>, <a class="reference external" href="#getcwd">pathpy.getcwd</a></div>
 </div>
 <div class="line-block">
 <div class="line"><strong>pathlib.cwd</strong><tt class="docutils literal">()</tt>:</div>
@@ -3167,7 +3182,7 @@
 </pre>
 </div>
 <div class="section" id="defpath">
-<h2><a class="toc-backref" href="#id44"><tt class="docutils literal">defpath</tt></a></h2>
+<h2><a class="toc-backref" href="#id56"><tt class="docutils literal">defpath</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>os.defpath</strong>:</div>
 <div class="line"><a class="reference external" href="https://github.com/python/cpython/tree/3.6/Lib/os.py">source</a> <a class="reference external" href="https://docs.python.org/3/library/os.html#os.defpath">docs</a></div>
@@ -3202,7 +3217,7 @@
 </pre>
 </div>
 <div class="section" id="devnull">
-<h2><a class="toc-backref" href="#id45"><tt class="docutils literal">devnull</tt></a></h2>
+<h2><a class="toc-backref" href="#id57"><tt class="docutils literal">devnull</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>os.devnull</strong>:</div>
 <div class="line"><a class="reference external" href="https://github.com/python/cpython/tree/3.6/Lib/os.py">source</a> <a class="reference external" href="https://docs.python.org/3/library/os.html#os.devnull">docs</a></div>
@@ -3237,10 +3252,13 @@
 </pre>
 </div>
 <div class="section" id="dirname">
-<h2><a class="toc-backref" href="#id46"><tt class="docutils literal">dirname</tt></a></h2>
+<h2><a class="toc-backref" href="#id58"><tt class="docutils literal">dirname</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>os.path.dirname</strong><tt class="docutils literal">(p)</tt></div>
 <div class="line"><strong>pathpy.dirname</strong><tt class="docutils literal">(self)</tt></div>
+</div>
+<div class="line-block">
+<div class="line">seealso: <a class="reference external" href="#parent">pathlib.parent</a>, <a class="reference external" href="#parent">pathpy.parent</a></div>
 </div>
 <div class="line-block">
 <div class="line"><strong>os.path.dirname</strong><tt class="docutils literal">(p)</tt>:</div>
@@ -3268,7 +3286,7 @@
 </pre>
 </div>
 <div class="section" id="dirs">
-<h2><a class="toc-backref" href="#id47"><tt class="docutils literal">dirs</tt></a></h2>
+<h2><a class="toc-backref" href="#id59"><tt class="docutils literal">dirs</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>pathpy.dirs</strong><tt class="docutils literal">(self, pattern=None)</tt></div>
 </div>
@@ -3292,7 +3310,7 @@
 </pre>
 </div>
 <div class="section" id="drive">
-<h2><a class="toc-backref" href="#id48"><tt class="docutils literal">drive</tt></a></h2>
+<h2><a class="toc-backref" href="#id60"><tt class="docutils literal">drive</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>pathlib.drive</strong>:</div>
 <div class="line"><a class="reference external" href="https://github.com/python/cpython/blob/3.6/Lib/pathlib.py">source</a> <a class="reference external" href="https://docs.python.org/3/library/pathlib.html#pathlib.Path.drive">docs</a></div>
@@ -3311,7 +3329,7 @@
 </pre>
 </div>
 <div class="section" id="encode">
-<h2><a class="toc-backref" href="#id49"><tt class="docutils literal">encode</tt></a></h2>
+<h2><a class="toc-backref" href="#id61"><tt class="docutils literal">encode</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>pathpy.encode</strong>:</div>
 <div class="line"><a class="reference external" href="https://github.com/jaraco/path.py/blob/master/path.py">source</a> <a class="reference external" href="https://pathpy.readthedocs.io/en/latest/api.html#path.Path.encode">docs</a></div>
@@ -3328,7 +3346,7 @@
 </pre>
 </div>
 <div class="section" id="endswith">
-<h2><a class="toc-backref" href="#id50"><tt class="docutils literal">endswith</tt></a></h2>
+<h2><a class="toc-backref" href="#id62"><tt class="docutils literal">endswith</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>pathpy.endswith</strong>:</div>
 <div class="line"><a class="reference external" href="https://github.com/jaraco/path.py/blob/master/path.py">source</a> <a class="reference external" href="https://pathpy.readthedocs.io/en/latest/api.html#path.Path.endswith">docs</a></div>
@@ -3343,7 +3361,7 @@
 </pre>
 </div>
 <div class="section" id="exists">
-<h2><a class="toc-backref" href="#id51"><tt class="docutils literal">exists</tt></a></h2>
+<h2><a class="toc-backref" href="#id63"><tt class="docutils literal">exists</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>os.path.exists</strong><tt class="docutils literal">(path)</tt></div>
 <div class="line"><strong>pathlib.exists</strong><tt class="docutils literal">(self)</tt></div>
@@ -3390,7 +3408,7 @@
 </pre>
 </div>
 <div class="section" id="expand">
-<h2><a class="toc-backref" href="#id52"><tt class="docutils literal">expand</tt></a></h2>
+<h2><a class="toc-backref" href="#id64"><tt class="docutils literal">expand</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>pathpy.expand</strong><tt class="docutils literal">(self)</tt></div>
 </div>
@@ -3410,7 +3428,7 @@
 </pre>
 </div>
 <div class="section" id="expandtabs">
-<h2><a class="toc-backref" href="#id53"><tt class="docutils literal">expandtabs</tt></a></h2>
+<h2><a class="toc-backref" href="#id65"><tt class="docutils literal">expandtabs</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>pathpy.expandtabs</strong>:</div>
 <div class="line"><a class="reference external" href="https://github.com/jaraco/path.py/blob/master/path.py">source</a> <a class="reference external" href="https://pathpy.readthedocs.io/en/latest/api.html#path.Path.expandtabs">docs</a></div>
@@ -3423,7 +3441,7 @@
 </pre>
 </div>
 <div class="section" id="expanduser">
-<h2><a class="toc-backref" href="#id54"><tt class="docutils literal">expanduser</tt></a></h2>
+<h2><a class="toc-backref" href="#id66"><tt class="docutils literal">expanduser</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>os.path.expanduser</strong><tt class="docutils literal">(path)</tt></div>
 <div class="line"><strong>pathlib.expanduser</strong><tt class="docutils literal">(self)</tt></div>
@@ -3499,7 +3517,7 @@
 </pre>
 </div>
 <div class="section" id="expandvars">
-<h2><a class="toc-backref" href="#id55"><tt class="docutils literal">expandvars</tt></a></h2>
+<h2><a class="toc-backref" href="#id67"><tt class="docutils literal">expandvars</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>os.path.expandvars</strong><tt class="docutils literal">(path)</tt></div>
 <div class="line"><strong>pathpy.expandvars</strong><tt class="docutils literal">(self)</tt></div>
@@ -3568,7 +3586,7 @@
 </pre>
 </div>
 <div class="section" id="ext">
-<h2><a class="toc-backref" href="#id56"><tt class="docutils literal">ext</tt></a></h2>
+<h2><a class="toc-backref" href="#id68"><tt class="docutils literal">ext</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>pathpy.ext</strong>:</div>
 <div class="line"><a class="reference external" href="https://github.com/jaraco/path.py/blob/master/path.py">source</a> <a class="reference external" href="https://pathpy.readthedocs.io/en/latest/api.html#path.Path.ext">docs</a></div>
@@ -3578,7 +3596,7 @@
 </pre>
 </div>
 <div class="section" id="extsep">
-<h2><a class="toc-backref" href="#id57"><tt class="docutils literal">extsep</tt></a></h2>
+<h2><a class="toc-backref" href="#id69"><tt class="docutils literal">extsep</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>os.extsep</strong>:</div>
 <div class="line"><a class="reference external" href="https://github.com/python/cpython/tree/3.6/Lib/os.py">source</a> <a class="reference external" href="https://docs.python.org/3/library/os.html#os.extsep">docs</a></div>
@@ -3613,7 +3631,7 @@
 </pre>
 </div>
 <div class="section" id="files">
-<h2><a class="toc-backref" href="#id58"><tt class="docutils literal">files</tt></a></h2>
+<h2><a class="toc-backref" href="#id70"><tt class="docutils literal">files</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>pathpy.files</strong><tt class="docutils literal">(self, pattern=None)</tt></div>
 </div>
@@ -3637,7 +3655,7 @@
 </pre>
 </div>
 <div class="section" id="find">
-<h2><a class="toc-backref" href="#id59"><tt class="docutils literal">find</tt></a></h2>
+<h2><a class="toc-backref" href="#id71"><tt class="docutils literal">find</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>pathpy.find</strong>:</div>
 <div class="line"><a class="reference external" href="https://github.com/jaraco/path.py/blob/master/path.py">source</a> <a class="reference external" href="https://pathpy.readthedocs.io/en/latest/api.html#path.Path.find">docs</a></div>
@@ -3653,7 +3671,7 @@
 </pre>
 </div>
 <div class="section" id="fnmatch">
-<h2><a class="toc-backref" href="#id60"><tt class="docutils literal">fnmatch</tt></a></h2>
+<h2><a class="toc-backref" href="#id72"><tt class="docutils literal">fnmatch</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>pathpy.fnmatch</strong><tt class="docutils literal">(self, pattern, normcase=None)</tt></div>
 </div>
@@ -3699,7 +3717,7 @@
 </pre>
 </div>
 <div class="section" id="format">
-<h2><a class="toc-backref" href="#id61"><tt class="docutils literal">format</tt></a></h2>
+<h2><a class="toc-backref" href="#id73"><tt class="docutils literal">format</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>pathpy.format</strong>:</div>
 <div class="line"><a class="reference external" href="https://github.com/jaraco/path.py/blob/master/path.py">source</a> <a class="reference external" href="https://pathpy.readthedocs.io/en/latest/api.html#path.Path.format">docs</a></div>
@@ -3712,7 +3730,7 @@
 </pre>
 </div>
 <div class="section" id="format-map">
-<h2><a class="toc-backref" href="#id62"><tt class="docutils literal">format_map</tt></a></h2>
+<h2><a class="toc-backref" href="#id74"><tt class="docutils literal">format_map</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>pathpy.format_map</strong>:</div>
 <div class="line"><a class="reference external" href="https://github.com/jaraco/path.py/blob/master/path.py">source</a> <a class="reference external" href="https://pathpy.readthedocs.io/en/latest/api.html#path.Path.format_map">docs</a></div>
@@ -3725,7 +3743,7 @@
 </pre>
 </div>
 <div class="section" id="get-owner">
-<h2><a class="toc-backref" href="#id63"><tt class="docutils literal">get_owner</tt></a></h2>
+<h2><a class="toc-backref" href="#id75"><tt class="docutils literal">get_owner</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>pathpy.get_owner</strong><tt class="docutils literal">(self)</tt></div>
 </div>
@@ -3749,7 +3767,7 @@
 </pre>
 </div>
 <div class="section" id="getatime">
-<h2><a class="toc-backref" href="#id64"><tt class="docutils literal">getatime</tt></a></h2>
+<h2><a class="toc-backref" href="#id76"><tt class="docutils literal">getatime</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>os.path.getatime</strong><tt class="docutils literal">(filename)</tt></div>
 <div class="line"><strong>pathpy.getatime</strong><tt class="docutils literal">(self)</tt></div>
@@ -3777,7 +3795,7 @@
 </pre>
 </div>
 <div class="section" id="getctime">
-<h2><a class="toc-backref" href="#id65"><tt class="docutils literal">getctime</tt></a></h2>
+<h2><a class="toc-backref" href="#id77"><tt class="docutils literal">getctime</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>os.path.getctime</strong><tt class="docutils literal">(filename)</tt></div>
 <div class="line"><strong>pathpy.getctime</strong><tt class="docutils literal">(self)</tt></div>
@@ -3805,7 +3823,7 @@
 </pre>
 </div>
 <div class="section" id="getcwd">
-<h2><a class="toc-backref" href="#id66"><tt class="docutils literal">getcwd</tt></a></h2>
+<h2><a class="toc-backref" href="#id78"><tt class="docutils literal">getcwd</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>os.getcwd</strong><tt class="docutils literal">()</tt></div>
 <div class="line"><strong>pathpy.getcwd</strong><tt class="docutils literal">()</tt></div>
@@ -3835,7 +3853,7 @@
 </pre>
 </div>
 <div class="section" id="getmtime">
-<h2><a class="toc-backref" href="#id67"><tt class="docutils literal">getmtime</tt></a></h2>
+<h2><a class="toc-backref" href="#id79"><tt class="docutils literal">getmtime</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>os.path.getmtime</strong><tt class="docutils literal">(filename)</tt></div>
 <div class="line"><strong>pathpy.getmtime</strong><tt class="docutils literal">(self)</tt></div>
@@ -3863,7 +3881,7 @@
 </pre>
 </div>
 <div class="section" id="getsize">
-<h2><a class="toc-backref" href="#id68"><tt class="docutils literal">getsize</tt></a></h2>
+<h2><a class="toc-backref" href="#id80"><tt class="docutils literal">getsize</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>os.path.getsize</strong><tt class="docutils literal">(filename)</tt></div>
 <div class="line"><strong>pathpy.getsize</strong><tt class="docutils literal">(self)</tt></div>
@@ -3891,7 +3909,7 @@
 </pre>
 </div>
 <div class="section" id="glob">
-<h2><a class="toc-backref" href="#id69"><tt class="docutils literal">glob</tt></a></h2>
+<h2><a class="toc-backref" href="#id81"><tt class="docutils literal">glob</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>pathlib.glob</strong><tt class="docutils literal">(self, pattern)</tt></div>
 <div class="line"><strong>pathpy.glob</strong><tt class="docutils literal">(self, pattern)</tt></div>
@@ -3935,7 +3953,7 @@
 </pre>
 </div>
 <div class="section" id="group">
-<h2><a class="toc-backref" href="#id70"><tt class="docutils literal">group</tt></a></h2>
+<h2><a class="toc-backref" href="#id82"><tt class="docutils literal">group</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>pathlib.group</strong><tt class="docutils literal">(self)</tt></div>
 </div>
@@ -3953,7 +3971,7 @@
 </pre>
 </div>
 <div class="section" id="home">
-<h2><a class="toc-backref" href="#id71"><tt class="docutils literal">home</tt></a></h2>
+<h2><a class="toc-backref" href="#id83"><tt class="docutils literal">home</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>pathlib.home</strong><tt class="docutils literal">()</tt></div>
 </div>
@@ -3971,7 +3989,7 @@
 </pre>
 </div>
 <div class="section" id="in-place">
-<h2><a class="toc-backref" href="#id72"><tt class="docutils literal">in_place</tt></a></h2>
+<h2><a class="toc-backref" href="#id84"><tt class="docutils literal">in_place</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>pathpy.in_place</strong><tt class="docutils literal">(self, <span class="pre">mode='r',</span> <span class="pre">buffering=-1,</span> encoding=None, errors=None, newline=None, backup_extension=None)</tt></div>
 </div>
@@ -4073,7 +4091,7 @@
 </pre>
 </div>
 <div class="section" id="index">
-<h2><a class="toc-backref" href="#id73"><tt class="docutils literal">index</tt></a></h2>
+<h2><a class="toc-backref" href="#id85"><tt class="docutils literal">index</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>pathpy.index</strong>:</div>
 <div class="line"><a class="reference external" href="https://github.com/jaraco/path.py/blob/master/path.py">source</a> <a class="reference external" href="https://pathpy.readthedocs.io/en/latest/api.html#path.Path.index">docs</a></div>
@@ -4089,12 +4107,12 @@
 </pre>
 </div>
 <div class="section" id="is-absolute">
-<h2><a class="toc-backref" href="#id74"><tt class="docutils literal">is_absolute</tt></a></h2>
+<h2><a class="toc-backref" href="#id86"><tt class="docutils literal">is_absolute</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>pathlib.is_absolute</strong><tt class="docutils literal">(self)</tt></div>
 </div>
 <div class="line-block">
-<div class="line">seealso: <a class="reference external" href="#absolute">pathlib.absolute</a>, <a class="reference external" href="#isabs">pathpy.isabs</a>, <a class="reference external" href="#isabs">os.path.isabs</a></div>
+<div class="line">seealso: <a class="reference external" href="#absolute">pathlib.absolute</a>, <a class="reference external" href="#isabs">os.path.isabs</a>, <a class="reference external" href="#isabs">pathpy.isabs</a></div>
 </div>
 <div class="line-block">
 <div class="line"><strong>pathlib.is_absolute</strong><tt class="docutils literal">(self)</tt>:</div>
@@ -4110,7 +4128,7 @@
 </pre>
 </div>
 <div class="section" id="is-block-device">
-<h2><a class="toc-backref" href="#id75"><tt class="docutils literal">is_block_device</tt></a></h2>
+<h2><a class="toc-backref" href="#id87"><tt class="docutils literal">is_block_device</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>pathlib.is_block_device</strong><tt class="docutils literal">(self)</tt></div>
 </div>
@@ -4134,7 +4152,7 @@
 </pre>
 </div>
 <div class="section" id="is-char-device">
-<h2><a class="toc-backref" href="#id76"><tt class="docutils literal">is_char_device</tt></a></h2>
+<h2><a class="toc-backref" href="#id88"><tt class="docutils literal">is_char_device</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>pathlib.is_char_device</strong><tt class="docutils literal">(self)</tt></div>
 </div>
@@ -4158,12 +4176,12 @@
 </pre>
 </div>
 <div class="section" id="is-dir">
-<h2><a class="toc-backref" href="#id77"><tt class="docutils literal">is_dir</tt></a></h2>
+<h2><a class="toc-backref" href="#id89"><tt class="docutils literal">is_dir</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>pathlib.is_dir</strong><tt class="docutils literal">(self)</tt></div>
 </div>
 <div class="line-block">
-<div class="line">seealso: <a class="reference external" href="#isdir">pathpy.isdir</a>, <a class="reference external" href="#isdir">os.path.isdir</a></div>
+<div class="line">seealso: <a class="reference external" href="#isdir">os.path.isdir</a>, <a class="reference external" href="#isdir">pathpy.isdir</a></div>
 </div>
 <div class="line-block">
 <div class="line"><strong>pathlib.is_dir</strong><tt class="docutils literal">(self)</tt>:</div>
@@ -4185,7 +4203,7 @@
 </pre>
 </div>
 <div class="section" id="is-fifo">
-<h2><a class="toc-backref" href="#id78"><tt class="docutils literal">is_fifo</tt></a></h2>
+<h2><a class="toc-backref" href="#id90"><tt class="docutils literal">is_fifo</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>pathlib.is_fifo</strong><tt class="docutils literal">(self)</tt></div>
 </div>
@@ -4209,12 +4227,12 @@
 </pre>
 </div>
 <div class="section" id="is-file">
-<h2><a class="toc-backref" href="#id79"><tt class="docutils literal">is_file</tt></a></h2>
+<h2><a class="toc-backref" href="#id91"><tt class="docutils literal">is_file</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>pathlib.is_file</strong><tt class="docutils literal">(self)</tt></div>
 </div>
 <div class="line-block">
-<div class="line">seealso: <a class="reference external" href="#isfile">pathpy.isfile</a>, <a class="reference external" href="#isfile">os.path.isfile</a></div>
+<div class="line">seealso: <a class="reference external" href="#isfile">os.path.isfile</a>, <a class="reference external" href="#isfile">pathpy.isfile</a></div>
 </div>
 <div class="line-block">
 <div class="line"><strong>pathlib.is_file</strong><tt class="docutils literal">(self)</tt>:</div>
@@ -4237,7 +4255,7 @@
 </pre>
 </div>
 <div class="section" id="is-reserved">
-<h2><a class="toc-backref" href="#id80"><tt class="docutils literal">is_reserved</tt></a></h2>
+<h2><a class="toc-backref" href="#id92"><tt class="docutils literal">is_reserved</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>pathlib.is_reserved</strong><tt class="docutils literal">(self)</tt></div>
 </div>
@@ -4253,7 +4271,7 @@
 </pre>
 </div>
 <div class="section" id="is-socket">
-<h2><a class="toc-backref" href="#id81"><tt class="docutils literal">is_socket</tt></a></h2>
+<h2><a class="toc-backref" href="#id93"><tt class="docutils literal">is_socket</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>pathlib.is_socket</strong><tt class="docutils literal">(self)</tt></div>
 </div>
@@ -4277,12 +4295,12 @@
 </pre>
 </div>
 <div class="section" id="is-symlink">
-<h2><a class="toc-backref" href="#id82"><tt class="docutils literal">is_symlink</tt></a></h2>
+<h2><a class="toc-backref" href="#id94"><tt class="docutils literal">is_symlink</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>pathlib.is_symlink</strong><tt class="docutils literal">(self)</tt></div>
 </div>
 <div class="line-block">
-<div class="line">seealso: <a class="reference external" href="#islink">pathpy.islink</a>, <a class="reference external" href="#islink">os.path.islink</a></div>
+<div class="line">seealso: <a class="reference external" href="#islink">os.path.islink</a>, <a class="reference external" href="#islink">pathpy.islink</a></div>
 </div>
 <div class="line-block">
 <div class="line"><strong>pathlib.is_symlink</strong><tt class="docutils literal">(self)</tt>:</div>
@@ -4303,7 +4321,7 @@
 </pre>
 </div>
 <div class="section" id="isabs">
-<h2><a class="toc-backref" href="#id83"><tt class="docutils literal">isabs</tt></a></h2>
+<h2><a class="toc-backref" href="#id95"><tt class="docutils literal">isabs</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>os.path.isabs</strong><tt class="docutils literal">(s)</tt></div>
 <div class="line"><strong>pathpy.isabs</strong><tt class="docutils literal">(self)</tt></div>
@@ -4333,7 +4351,7 @@
 </pre>
 </div>
 <div class="section" id="isalnum">
-<h2><a class="toc-backref" href="#id84"><tt class="docutils literal">isalnum</tt></a></h2>
+<h2><a class="toc-backref" href="#id96"><tt class="docutils literal">isalnum</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>pathpy.isalnum</strong>:</div>
 <div class="line"><a class="reference external" href="https://github.com/jaraco/path.py/blob/master/path.py">source</a> <a class="reference external" href="https://pathpy.readthedocs.io/en/latest/api.html#path.Path.isalnum">docs</a></div>
@@ -4346,7 +4364,7 @@
 </pre>
 </div>
 <div class="section" id="isalpha">
-<h2><a class="toc-backref" href="#id85"><tt class="docutils literal">isalpha</tt></a></h2>
+<h2><a class="toc-backref" href="#id97"><tt class="docutils literal">isalpha</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>pathpy.isalpha</strong>:</div>
 <div class="line"><a class="reference external" href="https://github.com/jaraco/path.py/blob/master/path.py">source</a> <a class="reference external" href="https://pathpy.readthedocs.io/en/latest/api.html#path.Path.isalpha">docs</a></div>
@@ -4359,7 +4377,7 @@
 </pre>
 </div>
 <div class="section" id="isdecimal">
-<h2><a class="toc-backref" href="#id86"><tt class="docutils literal">isdecimal</tt></a></h2>
+<h2><a class="toc-backref" href="#id98"><tt class="docutils literal">isdecimal</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>pathpy.isdecimal</strong>:</div>
 <div class="line"><a class="reference external" href="https://github.com/jaraco/path.py/blob/master/path.py">source</a> <a class="reference external" href="https://pathpy.readthedocs.io/en/latest/api.html#path.Path.isdecimal">docs</a></div>
@@ -4372,7 +4390,7 @@
 </pre>
 </div>
 <div class="section" id="isdigit">
-<h2><a class="toc-backref" href="#id87"><tt class="docutils literal">isdigit</tt></a></h2>
+<h2><a class="toc-backref" href="#id99"><tt class="docutils literal">isdigit</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>pathpy.isdigit</strong>:</div>
 <div class="line"><a class="reference external" href="https://github.com/jaraco/path.py/blob/master/path.py">source</a> <a class="reference external" href="https://pathpy.readthedocs.io/en/latest/api.html#path.Path.isdigit">docs</a></div>
@@ -4385,7 +4403,7 @@
 </pre>
 </div>
 <div class="section" id="isdir">
-<h2><a class="toc-backref" href="#id88"><tt class="docutils literal">isdir</tt></a></h2>
+<h2><a class="toc-backref" href="#id100"><tt class="docutils literal">isdir</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>os.path.isdir</strong><tt class="docutils literal">(s)</tt></div>
 <div class="line"><strong>pathpy.isdir</strong><tt class="docutils literal">(self)</tt></div>
@@ -4417,7 +4435,7 @@
 </pre>
 </div>
 <div class="section" id="isfile">
-<h2><a class="toc-backref" href="#id89"><tt class="docutils literal">isfile</tt></a></h2>
+<h2><a class="toc-backref" href="#id101"><tt class="docutils literal">isfile</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>os.path.isfile</strong><tt class="docutils literal">(path)</tt></div>
 <div class="line"><strong>pathpy.isfile</strong><tt class="docutils literal">(self)</tt></div>
@@ -4449,7 +4467,7 @@
 </pre>
 </div>
 <div class="section" id="isidentifier">
-<h2><a class="toc-backref" href="#id90"><tt class="docutils literal">isidentifier</tt></a></h2>
+<h2><a class="toc-backref" href="#id102"><tt class="docutils literal">isidentifier</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>pathpy.isidentifier</strong>:</div>
 <div class="line"><a class="reference external" href="https://github.com/jaraco/path.py/blob/master/path.py">source</a> <a class="reference external" href="https://pathpy.readthedocs.io/en/latest/api.html#path.Path.isidentifier">docs</a></div>
@@ -4465,7 +4483,7 @@
 </pre>
 </div>
 <div class="section" id="islink">
-<h2><a class="toc-backref" href="#id91"><tt class="docutils literal">islink</tt></a></h2>
+<h2><a class="toc-backref" href="#id103"><tt class="docutils literal">islink</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>os.path.islink</strong><tt class="docutils literal">(path)</tt></div>
 <div class="line"><strong>pathpy.islink</strong><tt class="docutils literal">(self)</tt></div>
@@ -4497,7 +4515,7 @@
 </pre>
 </div>
 <div class="section" id="islower">
-<h2><a class="toc-backref" href="#id92"><tt class="docutils literal">islower</tt></a></h2>
+<h2><a class="toc-backref" href="#id104"><tt class="docutils literal">islower</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>pathpy.islower</strong>:</div>
 <div class="line"><a class="reference external" href="https://github.com/jaraco/path.py/blob/master/path.py">source</a> <a class="reference external" href="https://pathpy.readthedocs.io/en/latest/api.html#path.Path.islower">docs</a></div>
@@ -4510,7 +4528,7 @@
 </pre>
 </div>
 <div class="section" id="ismount">
-<h2><a class="toc-backref" href="#id93"><tt class="docutils literal">ismount</tt></a></h2>
+<h2><a class="toc-backref" href="#id105"><tt class="docutils literal">ismount</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>os.path.ismount</strong><tt class="docutils literal">(path)</tt></div>
 <div class="line"><strong>pathpy.ismount</strong><tt class="docutils literal">(self)</tt></div>
@@ -4563,7 +4581,7 @@
 </pre>
 </div>
 <div class="section" id="isnumeric">
-<h2><a class="toc-backref" href="#id94"><tt class="docutils literal">isnumeric</tt></a></h2>
+<h2><a class="toc-backref" href="#id106"><tt class="docutils literal">isnumeric</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>pathpy.isnumeric</strong>:</div>
 <div class="line"><a class="reference external" href="https://github.com/jaraco/path.py/blob/master/path.py">source</a> <a class="reference external" href="https://pathpy.readthedocs.io/en/latest/api.html#path.Path.isnumeric">docs</a></div>
@@ -4576,7 +4594,7 @@
 </pre>
 </div>
 <div class="section" id="isprintable">
-<h2><a class="toc-backref" href="#id95"><tt class="docutils literal">isprintable</tt></a></h2>
+<h2><a class="toc-backref" href="#id107"><tt class="docutils literal">isprintable</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>pathpy.isprintable</strong>:</div>
 <div class="line"><a class="reference external" href="https://github.com/jaraco/path.py/blob/master/path.py">source</a> <a class="reference external" href="https://pathpy.readthedocs.io/en/latest/api.html#path.Path.isprintable">docs</a></div>
@@ -4589,7 +4607,7 @@
 </pre>
 </div>
 <div class="section" id="isspace">
-<h2><a class="toc-backref" href="#id96"><tt class="docutils literal">isspace</tt></a></h2>
+<h2><a class="toc-backref" href="#id108"><tt class="docutils literal">isspace</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>pathpy.isspace</strong>:</div>
 <div class="line"><a class="reference external" href="https://github.com/jaraco/path.py/blob/master/path.py">source</a> <a class="reference external" href="https://pathpy.readthedocs.io/en/latest/api.html#path.Path.isspace">docs</a></div>
@@ -4602,7 +4620,7 @@
 </pre>
 </div>
 <div class="section" id="istitle">
-<h2><a class="toc-backref" href="#id97"><tt class="docutils literal">istitle</tt></a></h2>
+<h2><a class="toc-backref" href="#id109"><tt class="docutils literal">istitle</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>pathpy.istitle</strong>:</div>
 <div class="line"><a class="reference external" href="https://github.com/jaraco/path.py/blob/master/path.py">source</a> <a class="reference external" href="https://pathpy.readthedocs.io/en/latest/api.html#path.Path.istitle">docs</a></div>
@@ -4617,7 +4635,7 @@
 </pre>
 </div>
 <div class="section" id="isupper">
-<h2><a class="toc-backref" href="#id98"><tt class="docutils literal">isupper</tt></a></h2>
+<h2><a class="toc-backref" href="#id110"><tt class="docutils literal">isupper</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>pathpy.isupper</strong>:</div>
 <div class="line"><a class="reference external" href="https://github.com/jaraco/path.py/blob/master/path.py">source</a> <a class="reference external" href="https://pathpy.readthedocs.io/en/latest/api.html#path.Path.isupper">docs</a></div>
@@ -4630,7 +4648,7 @@
 </pre>
 </div>
 <div class="section" id="iterdir">
-<h2><a class="toc-backref" href="#id99"><tt class="docutils literal">iterdir</tt></a></h2>
+<h2><a class="toc-backref" href="#id111"><tt class="docutils literal">iterdir</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>pathlib.iterdir</strong><tt class="docutils literal">(self)</tt></div>
 </div>
@@ -4658,12 +4676,12 @@
 </pre>
 </div>
 <div class="section" id="join">
-<h2><a class="toc-backref" href="#id100"><tt class="docutils literal">join</tt></a></h2>
+<h2><a class="toc-backref" href="#id112"><tt class="docutils literal">join</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>os.path.join</strong><tt class="docutils literal">(a, *p)</tt></div>
 </div>
 <div class="line-block">
-<div class="line">seealso: <a class="reference external" href="#joinpath">pathlib.joinpath</a></div>
+<div class="line">seealso: <a class="reference external" href="#--div--">pathpy.__div__</a>, <a class="reference external" href="#--rdiv--">pathpy.__rdiv__</a>, <a class="reference external" href="#joinpath">pathlib.joinpath</a></div>
 </div>
 <div class="line-block">
 <div class="line"><strong>os.path.join</strong><tt class="docutils literal">(a, *p)</tt>:</div>
@@ -4705,13 +4723,13 @@
 </pre>
 </div>
 <div class="section" id="joinpath">
-<h2><a class="toc-backref" href="#id101"><tt class="docutils literal">joinpath</tt></a></h2>
+<h2><a class="toc-backref" href="#id113"><tt class="docutils literal">joinpath</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>pathlib.joinpath</strong><tt class="docutils literal">(self, *args)</tt></div>
 <div class="line"><strong>pathpy.joinpath</strong><tt class="docutils literal">(first, *others)</tt></div>
 </div>
 <div class="line-block">
-<div class="line">seealso: <a class="reference external" href="#join">os.path.join</a></div>
+<div class="line">seealso: <a class="reference external" href="#--div--">pathpy.__div__</a>, <a class="reference external" href="#--rdiv--">pathpy.__rdiv__</a>, <a class="reference external" href="#join">os.path.join</a></div>
 </div>
 <div class="line-block">
 <div class="line"><strong>pathlib.joinpath</strong><tt class="docutils literal">(self, *args)</tt>:</div>
@@ -4736,7 +4754,7 @@
 </pre>
 </div>
 <div class="section" id="lchmod">
-<h2><a class="toc-backref" href="#id102"><tt class="docutils literal">lchmod</tt></a></h2>
+<h2><a class="toc-backref" href="#id114"><tt class="docutils literal">lchmod</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>pathlib.lchmod</strong><tt class="docutils literal">(self, mode)</tt></div>
 </div>
@@ -4756,7 +4774,7 @@
 </pre>
 </div>
 <div class="section" id="lexists">
-<h2><a class="toc-backref" href="#id103"><tt class="docutils literal">lexists</tt></a></h2>
+<h2><a class="toc-backref" href="#id115"><tt class="docutils literal">lexists</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>os.path.lexists</strong><tt class="docutils literal">(path)</tt></div>
 </div>
@@ -4775,9 +4793,12 @@
 </pre>
 </div>
 <div class="section" id="lines">
-<h2><a class="toc-backref" href="#id104"><tt class="docutils literal">lines</tt></a></h2>
+<h2><a class="toc-backref" href="#id116"><tt class="docutils literal">lines</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>pathpy.lines</strong><tt class="docutils literal">(self, encoding=None, <span class="pre">errors='strict',</span> retain=True)</tt></div>
+</div>
+<div class="line-block">
+<div class="line">seealso: <a class="reference external" href="#text">pathpy.text</a></div>
 </div>
 <div class="line-block">
 <div class="line"><strong>pathpy.lines</strong><tt class="docutils literal">(self, encoding=None, <span class="pre">errors='strict',</span> retain=True)</tt>:</div>
@@ -4811,7 +4832,7 @@
 </pre>
 </div>
 <div class="section" id="link">
-<h2><a class="toc-backref" href="#id105"><tt class="docutils literal">link</tt></a></h2>
+<h2><a class="toc-backref" href="#id117"><tt class="docutils literal">link</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>os.link</strong><tt class="docutils literal">(src, dst, *, src_dir_fd=None, dst_dir_fd=None, follow_symlinks=True)</tt></div>
 <div class="line"><strong>pathpy.link</strong><tt class="docutils literal">(self, newpath)</tt></div>
@@ -4848,7 +4869,7 @@
 </pre>
 </div>
 <div class="section" id="listdir">
-<h2><a class="toc-backref" href="#id106"><tt class="docutils literal">listdir</tt></a></h2>
+<h2><a class="toc-backref" href="#id118"><tt class="docutils literal">listdir</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>os.listdir</strong><tt class="docutils literal">(path=None)</tt></div>
 <div class="line"><strong>pathpy.listdir</strong><tt class="docutils literal">(self, pattern=None)</tt></div>
@@ -4902,7 +4923,7 @@
 </pre>
 </div>
 <div class="section" id="ljust">
-<h2><a class="toc-backref" href="#id107"><tt class="docutils literal">ljust</tt></a></h2>
+<h2><a class="toc-backref" href="#id119"><tt class="docutils literal">ljust</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>pathpy.ljust</strong>:</div>
 <div class="line"><a class="reference external" href="https://github.com/jaraco/path.py/blob/master/path.py">source</a> <a class="reference external" href="https://pathpy.readthedocs.io/en/latest/api.html#path.Path.ljust">docs</a></div>
@@ -4915,7 +4936,7 @@
 </pre>
 </div>
 <div class="section" id="lower">
-<h2><a class="toc-backref" href="#id108"><tt class="docutils literal">lower</tt></a></h2>
+<h2><a class="toc-backref" href="#id120"><tt class="docutils literal">lower</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>pathpy.lower</strong>:</div>
 <div class="line"><a class="reference external" href="https://github.com/jaraco/path.py/blob/master/path.py">source</a> <a class="reference external" href="https://pathpy.readthedocs.io/en/latest/api.html#path.Path.lower">docs</a></div>
@@ -4927,11 +4948,14 @@
 </pre>
 </div>
 <div class="section" id="lstat">
-<h2><a class="toc-backref" href="#id109"><tt class="docutils literal">lstat</tt></a></h2>
+<h2><a class="toc-backref" href="#id121"><tt class="docutils literal">lstat</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>os.lstat</strong><tt class="docutils literal">(path, *, dir_fd=None)</tt></div>
 <div class="line"><strong>pathlib.lstat</strong><tt class="docutils literal">(self)</tt></div>
 <div class="line"><strong>pathpy.lstat</strong><tt class="docutils literal">(self)</tt></div>
+</div>
+<div class="line-block">
+<div class="line">seealso: <a class="reference external" href="#stat">os.stat</a>, <a class="reference external" href="#stat">pathlib.stat</a>, <a class="reference external" href="#stat">pathpy.stat</a></div>
 </div>
 <div class="line-block">
 <div class="line"><strong>os.lstat</strong><tt class="docutils literal">(path, *, dir_fd=None)</tt>:</div>
@@ -4971,7 +4995,7 @@
 </pre>
 </div>
 <div class="section" id="lstrip">
-<h2><a class="toc-backref" href="#id110"><tt class="docutils literal">lstrip</tt></a></h2>
+<h2><a class="toc-backref" href="#id122"><tt class="docutils literal">lstrip</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>pathpy.lstrip</strong>:</div>
 <div class="line"><a class="reference external" href="https://github.com/jaraco/path.py/blob/master/path.py">source</a> <a class="reference external" href="https://pathpy.readthedocs.io/en/latest/api.html#path.Path.lstrip">docs</a></div>
@@ -4984,7 +5008,7 @@
 </pre>
 </div>
 <div class="section" id="makedirs">
-<h2><a class="toc-backref" href="#id111"><tt class="docutils literal">makedirs</tt></a></h2>
+<h2><a class="toc-backref" href="#id123"><tt class="docutils literal">makedirs</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>os.makedirs</strong><tt class="docutils literal">(name, mode=511, exist_ok=False)</tt></div>
 <div class="line"><strong>pathpy.makedirs</strong><tt class="docutils literal">(self, mode=511)</tt></div>
@@ -5038,7 +5062,7 @@
 </pre>
 </div>
 <div class="section" id="makedirs-p">
-<h2><a class="toc-backref" href="#id112"><tt class="docutils literal">makedirs_p</tt></a></h2>
+<h2><a class="toc-backref" href="#id124"><tt class="docutils literal">makedirs_p</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>pathpy.makedirs_p</strong><tt class="docutils literal">(self, mode=511)</tt></div>
 </div>
@@ -5060,7 +5084,7 @@
 </pre>
 </div>
 <div class="section" id="maketrans">
-<h2><a class="toc-backref" href="#id113"><tt class="docutils literal">maketrans</tt></a></h2>
+<h2><a class="toc-backref" href="#id125"><tt class="docutils literal">maketrans</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>pathpy.maketrans</strong><tt class="docutils literal">(x, y=None, z=None, /)</tt></div>
 </div>
@@ -5081,7 +5105,7 @@
 </pre>
 </div>
 <div class="section" id="match">
-<h2><a class="toc-backref" href="#id114"><tt class="docutils literal">match</tt></a></h2>
+<h2><a class="toc-backref" href="#id126"><tt class="docutils literal">match</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>pathlib.match</strong><tt class="docutils literal">(self, path_pattern)</tt></div>
 </div>
@@ -5117,7 +5141,7 @@
 </pre>
 </div>
 <div class="section" id="merge-tree">
-<h2><a class="toc-backref" href="#id115"><tt class="docutils literal">merge_tree</tt></a></h2>
+<h2><a class="toc-backref" href="#id127"><tt class="docutils literal">merge_tree</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>pathpy.merge_tree</strong><tt class="docutils literal">(self, dst, symlinks=False, *args, **kwargs)</tt></div>
 </div>
@@ -5157,7 +5181,7 @@
 </pre>
 </div>
 <div class="section" id="mkdir">
-<h2><a class="toc-backref" href="#id116"><tt class="docutils literal">mkdir</tt></a></h2>
+<h2><a class="toc-backref" href="#id128"><tt class="docutils literal">mkdir</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>os.mkdir</strong><tt class="docutils literal">(path, mode=511, *, dir_fd=None)</tt></div>
 <div class="line"><strong>pathlib.mkdir</strong><tt class="docutils literal">(self, mode=511, parents=False, exist_ok=False)</tt></div>
@@ -5213,7 +5237,7 @@
 </pre>
 </div>
 <div class="section" id="mkdir-p">
-<h2><a class="toc-backref" href="#id117"><tt class="docutils literal">mkdir_p</tt></a></h2>
+<h2><a class="toc-backref" href="#id129"><tt class="docutils literal">mkdir_p</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>pathpy.mkdir_p</strong><tt class="docutils literal">(self, mode=511)</tt></div>
 </div>
@@ -5235,7 +5259,7 @@
 </pre>
 </div>
 <div class="section" id="module">
-<h2><a class="toc-backref" href="#id118"><tt class="docutils literal">module</tt></a></h2>
+<h2><a class="toc-backref" href="#id130"><tt class="docutils literal">module</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>pathpy.module</strong>:</div>
 <div class="line"><a class="reference external" href="https://github.com/jaraco/path.py/blob/master/path.py">source</a> <a class="reference external" href="https://pathpy.readthedocs.io/en/latest/api.html#path.Path.module">docs</a></div>
@@ -5254,13 +5278,13 @@
 </pre>
 </div>
 <div class="section" id="move">
-<h2><a class="toc-backref" href="#id119"><tt class="docutils literal">move</tt></a></h2>
+<h2><a class="toc-backref" href="#id131"><tt class="docutils literal">move</tt></a></h2>
 <div class="line-block">
-<div class="line"><strong>shutil.move</strong><tt class="docutils literal">(src, dst, <span class="pre">copy_function=&lt;function</span> copy2 at 0x7f9ccc812488&gt;)</tt></div>
-<div class="line"><strong>pathpy.move</strong><tt class="docutils literal">(src, dst, <span class="pre">copy_function=&lt;function</span> copy2 at 0x7f9ccc812488&gt;)</tt></div>
+<div class="line"><strong>shutil.move</strong><tt class="docutils literal">(src, dst, <span class="pre">copy_function=&lt;function</span> copy2 at 0x7fbcedb5c400&gt;)</tt></div>
+<div class="line"><strong>pathpy.move</strong><tt class="docutils literal">(src, dst, <span class="pre">copy_function=&lt;function</span> copy2 at 0x7fbcedb5c400&gt;)</tt></div>
 </div>
 <div class="line-block">
-<div class="line"><strong>shutil.move</strong><tt class="docutils literal">(src, dst, <span class="pre">copy_function=&lt;function</span> copy2 at 0x7f9ccc812488&gt;)</tt>:</div>
+<div class="line"><strong>shutil.move</strong><tt class="docutils literal">(src, dst, <span class="pre">copy_function=&lt;function</span> copy2 at 0x7fbcedb5c400&gt;)</tt>:</div>
 <div class="line"><a class="reference external" href="https://github.com/python/cpython/tree/3.6/Lib/shutil.py">source</a> <a class="reference external" href="https://docs.python.org/3/library/shutil.html#shutil.move">docs</a></div>
 </div>
 <pre class="code python literal-block">
@@ -5321,7 +5345,7 @@
     <span class="k">return</span> <span class="n">real_dst</span>
 </pre>
 <div class="line-block">
-<div class="line"><strong>pathpy.move</strong><tt class="docutils literal">(src, dst, <span class="pre">copy_function=&lt;function</span> copy2 at 0x7f9ccc812488&gt;)</tt>:</div>
+<div class="line"><strong>pathpy.move</strong><tt class="docutils literal">(src, dst, <span class="pre">copy_function=&lt;function</span> copy2 at 0x7fbcedb5c400&gt;)</tt>:</div>
 <div class="line"><a class="reference external" href="https://github.com/jaraco/path.py/blob/master/path.py">source</a> <a class="reference external" href="https://pathpy.readthedocs.io/en/latest/api.html#path.Path.move">docs</a></div>
 </div>
 <pre class="code python literal-block">
@@ -5383,9 +5407,9 @@
 </pre>
 </div>
 <div class="section" id="mtime">
-<h2><a class="toc-backref" href="#id120"><tt class="docutils literal">mtime</tt></a></h2>
+<h2><a class="toc-backref" href="#id132"><tt class="docutils literal">mtime</tt></a></h2>
 <div class="line-block">
-<div class="line">seealso: <a class="reference external" href="#getmtime">pathpy.getmtime</a>, <a class="reference external" href="#getmtime">os.path.getmtime</a></div>
+<div class="line">seealso: <a class="reference external" href="#getmtime">os.path.getmtime</a>, <a class="reference external" href="#getmtime">pathpy.getmtime</a></div>
 </div>
 <div class="line-block">
 <div class="line"><strong>pathpy.mtime</strong>:</div>
@@ -5398,7 +5422,10 @@
 </pre>
 </div>
 <div class="section" id="name">
-<h2><a class="toc-backref" href="#id121"><tt class="docutils literal">name</tt></a></h2>
+<h2><a class="toc-backref" href="#id133"><tt class="docutils literal">name</tt></a></h2>
+<div class="line-block">
+<div class="line">seealso: <a class="reference external" href="#basename">os.path.basename</a>, <a class="reference external" href="#splitpath">pathpy.splitpath</a></div>
+</div>
 <div class="line-block">
 <div class="line"><strong>os.name</strong>:</div>
 <div class="line"><a class="reference external" href="https://github.com/python/cpython/tree/3.6/Lib/os.py">source</a> <a class="reference external" href="https://docs.python.org/3/library/os.html#os.name">docs</a></div>
@@ -5436,14 +5463,14 @@
 </pre>
 </div>
 <div class="section" id="namebase">
-<h2><a class="toc-backref" href="#id122"><tt class="docutils literal">namebase</tt></a></h2>
+<h2><a class="toc-backref" href="#id134"><tt class="docutils literal">namebase</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>pathpy.namebase</strong>:</div>
 <div class="line"><a class="reference external" href="https://github.com/jaraco/path.py/blob/master/path.py">source</a> <a class="reference external" href="https://pathpy.readthedocs.io/en/latest/api.html#path.Path.namebase">docs</a></div>
 </div>
 </div>
 <div class="section" id="normcase">
-<h2><a class="toc-backref" href="#id123"><tt class="docutils literal">normcase</tt></a></h2>
+<h2><a class="toc-backref" href="#id135"><tt class="docutils literal">normcase</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>os.path.normcase</strong><tt class="docutils literal">(s)</tt></div>
 <div class="line"><strong>pathpy.normcase</strong><tt class="docutils literal">(self)</tt></div>
@@ -5472,7 +5499,7 @@
 </pre>
 </div>
 <div class="section" id="normpath">
-<h2><a class="toc-backref" href="#id124"><tt class="docutils literal">normpath</tt></a></h2>
+<h2><a class="toc-backref" href="#id136"><tt class="docutils literal">normpath</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>os.path.normpath</strong><tt class="docutils literal">(path)</tt></div>
 <div class="line"><strong>pathpy.normpath</strong><tt class="docutils literal">(self)</tt></div>
@@ -5530,7 +5557,7 @@
 </pre>
 </div>
 <div class="section" id="open">
-<h2><a class="toc-backref" href="#id125"><tt class="docutils literal">open</tt></a></h2>
+<h2><a class="toc-backref" href="#id137"><tt class="docutils literal">open</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>os.open</strong><tt class="docutils literal">(path, flags, mode=511, *, dir_fd=None)</tt></div>
 <div class="line"><strong>pathlib.open</strong><tt class="docutils literal">(self, <span class="pre">mode='r',</span> <span class="pre">buffering=-1,</span> encoding=None, errors=None, newline=None)</tt></div>
@@ -5580,7 +5607,7 @@
 </pre>
 </div>
 <div class="section" id="os">
-<h2><a class="toc-backref" href="#id126"><tt class="docutils literal">os</tt></a></h2>
+<h2><a class="toc-backref" href="#id138"><tt class="docutils literal">os</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>os.path.os</strong>:</div>
 <div class="line"><a class="reference external" href="https://github.com/python/cpython/blob/3.6/Lib/posixpath.py">source</a> <a class="reference external" href="https://docs.python.org/3/library/os.path.html#os.path.os">docs</a></div>
@@ -5637,7 +5664,7 @@
 </pre>
 </div>
 <div class="section" id="owner">
-<h2><a class="toc-backref" href="#id127"><tt class="docutils literal">owner</tt></a></h2>
+<h2><a class="toc-backref" href="#id139"><tt class="docutils literal">owner</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>pathlib.owner</strong><tt class="docutils literal">(self)</tt></div>
 </div>
@@ -5667,7 +5694,7 @@
 </pre>
 </div>
 <div class="section" id="pardir">
-<h2><a class="toc-backref" href="#id128"><tt class="docutils literal">pardir</tt></a></h2>
+<h2><a class="toc-backref" href="#id140"><tt class="docutils literal">pardir</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>os.pardir</strong>:</div>
 <div class="line"><a class="reference external" href="https://github.com/python/cpython/tree/3.6/Lib/os.py">source</a> <a class="reference external" href="https://docs.python.org/3/library/os.html#os.pardir">docs</a></div>
@@ -5702,7 +5729,10 @@
 </pre>
 </div>
 <div class="section" id="parent">
-<h2><a class="toc-backref" href="#id129"><tt class="docutils literal">parent</tt></a></h2>
+<h2><a class="toc-backref" href="#id141"><tt class="docutils literal">parent</tt></a></h2>
+<div class="line-block">
+<div class="line">seealso: <a class="reference external" href="#dirname">os.path.dirname</a>, <a class="reference external" href="#splitpath">pathpy.splitpath</a>, <a class="reference external" href="#parent">pathlib.parent</a></div>
+</div>
 <div class="line-block">
 <div class="line"><strong>pathlib.parent</strong>:</div>
 <div class="line"><a class="reference external" href="https://github.com/python/cpython/blob/3.6/Lib/pathlib.py">source</a> <a class="reference external" href="https://docs.python.org/3/library/pathlib.html#pathlib.Path.parent">docs</a></div>
@@ -5725,7 +5755,7 @@
 </pre>
 </div>
 <div class="section" id="parents">
-<h2><a class="toc-backref" href="#id130"><tt class="docutils literal">parents</tt></a></h2>
+<h2><a class="toc-backref" href="#id142"><tt class="docutils literal">parents</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>pathlib.parents</strong>:</div>
 <div class="line"><a class="reference external" href="https://github.com/python/cpython/blob/3.6/Lib/pathlib.py">source</a> <a class="reference external" href="https://docs.python.org/3/library/pathlib.html#pathlib.Path.parents">docs</a></div>
@@ -5735,7 +5765,7 @@
 </pre>
 </div>
 <div class="section" id="partition">
-<h2><a class="toc-backref" href="#id131"><tt class="docutils literal">partition</tt></a></h2>
+<h2><a class="toc-backref" href="#id143"><tt class="docutils literal">partition</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>pathpy.partition</strong>:</div>
 <div class="line"><a class="reference external" href="https://github.com/jaraco/path.py/blob/master/path.py">source</a> <a class="reference external" href="https://pathpy.readthedocs.io/en/latest/api.html#path.Path.partition">docs</a></div>
@@ -5749,7 +5779,7 @@
 </pre>
 </div>
 <div class="section" id="parts">
-<h2><a class="toc-backref" href="#id132"><tt class="docutils literal">parts</tt></a></h2>
+<h2><a class="toc-backref" href="#id144"><tt class="docutils literal">parts</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>pathlib.parts</strong>:</div>
 <div class="line"><a class="reference external" href="https://github.com/python/cpython/blob/3.6/Lib/pathlib.py">source</a> <a class="reference external" href="https://docs.python.org/3/library/pathlib.html#pathlib.Path.parts">docs</a></div>
@@ -5760,7 +5790,7 @@
 </pre>
 </div>
 <div class="section" id="pathconf">
-<h2><a class="toc-backref" href="#id133"><tt class="docutils literal">pathconf</tt></a></h2>
+<h2><a class="toc-backref" href="#id145"><tt class="docutils literal">pathconf</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>os.pathconf</strong><tt class="docutils literal">(path, name)</tt></div>
 <div class="line"><strong>pathpy.pathconf</strong><tt class="docutils literal">(self, name)</tt></div>
@@ -5787,7 +5817,7 @@
 </pre>
 </div>
 <div class="section" id="pathsep">
-<h2><a class="toc-backref" href="#id134"><tt class="docutils literal">pathsep</tt></a></h2>
+<h2><a class="toc-backref" href="#id146"><tt class="docutils literal">pathsep</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>os.pathsep</strong>:</div>
 <div class="line"><a class="reference external" href="https://github.com/python/cpython/tree/3.6/Lib/os.py">source</a> <a class="reference external" href="https://docs.python.org/3/library/os.html#os.pathsep">docs</a></div>
@@ -5822,7 +5852,7 @@
 </pre>
 </div>
 <div class="section" id="read-bytes">
-<h2><a class="toc-backref" href="#id135"><tt class="docutils literal">read_bytes</tt></a></h2>
+<h2><a class="toc-backref" href="#id147"><tt class="docutils literal">read_bytes</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>pathlib.read_bytes</strong><tt class="docutils literal">(self)</tt></div>
 </div>
@@ -5840,9 +5870,12 @@
 </pre>
 </div>
 <div class="section" id="read-hash">
-<h2><a class="toc-backref" href="#id136"><tt class="docutils literal">read_hash</tt></a></h2>
+<h2><a class="toc-backref" href="#id148"><tt class="docutils literal">read_hash</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>pathpy.read_hash</strong><tt class="docutils literal">(self, hash_name)</tt></div>
+</div>
+<div class="line-block">
+<div class="line">seealso: <a class="reference external" href="#read-md5">pathpy.read_md5</a></div>
 </div>
 <div class="line-block">
 <div class="line"><strong>pathpy.read_hash</strong><tt class="docutils literal">(self, hash_name)</tt>:</div>
@@ -5861,7 +5894,7 @@
 </pre>
 </div>
 <div class="section" id="read-hexhash">
-<h2><a class="toc-backref" href="#id137"><tt class="docutils literal">read_hexhash</tt></a></h2>
+<h2><a class="toc-backref" href="#id149"><tt class="docutils literal">read_hexhash</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>pathpy.read_hexhash</strong><tt class="docutils literal">(self, hash_name)</tt></div>
 </div>
@@ -5882,9 +5915,12 @@
 </pre>
 </div>
 <div class="section" id="read-md5">
-<h2><a class="toc-backref" href="#id138"><tt class="docutils literal">read_md5</tt></a></h2>
+<h2><a class="toc-backref" href="#id150"><tt class="docutils literal">read_md5</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>pathpy.read_md5</strong><tt class="docutils literal">(self)</tt></div>
+</div>
+<div class="line-block">
+<div class="line">seealso:</div>
 </div>
 <div class="line-block">
 <div class="line"><strong>pathpy.read_md5</strong><tt class="docutils literal">(self)</tt>:</div>
@@ -5902,7 +5938,7 @@
 </pre>
 </div>
 <div class="section" id="read-text">
-<h2><a class="toc-backref" href="#id139"><tt class="docutils literal">read_text</tt></a></h2>
+<h2><a class="toc-backref" href="#id151"><tt class="docutils literal">read_text</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>pathlib.read_text</strong><tt class="docutils literal">(self, encoding=None, errors=None)</tt></div>
 </div>
@@ -5920,10 +5956,13 @@
 </pre>
 </div>
 <div class="section" id="readlink">
-<h2><a class="toc-backref" href="#id140"><tt class="docutils literal">readlink</tt></a></h2>
+<h2><a class="toc-backref" href="#id152"><tt class="docutils literal">readlink</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>os.readlink</strong><tt class="docutils literal">&lt;class 'builtin_function_or_method'&gt;</tt></div>
 <div class="line"><strong>pathpy.readlink</strong><tt class="docutils literal">(self)</tt></div>
+</div>
+<div class="line-block">
+<div class="line">seealso: <a class="reference external" href="#readlinkabs">pathpy.readlinkabs</a></div>
 </div>
 <div class="line-block">
 <div class="line"><strong>os.readlink</strong><tt class="docutils literal">&lt;class 'builtin_function_or_method'&gt;</tt>:</div>
@@ -5955,9 +5994,12 @@
 </pre>
 </div>
 <div class="section" id="readlinkabs">
-<h2><a class="toc-backref" href="#id141"><tt class="docutils literal">readlinkabs</tt></a></h2>
+<h2><a class="toc-backref" href="#id153"><tt class="docutils literal">readlinkabs</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>pathpy.readlinkabs</strong><tt class="docutils literal">(self)</tt></div>
+</div>
+<div class="line-block">
+<div class="line">seealso: <a class="reference external" href="#readlink">os.readlink</a>, <a class="reference external" href="#readlink">pathpy.readlink</a></div>
 </div>
 <div class="line-block">
 <div class="line"><strong>pathpy.readlinkabs</strong><tt class="docutils literal">(self)</tt>:</div>
@@ -5979,7 +6021,7 @@
 </pre>
 </div>
 <div class="section" id="realpath">
-<h2><a class="toc-backref" href="#id142"><tt class="docutils literal">realpath</tt></a></h2>
+<h2><a class="toc-backref" href="#id154"><tt class="docutils literal">realpath</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>os.path.realpath</strong><tt class="docutils literal">(filename)</tt></div>
 <div class="line"><strong>pathpy.realpath</strong><tt class="docutils literal">(self)</tt></div>
@@ -6007,7 +6049,7 @@ symbolic links encountered in the path.&quot;&quot;&quot;</span>
 </pre>
 </div>
 <div class="section" id="relative-to">
-<h2><a class="toc-backref" href="#id143"><tt class="docutils literal">relative_to</tt></a></h2>
+<h2><a class="toc-backref" href="#id155"><tt class="docutils literal">relative_to</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>pathlib.relative_to</strong><tt class="docutils literal">(self, *other)</tt></div>
 </div>
@@ -6050,7 +6092,7 @@ symbolic links encountered in the path.&quot;&quot;&quot;</span>
 </pre>
 </div>
 <div class="section" id="relpath">
-<h2><a class="toc-backref" href="#id144"><tt class="docutils literal">relpath</tt></a></h2>
+<h2><a class="toc-backref" href="#id156"><tt class="docutils literal">relpath</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>os.path.relpath</strong><tt class="docutils literal">(path, start=None)</tt></div>
 <div class="line"><strong>pathpy.relpath</strong><tt class="docutils literal">(self, <span class="pre">start='.')</span></tt></div>
@@ -6109,7 +6151,7 @@ symbolic links encountered in the path.&quot;&quot;&quot;</span>
 </pre>
 </div>
 <div class="section" id="relpathto">
-<h2><a class="toc-backref" href="#id145"><tt class="docutils literal">relpathto</tt></a></h2>
+<h2><a class="toc-backref" href="#id157"><tt class="docutils literal">relpathto</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>pathpy.relpathto</strong><tt class="docutils literal">(self, dest)</tt></div>
 </div>
@@ -6158,7 +6200,7 @@ symbolic links encountered in the path.&quot;&quot;&quot;</span>
 </pre>
 </div>
 <div class="section" id="remove">
-<h2><a class="toc-backref" href="#id146"><tt class="docutils literal">remove</tt></a></h2>
+<h2><a class="toc-backref" href="#id158"><tt class="docutils literal">remove</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>os.remove</strong><tt class="docutils literal">(path, *, dir_fd=None)</tt></div>
 <div class="line"><strong>pathpy.remove</strong><tt class="docutils literal">(self)</tt></div>
@@ -6190,7 +6232,7 @@ symbolic links encountered in the path.&quot;&quot;&quot;</span>
 </pre>
 </div>
 <div class="section" id="remove-p">
-<h2><a class="toc-backref" href="#id147"><tt class="docutils literal">remove_p</tt></a></h2>
+<h2><a class="toc-backref" href="#id159"><tt class="docutils literal">remove_p</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>pathpy.remove_p</strong><tt class="docutils literal">(self)</tt></div>
 </div>
@@ -6215,7 +6257,7 @@ symbolic links encountered in the path.&quot;&quot;&quot;</span>
 </pre>
 </div>
 <div class="section" id="removedirs">
-<h2><a class="toc-backref" href="#id148"><tt class="docutils literal">removedirs</tt></a></h2>
+<h2><a class="toc-backref" href="#id160"><tt class="docutils literal">removedirs</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>os.removedirs</strong><tt class="docutils literal">(name)</tt></div>
 <div class="line"><strong>pathpy.removedirs</strong><tt class="docutils literal">(self)</tt></div>
@@ -6259,7 +6301,7 @@ symbolic links encountered in the path.&quot;&quot;&quot;</span>
 </pre>
 </div>
 <div class="section" id="removedirs-p">
-<h2><a class="toc-backref" href="#id149"><tt class="docutils literal">removedirs_p</tt></a></h2>
+<h2><a class="toc-backref" href="#id161"><tt class="docutils literal">removedirs_p</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>pathpy.removedirs_p</strong><tt class="docutils literal">(self)</tt></div>
 </div>
@@ -6281,7 +6323,7 @@ symbolic links encountered in the path.&quot;&quot;&quot;</span>
 </pre>
 </div>
 <div class="section" id="rename">
-<h2><a class="toc-backref" href="#id150"><tt class="docutils literal">rename</tt></a></h2>
+<h2><a class="toc-backref" href="#id162"><tt class="docutils literal">rename</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>os.rename</strong><tt class="docutils literal">(src, dst, *, src_dir_fd=None, dst_dir_fd=None)</tt></div>
 <div class="line"><strong>pathlib.rename</strong><tt class="docutils literal">(self, target)</tt></div>
@@ -6325,7 +6367,7 @@ symbolic links encountered in the path.&quot;&quot;&quot;</span>
 </pre>
 </div>
 <div class="section" id="renames">
-<h2><a class="toc-backref" href="#id151"><tt class="docutils literal">renames</tt></a></h2>
+<h2><a class="toc-backref" href="#id163"><tt class="docutils literal">renames</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>os.renames</strong><tt class="docutils literal">(old, new)</tt></div>
 <div class="line"><strong>pathpy.renames</strong><tt class="docutils literal">(self, new)</tt></div>
@@ -6373,7 +6415,7 @@ symbolic links encountered in the path.&quot;&quot;&quot;</span>
 </pre>
 </div>
 <div class="section" id="replace">
-<h2><a class="toc-backref" href="#id152"><tt class="docutils literal">replace</tt></a></h2>
+<h2><a class="toc-backref" href="#id164"><tt class="docutils literal">replace</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>os.replace</strong><tt class="docutils literal">(src, dst, *, src_dir_fd=None, dst_dir_fd=None)</tt></div>
 <div class="line"><strong>pathlib.replace</strong><tt class="docutils literal">(self, target)</tt></div>
@@ -6418,7 +6460,7 @@ symbolic links encountered in the path.&quot;&quot;&quot;</span>
 </pre>
 </div>
 <div class="section" id="resolve">
-<h2><a class="toc-backref" href="#id153"><tt class="docutils literal">resolve</tt></a></h2>
+<h2><a class="toc-backref" href="#id165"><tt class="docutils literal">resolve</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>pathlib.resolve</strong><tt class="docutils literal">(self, strict=False)</tt></div>
 </div>
@@ -6449,7 +6491,7 @@ symbolic links encountered in the path.&quot;&quot;&quot;</span>
 </pre>
 </div>
 <div class="section" id="rfind">
-<h2><a class="toc-backref" href="#id154"><tt class="docutils literal">rfind</tt></a></h2>
+<h2><a class="toc-backref" href="#id166"><tt class="docutils literal">rfind</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>pathpy.rfind</strong>:</div>
 <div class="line"><a class="reference external" href="https://github.com/jaraco/path.py/blob/master/path.py">source</a> <a class="reference external" href="https://pathpy.readthedocs.io/en/latest/api.html#path.Path.rfind">docs</a></div>
@@ -6465,7 +6507,7 @@ symbolic links encountered in the path.&quot;&quot;&quot;</span>
 </pre>
 </div>
 <div class="section" id="rglob">
-<h2><a class="toc-backref" href="#id155"><tt class="docutils literal">rglob</tt></a></h2>
+<h2><a class="toc-backref" href="#id167"><tt class="docutils literal">rglob</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>pathlib.rglob</strong><tt class="docutils literal">(self, pattern)</tt></div>
 </div>
@@ -6488,7 +6530,7 @@ symbolic links encountered in the path.&quot;&quot;&quot;</span>
 </pre>
 </div>
 <div class="section" id="rindex">
-<h2><a class="toc-backref" href="#id156"><tt class="docutils literal">rindex</tt></a></h2>
+<h2><a class="toc-backref" href="#id168"><tt class="docutils literal">rindex</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>pathpy.rindex</strong>:</div>
 <div class="line"><a class="reference external" href="https://github.com/jaraco/path.py/blob/master/path.py">source</a> <a class="reference external" href="https://pathpy.readthedocs.io/en/latest/api.html#path.Path.rindex">docs</a></div>
@@ -6504,7 +6546,7 @@ symbolic links encountered in the path.&quot;&quot;&quot;</span>
 </pre>
 </div>
 <div class="section" id="rjust">
-<h2><a class="toc-backref" href="#id157"><tt class="docutils literal">rjust</tt></a></h2>
+<h2><a class="toc-backref" href="#id169"><tt class="docutils literal">rjust</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>pathpy.rjust</strong>:</div>
 <div class="line"><a class="reference external" href="https://github.com/jaraco/path.py/blob/master/path.py">source</a> <a class="reference external" href="https://pathpy.readthedocs.io/en/latest/api.html#path.Path.rjust">docs</a></div>
@@ -6517,7 +6559,7 @@ symbolic links encountered in the path.&quot;&quot;&quot;</span>
 </pre>
 </div>
 <div class="section" id="rmdir">
-<h2><a class="toc-backref" href="#id158"><tt class="docutils literal">rmdir</tt></a></h2>
+<h2><a class="toc-backref" href="#id170"><tt class="docutils literal">rmdir</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>os.rmdir</strong><tt class="docutils literal">(path, *, dir_fd=None)</tt></div>
 <div class="line"><strong>pathlib.rmdir</strong><tt class="docutils literal">(self)</tt></div>
@@ -6560,7 +6602,7 @@ symbolic links encountered in the path.&quot;&quot;&quot;</span>
 </pre>
 </div>
 <div class="section" id="rmdir-p">
-<h2><a class="toc-backref" href="#id159"><tt class="docutils literal">rmdir_p</tt></a></h2>
+<h2><a class="toc-backref" href="#id171"><tt class="docutils literal">rmdir_p</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>pathpy.rmdir_p</strong><tt class="docutils literal">(self)</tt></div>
 </div>
@@ -6583,7 +6625,7 @@ symbolic links encountered in the path.&quot;&quot;&quot;</span>
 </pre>
 </div>
 <div class="section" id="rmtree">
-<h2><a class="toc-backref" href="#id160"><tt class="docutils literal">rmtree</tt></a></h2>
+<h2><a class="toc-backref" href="#id172"><tt class="docutils literal">rmtree</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>shutil.rmtree</strong><tt class="docutils literal">(path, ignore_errors=False, onerror=None)</tt></div>
 <div class="line"><strong>pathpy.rmtree</strong><tt class="docutils literal">(path, ignore_errors=False, onerror=None)</tt></div>
@@ -6702,7 +6744,7 @@ symbolic links encountered in the path.&quot;&quot;&quot;</span>
 </pre>
 </div>
 <div class="section" id="rmtree-p">
-<h2><a class="toc-backref" href="#id161"><tt class="docutils literal">rmtree_p</tt></a></h2>
+<h2><a class="toc-backref" href="#id173"><tt class="docutils literal">rmtree_p</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>pathpy.rmtree_p</strong><tt class="docutils literal">(self)</tt></div>
 </div>
@@ -6724,7 +6766,7 @@ symbolic links encountered in the path.&quot;&quot;&quot;</span>
 </pre>
 </div>
 <div class="section" id="root">
-<h2><a class="toc-backref" href="#id162"><tt class="docutils literal">root</tt></a></h2>
+<h2><a class="toc-backref" href="#id174"><tt class="docutils literal">root</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>pathlib.root</strong>:</div>
 <div class="line"><a class="reference external" href="https://github.com/python/cpython/blob/3.6/Lib/pathlib.py">source</a> <a class="reference external" href="https://docs.python.org/3/library/pathlib.html#pathlib.Path.root">docs</a></div>
@@ -6734,7 +6776,7 @@ symbolic links encountered in the path.&quot;&quot;&quot;</span>
 </pre>
 </div>
 <div class="section" id="rpartition">
-<h2><a class="toc-backref" href="#id163"><tt class="docutils literal">rpartition</tt></a></h2>
+<h2><a class="toc-backref" href="#id175"><tt class="docutils literal">rpartition</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>pathpy.rpartition</strong>:</div>
 <div class="line"><a class="reference external" href="https://github.com/jaraco/path.py/blob/master/path.py">source</a> <a class="reference external" href="https://pathpy.readthedocs.io/en/latest/api.html#path.Path.rpartition">docs</a></div>
@@ -6748,7 +6790,7 @@ symbolic links encountered in the path.&quot;&quot;&quot;</span>
 </pre>
 </div>
 <div class="section" id="rsplit">
-<h2><a class="toc-backref" href="#id164"><tt class="docutils literal">rsplit</tt></a></h2>
+<h2><a class="toc-backref" href="#id176"><tt class="docutils literal">rsplit</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>pathpy.rsplit</strong>:</div>
 <div class="line"><a class="reference external" href="https://github.com/jaraco/path.py/blob/master/path.py">source</a> <a class="reference external" href="https://pathpy.readthedocs.io/en/latest/api.html#path.Path.rsplit">docs</a></div>
@@ -6764,7 +6806,7 @@ symbolic links encountered in the path.&quot;&quot;&quot;</span>
 </pre>
 </div>
 <div class="section" id="rstrip">
-<h2><a class="toc-backref" href="#id165"><tt class="docutils literal">rstrip</tt></a></h2>
+<h2><a class="toc-backref" href="#id177"><tt class="docutils literal">rstrip</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>pathpy.rstrip</strong>:</div>
 <div class="line"><a class="reference external" href="https://github.com/jaraco/path.py/blob/master/path.py">source</a> <a class="reference external" href="https://pathpy.readthedocs.io/en/latest/api.html#path.Path.rstrip">docs</a></div>
@@ -6777,7 +6819,7 @@ symbolic links encountered in the path.&quot;&quot;&quot;</span>
 </pre>
 </div>
 <div class="section" id="samefile">
-<h2><a class="toc-backref" href="#id166"><tt class="docutils literal">samefile</tt></a></h2>
+<h2><a class="toc-backref" href="#id178"><tt class="docutils literal">samefile</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>os.path.samefile</strong><tt class="docutils literal">(f1, f2)</tt></div>
 <div class="line"><strong>pathlib.samefile</strong><tt class="docutils literal">(self, other_path)</tt></div>
@@ -6824,7 +6866,7 @@ symbolic links encountered in the path.&quot;&quot;&quot;</span>
 </pre>
 </div>
 <div class="section" id="sameopenfile">
-<h2><a class="toc-backref" href="#id167"><tt class="docutils literal">sameopenfile</tt></a></h2>
+<h2><a class="toc-backref" href="#id179"><tt class="docutils literal">sameopenfile</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>os.path.sameopenfile</strong><tt class="docutils literal">(fp1, fp2)</tt></div>
 </div>
@@ -6841,7 +6883,7 @@ symbolic links encountered in the path.&quot;&quot;&quot;</span>
 </pre>
 </div>
 <div class="section" id="samestat">
-<h2><a class="toc-backref" href="#id168"><tt class="docutils literal">samestat</tt></a></h2>
+<h2><a class="toc-backref" href="#id180"><tt class="docutils literal">samestat</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>os.path.samestat</strong><tt class="docutils literal">(s1, s2)</tt></div>
 </div>
@@ -6857,7 +6899,7 @@ symbolic links encountered in the path.&quot;&quot;&quot;</span>
 </pre>
 </div>
 <div class="section" id="sep">
-<h2><a class="toc-backref" href="#id169"><tt class="docutils literal">sep</tt></a></h2>
+<h2><a class="toc-backref" href="#id181"><tt class="docutils literal">sep</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>os.sep</strong>:</div>
 <div class="line"><a class="reference external" href="https://github.com/python/cpython/tree/3.6/Lib/os.py">source</a> <a class="reference external" href="https://docs.python.org/3/library/os.html#os.sep">docs</a></div>
@@ -6892,9 +6934,9 @@ symbolic links encountered in the path.&quot;&quot;&quot;</span>
 </pre>
 </div>
 <div class="section" id="size">
-<h2><a class="toc-backref" href="#id170"><tt class="docutils literal">size</tt></a></h2>
+<h2><a class="toc-backref" href="#id182"><tt class="docutils literal">size</tt></a></h2>
 <div class="line-block">
-<div class="line">seealso: <a class="reference external" href="#getsize">pathpy.getsize</a></div>
+<div class="line">seealso: <a class="reference external" href="#getsize">os.path.getsize</a>, <a class="reference external" href="#getsize">pathpy.getsize</a></div>
 </div>
 <div class="line-block">
 <div class="line"><strong>pathpy.size</strong>:</div>
@@ -6907,7 +6949,7 @@ symbolic links encountered in the path.&quot;&quot;&quot;</span>
 </pre>
 </div>
 <div class="section" id="special">
-<h2><a class="toc-backref" href="#id171"><tt class="docutils literal">special</tt></a></h2>
+<h2><a class="toc-backref" href="#id183"><tt class="docutils literal">special</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>pathpy.special</strong><tt class="docutils literal">(*args, **kwargs)</tt></div>
 </div>
@@ -6921,9 +6963,12 @@ symbolic links encountered in the path.&quot;&quot;&quot;</span>
 </pre>
 </div>
 <div class="section" id="split">
-<h2><a class="toc-backref" href="#id172"><tt class="docutils literal">split</tt></a></h2>
+<h2><a class="toc-backref" href="#id184"><tt class="docutils literal">split</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>os.path.split</strong><tt class="docutils literal">(p)</tt></div>
+</div>
+<div class="line-block">
+<div class="line">seealso: <a class="reference external" href="#splitpath">pathpy.splitpath</a></div>
 </div>
 <div class="line-block">
 <div class="line"><strong>os.path.split</strong><tt class="docutils literal">(p)</tt>:</div>
@@ -6956,7 +7001,7 @@ symbolic links encountered in the path.&quot;&quot;&quot;</span>
 </pre>
 </div>
 <div class="section" id="splitall">
-<h2><a class="toc-backref" href="#id173"><tt class="docutils literal">splitall</tt></a></h2>
+<h2><a class="toc-backref" href="#id185"><tt class="docutils literal">splitall</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>pathpy.splitall</strong><tt class="docutils literal">(self)</tt></div>
 </div>
@@ -6989,7 +7034,7 @@ symbolic links encountered in the path.&quot;&quot;&quot;</span>
 </pre>
 </div>
 <div class="section" id="splitdrive">
-<h2><a class="toc-backref" href="#id174"><tt class="docutils literal">splitdrive</tt></a></h2>
+<h2><a class="toc-backref" href="#id186"><tt class="docutils literal">splitdrive</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>os.path.splitdrive</strong><tt class="docutils literal">(p)</tt></div>
 <div class="line"><strong>pathpy.splitdrive</strong><tt class="docutils literal">(self)</tt></div>
@@ -7024,7 +7069,7 @@ symbolic links encountered in the path.&quot;&quot;&quot;</span>
 </pre>
 </div>
 <div class="section" id="splitext">
-<h2><a class="toc-backref" href="#id175"><tt class="docutils literal">splitext</tt></a></h2>
+<h2><a class="toc-backref" href="#id187"><tt class="docutils literal">splitext</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>os.path.splitext</strong><tt class="docutils literal">(p)</tt></div>
 <div class="line"><strong>pathpy.splitext</strong><tt class="docutils literal">(self)</tt></div>
@@ -7066,7 +7111,7 @@ symbolic links encountered in the path.&quot;&quot;&quot;</span>
 </pre>
 </div>
 <div class="section" id="splitlines">
-<h2><a class="toc-backref" href="#id176"><tt class="docutils literal">splitlines</tt></a></h2>
+<h2><a class="toc-backref" href="#id188"><tt class="docutils literal">splitlines</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>pathpy.splitlines</strong>:</div>
 <div class="line"><a class="reference external" href="https://github.com/jaraco/path.py/blob/master/path.py">source</a> <a class="reference external" href="https://pathpy.readthedocs.io/en/latest/api.html#path.Path.splitlines">docs</a></div>
@@ -7080,9 +7125,12 @@ symbolic links encountered in the path.&quot;&quot;&quot;</span>
 </pre>
 </div>
 <div class="section" id="splitpath">
-<h2><a class="toc-backref" href="#id177"><tt class="docutils literal">splitpath</tt></a></h2>
+<h2><a class="toc-backref" href="#id189"><tt class="docutils literal">splitpath</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>pathpy.splitpath</strong><tt class="docutils literal">(self)</tt></div>
+</div>
+<div class="line-block">
+<div class="line">seealso: <a class="reference external" href="#split">os.path.split</a></div>
 </div>
 <div class="line-block">
 <div class="line"><strong>pathpy.splitpath</strong><tt class="docutils literal">(self)</tt>:</div>
@@ -7099,7 +7147,7 @@ symbolic links encountered in the path.&quot;&quot;&quot;</span>
 </pre>
 </div>
 <div class="section" id="splitunc">
-<h2><a class="toc-backref" href="#id178"><tt class="docutils literal">splitunc</tt></a></h2>
+<h2><a class="toc-backref" href="#id190"><tt class="docutils literal">splitunc</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>pathpy.splitunc</strong><tt class="docutils literal">(self)</tt></div>
 </div>
@@ -7115,7 +7163,7 @@ symbolic links encountered in the path.&quot;&quot;&quot;</span>
 </pre>
 </div>
 <div class="section" id="startswith">
-<h2><a class="toc-backref" href="#id179"><tt class="docutils literal">startswith</tt></a></h2>
+<h2><a class="toc-backref" href="#id191"><tt class="docutils literal">startswith</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>pathpy.startswith</strong>:</div>
 <div class="line"><a class="reference external" href="https://github.com/jaraco/path.py/blob/master/path.py">source</a> <a class="reference external" href="https://pathpy.readthedocs.io/en/latest/api.html#path.Path.startswith">docs</a></div>
@@ -7130,11 +7178,14 @@ symbolic links encountered in the path.&quot;&quot;&quot;</span>
 </pre>
 </div>
 <div class="section" id="stat">
-<h2><a class="toc-backref" href="#id180"><tt class="docutils literal">stat</tt></a></h2>
+<h2><a class="toc-backref" href="#id192"><tt class="docutils literal">stat</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>os.stat</strong><tt class="docutils literal">(path, *, dir_fd=None, follow_symlinks=True)</tt></div>
 <div class="line"><strong>pathlib.stat</strong><tt class="docutils literal">(self)</tt></div>
 <div class="line"><strong>pathpy.stat</strong><tt class="docutils literal">(self)</tt></div>
+</div>
+<div class="line-block">
+<div class="line">seealso: <a class="reference external" href="#lstat">os.lstat</a>, <a class="reference external" href="#lstat">pathlib.lstat</a></div>
 </div>
 <div class="line-block">
 <div class="line"><strong>os.stat</strong><tt class="docutils literal">(path, *, dir_fd=None, follow_symlinks=True)</tt>:</div>
@@ -7206,7 +7257,7 @@ symbolic links encountered in the path.&quot;&quot;&quot;</span>
 </pre>
 </div>
 <div class="section" id="statvfs">
-<h2><a class="toc-backref" href="#id181"><tt class="docutils literal">statvfs</tt></a></h2>
+<h2><a class="toc-backref" href="#id193"><tt class="docutils literal">statvfs</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>os.statvfs</strong><tt class="docutils literal">(path)</tt></div>
 <div class="line"><strong>pathpy.statvfs</strong><tt class="docutils literal">(self)</tt></div>
@@ -7236,7 +7287,7 @@ symbolic links encountered in the path.&quot;&quot;&quot;</span>
 </pre>
 </div>
 <div class="section" id="stem">
-<h2><a class="toc-backref" href="#id182"><tt class="docutils literal">stem</tt></a></h2>
+<h2><a class="toc-backref" href="#id194"><tt class="docutils literal">stem</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>pathlib.stem</strong>:</div>
 <div class="line"><a class="reference external" href="https://github.com/python/cpython/blob/3.6/Lib/pathlib.py">source</a> <a class="reference external" href="https://docs.python.org/3/library/pathlib.html#pathlib.Path.stem">docs</a></div>
@@ -7256,7 +7307,7 @@ symbolic links encountered in the path.&quot;&quot;&quot;</span>
 </pre>
 </div>
 <div class="section" id="strip">
-<h2><a class="toc-backref" href="#id183"><tt class="docutils literal">strip</tt></a></h2>
+<h2><a class="toc-backref" href="#id195"><tt class="docutils literal">strip</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>pathpy.strip</strong>:</div>
 <div class="line"><a class="reference external" href="https://github.com/jaraco/path.py/blob/master/path.py">source</a> <a class="reference external" href="https://pathpy.readthedocs.io/en/latest/api.html#path.Path.strip">docs</a></div>
@@ -7270,7 +7321,7 @@ symbolic links encountered in the path.&quot;&quot;&quot;</span>
 </pre>
 </div>
 <div class="section" id="stripext">
-<h2><a class="toc-backref" href="#id184"><tt class="docutils literal">stripext</tt></a></h2>
+<h2><a class="toc-backref" href="#id196"><tt class="docutils literal">stripext</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>pathpy.stripext</strong><tt class="docutils literal">(self)</tt></div>
 </div>
@@ -7289,7 +7340,7 @@ symbolic links encountered in the path.&quot;&quot;&quot;</span>
 </pre>
 </div>
 <div class="section" id="suffix">
-<h2><a class="toc-backref" href="#id185"><tt class="docutils literal">suffix</tt></a></h2>
+<h2><a class="toc-backref" href="#id197"><tt class="docutils literal">suffix</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>pathlib.suffix</strong>:</div>
 <div class="line"><a class="reference external" href="https://github.com/python/cpython/blob/3.6/Lib/pathlib.py">source</a> <a class="reference external" href="https://docs.python.org/3/library/pathlib.html#pathlib.Path.suffix">docs</a></div>
@@ -7299,7 +7350,7 @@ symbolic links encountered in the path.&quot;&quot;&quot;</span>
 </pre>
 </div>
 <div class="section" id="suffixes">
-<h2><a class="toc-backref" href="#id186"><tt class="docutils literal">suffixes</tt></a></h2>
+<h2><a class="toc-backref" href="#id198"><tt class="docutils literal">suffixes</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>pathlib.suffixes</strong>:</div>
 <div class="line"><a class="reference external" href="https://github.com/python/cpython/blob/3.6/Lib/pathlib.py">source</a> <a class="reference external" href="https://docs.python.org/3/library/pathlib.html#pathlib.Path.suffixes">docs</a></div>
@@ -7309,7 +7360,7 @@ symbolic links encountered in the path.&quot;&quot;&quot;</span>
 </pre>
 </div>
 <div class="section" id="swapcase">
-<h2><a class="toc-backref" href="#id187"><tt class="docutils literal">swapcase</tt></a></h2>
+<h2><a class="toc-backref" href="#id199"><tt class="docutils literal">swapcase</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>pathpy.swapcase</strong>:</div>
 <div class="line"><a class="reference external" href="https://github.com/jaraco/path.py/blob/master/path.py">source</a> <a class="reference external" href="https://pathpy.readthedocs.io/en/latest/api.html#path.Path.swapcase">docs</a></div>
@@ -7322,7 +7373,7 @@ symbolic links encountered in the path.&quot;&quot;&quot;</span>
 </pre>
 </div>
 <div class="section" id="symlink">
-<h2><a class="toc-backref" href="#id188"><tt class="docutils literal">symlink</tt></a></h2>
+<h2><a class="toc-backref" href="#id200"><tt class="docutils literal">symlink</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>os.symlink</strong><tt class="docutils literal">(src, dst, target_is_directory=False, *, dir_fd=None)</tt></div>
 <div class="line"><strong>pathpy.symlink</strong><tt class="docutils literal">(self, newlink=None)</tt></div>
@@ -7364,7 +7415,7 @@ symbolic links encountered in the path.&quot;&quot;&quot;</span>
 </pre>
 </div>
 <div class="section" id="symlink-to">
-<h2><a class="toc-backref" href="#id189"><tt class="docutils literal">symlink_to</tt></a></h2>
+<h2><a class="toc-backref" href="#id201"><tt class="docutils literal">symlink_to</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>pathlib.symlink_to</strong><tt class="docutils literal">(self, target, target_is_directory=False)</tt></div>
 </div>
@@ -7384,9 +7435,12 @@ symbolic links encountered in the path.&quot;&quot;&quot;</span>
 </pre>
 </div>
 <div class="section" id="text">
-<h2><a class="toc-backref" href="#id190"><tt class="docutils literal">text</tt></a></h2>
+<h2><a class="toc-backref" href="#id202"><tt class="docutils literal">text</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>pathpy.text</strong><tt class="docutils literal">(self, encoding=None, <span class="pre">errors='strict')</span></tt></div>
+</div>
+<div class="line-block">
+<div class="line">seealso: <a class="reference external" href="#lines">pathpy.lines</a></div>
 </div>
 <div class="line-block">
 <div class="line"><strong>pathpy.text</strong><tt class="docutils literal">(self, encoding=None, <span class="pre">errors='strict')</span></tt>:</div>
@@ -7406,7 +7460,7 @@ symbolic links encountered in the path.&quot;&quot;&quot;</span>
 </pre>
 </div>
 <div class="section" id="title">
-<h2><a class="toc-backref" href="#id191"><tt class="docutils literal">title</tt></a></h2>
+<h2><a class="toc-backref" href="#id203"><tt class="docutils literal">title</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>pathpy.title</strong>:</div>
 <div class="line"><a class="reference external" href="https://github.com/jaraco/path.py/blob/master/path.py">source</a> <a class="reference external" href="https://pathpy.readthedocs.io/en/latest/api.html#path.Path.title">docs</a></div>
@@ -7419,7 +7473,7 @@ symbolic links encountered in the path.&quot;&quot;&quot;</span>
 </pre>
 </div>
 <div class="section" id="touch">
-<h2><a class="toc-backref" href="#id192"><tt class="docutils literal">touch</tt></a></h2>
+<h2><a class="toc-backref" href="#id204"><tt class="docutils literal">touch</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>pathlib.touch</strong><tt class="docutils literal">(self, mode=438, exist_ok=True)</tt></div>
 <div class="line"><strong>pathpy.touch</strong><tt class="docutils literal">(self)</tt></div>
@@ -7468,7 +7522,7 @@ symbolic links encountered in the path.&quot;&quot;&quot;</span>
 </pre>
 </div>
 <div class="section" id="translate">
-<h2><a class="toc-backref" href="#id193"><tt class="docutils literal">translate</tt></a></h2>
+<h2><a class="toc-backref" href="#id205"><tt class="docutils literal">translate</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>pathpy.translate</strong>:</div>
 <div class="line"><a class="reference external" href="https://github.com/jaraco/path.py/blob/master/path.py">source</a> <a class="reference external" href="https://pathpy.readthedocs.io/en/latest/api.html#path.Path.translate">docs</a></div>
@@ -7485,7 +7539,7 @@ symbolic links encountered in the path.&quot;&quot;&quot;</span>
 </pre>
 </div>
 <div class="section" id="uncshare">
-<h2><a class="toc-backref" href="#id194"><tt class="docutils literal">uncshare</tt></a></h2>
+<h2><a class="toc-backref" href="#id206"><tt class="docutils literal">uncshare</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>pathpy.uncshare</strong>:</div>
 <div class="line"><a class="reference external" href="https://github.com/jaraco/path.py/blob/master/path.py">source</a> <a class="reference external" href="https://pathpy.readthedocs.io/en/latest/api.html#path.Path.uncshare">docs</a></div>
@@ -7496,14 +7550,14 @@ symbolic links encountered in the path.&quot;&quot;&quot;</span>
 </pre>
 </div>
 <div class="section" id="unlink">
-<h2><a class="toc-backref" href="#id195"><tt class="docutils literal">unlink</tt></a></h2>
+<h2><a class="toc-backref" href="#id207"><tt class="docutils literal">unlink</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>os.unlink</strong><tt class="docutils literal">(path, *, dir_fd=None)</tt></div>
 <div class="line"><strong>pathlib.unlink</strong><tt class="docutils literal">(self)</tt></div>
 <div class="line"><strong>pathpy.unlink</strong><tt class="docutils literal">(self)</tt></div>
 </div>
 <div class="line-block">
-<div class="line">seealso: <a class="reference external" href="#remove">pathpy.remove</a>, <a class="reference external" href="#remove">os.remove</a></div>
+<div class="line">seealso: <a class="reference external" href="#remove">os.remove</a>, <a class="reference external" href="#remove">pathpy.remove</a></div>
 </div>
 <div class="line-block">
 <div class="line"><strong>os.unlink</strong><tt class="docutils literal">(path, *, dir_fd=None)</tt>:</div>
@@ -7543,7 +7597,7 @@ symbolic links encountered in the path.&quot;&quot;&quot;</span>
 </pre>
 </div>
 <div class="section" id="unlink-p">
-<h2><a class="toc-backref" href="#id196"><tt class="docutils literal">unlink_p</tt></a></h2>
+<h2><a class="toc-backref" href="#id208"><tt class="docutils literal">unlink_p</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>pathpy.unlink_p</strong><tt class="docutils literal">(self)</tt></div>
 </div>
@@ -7563,7 +7617,7 @@ symbolic links encountered in the path.&quot;&quot;&quot;</span>
 </pre>
 </div>
 <div class="section" id="upper">
-<h2><a class="toc-backref" href="#id197"><tt class="docutils literal">upper</tt></a></h2>
+<h2><a class="toc-backref" href="#id209"><tt class="docutils literal">upper</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>pathpy.upper</strong>:</div>
 <div class="line"><a class="reference external" href="https://github.com/jaraco/path.py/blob/master/path.py">source</a> <a class="reference external" href="https://pathpy.readthedocs.io/en/latest/api.html#path.Path.upper">docs</a></div>
@@ -7575,7 +7629,7 @@ symbolic links encountered in the path.&quot;&quot;&quot;</span>
 </pre>
 </div>
 <div class="section" id="using-module">
-<h2><a class="toc-backref" href="#id198"><tt class="docutils literal">using_module</tt></a></h2>
+<h2><a class="toc-backref" href="#id210"><tt class="docutils literal">using_module</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>pathpy.using_module</strong><tt class="docutils literal">(module)</tt></div>
 </div>
@@ -7592,7 +7646,7 @@ symbolic links encountered in the path.&quot;&quot;&quot;</span>
 </pre>
 </div>
 <div class="section" id="utime">
-<h2><a class="toc-backref" href="#id199"><tt class="docutils literal">utime</tt></a></h2>
+<h2><a class="toc-backref" href="#id211"><tt class="docutils literal">utime</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>os.utime</strong><tt class="docutils literal">(path, times=None, *, ns=None, dir_fd=None, follow_symlinks=True)</tt></div>
 <div class="line"><strong>pathpy.utime</strong><tt class="docutils literal">(self, times)</tt></div>
@@ -7641,7 +7695,7 @@ symbolic links encountered in the path.&quot;&quot;&quot;</span>
 </pre>
 </div>
 <div class="section" id="walk">
-<h2><a class="toc-backref" href="#id200"><tt class="docutils literal">walk</tt></a></h2>
+<h2><a class="toc-backref" href="#id212"><tt class="docutils literal">walk</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>os.walk</strong><tt class="docutils literal">(top, topdown=True, onerror=None, followlinks=False)</tt></div>
 <div class="line"><strong>pathpy.walk</strong><tt class="docutils literal">(self, pattern=None, <span class="pre">errors='strict')</span></tt></div>
@@ -7853,7 +7907,7 @@ symbolic links encountered in the path.&quot;&quot;&quot;</span>
 </pre>
 </div>
 <div class="section" id="walkdirs">
-<h2><a class="toc-backref" href="#id201"><tt class="docutils literal">walkdirs</tt></a></h2>
+<h2><a class="toc-backref" href="#id213"><tt class="docutils literal">walkdirs</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>pathpy.walkdirs</strong><tt class="docutils literal">(self, pattern=None, <span class="pre">errors='strict')</span></tt></div>
 </div>
@@ -7900,7 +7954,7 @@ symbolic links encountered in the path.&quot;&quot;&quot;</span>
 </pre>
 </div>
 <div class="section" id="walkfiles">
-<h2><a class="toc-backref" href="#id202"><tt class="docutils literal">walkfiles</tt></a></h2>
+<h2><a class="toc-backref" href="#id214"><tt class="docutils literal">walkfiles</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>pathpy.walkfiles</strong><tt class="docutils literal">(self, pattern=None, <span class="pre">errors='strict')</span></tt></div>
 </div>
@@ -7959,7 +8013,7 @@ symbolic links encountered in the path.&quot;&quot;&quot;</span>
 </pre>
 </div>
 <div class="section" id="with-name">
-<h2><a class="toc-backref" href="#id203"><tt class="docutils literal">with_name</tt></a></h2>
+<h2><a class="toc-backref" href="#id215"><tt class="docutils literal">with_name</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>pathlib.with_name</strong><tt class="docutils literal">(self, name)</tt></div>
 </div>
@@ -7981,7 +8035,7 @@ symbolic links encountered in the path.&quot;&quot;&quot;</span>
 </pre>
 </div>
 <div class="section" id="with-suffix">
-<h2><a class="toc-backref" href="#id204"><tt class="docutils literal">with_suffix</tt></a></h2>
+<h2><a class="toc-backref" href="#id216"><tt class="docutils literal">with_suffix</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>pathlib.with_suffix</strong><tt class="docutils literal">(self, suffix)</tt></div>
 <div class="line"><strong>pathpy.with_suffix</strong><tt class="docutils literal">(self, suffix)</tt></div>
@@ -8036,7 +8090,7 @@ symbolic links encountered in the path.&quot;&quot;&quot;</span>
 </pre>
 </div>
 <div class="section" id="write-bytes">
-<h2><a class="toc-backref" href="#id205"><tt class="docutils literal">write_bytes</tt></a></h2>
+<h2><a class="toc-backref" href="#id217"><tt class="docutils literal">write_bytes</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>pathlib.write_bytes</strong><tt class="docutils literal">(self, data)</tt></div>
 <div class="line"><strong>pathpy.write_bytes</strong><tt class="docutils literal">(self, bytes, append=False)</tt></div>
@@ -8075,7 +8129,7 @@ symbolic links encountered in the path.&quot;&quot;&quot;</span>
 </pre>
 </div>
 <div class="section" id="write-lines">
-<h2><a class="toc-backref" href="#id206"><tt class="docutils literal">write_lines</tt></a></h2>
+<h2><a class="toc-backref" href="#id218"><tt class="docutils literal">write_lines</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>pathpy.write_lines</strong><tt class="docutils literal">(self, lines, encoding=None, <span class="pre">errors='strict',</span> <span class="pre">linesep='\n',</span> append=False)</tt></div>
 </div>
@@ -8135,7 +8189,7 @@ symbolic links encountered in the path.&quot;&quot;&quot;</span>
 </pre>
 </div>
 <div class="section" id="write-text">
-<h2><a class="toc-backref" href="#id207"><tt class="docutils literal">write_text</tt></a></h2>
+<h2><a class="toc-backref" href="#id219"><tt class="docutils literal">write_text</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>pathlib.write_text</strong><tt class="docutils literal">(self, data, encoding=None, errors=None)</tt></div>
 <div class="line"><strong>pathpy.write_text</strong><tt class="docutils literal">(self, text, encoding=None, <span class="pre">errors='strict',</span> <span class="pre">linesep='\n',</span> append=False)</tt></div>
@@ -8236,7 +8290,7 @@ symbolic links encountered in the path.&quot;&quot;&quot;</span>
 </pre>
 </div>
 <div class="section" id="zfill">
-<h2><a class="toc-backref" href="#id208"><tt class="docutils literal">zfill</tt></a></h2>
+<h2><a class="toc-backref" href="#id220"><tt class="docutils literal">zfill</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>pathpy.zfill</strong>:</div>
 <div class="line"><a class="reference external" href="https://github.com/jaraco/path.py/blob/master/path.py">source</a> <a class="reference external" href="https://pathpy.readthedocs.io/en/latest/api.html#path.Path.zfill">docs</a></div>
