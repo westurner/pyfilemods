@@ -427,12 +427,12 @@ def print_attr_methods(sets=sets, methods=methods):
         methodstr = '``{}``'.format(method)
         print(methodstr)
         print('=' * (len(methodstr)+1))
-        things = ['os', 'os.path', 'shutil', 'pathlib', 'pathpy',]
+        modnames = ['os', 'os.path', 'shutil', 'pathlib', 'pathpy',]
         attrs = {}
-        for thing in things:
+        for thing in modnames:
             attrs[thing] = methods[thing].get(method)
 
-        for name in things:
+        for name in modnames:
             obj = attrs[name]
             if obj and obj.signature:
                 print('| **%s.%s**\ %s' % (name, method, fmtsignature(obj)))
@@ -441,14 +441,17 @@ def print_attr_methods(sets=sets, methods=methods):
         _seealso = seealso.get(method, {})
         if _seealso:
             seealsostrs = []
-            for key, libs in _seealso.items():
-                for lib in libs:
+            for methodname, mods in _seealso.items():
+                _mods = frozenset(mods)
+                for mod in [m for m in modnames if m in _mods]:
                     seealsostrs.append(
-                        '`%s <#%s>`_' % ('%s.%s' % (lib, key), key.replace('_', '-')))
+                        '`%s <#%s>`_' % (
+                            '%s.%s' % (mod, methodname),
+                            methodname.replace('_', '-')))
             print('| seealso: %s' % ', '.join(seealsostrs))
             print(' ')
 
-        for modname in things:
+        for modname in modnames:
             metadata = meta[modname]
             obj = attrs[modname]
             if obj: #and obj.iscallable:
