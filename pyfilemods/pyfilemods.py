@@ -83,6 +83,12 @@ def print_header__modules():
 
 
 mappings = {}
+mappings['os'] = {
+    'unlink': {
+        'pathpy': 'remove',
+        'os': 'remove',
+    },
+}
 mappings['pathpy'] = {
     # 'getcwd': {
     #     'pathpy': 'getcwdu',
@@ -90,6 +96,10 @@ mappings['pathpy'] = {
     'getsize': {
         'pathpy': 'size'
     },
+    'unlink': {
+        'pathpy': 'remove',
+        'os': 'remove',
+    }
 }
 mappings['pathlib'] = {
     'atime': {
