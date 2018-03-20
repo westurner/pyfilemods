@@ -6,14 +6,9 @@ TODO:
 - docs/source links
   - how to find the source of a builtin module?
 - header
-  - src: https://github.com/westurner/python-file-funcs ?
   - note that this is run on a Posix machine
     - sys.platform ?
 - footer
-
-- add TODO's async library?
-  - generalize the table generation code
-    - this is the same as for the pathjoin code i wrote awhile back
 
 - include propsed additions to pathlib
   - P for proposed?
@@ -398,7 +393,12 @@ def print_thing(varname, sets=sets):
         print('- `%s`_' % x)
 
 
-setnames = ['pathlib_and_pathpy', 'pathlib_not_pathpy', 'pathpy_not_pathlib']
+setnames = [
+    'pathlib_and_pathpy',
+    'pathlib_not_pathpy',
+    'pathpy_not_pathlib',
+    'pathlib_not_trio',
+]
 for x in setnames:
     print_thing(x, sets=sets)
     print('')
