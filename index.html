@@ -267,6 +267,12 @@
 <li>Docs: <a class="reference external" href="https://pathpy.readthedocs.io/en/latest/">https://pathpy.readthedocs.io/en/latest/</a></li>
 </ul>
 </li>
+<li>trio<ul>
+<li>Src: <a class="reference external" href="https://github.com/python-trio/trio">https://github.com/python-trio/trio</a></li>
+<li>Source: <a class="reference external" href="https://github.com/python-trio/trio/blob/master/trio/_path.py">https://github.com/python-trio/trio/blob/master/trio/_path.py</a></li>
+<li>Docs: <a class="reference external" href="https://trio.readthedocs.io/en/latest/reference-io.html#trio.Path">https://trio.readthedocs.io/en/latest/reference-io.html#trio.Path</a></li>
+</ul>
+</li>
 </ul>
 </div>
 <div class="section" id="sets">
@@ -275,12 +281,13 @@
 <h2><a class="toc-backref" href="#id21">attr table</a></h2>
 <table border="1" class="docutils">
 <colgroup>
-<col width="38%" />
+<col width="35%" />
 <col width="4%" />
-<col width="15%" />
-<col width="13%" />
-<col width="15%" />
-<col width="15%" />
+<col width="14%" />
+<col width="12%" />
+<col width="14%" />
+<col width="14%" />
+<col width="8%" />
 </colgroup>
 <thead valign="bottom">
 <tr><th class="head">attr</th>
@@ -289,6 +296,7 @@
 <th class="head">shutil</th>
 <th class="head">pathlib</th>
 <th class="head">path.py</th>
+<th class="head">trio</th>
 </tr>
 </thead>
 <tbody valign="top">
@@ -298,6 +306,7 @@
 <td>&nbsp;</td>
 <td>&nbsp;</td>
 <td>X</td>
+<td>&nbsp;</td>
 </tr>
 <tr><td><a class="reference internal" href="#rdiv">__rdiv__</a></td>
 <td>&nbsp;</td>
@@ -305,6 +314,7 @@
 <td>&nbsp;</td>
 <td>&nbsp;</td>
 <td>X</td>
+<td>&nbsp;</td>
 </tr>
 <tr><td><a class="reference internal" href="#absolute">absolute</a></td>
 <td>&nbsp;</td>
@@ -312,6 +322,7 @@
 <td>&nbsp;</td>
 <td>X</td>
 <td>&nbsp;</td>
+<td>X</td>
 </tr>
 <tr><td><a class="reference internal" href="#abspath">abspath</a></td>
 <td>&nbsp;</td>
@@ -319,6 +330,7 @@
 <td>&nbsp;</td>
 <td>&nbsp;</td>
 <td>X</td>
+<td>&nbsp;</td>
 </tr>
 <tr><td><a class="reference internal" href="#access">access</a></td>
 <td>X</td>
@@ -326,10 +338,12 @@
 <td>&nbsp;</td>
 <td>&nbsp;</td>
 <td>X</td>
+<td>&nbsp;</td>
 </tr>
 <tr><td><a class="reference internal" href="#altsep">altsep</a></td>
 <td>X</td>
 <td>X</td>
+<td>&nbsp;</td>
 <td>&nbsp;</td>
 <td>&nbsp;</td>
 <td>&nbsp;</td>
@@ -340,6 +354,7 @@
 <td>&nbsp;</td>
 <td>X</td>
 <td>&nbsp;</td>
+<td>&nbsp;</td>
 </tr>
 <tr><td><a class="reference internal" href="#as-posix">as_posix</a></td>
 <td>&nbsp;</td>
@@ -347,6 +362,7 @@
 <td>&nbsp;</td>
 <td>X</td>
 <td>&nbsp;</td>
+<td>X</td>
 </tr>
 <tr><td><a class="reference internal" href="#as-uri">as_uri</a></td>
 <td>&nbsp;</td>
@@ -354,6 +370,7 @@
 <td>&nbsp;</td>
 <td>X</td>
 <td>&nbsp;</td>
+<td>X</td>
 </tr>
 <tr><td><a class="reference internal" href="#atime">atime</a></td>
 <td>&nbsp;</td>
@@ -361,6 +378,7 @@
 <td>&nbsp;</td>
 <td>&nbsp;</td>
 <td>X</td>
+<td>&nbsp;</td>
 </tr>
 <tr><td><a class="reference internal" href="#basename">basename</a></td>
 <td>&nbsp;</td>
@@ -368,6 +386,7 @@
 <td>&nbsp;</td>
 <td>&nbsp;</td>
 <td>X</td>
+<td>&nbsp;</td>
 </tr>
 <tr><td><a class="reference internal" href="#bytes">bytes</a></td>
 <td>&nbsp;</td>
@@ -375,6 +394,7 @@
 <td>&nbsp;</td>
 <td>&nbsp;</td>
 <td>X</td>
+<td>&nbsp;</td>
 </tr>
 <tr><td><a class="reference internal" href="#capitalize">capitalize</a></td>
 <td>&nbsp;</td>
@@ -382,6 +402,7 @@
 <td>&nbsp;</td>
 <td>&nbsp;</td>
 <td>X</td>
+<td>&nbsp;</td>
 </tr>
 <tr><td><a class="reference internal" href="#casefold">casefold</a></td>
 <td>&nbsp;</td>
@@ -389,6 +410,7 @@
 <td>&nbsp;</td>
 <td>&nbsp;</td>
 <td>X</td>
+<td>&nbsp;</td>
 </tr>
 <tr><td><a class="reference internal" href="#cd">cd</a></td>
 <td>&nbsp;</td>
@@ -396,6 +418,7 @@
 <td>&nbsp;</td>
 <td>&nbsp;</td>
 <td>X</td>
+<td>&nbsp;</td>
 </tr>
 <tr><td><a class="reference internal" href="#center">center</a></td>
 <td>&nbsp;</td>
@@ -403,6 +426,7 @@
 <td>&nbsp;</td>
 <td>&nbsp;</td>
 <td>X</td>
+<td>&nbsp;</td>
 </tr>
 <tr><td><a class="reference internal" href="#chdir">chdir</a></td>
 <td>X</td>
@@ -410,11 +434,13 @@
 <td>&nbsp;</td>
 <td>&nbsp;</td>
 <td>X</td>
+<td>&nbsp;</td>
 </tr>
 <tr><td><a class="reference internal" href="#chmod">chmod</a></td>
 <td>X</td>
 <td>&nbsp;</td>
 <td>&nbsp;</td>
+<td>X</td>
 <td>X</td>
 <td>X</td>
 </tr>
@@ -424,6 +450,7 @@
 <td>X</td>
 <td>&nbsp;</td>
 <td>X</td>
+<td>&nbsp;</td>
 </tr>
 <tr><td><a class="reference internal" href="#chroot">chroot</a></td>
 <td>X</td>
@@ -431,6 +458,7 @@
 <td>&nbsp;</td>
 <td>&nbsp;</td>
 <td>X</td>
+<td>&nbsp;</td>
 </tr>
 <tr><td><a class="reference internal" href="#chunks">chunks</a></td>
 <td>&nbsp;</td>
@@ -438,10 +466,12 @@
 <td>&nbsp;</td>
 <td>&nbsp;</td>
 <td>X</td>
+<td>&nbsp;</td>
 </tr>
 <tr><td><a class="reference internal" href="#commonpath">commonpath</a></td>
 <td>&nbsp;</td>
 <td>X</td>
+<td>&nbsp;</td>
 <td>&nbsp;</td>
 <td>&nbsp;</td>
 <td>&nbsp;</td>
@@ -452,6 +482,7 @@
 <td>&nbsp;</td>
 <td>&nbsp;</td>
 <td>&nbsp;</td>
+<td>&nbsp;</td>
 </tr>
 <tr><td><a class="reference internal" href="#copy">copy</a></td>
 <td>&nbsp;</td>
@@ -459,6 +490,7 @@
 <td>X</td>
 <td>&nbsp;</td>
 <td>X</td>
+<td>&nbsp;</td>
 </tr>
 <tr><td><a class="reference internal" href="#copy2">copy2</a></td>
 <td>&nbsp;</td>
@@ -466,6 +498,7 @@
 <td>X</td>
 <td>&nbsp;</td>
 <td>X</td>
+<td>&nbsp;</td>
 </tr>
 <tr><td><a class="reference internal" href="#copyfile">copyfile</a></td>
 <td>&nbsp;</td>
@@ -473,6 +506,7 @@
 <td>X</td>
 <td>&nbsp;</td>
 <td>X</td>
+<td>&nbsp;</td>
 </tr>
 <tr><td><a class="reference internal" href="#copymode">copymode</a></td>
 <td>&nbsp;</td>
@@ -480,6 +514,7 @@
 <td>X</td>
 <td>&nbsp;</td>
 <td>X</td>
+<td>&nbsp;</td>
 </tr>
 <tr><td><a class="reference internal" href="#copystat">copystat</a></td>
 <td>&nbsp;</td>
@@ -487,6 +522,7 @@
 <td>X</td>
 <td>&nbsp;</td>
 <td>X</td>
+<td>&nbsp;</td>
 </tr>
 <tr><td><a class="reference internal" href="#copytree">copytree</a></td>
 <td>&nbsp;</td>
@@ -494,6 +530,7 @@
 <td>X</td>
 <td>&nbsp;</td>
 <td>X</td>
+<td>&nbsp;</td>
 </tr>
 <tr><td><a class="reference internal" href="#count">count</a></td>
 <td>&nbsp;</td>
@@ -501,6 +538,7 @@
 <td>&nbsp;</td>
 <td>&nbsp;</td>
 <td>X</td>
+<td>&nbsp;</td>
 </tr>
 <tr><td><a class="reference internal" href="#ctime">ctime</a></td>
 <td>&nbsp;</td>
@@ -508,10 +546,12 @@
 <td>&nbsp;</td>
 <td>&nbsp;</td>
 <td>X</td>
+<td>&nbsp;</td>
 </tr>
 <tr><td><a class="reference internal" href="#curdir">curdir</a></td>
 <td>X</td>
 <td>X</td>
+<td>&nbsp;</td>
 <td>&nbsp;</td>
 <td>&nbsp;</td>
 <td>&nbsp;</td>
@@ -522,10 +562,12 @@
 <td>&nbsp;</td>
 <td>X</td>
 <td>&nbsp;</td>
+<td>X</td>
 </tr>
 <tr><td><a class="reference internal" href="#defpath">defpath</a></td>
 <td>X</td>
 <td>X</td>
+<td>&nbsp;</td>
 <td>&nbsp;</td>
 <td>&nbsp;</td>
 <td>&nbsp;</td>
@@ -536,6 +578,7 @@
 <td>&nbsp;</td>
 <td>&nbsp;</td>
 <td>&nbsp;</td>
+<td>&nbsp;</td>
 </tr>
 <tr><td><a class="reference internal" href="#dirname">dirname</a></td>
 <td>&nbsp;</td>
@@ -543,6 +586,7 @@
 <td>&nbsp;</td>
 <td>&nbsp;</td>
 <td>X</td>
+<td>&nbsp;</td>
 </tr>
 <tr><td><a class="reference internal" href="#dirs">dirs</a></td>
 <td>&nbsp;</td>
@@ -550,6 +594,7 @@
 <td>&nbsp;</td>
 <td>&nbsp;</td>
 <td>X</td>
+<td>&nbsp;</td>
 </tr>
 <tr><td><a class="reference internal" href="#drive">drive</a></td>
 <td>&nbsp;</td>
@@ -557,6 +602,7 @@
 <td>&nbsp;</td>
 <td>X</td>
 <td>X</td>
+<td>&nbsp;</td>
 </tr>
 <tr><td><a class="reference internal" href="#encode">encode</a></td>
 <td>&nbsp;</td>
@@ -564,6 +610,7 @@
 <td>&nbsp;</td>
 <td>&nbsp;</td>
 <td>X</td>
+<td>&nbsp;</td>
 </tr>
 <tr><td><a class="reference internal" href="#endswith">endswith</a></td>
 <td>&nbsp;</td>
@@ -571,11 +618,13 @@
 <td>&nbsp;</td>
 <td>&nbsp;</td>
 <td>X</td>
+<td>&nbsp;</td>
 </tr>
 <tr><td><a class="reference internal" href="#exists">exists</a></td>
 <td>&nbsp;</td>
 <td>X</td>
 <td>&nbsp;</td>
+<td>X</td>
 <td>X</td>
 <td>X</td>
 </tr>
@@ -585,6 +634,7 @@
 <td>&nbsp;</td>
 <td>&nbsp;</td>
 <td>X</td>
+<td>&nbsp;</td>
 </tr>
 <tr><td><a class="reference internal" href="#expandtabs">expandtabs</a></td>
 <td>&nbsp;</td>
@@ -592,11 +642,13 @@
 <td>&nbsp;</td>
 <td>&nbsp;</td>
 <td>X</td>
+<td>&nbsp;</td>
 </tr>
 <tr><td><a class="reference internal" href="#expanduser">expanduser</a></td>
 <td>&nbsp;</td>
 <td>X</td>
 <td>&nbsp;</td>
+<td>X</td>
 <td>X</td>
 <td>X</td>
 </tr>
@@ -606,6 +658,7 @@
 <td>&nbsp;</td>
 <td>&nbsp;</td>
 <td>X</td>
+<td>&nbsp;</td>
 </tr>
 <tr><td><a class="reference internal" href="#ext">ext</a></td>
 <td>&nbsp;</td>
@@ -613,10 +666,12 @@
 <td>&nbsp;</td>
 <td>&nbsp;</td>
 <td>X</td>
+<td>&nbsp;</td>
 </tr>
 <tr><td><a class="reference internal" href="#extsep">extsep</a></td>
 <td>X</td>
 <td>X</td>
+<td>&nbsp;</td>
 <td>&nbsp;</td>
 <td>&nbsp;</td>
 <td>&nbsp;</td>
@@ -627,6 +682,7 @@
 <td>&nbsp;</td>
 <td>&nbsp;</td>
 <td>X</td>
+<td>&nbsp;</td>
 </tr>
 <tr><td><a class="reference internal" href="#find">find</a></td>
 <td>&nbsp;</td>
@@ -634,6 +690,7 @@
 <td>&nbsp;</td>
 <td>&nbsp;</td>
 <td>X</td>
+<td>&nbsp;</td>
 </tr>
 <tr><td><a class="reference internal" href="#fnmatch">fnmatch</a></td>
 <td>&nbsp;</td>
@@ -641,6 +698,7 @@
 <td>X</td>
 <td>&nbsp;</td>
 <td>X</td>
+<td>&nbsp;</td>
 </tr>
 <tr><td><a class="reference internal" href="#format">format</a></td>
 <td>&nbsp;</td>
@@ -648,6 +706,7 @@
 <td>&nbsp;</td>
 <td>&nbsp;</td>
 <td>X</td>
+<td>&nbsp;</td>
 </tr>
 <tr><td><a class="reference internal" href="#format-map">format_map</a></td>
 <td>&nbsp;</td>
@@ -655,6 +714,7 @@
 <td>&nbsp;</td>
 <td>&nbsp;</td>
 <td>X</td>
+<td>&nbsp;</td>
 </tr>
 <tr><td><a class="reference internal" href="#get-owner">get_owner</a></td>
 <td>&nbsp;</td>
@@ -662,6 +722,7 @@
 <td>&nbsp;</td>
 <td>&nbsp;</td>
 <td>X</td>
+<td>&nbsp;</td>
 </tr>
 <tr><td><a class="reference internal" href="#getatime">getatime</a></td>
 <td>&nbsp;</td>
@@ -669,6 +730,7 @@
 <td>&nbsp;</td>
 <td>&nbsp;</td>
 <td>X</td>
+<td>&nbsp;</td>
 </tr>
 <tr><td><a class="reference internal" href="#getctime">getctime</a></td>
 <td>&nbsp;</td>
@@ -676,6 +738,7 @@
 <td>&nbsp;</td>
 <td>&nbsp;</td>
 <td>X</td>
+<td>&nbsp;</td>
 </tr>
 <tr><td><a class="reference internal" href="#getcwd">getcwd</a></td>
 <td>X</td>
@@ -683,6 +746,7 @@
 <td>&nbsp;</td>
 <td>&nbsp;</td>
 <td>X</td>
+<td>&nbsp;</td>
 </tr>
 <tr><td><a class="reference internal" href="#getmtime">getmtime</a></td>
 <td>&nbsp;</td>
@@ -690,6 +754,7 @@
 <td>&nbsp;</td>
 <td>&nbsp;</td>
 <td>X</td>
+<td>&nbsp;</td>
 </tr>
 <tr><td><a class="reference internal" href="#getsize">getsize</a></td>
 <td>&nbsp;</td>
@@ -697,11 +762,13 @@
 <td>&nbsp;</td>
 <td>&nbsp;</td>
 <td>X</td>
+<td>&nbsp;</td>
 </tr>
 <tr><td><a class="reference internal" href="#glob">glob</a></td>
 <td>&nbsp;</td>
 <td>&nbsp;</td>
 <td>&nbsp;</td>
+<td>X</td>
 <td>X</td>
 <td>X</td>
 </tr>
@@ -711,6 +778,7 @@
 <td>&nbsp;</td>
 <td>X</td>
 <td>&nbsp;</td>
+<td>X</td>
 </tr>
 <tr><td><a class="reference internal" href="#home">home</a></td>
 <td>&nbsp;</td>
@@ -718,6 +786,7 @@
 <td>&nbsp;</td>
 <td>X</td>
 <td>&nbsp;</td>
+<td>X</td>
 </tr>
 <tr><td><a class="reference internal" href="#in-place">in_place</a></td>
 <td>&nbsp;</td>
@@ -725,6 +794,7 @@
 <td>&nbsp;</td>
 <td>&nbsp;</td>
 <td>X</td>
+<td>&nbsp;</td>
 </tr>
 <tr><td><a class="reference internal" href="#index">index</a></td>
 <td>&nbsp;</td>
@@ -732,6 +802,7 @@
 <td>&nbsp;</td>
 <td>&nbsp;</td>
 <td>X</td>
+<td>&nbsp;</td>
 </tr>
 <tr><td><a class="reference internal" href="#is-absolute">is_absolute</a></td>
 <td>&nbsp;</td>
@@ -739,6 +810,7 @@
 <td>&nbsp;</td>
 <td>X</td>
 <td>&nbsp;</td>
+<td>X</td>
 </tr>
 <tr><td><a class="reference internal" href="#is-block-device">is_block_device</a></td>
 <td>&nbsp;</td>
@@ -746,6 +818,7 @@
 <td>&nbsp;</td>
 <td>X</td>
 <td>&nbsp;</td>
+<td>X</td>
 </tr>
 <tr><td><a class="reference internal" href="#is-char-device">is_char_device</a></td>
 <td>&nbsp;</td>
@@ -753,6 +826,7 @@
 <td>&nbsp;</td>
 <td>X</td>
 <td>&nbsp;</td>
+<td>X</td>
 </tr>
 <tr><td><a class="reference internal" href="#is-dir">is_dir</a></td>
 <td>&nbsp;</td>
@@ -760,6 +834,7 @@
 <td>&nbsp;</td>
 <td>X</td>
 <td>&nbsp;</td>
+<td>X</td>
 </tr>
 <tr><td><a class="reference internal" href="#is-fifo">is_fifo</a></td>
 <td>&nbsp;</td>
@@ -767,6 +842,7 @@
 <td>&nbsp;</td>
 <td>X</td>
 <td>&nbsp;</td>
+<td>X</td>
 </tr>
 <tr><td><a class="reference internal" href="#is-file">is_file</a></td>
 <td>&nbsp;</td>
@@ -774,6 +850,7 @@
 <td>&nbsp;</td>
 <td>X</td>
 <td>&nbsp;</td>
+<td>X</td>
 </tr>
 <tr><td><a class="reference internal" href="#is-reserved">is_reserved</a></td>
 <td>&nbsp;</td>
@@ -781,6 +858,7 @@
 <td>&nbsp;</td>
 <td>X</td>
 <td>&nbsp;</td>
+<td>X</td>
 </tr>
 <tr><td><a class="reference internal" href="#is-socket">is_socket</a></td>
 <td>&nbsp;</td>
@@ -788,6 +866,7 @@
 <td>&nbsp;</td>
 <td>X</td>
 <td>&nbsp;</td>
+<td>X</td>
 </tr>
 <tr><td><a class="reference internal" href="#is-symlink">is_symlink</a></td>
 <td>&nbsp;</td>
@@ -795,6 +874,7 @@
 <td>&nbsp;</td>
 <td>X</td>
 <td>&nbsp;</td>
+<td>X</td>
 </tr>
 <tr><td><a class="reference internal" href="#isabs">isabs</a></td>
 <td>&nbsp;</td>
@@ -802,6 +882,7 @@
 <td>&nbsp;</td>
 <td>&nbsp;</td>
 <td>X</td>
+<td>&nbsp;</td>
 </tr>
 <tr><td><a class="reference internal" href="#isalnum">isalnum</a></td>
 <td>&nbsp;</td>
@@ -809,6 +890,7 @@
 <td>&nbsp;</td>
 <td>&nbsp;</td>
 <td>X</td>
+<td>&nbsp;</td>
 </tr>
 <tr><td><a class="reference internal" href="#isalpha">isalpha</a></td>
 <td>&nbsp;</td>
@@ -816,6 +898,7 @@
 <td>&nbsp;</td>
 <td>&nbsp;</td>
 <td>X</td>
+<td>&nbsp;</td>
 </tr>
 <tr><td><a class="reference internal" href="#isdecimal">isdecimal</a></td>
 <td>&nbsp;</td>
@@ -823,6 +906,7 @@
 <td>&nbsp;</td>
 <td>&nbsp;</td>
 <td>X</td>
+<td>&nbsp;</td>
 </tr>
 <tr><td><a class="reference internal" href="#isdigit">isdigit</a></td>
 <td>&nbsp;</td>
@@ -830,6 +914,7 @@
 <td>&nbsp;</td>
 <td>&nbsp;</td>
 <td>X</td>
+<td>&nbsp;</td>
 </tr>
 <tr><td><a class="reference internal" href="#isdir">isdir</a></td>
 <td>&nbsp;</td>
@@ -837,6 +922,7 @@
 <td>&nbsp;</td>
 <td>&nbsp;</td>
 <td>X</td>
+<td>&nbsp;</td>
 </tr>
 <tr><td><a class="reference internal" href="#isfile">isfile</a></td>
 <td>&nbsp;</td>
@@ -844,6 +930,7 @@
 <td>&nbsp;</td>
 <td>&nbsp;</td>
 <td>X</td>
+<td>&nbsp;</td>
 </tr>
 <tr><td><a class="reference internal" href="#isidentifier">isidentifier</a></td>
 <td>&nbsp;</td>
@@ -851,6 +938,7 @@
 <td>&nbsp;</td>
 <td>&nbsp;</td>
 <td>X</td>
+<td>&nbsp;</td>
 </tr>
 <tr><td><a class="reference internal" href="#islink">islink</a></td>
 <td>&nbsp;</td>
@@ -858,6 +946,7 @@
 <td>&nbsp;</td>
 <td>&nbsp;</td>
 <td>X</td>
+<td>&nbsp;</td>
 </tr>
 <tr><td><a class="reference internal" href="#islower">islower</a></td>
 <td>&nbsp;</td>
@@ -865,6 +954,7 @@
 <td>&nbsp;</td>
 <td>&nbsp;</td>
 <td>X</td>
+<td>&nbsp;</td>
 </tr>
 <tr><td><a class="reference internal" href="#ismount">ismount</a></td>
 <td>&nbsp;</td>
@@ -872,6 +962,7 @@
 <td>&nbsp;</td>
 <td>&nbsp;</td>
 <td>X</td>
+<td>&nbsp;</td>
 </tr>
 <tr><td><a class="reference internal" href="#isnumeric">isnumeric</a></td>
 <td>&nbsp;</td>
@@ -879,6 +970,7 @@
 <td>&nbsp;</td>
 <td>&nbsp;</td>
 <td>X</td>
+<td>&nbsp;</td>
 </tr>
 <tr><td><a class="reference internal" href="#isprintable">isprintable</a></td>
 <td>&nbsp;</td>
@@ -886,6 +978,7 @@
 <td>&nbsp;</td>
 <td>&nbsp;</td>
 <td>X</td>
+<td>&nbsp;</td>
 </tr>
 <tr><td><a class="reference internal" href="#isspace">isspace</a></td>
 <td>&nbsp;</td>
@@ -893,6 +986,7 @@
 <td>&nbsp;</td>
 <td>&nbsp;</td>
 <td>X</td>
+<td>&nbsp;</td>
 </tr>
 <tr><td><a class="reference internal" href="#istitle">istitle</a></td>
 <td>&nbsp;</td>
@@ -900,6 +994,7 @@
 <td>&nbsp;</td>
 <td>&nbsp;</td>
 <td>X</td>
+<td>&nbsp;</td>
 </tr>
 <tr><td><a class="reference internal" href="#isupper">isupper</a></td>
 <td>&nbsp;</td>
@@ -907,6 +1002,7 @@
 <td>&nbsp;</td>
 <td>&nbsp;</td>
 <td>X</td>
+<td>&nbsp;</td>
 </tr>
 <tr><td><a class="reference internal" href="#iterdir">iterdir</a></td>
 <td>&nbsp;</td>
@@ -914,6 +1010,7 @@
 <td>&nbsp;</td>
 <td>X</td>
 <td>&nbsp;</td>
+<td>X</td>
 </tr>
 <tr><td><a class="reference internal" href="#join">join</a></td>
 <td>&nbsp;</td>
@@ -921,11 +1018,13 @@
 <td>&nbsp;</td>
 <td>&nbsp;</td>
 <td>X</td>
+<td>&nbsp;</td>
 </tr>
 <tr><td><a class="reference internal" href="#joinpath">joinpath</a></td>
 <td>&nbsp;</td>
 <td>&nbsp;</td>
 <td>&nbsp;</td>
+<td>X</td>
 <td>X</td>
 <td>X</td>
 </tr>
@@ -935,10 +1034,12 @@
 <td>&nbsp;</td>
 <td>X</td>
 <td>&nbsp;</td>
+<td>X</td>
 </tr>
 <tr><td><a class="reference internal" href="#lexists">lexists</a></td>
 <td>&nbsp;</td>
 <td>X</td>
+<td>&nbsp;</td>
 <td>&nbsp;</td>
 <td>&nbsp;</td>
 <td>&nbsp;</td>
@@ -949,6 +1050,7 @@
 <td>&nbsp;</td>
 <td>&nbsp;</td>
 <td>X</td>
+<td>&nbsp;</td>
 </tr>
 <tr><td><a class="reference internal" href="#link">link</a></td>
 <td>X</td>
@@ -956,6 +1058,7 @@
 <td>&nbsp;</td>
 <td>&nbsp;</td>
 <td>X</td>
+<td>&nbsp;</td>
 </tr>
 <tr><td><a class="reference internal" href="#listdir">listdir</a></td>
 <td>X</td>
@@ -963,6 +1066,7 @@
 <td>&nbsp;</td>
 <td>&nbsp;</td>
 <td>X</td>
+<td>&nbsp;</td>
 </tr>
 <tr><td><a class="reference internal" href="#ljust">ljust</a></td>
 <td>&nbsp;</td>
@@ -970,6 +1074,7 @@
 <td>&nbsp;</td>
 <td>&nbsp;</td>
 <td>X</td>
+<td>&nbsp;</td>
 </tr>
 <tr><td><a class="reference internal" href="#lower">lower</a></td>
 <td>&nbsp;</td>
@@ -977,11 +1082,13 @@
 <td>&nbsp;</td>
 <td>&nbsp;</td>
 <td>X</td>
+<td>&nbsp;</td>
 </tr>
 <tr><td><a class="reference internal" href="#lstat">lstat</a></td>
 <td>X</td>
 <td>&nbsp;</td>
 <td>&nbsp;</td>
+<td>X</td>
 <td>X</td>
 <td>X</td>
 </tr>
@@ -991,6 +1098,7 @@
 <td>&nbsp;</td>
 <td>&nbsp;</td>
 <td>X</td>
+<td>&nbsp;</td>
 </tr>
 <tr><td><a class="reference internal" href="#makedirs">makedirs</a></td>
 <td>X</td>
@@ -998,6 +1106,7 @@
 <td>&nbsp;</td>
 <td>&nbsp;</td>
 <td>X</td>
+<td>&nbsp;</td>
 </tr>
 <tr><td><a class="reference internal" href="#makedirs-p">makedirs_p</a></td>
 <td>&nbsp;</td>
@@ -1005,6 +1114,7 @@
 <td>&nbsp;</td>
 <td>&nbsp;</td>
 <td>X</td>
+<td>&nbsp;</td>
 </tr>
 <tr><td><a class="reference internal" href="#maketrans">maketrans</a></td>
 <td>&nbsp;</td>
@@ -1012,6 +1122,7 @@
 <td>&nbsp;</td>
 <td>&nbsp;</td>
 <td>X</td>
+<td>&nbsp;</td>
 </tr>
 <tr><td><a class="reference internal" href="#match">match</a></td>
 <td>&nbsp;</td>
@@ -1019,6 +1130,7 @@
 <td>&nbsp;</td>
 <td>X</td>
 <td>&nbsp;</td>
+<td>X</td>
 </tr>
 <tr><td><a class="reference internal" href="#merge-tree">merge_tree</a></td>
 <td>&nbsp;</td>
@@ -1026,11 +1138,13 @@
 <td>&nbsp;</td>
 <td>&nbsp;</td>
 <td>X</td>
+<td>&nbsp;</td>
 </tr>
 <tr><td><a class="reference internal" href="#mkdir">mkdir</a></td>
 <td>X</td>
 <td>&nbsp;</td>
 <td>&nbsp;</td>
+<td>X</td>
 <td>X</td>
 <td>X</td>
 </tr>
@@ -1040,6 +1154,7 @@
 <td>&nbsp;</td>
 <td>&nbsp;</td>
 <td>X</td>
+<td>&nbsp;</td>
 </tr>
 <tr><td><a class="reference internal" href="#module">module</a></td>
 <td>&nbsp;</td>
@@ -1047,6 +1162,7 @@
 <td>&nbsp;</td>
 <td>&nbsp;</td>
 <td>X</td>
+<td>&nbsp;</td>
 </tr>
 <tr><td><a class="reference internal" href="#move">move</a></td>
 <td>&nbsp;</td>
@@ -1054,6 +1170,7 @@
 <td>X</td>
 <td>&nbsp;</td>
 <td>X</td>
+<td>&nbsp;</td>
 </tr>
 <tr><td><a class="reference internal" href="#mtime">mtime</a></td>
 <td>&nbsp;</td>
@@ -1061,6 +1178,7 @@
 <td>&nbsp;</td>
 <td>&nbsp;</td>
 <td>X</td>
+<td>&nbsp;</td>
 </tr>
 <tr><td><a class="reference internal" href="#name">name</a></td>
 <td>X</td>
@@ -1068,6 +1186,7 @@
 <td>&nbsp;</td>
 <td>X</td>
 <td>X</td>
+<td>&nbsp;</td>
 </tr>
 <tr><td><a class="reference internal" href="#namebase">namebase</a></td>
 <td>&nbsp;</td>
@@ -1075,6 +1194,7 @@
 <td>&nbsp;</td>
 <td>&nbsp;</td>
 <td>X</td>
+<td>&nbsp;</td>
 </tr>
 <tr><td><a class="reference internal" href="#normcase">normcase</a></td>
 <td>&nbsp;</td>
@@ -1082,6 +1202,7 @@
 <td>&nbsp;</td>
 <td>&nbsp;</td>
 <td>X</td>
+<td>&nbsp;</td>
 </tr>
 <tr><td><a class="reference internal" href="#normpath">normpath</a></td>
 <td>&nbsp;</td>
@@ -1089,11 +1210,13 @@
 <td>&nbsp;</td>
 <td>&nbsp;</td>
 <td>X</td>
+<td>&nbsp;</td>
 </tr>
 <tr><td><a class="reference internal" href="#open">open</a></td>
 <td>X</td>
 <td>&nbsp;</td>
 <td>&nbsp;</td>
+<td>X</td>
 <td>X</td>
 <td>X</td>
 </tr>
@@ -1103,6 +1226,7 @@
 <td>X</td>
 <td>&nbsp;</td>
 <td>&nbsp;</td>
+<td>&nbsp;</td>
 </tr>
 <tr><td><a class="reference internal" href="#owner">owner</a></td>
 <td>&nbsp;</td>
@@ -1110,10 +1234,12 @@
 <td>&nbsp;</td>
 <td>X</td>
 <td>X</td>
+<td>X</td>
 </tr>
 <tr><td><a class="reference internal" href="#pardir">pardir</a></td>
 <td>X</td>
 <td>X</td>
+<td>&nbsp;</td>
 <td>&nbsp;</td>
 <td>&nbsp;</td>
 <td>&nbsp;</td>
@@ -1124,12 +1250,14 @@
 <td>&nbsp;</td>
 <td>X</td>
 <td>X</td>
+<td>&nbsp;</td>
 </tr>
 <tr><td><a class="reference internal" href="#parents">parents</a></td>
 <td>&nbsp;</td>
 <td>&nbsp;</td>
 <td>&nbsp;</td>
 <td>X</td>
+<td>&nbsp;</td>
 <td>&nbsp;</td>
 </tr>
 <tr><td><a class="reference internal" href="#partition">partition</a></td>
@@ -1138,12 +1266,14 @@
 <td>&nbsp;</td>
 <td>&nbsp;</td>
 <td>X</td>
+<td>&nbsp;</td>
 </tr>
 <tr><td><a class="reference internal" href="#parts">parts</a></td>
 <td>&nbsp;</td>
 <td>&nbsp;</td>
 <td>&nbsp;</td>
 <td>X</td>
+<td>&nbsp;</td>
 <td>&nbsp;</td>
 </tr>
 <tr><td><a class="reference internal" href="#pathconf">pathconf</a></td>
@@ -1152,10 +1282,12 @@
 <td>&nbsp;</td>
 <td>&nbsp;</td>
 <td>X</td>
+<td>&nbsp;</td>
 </tr>
 <tr><td><a class="reference internal" href="#pathsep">pathsep</a></td>
 <td>X</td>
 <td>X</td>
+<td>&nbsp;</td>
 <td>&nbsp;</td>
 <td>&nbsp;</td>
 <td>&nbsp;</td>
@@ -1166,6 +1298,7 @@
 <td>&nbsp;</td>
 <td>X</td>
 <td>&nbsp;</td>
+<td>X</td>
 </tr>
 <tr><td><a class="reference internal" href="#read-hash">read_hash</a></td>
 <td>&nbsp;</td>
@@ -1173,6 +1306,7 @@
 <td>&nbsp;</td>
 <td>&nbsp;</td>
 <td>X</td>
+<td>&nbsp;</td>
 </tr>
 <tr><td><a class="reference internal" href="#read-hexhash">read_hexhash</a></td>
 <td>&nbsp;</td>
@@ -1180,6 +1314,7 @@
 <td>&nbsp;</td>
 <td>&nbsp;</td>
 <td>X</td>
+<td>&nbsp;</td>
 </tr>
 <tr><td><a class="reference internal" href="#read-md5">read_md5</a></td>
 <td>&nbsp;</td>
@@ -1187,6 +1322,7 @@
 <td>&nbsp;</td>
 <td>&nbsp;</td>
 <td>X</td>
+<td>&nbsp;</td>
 </tr>
 <tr><td><a class="reference internal" href="#read-text">read_text</a></td>
 <td>&nbsp;</td>
@@ -1194,6 +1330,7 @@
 <td>&nbsp;</td>
 <td>X</td>
 <td>&nbsp;</td>
+<td>X</td>
 </tr>
 <tr><td><a class="reference internal" href="#readlink">readlink</a></td>
 <td>X</td>
@@ -1201,6 +1338,7 @@
 <td>&nbsp;</td>
 <td>&nbsp;</td>
 <td>X</td>
+<td>&nbsp;</td>
 </tr>
 <tr><td><a class="reference internal" href="#readlinkabs">readlinkabs</a></td>
 <td>&nbsp;</td>
@@ -1208,6 +1346,7 @@
 <td>&nbsp;</td>
 <td>&nbsp;</td>
 <td>X</td>
+<td>&nbsp;</td>
 </tr>
 <tr><td><a class="reference internal" href="#realpath">realpath</a></td>
 <td>&nbsp;</td>
@@ -1215,6 +1354,7 @@
 <td>&nbsp;</td>
 <td>&nbsp;</td>
 <td>X</td>
+<td>&nbsp;</td>
 </tr>
 <tr><td><a class="reference internal" href="#relative-to">relative_to</a></td>
 <td>&nbsp;</td>
@@ -1222,6 +1362,7 @@
 <td>&nbsp;</td>
 <td>X</td>
 <td>&nbsp;</td>
+<td>X</td>
 </tr>
 <tr><td><a class="reference internal" href="#relpath">relpath</a></td>
 <td>&nbsp;</td>
@@ -1229,6 +1370,7 @@
 <td>&nbsp;</td>
 <td>&nbsp;</td>
 <td>X</td>
+<td>&nbsp;</td>
 </tr>
 <tr><td><a class="reference internal" href="#relpathto">relpathto</a></td>
 <td>&nbsp;</td>
@@ -1236,6 +1378,7 @@
 <td>&nbsp;</td>
 <td>&nbsp;</td>
 <td>X</td>
+<td>&nbsp;</td>
 </tr>
 <tr><td><a class="reference internal" href="#remove">remove</a></td>
 <td>X</td>
@@ -1243,6 +1386,7 @@
 <td>&nbsp;</td>
 <td>&nbsp;</td>
 <td>X</td>
+<td>&nbsp;</td>
 </tr>
 <tr><td><a class="reference internal" href="#remove-p">remove_p</a></td>
 <td>&nbsp;</td>
@@ -1250,6 +1394,7 @@
 <td>&nbsp;</td>
 <td>&nbsp;</td>
 <td>X</td>
+<td>&nbsp;</td>
 </tr>
 <tr><td><a class="reference internal" href="#removedirs">removedirs</a></td>
 <td>X</td>
@@ -1257,6 +1402,7 @@
 <td>&nbsp;</td>
 <td>&nbsp;</td>
 <td>X</td>
+<td>&nbsp;</td>
 </tr>
 <tr><td><a class="reference internal" href="#removedirs-p">removedirs_p</a></td>
 <td>&nbsp;</td>
@@ -1264,11 +1410,13 @@
 <td>&nbsp;</td>
 <td>&nbsp;</td>
 <td>X</td>
+<td>&nbsp;</td>
 </tr>
 <tr><td><a class="reference internal" href="#rename">rename</a></td>
 <td>X</td>
 <td>&nbsp;</td>
 <td>&nbsp;</td>
+<td>X</td>
 <td>X</td>
 <td>X</td>
 </tr>
@@ -1278,11 +1426,13 @@
 <td>&nbsp;</td>
 <td>&nbsp;</td>
 <td>X</td>
+<td>&nbsp;</td>
 </tr>
 <tr><td><a class="reference internal" href="#replace">replace</a></td>
 <td>X</td>
 <td>&nbsp;</td>
 <td>&nbsp;</td>
+<td>X</td>
 <td>X</td>
 <td>X</td>
 </tr>
@@ -1292,6 +1442,7 @@
 <td>&nbsp;</td>
 <td>X</td>
 <td>&nbsp;</td>
+<td>X</td>
 </tr>
 <tr><td><a class="reference internal" href="#rfind">rfind</a></td>
 <td>&nbsp;</td>
@@ -1299,6 +1450,7 @@
 <td>&nbsp;</td>
 <td>&nbsp;</td>
 <td>X</td>
+<td>&nbsp;</td>
 </tr>
 <tr><td><a class="reference internal" href="#rglob">rglob</a></td>
 <td>&nbsp;</td>
@@ -1306,6 +1458,7 @@
 <td>&nbsp;</td>
 <td>X</td>
 <td>&nbsp;</td>
+<td>X</td>
 </tr>
 <tr><td><a class="reference internal" href="#rindex">rindex</a></td>
 <td>&nbsp;</td>
@@ -1313,6 +1466,7 @@
 <td>&nbsp;</td>
 <td>&nbsp;</td>
 <td>X</td>
+<td>&nbsp;</td>
 </tr>
 <tr><td><a class="reference internal" href="#rjust">rjust</a></td>
 <td>&nbsp;</td>
@@ -1320,11 +1474,13 @@
 <td>&nbsp;</td>
 <td>&nbsp;</td>
 <td>X</td>
+<td>&nbsp;</td>
 </tr>
 <tr><td><a class="reference internal" href="#rmdir">rmdir</a></td>
 <td>X</td>
 <td>&nbsp;</td>
 <td>&nbsp;</td>
+<td>X</td>
 <td>X</td>
 <td>X</td>
 </tr>
@@ -1334,6 +1490,7 @@
 <td>&nbsp;</td>
 <td>&nbsp;</td>
 <td>X</td>
+<td>&nbsp;</td>
 </tr>
 <tr><td><a class="reference internal" href="#rmtree">rmtree</a></td>
 <td>&nbsp;</td>
@@ -1341,6 +1498,7 @@
 <td>X</td>
 <td>&nbsp;</td>
 <td>X</td>
+<td>&nbsp;</td>
 </tr>
 <tr><td><a class="reference internal" href="#rmtree-p">rmtree_p</a></td>
 <td>&nbsp;</td>
@@ -1348,12 +1506,14 @@
 <td>&nbsp;</td>
 <td>&nbsp;</td>
 <td>X</td>
+<td>&nbsp;</td>
 </tr>
 <tr><td><a class="reference internal" href="#root">root</a></td>
 <td>&nbsp;</td>
 <td>&nbsp;</td>
 <td>&nbsp;</td>
 <td>X</td>
+<td>&nbsp;</td>
 <td>&nbsp;</td>
 </tr>
 <tr><td><a class="reference internal" href="#rpartition">rpartition</a></td>
@@ -1362,6 +1522,7 @@
 <td>&nbsp;</td>
 <td>&nbsp;</td>
 <td>X</td>
+<td>&nbsp;</td>
 </tr>
 <tr><td><a class="reference internal" href="#rsplit">rsplit</a></td>
 <td>&nbsp;</td>
@@ -1369,6 +1530,7 @@
 <td>&nbsp;</td>
 <td>&nbsp;</td>
 <td>X</td>
+<td>&nbsp;</td>
 </tr>
 <tr><td><a class="reference internal" href="#rstrip">rstrip</a></td>
 <td>&nbsp;</td>
@@ -1376,6 +1538,7 @@
 <td>&nbsp;</td>
 <td>&nbsp;</td>
 <td>X</td>
+<td>&nbsp;</td>
 </tr>
 <tr><td><a class="reference internal" href="#samefile">samefile</a></td>
 <td>&nbsp;</td>
@@ -1383,10 +1546,12 @@
 <td>&nbsp;</td>
 <td>X</td>
 <td>X</td>
+<td>X</td>
 </tr>
 <tr><td><a class="reference internal" href="#sameopenfile">sameopenfile</a></td>
 <td>&nbsp;</td>
 <td>X</td>
+<td>&nbsp;</td>
 <td>&nbsp;</td>
 <td>&nbsp;</td>
 <td>&nbsp;</td>
@@ -1397,10 +1562,12 @@
 <td>&nbsp;</td>
 <td>&nbsp;</td>
 <td>&nbsp;</td>
+<td>&nbsp;</td>
 </tr>
 <tr><td><a class="reference internal" href="#sep">sep</a></td>
 <td>X</td>
 <td>X</td>
+<td>&nbsp;</td>
 <td>&nbsp;</td>
 <td>&nbsp;</td>
 <td>&nbsp;</td>
@@ -1411,6 +1578,7 @@
 <td>&nbsp;</td>
 <td>&nbsp;</td>
 <td>X</td>
+<td>&nbsp;</td>
 </tr>
 <tr><td><a class="reference internal" href="#special">special</a></td>
 <td>&nbsp;</td>
@@ -1418,6 +1586,7 @@
 <td>&nbsp;</td>
 <td>&nbsp;</td>
 <td>X</td>
+<td>&nbsp;</td>
 </tr>
 <tr><td><a class="reference internal" href="#split">split</a></td>
 <td>&nbsp;</td>
@@ -1425,6 +1594,7 @@
 <td>&nbsp;</td>
 <td>&nbsp;</td>
 <td>X</td>
+<td>&nbsp;</td>
 </tr>
 <tr><td><a class="reference internal" href="#splitall">splitall</a></td>
 <td>&nbsp;</td>
@@ -1432,6 +1602,7 @@
 <td>&nbsp;</td>
 <td>&nbsp;</td>
 <td>X</td>
+<td>&nbsp;</td>
 </tr>
 <tr><td><a class="reference internal" href="#splitdrive">splitdrive</a></td>
 <td>&nbsp;</td>
@@ -1439,6 +1610,7 @@
 <td>&nbsp;</td>
 <td>&nbsp;</td>
 <td>X</td>
+<td>&nbsp;</td>
 </tr>
 <tr><td><a class="reference internal" href="#splitext">splitext</a></td>
 <td>&nbsp;</td>
@@ -1446,6 +1618,7 @@
 <td>&nbsp;</td>
 <td>&nbsp;</td>
 <td>X</td>
+<td>&nbsp;</td>
 </tr>
 <tr><td><a class="reference internal" href="#splitlines">splitlines</a></td>
 <td>&nbsp;</td>
@@ -1453,6 +1626,7 @@
 <td>&nbsp;</td>
 <td>&nbsp;</td>
 <td>X</td>
+<td>&nbsp;</td>
 </tr>
 <tr><td><a class="reference internal" href="#splitpath">splitpath</a></td>
 <td>&nbsp;</td>
@@ -1460,6 +1634,7 @@
 <td>&nbsp;</td>
 <td>&nbsp;</td>
 <td>X</td>
+<td>&nbsp;</td>
 </tr>
 <tr><td><a class="reference internal" href="#splitunc">splitunc</a></td>
 <td>&nbsp;</td>
@@ -1467,6 +1642,7 @@
 <td>&nbsp;</td>
 <td>&nbsp;</td>
 <td>X</td>
+<td>&nbsp;</td>
 </tr>
 <tr><td><a class="reference internal" href="#startswith">startswith</a></td>
 <td>&nbsp;</td>
@@ -1474,8 +1650,10 @@
 <td>&nbsp;</td>
 <td>&nbsp;</td>
 <td>X</td>
+<td>&nbsp;</td>
 </tr>
 <tr><td><a class="reference internal" href="#stat">stat</a></td>
+<td>X</td>
 <td>X</td>
 <td>X</td>
 <td>X</td>
@@ -1488,6 +1666,7 @@
 <td>&nbsp;</td>
 <td>&nbsp;</td>
 <td>X</td>
+<td>&nbsp;</td>
 </tr>
 <tr><td><a class="reference internal" href="#stem">stem</a></td>
 <td>&nbsp;</td>
@@ -1495,6 +1674,7 @@
 <td>&nbsp;</td>
 <td>X</td>
 <td>X</td>
+<td>&nbsp;</td>
 </tr>
 <tr><td><a class="reference internal" href="#strip">strip</a></td>
 <td>&nbsp;</td>
@@ -1502,6 +1682,7 @@
 <td>&nbsp;</td>
 <td>&nbsp;</td>
 <td>X</td>
+<td>&nbsp;</td>
 </tr>
 <tr><td><a class="reference internal" href="#stripext">stripext</a></td>
 <td>&nbsp;</td>
@@ -1509,12 +1690,14 @@
 <td>&nbsp;</td>
 <td>&nbsp;</td>
 <td>X</td>
+<td>&nbsp;</td>
 </tr>
 <tr><td><a class="reference internal" href="#suffix">suffix</a></td>
 <td>&nbsp;</td>
 <td>&nbsp;</td>
 <td>&nbsp;</td>
 <td>X</td>
+<td>&nbsp;</td>
 <td>&nbsp;</td>
 </tr>
 <tr><td><a class="reference internal" href="#suffixes">suffixes</a></td>
@@ -1523,6 +1706,7 @@
 <td>&nbsp;</td>
 <td>X</td>
 <td>&nbsp;</td>
+<td>&nbsp;</td>
 </tr>
 <tr><td><a class="reference internal" href="#swapcase">swapcase</a></td>
 <td>&nbsp;</td>
@@ -1530,6 +1714,7 @@
 <td>&nbsp;</td>
 <td>&nbsp;</td>
 <td>X</td>
+<td>&nbsp;</td>
 </tr>
 <tr><td><a class="reference internal" href="#symlink">symlink</a></td>
 <td>X</td>
@@ -1537,6 +1722,7 @@
 <td>&nbsp;</td>
 <td>&nbsp;</td>
 <td>X</td>
+<td>&nbsp;</td>
 </tr>
 <tr><td><a class="reference internal" href="#symlink-to">symlink_to</a></td>
 <td>&nbsp;</td>
@@ -1544,6 +1730,7 @@
 <td>&nbsp;</td>
 <td>X</td>
 <td>&nbsp;</td>
+<td>X</td>
 </tr>
 <tr><td><a class="reference internal" href="#text">text</a></td>
 <td>&nbsp;</td>
@@ -1551,6 +1738,7 @@
 <td>&nbsp;</td>
 <td>&nbsp;</td>
 <td>X</td>
+<td>&nbsp;</td>
 </tr>
 <tr><td><a class="reference internal" href="#title">title</a></td>
 <td>&nbsp;</td>
@@ -1558,11 +1746,13 @@
 <td>&nbsp;</td>
 <td>&nbsp;</td>
 <td>X</td>
+<td>&nbsp;</td>
 </tr>
 <tr><td><a class="reference internal" href="#touch">touch</a></td>
 <td>&nbsp;</td>
 <td>&nbsp;</td>
 <td>&nbsp;</td>
+<td>X</td>
 <td>X</td>
 <td>X</td>
 </tr>
@@ -1572,6 +1762,7 @@
 <td>&nbsp;</td>
 <td>&nbsp;</td>
 <td>X</td>
+<td>&nbsp;</td>
 </tr>
 <tr><td><a class="reference internal" href="#uncshare">uncshare</a></td>
 <td>&nbsp;</td>
@@ -1579,11 +1770,13 @@
 <td>&nbsp;</td>
 <td>&nbsp;</td>
 <td>X</td>
+<td>&nbsp;</td>
 </tr>
 <tr><td><a class="reference internal" href="#unlink">unlink</a></td>
 <td>X</td>
 <td>&nbsp;</td>
 <td>&nbsp;</td>
+<td>X</td>
 <td>X</td>
 <td>X</td>
 </tr>
@@ -1593,6 +1786,7 @@
 <td>&nbsp;</td>
 <td>&nbsp;</td>
 <td>X</td>
+<td>&nbsp;</td>
 </tr>
 <tr><td><a class="reference internal" href="#upper">upper</a></td>
 <td>&nbsp;</td>
@@ -1600,6 +1794,7 @@
 <td>&nbsp;</td>
 <td>&nbsp;</td>
 <td>X</td>
+<td>&nbsp;</td>
 </tr>
 <tr><td><a class="reference internal" href="#using-module">using_module</a></td>
 <td>&nbsp;</td>
@@ -1607,6 +1802,7 @@
 <td>&nbsp;</td>
 <td>&nbsp;</td>
 <td>X</td>
+<td>&nbsp;</td>
 </tr>
 <tr><td><a class="reference internal" href="#utime">utime</a></td>
 <td>X</td>
@@ -1614,6 +1810,7 @@
 <td>&nbsp;</td>
 <td>&nbsp;</td>
 <td>X</td>
+<td>&nbsp;</td>
 </tr>
 <tr><td><a class="reference internal" href="#walk">walk</a></td>
 <td>X</td>
@@ -1621,6 +1818,7 @@
 <td>&nbsp;</td>
 <td>&nbsp;</td>
 <td>X</td>
+<td>&nbsp;</td>
 </tr>
 <tr><td><a class="reference internal" href="#walkdirs">walkdirs</a></td>
 <td>&nbsp;</td>
@@ -1628,6 +1826,7 @@
 <td>&nbsp;</td>
 <td>&nbsp;</td>
 <td>X</td>
+<td>&nbsp;</td>
 </tr>
 <tr><td><a class="reference internal" href="#walkfiles">walkfiles</a></td>
 <td>&nbsp;</td>
@@ -1635,6 +1834,7 @@
 <td>&nbsp;</td>
 <td>&nbsp;</td>
 <td>X</td>
+<td>&nbsp;</td>
 </tr>
 <tr><td><a class="reference internal" href="#with-name">with_name</a></td>
 <td>&nbsp;</td>
@@ -1642,11 +1842,13 @@
 <td>&nbsp;</td>
 <td>X</td>
 <td>&nbsp;</td>
+<td>X</td>
 </tr>
 <tr><td><a class="reference internal" href="#with-suffix">with_suffix</a></td>
 <td>&nbsp;</td>
 <td>&nbsp;</td>
 <td>&nbsp;</td>
+<td>X</td>
 <td>X</td>
 <td>X</td>
 </tr>
@@ -1656,6 +1858,7 @@
 <td>&nbsp;</td>
 <td>X</td>
 <td>X</td>
+<td>X</td>
 </tr>
 <tr><td><a class="reference internal" href="#write-lines">write_lines</a></td>
 <td>&nbsp;</td>
@@ -1663,11 +1866,13 @@
 <td>&nbsp;</td>
 <td>&nbsp;</td>
 <td>X</td>
+<td>&nbsp;</td>
 </tr>
 <tr><td><a class="reference internal" href="#write-text">write_text</a></td>
 <td>&nbsp;</td>
 <td>&nbsp;</td>
 <td>&nbsp;</td>
+<td>X</td>
 <td>X</td>
 <td>X</td>
 </tr>
@@ -1677,6 +1882,7 @@
 <td>&nbsp;</td>
 <td>&nbsp;</td>
 <td>X</td>
+<td>&nbsp;</td>
 </tr>
 </tbody>
 </table>
@@ -1935,6 +2141,7 @@
 <h2><a class="toc-backref" href="#id28"><tt class="docutils literal">absolute</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>pathlib.absolute</strong><tt class="docutils literal">(self)</tt></div>
+<div class="line"><strong>trio.absolute</strong><tt class="docutils literal">(self, *args, **kwargs)</tt></div>
 </div>
 <div class="line-block">
 <div class="line">seealso: <a class="reference external" href="#is-absolute">pathlib.is_absolute</a></div>
@@ -1961,6 +2168,19 @@
     <span class="n">obj</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_from_parts</span><span class="p">([</span><span class="n">os</span><span class="o">.</span><span class="n">getcwd</span><span class="p">()]</span> <span class="o">+</span> <span class="bp">self</span><span class="o">.</span><span class="n">_parts</span><span class="p">,</span> <span class="n">init</span><span class="o">=</span><span class="bp">False</span><span class="p">)</span>
     <span class="n">obj</span><span class="o">.</span><span class="n">_init</span><span class="p">(</span><span class="n">template</span><span class="o">=</span><span class="bp">self</span><span class="p">)</span>
     <span class="k">return</span> <span class="n">obj</span>
+</pre>
+<div class="line-block">
+<div class="line"><strong>trio.absolute</strong><tt class="docutils literal">(self, *args, **kwargs)</tt>:</div>
+<div class="line"><a class="reference external" href="https://trio.readthedocs.io/en/latest/reference-io.html#trio.Path.absolute">docs</a> <a class="reference external" href="https://github.com/python-trio/trio/blob/master/trio/_path.py">source (_path.py)</a></div>
+</div>
+<pre class="code python literal-block">
+<span class="nd">&#64;async_wraps</span><span class="p">(</span><span class="bp">cls</span><span class="p">,</span> <span class="n">pathlib</span><span class="o">.</span><span class="n">Path</span><span class="p">,</span> <span class="n">meth_name</span><span class="p">)</span>
+<span class="n">async</span> <span class="k">def</span> <span class="nf">wrapper</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
+    <span class="n">args</span> <span class="o">=</span> <span class="n">unwrap_paths</span><span class="p">(</span><span class="n">args</span><span class="p">)</span>
+    <span class="n">meth</span> <span class="o">=</span> <span class="nb">getattr</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">_wrapped</span><span class="p">,</span> <span class="n">meth_name</span><span class="p">)</span>
+    <span class="n">func</span> <span class="o">=</span> <span class="n">partial</span><span class="p">(</span><span class="n">meth</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span>
+    <span class="n">value</span> <span class="o">=</span> <span class="n">await</span> <span class="n">trio</span><span class="o">.</span><span class="n">run_sync_in_worker_thread</span><span class="p">(</span><span class="n">func</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">rewrap_path</span><span class="p">(</span><span class="n">value</span><span class="p">)</span>
 </pre>
 </div>
 <div class="section" id="abspath">
@@ -2072,10 +2292,22 @@
 <h2><a class="toc-backref" href="#id33"><tt class="docutils literal">as_posix</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>pathlib.as_posix</strong><tt class="docutils literal">(self)</tt></div>
+<div class="line"><strong>trio.as_posix</strong><tt class="docutils literal">(self)</tt></div>
 </div>
 <div class="line-block">
 <div class="line"><strong>pathlib.as_posix</strong><tt class="docutils literal">(self)</tt>:</div>
 <div class="line"><a class="reference external" href="https://docs.python.org/3/library/pathlib.html#pathlib.Path.as_posix">docs</a> <a class="reference external" href="https://github.com/python/cpython/blob/3.6/Lib/pathlib.py">source (pathlib.py)</a></div>
+</div>
+<pre class="code python literal-block">
+<span class="k">def</span> <span class="nf">as_posix</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;Return the string representation of the path with forward (/)
+    slashes.&quot;&quot;&quot;</span>
+    <span class="n">f</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_flavour</span>
+    <span class="k">return</span> <span class="nb">str</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="n">f</span><span class="o">.</span><span class="n">sep</span><span class="p">,</span> <span class="s1">'/'</span><span class="p">)</span>
+</pre>
+<div class="line-block">
+<div class="line"><strong>trio.as_posix</strong><tt class="docutils literal">(self)</tt>:</div>
+<div class="line"><a class="reference external" href="https://trio.readthedocs.io/en/latest/reference-io.html#trio.Path.as_posix">docs</a> <a class="reference external" href="https://github.com/python-trio/trio/blob/master/trio/_path.py">source (_path.py)</a></div>
 </div>
 <pre class="code python literal-block">
 <span class="k">def</span> <span class="nf">as_posix</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
@@ -2089,10 +2321,22 @@
 <h2><a class="toc-backref" href="#id34"><tt class="docutils literal">as_uri</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>pathlib.as_uri</strong><tt class="docutils literal">(self)</tt></div>
+<div class="line"><strong>trio.as_uri</strong><tt class="docutils literal">(self)</tt></div>
 </div>
 <div class="line-block">
 <div class="line"><strong>pathlib.as_uri</strong><tt class="docutils literal">(self)</tt>:</div>
 <div class="line"><a class="reference external" href="https://docs.python.org/3/library/pathlib.html#pathlib.Path.as_uri">docs</a> <a class="reference external" href="https://github.com/python/cpython/blob/3.6/Lib/pathlib.py">source (pathlib.py)</a></div>
+</div>
+<pre class="code python literal-block">
+<span class="k">def</span> <span class="nf">as_uri</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;Return the path as a 'file' URI.&quot;&quot;&quot;</span>
+    <span class="k">if</span> <span class="ow">not</span> <span class="bp">self</span><span class="o">.</span><span class="n">is_absolute</span><span class="p">():</span>
+        <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span><span class="s2">&quot;relative path can't be expressed as a file URI&quot;</span><span class="p">)</span>
+    <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_flavour</span><span class="o">.</span><span class="n">make_uri</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span>
+</pre>
+<div class="line-block">
+<div class="line"><strong>trio.as_uri</strong><tt class="docutils literal">(self)</tt>:</div>
+<div class="line"><a class="reference external" href="https://trio.readthedocs.io/en/latest/reference-io.html#trio.Path.as_uri">docs</a> <a class="reference external" href="https://github.com/python-trio/trio/blob/master/trio/_path.py">source (_path.py)</a></div>
 </div>
 <pre class="code python literal-block">
 <span class="k">def</span> <span class="nf">as_uri</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
@@ -2256,6 +2500,7 @@
 <div class="line"><strong>os.chmod</strong><tt class="docutils literal">(path, mode, *, dir_fd=None, follow_symlinks=True)</tt></div>
 <div class="line"><strong>pathlib.chmod</strong><tt class="docutils literal">(self, mode)</tt></div>
 <div class="line"><strong>pathpy.chmod</strong><tt class="docutils literal">(self, mode)</tt></div>
+<div class="line"><strong>trio.chmod</strong><tt class="docutils literal">(self, *args, **kwargs)</tt></div>
 </div>
 <div class="line-block">
 <div class="line"><strong>os.chmod</strong><tt class="docutils literal">(path, mode, *, dir_fd=None, follow_symlinks=True)</tt>:</div>
@@ -2314,6 +2559,19 @@
         <span class="n">mode</span> <span class="o">=</span> <span class="n">mask</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">stat</span><span class="p">()</span><span class="o">.</span><span class="n">st_mode</span><span class="p">)</span>
     <span class="n">os</span><span class="o">.</span><span class="n">chmod</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">mode</span><span class="p">)</span>
     <span class="k">return</span> <span class="bp">self</span>
+</pre>
+<div class="line-block">
+<div class="line"><strong>trio.chmod</strong><tt class="docutils literal">(self, *args, **kwargs)</tt>:</div>
+<div class="line"><a class="reference external" href="https://trio.readthedocs.io/en/latest/reference-io.html#trio.Path.chmod">docs</a> <a class="reference external" href="https://github.com/python-trio/trio/blob/master/trio/_path.py">source (_path.py)</a></div>
+</div>
+<pre class="code python literal-block">
+<span class="nd">&#64;async_wraps</span><span class="p">(</span><span class="bp">cls</span><span class="p">,</span> <span class="n">pathlib</span><span class="o">.</span><span class="n">Path</span><span class="p">,</span> <span class="n">meth_name</span><span class="p">)</span>
+<span class="n">async</span> <span class="k">def</span> <span class="nf">wrapper</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
+    <span class="n">args</span> <span class="o">=</span> <span class="n">unwrap_paths</span><span class="p">(</span><span class="n">args</span><span class="p">)</span>
+    <span class="n">meth</span> <span class="o">=</span> <span class="nb">getattr</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">_wrapped</span><span class="p">,</span> <span class="n">meth_name</span><span class="p">)</span>
+    <span class="n">func</span> <span class="o">=</span> <span class="n">partial</span><span class="p">(</span><span class="n">meth</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span>
+    <span class="n">value</span> <span class="o">=</span> <span class="n">await</span> <span class="n">trio</span><span class="o">.</span><span class="n">run_sync_in_worker_thread</span><span class="p">(</span><span class="n">func</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">rewrap_path</span><span class="p">(</span><span class="n">value</span><span class="p">)</span>
 </pre>
 </div>
 <div class="section" id="chown">
@@ -3164,6 +3422,7 @@
 <h2><a class="toc-backref" href="#id58"><tt class="docutils literal">cwd</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>pathlib.cwd</strong><tt class="docutils literal">()</tt></div>
+<div class="line"><strong>trio.cwd</strong><tt class="docutils literal">()</tt></div>
 </div>
 <div class="line-block">
 <div class="line">seealso: <a class="reference external" href="#getcwd">os.getcwd</a>, <a class="reference external" href="#getcwd">pathpy.getcwd</a></div>
@@ -3171,6 +3430,18 @@
 <div class="line-block">
 <div class="line"><strong>pathlib.cwd</strong><tt class="docutils literal">()</tt>:</div>
 <div class="line"><a class="reference external" href="https://docs.python.org/3/library/pathlib.html#pathlib.Path.cwd">docs</a> <a class="reference external" href="https://github.com/python/cpython/blob/3.6/Lib/pathlib.py">source (pathlib.py)</a></div>
+</div>
+<pre class="code python literal-block">
+<span class="nd">&#64;classmethod</span>
+<span class="k">def</span> <span class="nf">cwd</span><span class="p">(</span><span class="bp">cls</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;Return a new path pointing to the current working directory
+    (as returned by os.getcwd()).
+    &quot;&quot;&quot;</span>
+    <span class="k">return</span> <span class="bp">cls</span><span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">getcwd</span><span class="p">())</span>
+</pre>
+<div class="line-block">
+<div class="line"><strong>trio.cwd</strong><tt class="docutils literal">()</tt>:</div>
+<div class="line"><a class="reference external" href="https://trio.readthedocs.io/en/latest/reference-io.html#trio.Path.cwd">docs</a> <a class="reference external" href="https://github.com/python-trio/trio/blob/master/trio/_path.py">source (_path.py)</a></div>
 </div>
 <pre class="code python literal-block">
 <span class="nd">&#64;classmethod</span>
@@ -3366,6 +3637,7 @@
 <div class="line"><strong>os.path.exists</strong><tt class="docutils literal">(path)</tt></div>
 <div class="line"><strong>pathlib.exists</strong><tt class="docutils literal">(self)</tt></div>
 <div class="line"><strong>pathpy.exists</strong><tt class="docutils literal">(self)</tt></div>
+<div class="line"><strong>trio.exists</strong><tt class="docutils literal">(self, *args, **kwargs)</tt></div>
 </div>
 <div class="line-block">
 <div class="line"><strong>os.path.exists</strong><tt class="docutils literal">(path)</tt>:</div>
@@ -3405,6 +3677,19 @@
 <span class="k">def</span> <span class="nf">exists</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
     <span class="sd">&quot;&quot;&quot; .. seealso:: :func:`os.path.exists` &quot;&quot;&quot;</span>
     <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">module</span><span class="o">.</span><span class="n">exists</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span>
+</pre>
+<div class="line-block">
+<div class="line"><strong>trio.exists</strong><tt class="docutils literal">(self, *args, **kwargs)</tt>:</div>
+<div class="line"><a class="reference external" href="https://trio.readthedocs.io/en/latest/reference-io.html#trio.Path.exists">docs</a> <a class="reference external" href="https://github.com/python-trio/trio/blob/master/trio/_path.py">source (_path.py)</a></div>
+</div>
+<pre class="code python literal-block">
+<span class="nd">&#64;async_wraps</span><span class="p">(</span><span class="bp">cls</span><span class="p">,</span> <span class="n">pathlib</span><span class="o">.</span><span class="n">Path</span><span class="p">,</span> <span class="n">meth_name</span><span class="p">)</span>
+<span class="n">async</span> <span class="k">def</span> <span class="nf">wrapper</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
+    <span class="n">args</span> <span class="o">=</span> <span class="n">unwrap_paths</span><span class="p">(</span><span class="n">args</span><span class="p">)</span>
+    <span class="n">meth</span> <span class="o">=</span> <span class="nb">getattr</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">_wrapped</span><span class="p">,</span> <span class="n">meth_name</span><span class="p">)</span>
+    <span class="n">func</span> <span class="o">=</span> <span class="n">partial</span><span class="p">(</span><span class="n">meth</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span>
+    <span class="n">value</span> <span class="o">=</span> <span class="n">await</span> <span class="n">trio</span><span class="o">.</span><span class="n">run_sync_in_worker_thread</span><span class="p">(</span><span class="n">func</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">rewrap_path</span><span class="p">(</span><span class="n">value</span><span class="p">)</span>
 </pre>
 </div>
 <div class="section" id="expand">
@@ -3446,6 +3731,7 @@
 <div class="line"><strong>os.path.expanduser</strong><tt class="docutils literal">(path)</tt></div>
 <div class="line"><strong>pathlib.expanduser</strong><tt class="docutils literal">(self)</tt></div>
 <div class="line"><strong>pathpy.expanduser</strong><tt class="docutils literal">(self)</tt></div>
+<div class="line"><strong>trio.expanduser</strong><tt class="docutils literal">(self, *args, **kwargs)</tt></div>
 </div>
 <div class="line-block">
 <div class="line"><strong>os.path.expanduser</strong><tt class="docutils literal">(path)</tt>:</div>
@@ -3514,6 +3800,19 @@
 <span class="k">def</span> <span class="nf">expanduser</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
     <span class="sd">&quot;&quot;&quot; .. seealso:: :func:`os.path.expanduser` &quot;&quot;&quot;</span>
     <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_next_class</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">module</span><span class="o">.</span><span class="n">expanduser</span><span class="p">(</span><span class="bp">self</span><span class="p">))</span>
+</pre>
+<div class="line-block">
+<div class="line"><strong>trio.expanduser</strong><tt class="docutils literal">(self, *args, **kwargs)</tt>:</div>
+<div class="line"><a class="reference external" href="https://trio.readthedocs.io/en/latest/reference-io.html#trio.Path.expanduser">docs</a> <a class="reference external" href="https://github.com/python-trio/trio/blob/master/trio/_path.py">source (_path.py)</a></div>
+</div>
+<pre class="code python literal-block">
+<span class="nd">&#64;async_wraps</span><span class="p">(</span><span class="bp">cls</span><span class="p">,</span> <span class="n">pathlib</span><span class="o">.</span><span class="n">Path</span><span class="p">,</span> <span class="n">meth_name</span><span class="p">)</span>
+<span class="n">async</span> <span class="k">def</span> <span class="nf">wrapper</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
+    <span class="n">args</span> <span class="o">=</span> <span class="n">unwrap_paths</span><span class="p">(</span><span class="n">args</span><span class="p">)</span>
+    <span class="n">meth</span> <span class="o">=</span> <span class="nb">getattr</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">_wrapped</span><span class="p">,</span> <span class="n">meth_name</span><span class="p">)</span>
+    <span class="n">func</span> <span class="o">=</span> <span class="n">partial</span><span class="p">(</span><span class="n">meth</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span>
+    <span class="n">value</span> <span class="o">=</span> <span class="n">await</span> <span class="n">trio</span><span class="o">.</span><span class="n">run_sync_in_worker_thread</span><span class="p">(</span><span class="n">func</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">rewrap_path</span><span class="p">(</span><span class="n">value</span><span class="p">)</span>
 </pre>
 </div>
 <div class="section" id="expandvars">
@@ -3913,6 +4212,7 @@
 <div class="line-block">
 <div class="line"><strong>pathlib.glob</strong><tt class="docutils literal">(self, pattern)</tt></div>
 <div class="line"><strong>pathpy.glob</strong><tt class="docutils literal">(self, pattern)</tt></div>
+<div class="line"><strong>trio.glob</strong><tt class="docutils literal">(self, *args, **kwargs)</tt></div>
 </div>
 <div class="line-block">
 <div class="line"><strong>pathlib.glob</strong><tt class="docutils literal">(self, pattern)</tt>:</div>
@@ -3951,11 +4251,25 @@
     <span class="bp">cls</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_next_class</span>
     <span class="k">return</span> <span class="p">[</span><span class="bp">cls</span><span class="p">(</span><span class="n">s</span><span class="p">)</span> <span class="k">for</span> <span class="n">s</span> <span class="ow">in</span> <span class="n">glob</span><span class="o">.</span><span class="n">glob</span><span class="p">(</span><span class="bp">self</span> <span class="o">/</span> <span class="n">pattern</span><span class="p">)]</span>
 </pre>
+<div class="line-block">
+<div class="line"><strong>trio.glob</strong><tt class="docutils literal">(self, *args, **kwargs)</tt>:</div>
+<div class="line"><a class="reference external" href="https://trio.readthedocs.io/en/latest/reference-io.html#trio.Path.glob">docs</a> <a class="reference external" href="https://github.com/python-trio/trio/blob/master/trio/_path.py">source (_path.py)</a></div>
+</div>
+<pre class="code python literal-block">
+<span class="nd">&#64;async_wraps</span><span class="p">(</span><span class="bp">cls</span><span class="p">,</span> <span class="n">pathlib</span><span class="o">.</span><span class="n">Path</span><span class="p">,</span> <span class="n">meth_name</span><span class="p">)</span>
+<span class="n">async</span> <span class="k">def</span> <span class="nf">wrapper</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
+    <span class="n">args</span> <span class="o">=</span> <span class="n">unwrap_paths</span><span class="p">(</span><span class="n">args</span><span class="p">)</span>
+    <span class="n">meth</span> <span class="o">=</span> <span class="nb">getattr</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">_wrapped</span><span class="p">,</span> <span class="n">meth_name</span><span class="p">)</span>
+    <span class="n">func</span> <span class="o">=</span> <span class="n">partial</span><span class="p">(</span><span class="n">meth</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span>
+    <span class="n">value</span> <span class="o">=</span> <span class="n">await</span> <span class="n">trio</span><span class="o">.</span><span class="n">run_sync_in_worker_thread</span><span class="p">(</span><span class="n">func</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">rewrap_path</span><span class="p">(</span><span class="n">value</span><span class="p">)</span>
+</pre>
 </div>
 <div class="section" id="group">
 <h2><a class="toc-backref" href="#id85"><tt class="docutils literal">group</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>pathlib.group</strong><tt class="docutils literal">(self)</tt></div>
+<div class="line"><strong>trio.group</strong><tt class="docutils literal">(self, *args, **kwargs)</tt></div>
 </div>
 <div class="line-block">
 <div class="line"><strong>pathlib.group</strong><tt class="docutils literal">(self)</tt>:</div>
@@ -3969,15 +4283,41 @@
     <span class="kn">import</span> <span class="nn">grp</span>
     <span class="k">return</span> <span class="n">grp</span><span class="o">.</span><span class="n">getgrgid</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">stat</span><span class="p">()</span><span class="o">.</span><span class="n">st_gid</span><span class="p">)</span><span class="o">.</span><span class="n">gr_name</span>
 </pre>
+<div class="line-block">
+<div class="line"><strong>trio.group</strong><tt class="docutils literal">(self, *args, **kwargs)</tt>:</div>
+<div class="line"><a class="reference external" href="https://trio.readthedocs.io/en/latest/reference-io.html#trio.Path.group">docs</a> <a class="reference external" href="https://github.com/python-trio/trio/blob/master/trio/_path.py">source (_path.py)</a></div>
+</div>
+<pre class="code python literal-block">
+<span class="nd">&#64;async_wraps</span><span class="p">(</span><span class="bp">cls</span><span class="p">,</span> <span class="n">pathlib</span><span class="o">.</span><span class="n">Path</span><span class="p">,</span> <span class="n">meth_name</span><span class="p">)</span>
+<span class="n">async</span> <span class="k">def</span> <span class="nf">wrapper</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
+    <span class="n">args</span> <span class="o">=</span> <span class="n">unwrap_paths</span><span class="p">(</span><span class="n">args</span><span class="p">)</span>
+    <span class="n">meth</span> <span class="o">=</span> <span class="nb">getattr</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">_wrapped</span><span class="p">,</span> <span class="n">meth_name</span><span class="p">)</span>
+    <span class="n">func</span> <span class="o">=</span> <span class="n">partial</span><span class="p">(</span><span class="n">meth</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span>
+    <span class="n">value</span> <span class="o">=</span> <span class="n">await</span> <span class="n">trio</span><span class="o">.</span><span class="n">run_sync_in_worker_thread</span><span class="p">(</span><span class="n">func</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">rewrap_path</span><span class="p">(</span><span class="n">value</span><span class="p">)</span>
+</pre>
 </div>
 <div class="section" id="home">
 <h2><a class="toc-backref" href="#id86"><tt class="docutils literal">home</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>pathlib.home</strong><tt class="docutils literal">()</tt></div>
+<div class="line"><strong>trio.home</strong><tt class="docutils literal">()</tt></div>
 </div>
 <div class="line-block">
 <div class="line"><strong>pathlib.home</strong><tt class="docutils literal">()</tt>:</div>
 <div class="line"><a class="reference external" href="https://docs.python.org/3/library/pathlib.html#pathlib.Path.home">docs</a> <a class="reference external" href="https://github.com/python/cpython/blob/3.6/Lib/pathlib.py">source (pathlib.py)</a></div>
+</div>
+<pre class="code python literal-block">
+<span class="nd">&#64;classmethod</span>
+<span class="k">def</span> <span class="nf">home</span><span class="p">(</span><span class="bp">cls</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;Return a new path pointing to the user's home directory (as
+    returned by os.path.expanduser('~')).
+    &quot;&quot;&quot;</span>
+    <span class="k">return</span> <span class="bp">cls</span><span class="p">(</span><span class="bp">cls</span><span class="p">()</span><span class="o">.</span><span class="n">_flavour</span><span class="o">.</span><span class="n">gethomedir</span><span class="p">(</span><span class="bp">None</span><span class="p">))</span>
+</pre>
+<div class="line-block">
+<div class="line"><strong>trio.home</strong><tt class="docutils literal">()</tt>:</div>
+<div class="line"><a class="reference external" href="https://trio.readthedocs.io/en/latest/reference-io.html#trio.Path.home">docs</a> <a class="reference external" href="https://github.com/python-trio/trio/blob/master/trio/_path.py">source (_path.py)</a></div>
 </div>
 <pre class="code python literal-block">
 <span class="nd">&#64;classmethod</span>
@@ -4110,6 +4450,7 @@
 <h2><a class="toc-backref" href="#id89"><tt class="docutils literal">is_absolute</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>pathlib.is_absolute</strong><tt class="docutils literal">(self)</tt></div>
+<div class="line"><strong>trio.is_absolute</strong><tt class="docutils literal">(self)</tt></div>
 </div>
 <div class="line-block">
 <div class="line">seealso: <a class="reference external" href="#isabs">os.path.isabs</a>, <a class="reference external" href="#absolute">pathlib.absolute</a>, <a class="reference external" href="#isabs">pathpy.isabs</a></div>
@@ -4126,11 +4467,24 @@
         <span class="k">return</span> <span class="bp">False</span>
     <span class="k">return</span> <span class="ow">not</span> <span class="bp">self</span><span class="o">.</span><span class="n">_flavour</span><span class="o">.</span><span class="n">has_drv</span> <span class="ow">or</span> <span class="nb">bool</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">_drv</span><span class="p">)</span>
 </pre>
+<div class="line-block">
+<div class="line"><strong>trio.is_absolute</strong><tt class="docutils literal">(self)</tt>:</div>
+<div class="line"><a class="reference external" href="https://trio.readthedocs.io/en/latest/reference-io.html#trio.Path.is_absolute">docs</a> <a class="reference external" href="https://github.com/python-trio/trio/blob/master/trio/_path.py">source (_path.py)</a></div>
+</div>
+<pre class="code python literal-block">
+<span class="k">def</span> <span class="nf">is_absolute</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;True if the path is absolute (has both a root and, if applicable,
+    a drive).&quot;&quot;&quot;</span>
+    <span class="k">if</span> <span class="ow">not</span> <span class="bp">self</span><span class="o">.</span><span class="n">_root</span><span class="p">:</span>
+        <span class="k">return</span> <span class="bp">False</span>
+    <span class="k">return</span> <span class="ow">not</span> <span class="bp">self</span><span class="o">.</span><span class="n">_flavour</span><span class="o">.</span><span class="n">has_drv</span> <span class="ow">or</span> <span class="nb">bool</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">_drv</span><span class="p">)</span>
+</pre>
 </div>
 <div class="section" id="is-block-device">
 <h2><a class="toc-backref" href="#id90"><tt class="docutils literal">is_block_device</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>pathlib.is_block_device</strong><tt class="docutils literal">(self)</tt></div>
+<div class="line"><strong>trio.is_block_device</strong><tt class="docutils literal">(self, *args, **kwargs)</tt></div>
 </div>
 <div class="line-block">
 <div class="line"><strong>pathlib.is_block_device</strong><tt class="docutils literal">(self)</tt>:</div>
@@ -4150,11 +4504,25 @@
         <span class="c1"># (see https://bitbucket.org/pitrou/pathlib/issue/12/)</span>
         <span class="k">return</span> <span class="bp">False</span>
 </pre>
+<div class="line-block">
+<div class="line"><strong>trio.is_block_device</strong><tt class="docutils literal">(self, *args, **kwargs)</tt>:</div>
+<div class="line"><a class="reference external" href="https://trio.readthedocs.io/en/latest/reference-io.html#trio.Path.is_block_device">docs</a> <a class="reference external" href="https://github.com/python-trio/trio/blob/master/trio/_path.py">source (_path.py)</a></div>
+</div>
+<pre class="code python literal-block">
+<span class="nd">&#64;async_wraps</span><span class="p">(</span><span class="bp">cls</span><span class="p">,</span> <span class="n">pathlib</span><span class="o">.</span><span class="n">Path</span><span class="p">,</span> <span class="n">meth_name</span><span class="p">)</span>
+<span class="n">async</span> <span class="k">def</span> <span class="nf">wrapper</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
+    <span class="n">args</span> <span class="o">=</span> <span class="n">unwrap_paths</span><span class="p">(</span><span class="n">args</span><span class="p">)</span>
+    <span class="n">meth</span> <span class="o">=</span> <span class="nb">getattr</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">_wrapped</span><span class="p">,</span> <span class="n">meth_name</span><span class="p">)</span>
+    <span class="n">func</span> <span class="o">=</span> <span class="n">partial</span><span class="p">(</span><span class="n">meth</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span>
+    <span class="n">value</span> <span class="o">=</span> <span class="n">await</span> <span class="n">trio</span><span class="o">.</span><span class="n">run_sync_in_worker_thread</span><span class="p">(</span><span class="n">func</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">rewrap_path</span><span class="p">(</span><span class="n">value</span><span class="p">)</span>
+</pre>
 </div>
 <div class="section" id="is-char-device">
 <h2><a class="toc-backref" href="#id91"><tt class="docutils literal">is_char_device</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>pathlib.is_char_device</strong><tt class="docutils literal">(self)</tt></div>
+<div class="line"><strong>trio.is_char_device</strong><tt class="docutils literal">(self, *args, **kwargs)</tt></div>
 </div>
 <div class="line-block">
 <div class="line"><strong>pathlib.is_char_device</strong><tt class="docutils literal">(self)</tt>:</div>
@@ -4174,11 +4542,25 @@
         <span class="c1"># (see https://bitbucket.org/pitrou/pathlib/issue/12/)</span>
         <span class="k">return</span> <span class="bp">False</span>
 </pre>
+<div class="line-block">
+<div class="line"><strong>trio.is_char_device</strong><tt class="docutils literal">(self, *args, **kwargs)</tt>:</div>
+<div class="line"><a class="reference external" href="https://trio.readthedocs.io/en/latest/reference-io.html#trio.Path.is_char_device">docs</a> <a class="reference external" href="https://github.com/python-trio/trio/blob/master/trio/_path.py">source (_path.py)</a></div>
+</div>
+<pre class="code python literal-block">
+<span class="nd">&#64;async_wraps</span><span class="p">(</span><span class="bp">cls</span><span class="p">,</span> <span class="n">pathlib</span><span class="o">.</span><span class="n">Path</span><span class="p">,</span> <span class="n">meth_name</span><span class="p">)</span>
+<span class="n">async</span> <span class="k">def</span> <span class="nf">wrapper</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
+    <span class="n">args</span> <span class="o">=</span> <span class="n">unwrap_paths</span><span class="p">(</span><span class="n">args</span><span class="p">)</span>
+    <span class="n">meth</span> <span class="o">=</span> <span class="nb">getattr</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">_wrapped</span><span class="p">,</span> <span class="n">meth_name</span><span class="p">)</span>
+    <span class="n">func</span> <span class="o">=</span> <span class="n">partial</span><span class="p">(</span><span class="n">meth</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span>
+    <span class="n">value</span> <span class="o">=</span> <span class="n">await</span> <span class="n">trio</span><span class="o">.</span><span class="n">run_sync_in_worker_thread</span><span class="p">(</span><span class="n">func</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">rewrap_path</span><span class="p">(</span><span class="n">value</span><span class="p">)</span>
+</pre>
 </div>
 <div class="section" id="is-dir">
 <h2><a class="toc-backref" href="#id92"><tt class="docutils literal">is_dir</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>pathlib.is_dir</strong><tt class="docutils literal">(self)</tt></div>
+<div class="line"><strong>trio.is_dir</strong><tt class="docutils literal">(self, *args, **kwargs)</tt></div>
 </div>
 <div class="line-block">
 <div class="line">seealso: <a class="reference external" href="#isdir">os.path.isdir</a>, <a class="reference external" href="#isdir">pathpy.isdir</a></div>
@@ -4201,11 +4583,25 @@
         <span class="c1"># (see https://bitbucket.org/pitrou/pathlib/issue/12/)</span>
         <span class="k">return</span> <span class="bp">False</span>
 </pre>
+<div class="line-block">
+<div class="line"><strong>trio.is_dir</strong><tt class="docutils literal">(self, *args, **kwargs)</tt>:</div>
+<div class="line"><a class="reference external" href="https://trio.readthedocs.io/en/latest/reference-io.html#trio.Path.is_dir">docs</a> <a class="reference external" href="https://github.com/python-trio/trio/blob/master/trio/_path.py">source (_path.py)</a></div>
+</div>
+<pre class="code python literal-block">
+<span class="nd">&#64;async_wraps</span><span class="p">(</span><span class="bp">cls</span><span class="p">,</span> <span class="n">pathlib</span><span class="o">.</span><span class="n">Path</span><span class="p">,</span> <span class="n">meth_name</span><span class="p">)</span>
+<span class="n">async</span> <span class="k">def</span> <span class="nf">wrapper</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
+    <span class="n">args</span> <span class="o">=</span> <span class="n">unwrap_paths</span><span class="p">(</span><span class="n">args</span><span class="p">)</span>
+    <span class="n">meth</span> <span class="o">=</span> <span class="nb">getattr</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">_wrapped</span><span class="p">,</span> <span class="n">meth_name</span><span class="p">)</span>
+    <span class="n">func</span> <span class="o">=</span> <span class="n">partial</span><span class="p">(</span><span class="n">meth</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span>
+    <span class="n">value</span> <span class="o">=</span> <span class="n">await</span> <span class="n">trio</span><span class="o">.</span><span class="n">run_sync_in_worker_thread</span><span class="p">(</span><span class="n">func</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">rewrap_path</span><span class="p">(</span><span class="n">value</span><span class="p">)</span>
+</pre>
 </div>
 <div class="section" id="is-fifo">
 <h2><a class="toc-backref" href="#id93"><tt class="docutils literal">is_fifo</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>pathlib.is_fifo</strong><tt class="docutils literal">(self)</tt></div>
+<div class="line"><strong>trio.is_fifo</strong><tt class="docutils literal">(self, *args, **kwargs)</tt></div>
 </div>
 <div class="line-block">
 <div class="line"><strong>pathlib.is_fifo</strong><tt class="docutils literal">(self)</tt>:</div>
@@ -4225,11 +4621,25 @@
         <span class="c1"># (see https://bitbucket.org/pitrou/pathlib/issue/12/)</span>
         <span class="k">return</span> <span class="bp">False</span>
 </pre>
+<div class="line-block">
+<div class="line"><strong>trio.is_fifo</strong><tt class="docutils literal">(self, *args, **kwargs)</tt>:</div>
+<div class="line"><a class="reference external" href="https://trio.readthedocs.io/en/latest/reference-io.html#trio.Path.is_fifo">docs</a> <a class="reference external" href="https://github.com/python-trio/trio/blob/master/trio/_path.py">source (_path.py)</a></div>
+</div>
+<pre class="code python literal-block">
+<span class="nd">&#64;async_wraps</span><span class="p">(</span><span class="bp">cls</span><span class="p">,</span> <span class="n">pathlib</span><span class="o">.</span><span class="n">Path</span><span class="p">,</span> <span class="n">meth_name</span><span class="p">)</span>
+<span class="n">async</span> <span class="k">def</span> <span class="nf">wrapper</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
+    <span class="n">args</span> <span class="o">=</span> <span class="n">unwrap_paths</span><span class="p">(</span><span class="n">args</span><span class="p">)</span>
+    <span class="n">meth</span> <span class="o">=</span> <span class="nb">getattr</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">_wrapped</span><span class="p">,</span> <span class="n">meth_name</span><span class="p">)</span>
+    <span class="n">func</span> <span class="o">=</span> <span class="n">partial</span><span class="p">(</span><span class="n">meth</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span>
+    <span class="n">value</span> <span class="o">=</span> <span class="n">await</span> <span class="n">trio</span><span class="o">.</span><span class="n">run_sync_in_worker_thread</span><span class="p">(</span><span class="n">func</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">rewrap_path</span><span class="p">(</span><span class="n">value</span><span class="p">)</span>
+</pre>
 </div>
 <div class="section" id="is-file">
 <h2><a class="toc-backref" href="#id94"><tt class="docutils literal">is_file</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>pathlib.is_file</strong><tt class="docutils literal">(self)</tt></div>
+<div class="line"><strong>trio.is_file</strong><tt class="docutils literal">(self, *args, **kwargs)</tt></div>
 </div>
 <div class="line-block">
 <div class="line">seealso: <a class="reference external" href="#isfile">os.path.isfile</a>, <a class="reference external" href="#isfile">pathpy.isfile</a></div>
@@ -4253,15 +4663,39 @@
         <span class="c1"># (see https://bitbucket.org/pitrou/pathlib/issue/12/)</span>
         <span class="k">return</span> <span class="bp">False</span>
 </pre>
+<div class="line-block">
+<div class="line"><strong>trio.is_file</strong><tt class="docutils literal">(self, *args, **kwargs)</tt>:</div>
+<div class="line"><a class="reference external" href="https://trio.readthedocs.io/en/latest/reference-io.html#trio.Path.is_file">docs</a> <a class="reference external" href="https://github.com/python-trio/trio/blob/master/trio/_path.py">source (_path.py)</a></div>
+</div>
+<pre class="code python literal-block">
+<span class="nd">&#64;async_wraps</span><span class="p">(</span><span class="bp">cls</span><span class="p">,</span> <span class="n">pathlib</span><span class="o">.</span><span class="n">Path</span><span class="p">,</span> <span class="n">meth_name</span><span class="p">)</span>
+<span class="n">async</span> <span class="k">def</span> <span class="nf">wrapper</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
+    <span class="n">args</span> <span class="o">=</span> <span class="n">unwrap_paths</span><span class="p">(</span><span class="n">args</span><span class="p">)</span>
+    <span class="n">meth</span> <span class="o">=</span> <span class="nb">getattr</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">_wrapped</span><span class="p">,</span> <span class="n">meth_name</span><span class="p">)</span>
+    <span class="n">func</span> <span class="o">=</span> <span class="n">partial</span><span class="p">(</span><span class="n">meth</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span>
+    <span class="n">value</span> <span class="o">=</span> <span class="n">await</span> <span class="n">trio</span><span class="o">.</span><span class="n">run_sync_in_worker_thread</span><span class="p">(</span><span class="n">func</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">rewrap_path</span><span class="p">(</span><span class="n">value</span><span class="p">)</span>
+</pre>
 </div>
 <div class="section" id="is-reserved">
 <h2><a class="toc-backref" href="#id95"><tt class="docutils literal">is_reserved</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>pathlib.is_reserved</strong><tt class="docutils literal">(self)</tt></div>
+<div class="line"><strong>trio.is_reserved</strong><tt class="docutils literal">(self)</tt></div>
 </div>
 <div class="line-block">
 <div class="line"><strong>pathlib.is_reserved</strong><tt class="docutils literal">(self)</tt>:</div>
 <div class="line"><a class="reference external" href="https://docs.python.org/3/library/pathlib.html#pathlib.Path.is_reserved">docs</a> <a class="reference external" href="https://github.com/python/cpython/blob/3.6/Lib/pathlib.py">source (pathlib.py)</a></div>
+</div>
+<pre class="code python literal-block">
+<span class="k">def</span> <span class="nf">is_reserved</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;Return True if the path contains one of the special names reserved
+    by the system, if any.&quot;&quot;&quot;</span>
+    <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_flavour</span><span class="o">.</span><span class="n">is_reserved</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">_parts</span><span class="p">)</span>
+</pre>
+<div class="line-block">
+<div class="line"><strong>trio.is_reserved</strong><tt class="docutils literal">(self)</tt>:</div>
+<div class="line"><a class="reference external" href="https://trio.readthedocs.io/en/latest/reference-io.html#trio.Path.is_reserved">docs</a> <a class="reference external" href="https://github.com/python-trio/trio/blob/master/trio/_path.py">source (_path.py)</a></div>
 </div>
 <pre class="code python literal-block">
 <span class="k">def</span> <span class="nf">is_reserved</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
@@ -4274,6 +4708,7 @@
 <h2><a class="toc-backref" href="#id96"><tt class="docutils literal">is_socket</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>pathlib.is_socket</strong><tt class="docutils literal">(self)</tt></div>
+<div class="line"><strong>trio.is_socket</strong><tt class="docutils literal">(self, *args, **kwargs)</tt></div>
 </div>
 <div class="line-block">
 <div class="line"><strong>pathlib.is_socket</strong><tt class="docutils literal">(self)</tt>:</div>
@@ -4293,11 +4728,25 @@
         <span class="c1"># (see https://bitbucket.org/pitrou/pathlib/issue/12/)</span>
         <span class="k">return</span> <span class="bp">False</span>
 </pre>
+<div class="line-block">
+<div class="line"><strong>trio.is_socket</strong><tt class="docutils literal">(self, *args, **kwargs)</tt>:</div>
+<div class="line"><a class="reference external" href="https://trio.readthedocs.io/en/latest/reference-io.html#trio.Path.is_socket">docs</a> <a class="reference external" href="https://github.com/python-trio/trio/blob/master/trio/_path.py">source (_path.py)</a></div>
+</div>
+<pre class="code python literal-block">
+<span class="nd">&#64;async_wraps</span><span class="p">(</span><span class="bp">cls</span><span class="p">,</span> <span class="n">pathlib</span><span class="o">.</span><span class="n">Path</span><span class="p">,</span> <span class="n">meth_name</span><span class="p">)</span>
+<span class="n">async</span> <span class="k">def</span> <span class="nf">wrapper</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
+    <span class="n">args</span> <span class="o">=</span> <span class="n">unwrap_paths</span><span class="p">(</span><span class="n">args</span><span class="p">)</span>
+    <span class="n">meth</span> <span class="o">=</span> <span class="nb">getattr</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">_wrapped</span><span class="p">,</span> <span class="n">meth_name</span><span class="p">)</span>
+    <span class="n">func</span> <span class="o">=</span> <span class="n">partial</span><span class="p">(</span><span class="n">meth</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span>
+    <span class="n">value</span> <span class="o">=</span> <span class="n">await</span> <span class="n">trio</span><span class="o">.</span><span class="n">run_sync_in_worker_thread</span><span class="p">(</span><span class="n">func</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">rewrap_path</span><span class="p">(</span><span class="n">value</span><span class="p">)</span>
+</pre>
 </div>
 <div class="section" id="is-symlink">
 <h2><a class="toc-backref" href="#id97"><tt class="docutils literal">is_symlink</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>pathlib.is_symlink</strong><tt class="docutils literal">(self)</tt></div>
+<div class="line"><strong>trio.is_symlink</strong><tt class="docutils literal">(self, *args, **kwargs)</tt></div>
 </div>
 <div class="line-block">
 <div class="line">seealso: <a class="reference external" href="#islink">os.path.islink</a>, <a class="reference external" href="#islink">pathpy.islink</a></div>
@@ -4318,6 +4767,19 @@
             <span class="k">raise</span>
         <span class="c1"># Path doesn't exist</span>
         <span class="k">return</span> <span class="bp">False</span>
+</pre>
+<div class="line-block">
+<div class="line"><strong>trio.is_symlink</strong><tt class="docutils literal">(self, *args, **kwargs)</tt>:</div>
+<div class="line"><a class="reference external" href="https://trio.readthedocs.io/en/latest/reference-io.html#trio.Path.is_symlink">docs</a> <a class="reference external" href="https://github.com/python-trio/trio/blob/master/trio/_path.py">source (_path.py)</a></div>
+</div>
+<pre class="code python literal-block">
+<span class="nd">&#64;async_wraps</span><span class="p">(</span><span class="bp">cls</span><span class="p">,</span> <span class="n">pathlib</span><span class="o">.</span><span class="n">Path</span><span class="p">,</span> <span class="n">meth_name</span><span class="p">)</span>
+<span class="n">async</span> <span class="k">def</span> <span class="nf">wrapper</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
+    <span class="n">args</span> <span class="o">=</span> <span class="n">unwrap_paths</span><span class="p">(</span><span class="n">args</span><span class="p">)</span>
+    <span class="n">meth</span> <span class="o">=</span> <span class="nb">getattr</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">_wrapped</span><span class="p">,</span> <span class="n">meth_name</span><span class="p">)</span>
+    <span class="n">func</span> <span class="o">=</span> <span class="n">partial</span><span class="p">(</span><span class="n">meth</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span>
+    <span class="n">value</span> <span class="o">=</span> <span class="n">await</span> <span class="n">trio</span><span class="o">.</span><span class="n">run_sync_in_worker_thread</span><span class="p">(</span><span class="n">func</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">rewrap_path</span><span class="p">(</span><span class="n">value</span><span class="p">)</span>
 </pre>
 </div>
 <div class="section" id="isabs">
@@ -4651,6 +5113,7 @@
 <h2><a class="toc-backref" href="#id114"><tt class="docutils literal">iterdir</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>pathlib.iterdir</strong><tt class="docutils literal">(self)</tt></div>
+<div class="line"><strong>trio.iterdir</strong><tt class="docutils literal">(self, *args, **kwargs)</tt></div>
 </div>
 <div class="line-block">
 <div class="line">seealso: <a class="reference external" href="#listdir">pathpy.listdir</a></div>
@@ -4673,6 +5136,19 @@
         <span class="k">yield</span> <span class="bp">self</span><span class="o">.</span><span class="n">_make_child_relpath</span><span class="p">(</span><span class="n">name</span><span class="p">)</span>
         <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">_closed</span><span class="p">:</span>
             <span class="bp">self</span><span class="o">.</span><span class="n">_raise_closed</span><span class="p">()</span>
+</pre>
+<div class="line-block">
+<div class="line"><strong>trio.iterdir</strong><tt class="docutils literal">(self, *args, **kwargs)</tt>:</div>
+<div class="line"><a class="reference external" href="https://trio.readthedocs.io/en/latest/reference-io.html#trio.Path.iterdir">docs</a> <a class="reference external" href="https://github.com/python-trio/trio/blob/master/trio/_path.py">source (_path.py)</a></div>
+</div>
+<pre class="code python literal-block">
+<span class="nd">&#64;async_wraps</span><span class="p">(</span><span class="bp">cls</span><span class="p">,</span> <span class="n">pathlib</span><span class="o">.</span><span class="n">Path</span><span class="p">,</span> <span class="n">meth_name</span><span class="p">)</span>
+<span class="n">async</span> <span class="k">def</span> <span class="nf">wrapper</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
+    <span class="n">args</span> <span class="o">=</span> <span class="n">unwrap_paths</span><span class="p">(</span><span class="n">args</span><span class="p">)</span>
+    <span class="n">meth</span> <span class="o">=</span> <span class="nb">getattr</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">_wrapped</span><span class="p">,</span> <span class="n">meth_name</span><span class="p">)</span>
+    <span class="n">func</span> <span class="o">=</span> <span class="n">partial</span><span class="p">(</span><span class="n">meth</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span>
+    <span class="n">value</span> <span class="o">=</span> <span class="n">await</span> <span class="n">trio</span><span class="o">.</span><span class="n">run_sync_in_worker_thread</span><span class="p">(</span><span class="n">func</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">rewrap_path</span><span class="p">(</span><span class="n">value</span><span class="p">)</span>
 </pre>
 </div>
 <div class="section" id="join">
@@ -4727,6 +5203,7 @@
 <div class="line-block">
 <div class="line"><strong>pathlib.joinpath</strong><tt class="docutils literal">(self, *args)</tt></div>
 <div class="line"><strong>pathpy.joinpath</strong><tt class="docutils literal">(first, *others)</tt></div>
+<div class="line"><strong>trio.joinpath</strong><tt class="docutils literal">(self, *args)</tt></div>
 </div>
 <div class="line-block">
 <div class="line">seealso: <a class="reference external" href="#join">os.path.join</a>, <a class="reference external" href="#div">pathpy.__div__</a>, <a class="reference external" href="#rdiv">pathpy.__rdiv__</a></div>
@@ -4752,11 +5229,25 @@
 <span class="n">partial</span><span class="p">(</span><span class="n">func</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">keywords</span><span class="p">)</span> <span class="o">-</span> <span class="n">new</span> <span class="n">function</span> <span class="k">with</span> <span class="n">partial</span> <span class="n">application</span>
 <span class="n">of</span> <span class="n">the</span> <span class="n">given</span> <span class="n">arguments</span> <span class="ow">and</span> <span class="n">keywords</span><span class="o">.</span>
 </pre>
+<div class="line-block">
+<div class="line"><strong>trio.joinpath</strong><tt class="docutils literal">(self, *args)</tt>:</div>
+<div class="line"><a class="reference external" href="https://trio.readthedocs.io/en/latest/reference-io.html#trio.Path.joinpath">docs</a> <a class="reference external" href="https://github.com/python-trio/trio/blob/master/trio/_path.py">source (_path.py)</a></div>
+</div>
+<pre class="code python literal-block">
+<span class="k">def</span> <span class="nf">joinpath</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;Combine this path with one or several arguments, and return a
+    new path representing either a subpath (if all arguments are relative
+    paths) or a totally different path (if one of the arguments is
+    anchored).
+    &quot;&quot;&quot;</span>
+    <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_make_child</span><span class="p">(</span><span class="n">args</span><span class="p">)</span>
+</pre>
 </div>
 <div class="section" id="lchmod">
 <h2><a class="toc-backref" href="#id117"><tt class="docutils literal">lchmod</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>pathlib.lchmod</strong><tt class="docutils literal">(self, mode)</tt></div>
+<div class="line"><strong>trio.lchmod</strong><tt class="docutils literal">(self, *args, **kwargs)</tt></div>
 </div>
 <div class="line-block">
 <div class="line"><strong>pathlib.lchmod</strong><tt class="docutils literal">(self, mode)</tt>:</div>
@@ -4771,6 +5262,19 @@
     <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">_closed</span><span class="p">:</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">_raise_closed</span><span class="p">()</span>
     <span class="bp">self</span><span class="o">.</span><span class="n">_accessor</span><span class="o">.</span><span class="n">lchmod</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">mode</span><span class="p">)</span>
+</pre>
+<div class="line-block">
+<div class="line"><strong>trio.lchmod</strong><tt class="docutils literal">(self, *args, **kwargs)</tt>:</div>
+<div class="line"><a class="reference external" href="https://trio.readthedocs.io/en/latest/reference-io.html#trio.Path.lchmod">docs</a> <a class="reference external" href="https://github.com/python-trio/trio/blob/master/trio/_path.py">source (_path.py)</a></div>
+</div>
+<pre class="code python literal-block">
+<span class="nd">&#64;async_wraps</span><span class="p">(</span><span class="bp">cls</span><span class="p">,</span> <span class="n">pathlib</span><span class="o">.</span><span class="n">Path</span><span class="p">,</span> <span class="n">meth_name</span><span class="p">)</span>
+<span class="n">async</span> <span class="k">def</span> <span class="nf">wrapper</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
+    <span class="n">args</span> <span class="o">=</span> <span class="n">unwrap_paths</span><span class="p">(</span><span class="n">args</span><span class="p">)</span>
+    <span class="n">meth</span> <span class="o">=</span> <span class="nb">getattr</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">_wrapped</span><span class="p">,</span> <span class="n">meth_name</span><span class="p">)</span>
+    <span class="n">func</span> <span class="o">=</span> <span class="n">partial</span><span class="p">(</span><span class="n">meth</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span>
+    <span class="n">value</span> <span class="o">=</span> <span class="n">await</span> <span class="n">trio</span><span class="o">.</span><span class="n">run_sync_in_worker_thread</span><span class="p">(</span><span class="n">func</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">rewrap_path</span><span class="p">(</span><span class="n">value</span><span class="p">)</span>
 </pre>
 </div>
 <div class="section" id="lexists">
@@ -4953,6 +5457,7 @@
 <div class="line"><strong>os.lstat</strong><tt class="docutils literal">(path, *, dir_fd=None)</tt></div>
 <div class="line"><strong>pathlib.lstat</strong><tt class="docutils literal">(self)</tt></div>
 <div class="line"><strong>pathpy.lstat</strong><tt class="docutils literal">(self)</tt></div>
+<div class="line"><strong>trio.lstat</strong><tt class="docutils literal">(self, *args, **kwargs)</tt></div>
 </div>
 <div class="line-block">
 <div class="line">seealso: <a class="reference external" href="#stat">os.stat</a>, <a class="reference external" href="#stat">pathlib.stat</a>, <a class="reference external" href="#stat">pathpy.stat</a></div>
@@ -4992,6 +5497,19 @@
     .. seealso:: :meth:`stat`, :func:`os.lstat`
     &quot;&quot;&quot;</span>
     <span class="k">return</span> <span class="n">os</span><span class="o">.</span><span class="n">lstat</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span>
+</pre>
+<div class="line-block">
+<div class="line"><strong>trio.lstat</strong><tt class="docutils literal">(self, *args, **kwargs)</tt>:</div>
+<div class="line"><a class="reference external" href="https://trio.readthedocs.io/en/latest/reference-io.html#trio.Path.lstat">docs</a> <a class="reference external" href="https://github.com/python-trio/trio/blob/master/trio/_path.py">source (_path.py)</a></div>
+</div>
+<pre class="code python literal-block">
+<span class="nd">&#64;async_wraps</span><span class="p">(</span><span class="bp">cls</span><span class="p">,</span> <span class="n">pathlib</span><span class="o">.</span><span class="n">Path</span><span class="p">,</span> <span class="n">meth_name</span><span class="p">)</span>
+<span class="n">async</span> <span class="k">def</span> <span class="nf">wrapper</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
+    <span class="n">args</span> <span class="o">=</span> <span class="n">unwrap_paths</span><span class="p">(</span><span class="n">args</span><span class="p">)</span>
+    <span class="n">meth</span> <span class="o">=</span> <span class="nb">getattr</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">_wrapped</span><span class="p">,</span> <span class="n">meth_name</span><span class="p">)</span>
+    <span class="n">func</span> <span class="o">=</span> <span class="n">partial</span><span class="p">(</span><span class="n">meth</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span>
+    <span class="n">value</span> <span class="o">=</span> <span class="n">await</span> <span class="n">trio</span><span class="o">.</span><span class="n">run_sync_in_worker_thread</span><span class="p">(</span><span class="n">func</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">rewrap_path</span><span class="p">(</span><span class="n">value</span><span class="p">)</span>
 </pre>
 </div>
 <div class="section" id="lstrip">
@@ -5108,10 +5626,41 @@
 <h2><a class="toc-backref" href="#id129"><tt class="docutils literal">match</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>pathlib.match</strong><tt class="docutils literal">(self, path_pattern)</tt></div>
+<div class="line"><strong>trio.match</strong><tt class="docutils literal">(self, path_pattern)</tt></div>
 </div>
 <div class="line-block">
 <div class="line"><strong>pathlib.match</strong><tt class="docutils literal">(self, path_pattern)</tt>:</div>
 <div class="line"><a class="reference external" href="https://docs.python.org/3/library/pathlib.html#pathlib.Path.match">docs</a> <a class="reference external" href="https://github.com/python/cpython/blob/3.6/Lib/pathlib.py">source (pathlib.py)</a></div>
+</div>
+<pre class="code python literal-block">
+<span class="k">def</span> <span class="nf">match</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">path_pattern</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;
+    Return True if this path matches the given pattern.
+    &quot;&quot;&quot;</span>
+    <span class="n">cf</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_flavour</span><span class="o">.</span><span class="n">casefold</span>
+    <span class="n">path_pattern</span> <span class="o">=</span> <span class="n">cf</span><span class="p">(</span><span class="n">path_pattern</span><span class="p">)</span>
+    <span class="n">drv</span><span class="p">,</span> <span class="n">root</span><span class="p">,</span> <span class="n">pat_parts</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_flavour</span><span class="o">.</span><span class="n">parse_parts</span><span class="p">((</span><span class="n">path_pattern</span><span class="p">,))</span>
+    <span class="k">if</span> <span class="ow">not</span> <span class="n">pat_parts</span><span class="p">:</span>
+        <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span><span class="s2">&quot;empty pattern&quot;</span><span class="p">)</span>
+    <span class="k">if</span> <span class="n">drv</span> <span class="ow">and</span> <span class="n">drv</span> <span class="o">!=</span> <span class="n">cf</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">_drv</span><span class="p">):</span>
+        <span class="k">return</span> <span class="bp">False</span>
+    <span class="k">if</span> <span class="n">root</span> <span class="ow">and</span> <span class="n">root</span> <span class="o">!=</span> <span class="n">cf</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">_root</span><span class="p">):</span>
+        <span class="k">return</span> <span class="bp">False</span>
+    <span class="n">parts</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_cparts</span>
+    <span class="k">if</span> <span class="n">drv</span> <span class="ow">or</span> <span class="n">root</span><span class="p">:</span>
+        <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">pat_parts</span><span class="p">)</span> <span class="o">!=</span> <span class="nb">len</span><span class="p">(</span><span class="n">parts</span><span class="p">):</span>
+            <span class="k">return</span> <span class="bp">False</span>
+        <span class="n">pat_parts</span> <span class="o">=</span> <span class="n">pat_parts</span><span class="p">[</span><span class="mi">1</span><span class="p">:]</span>
+    <span class="k">elif</span> <span class="nb">len</span><span class="p">(</span><span class="n">pat_parts</span><span class="p">)</span> <span class="o">&gt;</span> <span class="nb">len</span><span class="p">(</span><span class="n">parts</span><span class="p">):</span>
+        <span class="k">return</span> <span class="bp">False</span>
+    <span class="k">for</span> <span class="n">part</span><span class="p">,</span> <span class="n">pat</span> <span class="ow">in</span> <span class="nb">zip</span><span class="p">(</span><span class="nb">reversed</span><span class="p">(</span><span class="n">parts</span><span class="p">),</span> <span class="nb">reversed</span><span class="p">(</span><span class="n">pat_parts</span><span class="p">)):</span>
+        <span class="k">if</span> <span class="ow">not</span> <span class="n">fnmatch</span><span class="o">.</span><span class="n">fnmatchcase</span><span class="p">(</span><span class="n">part</span><span class="p">,</span> <span class="n">pat</span><span class="p">):</span>
+            <span class="k">return</span> <span class="bp">False</span>
+    <span class="k">return</span> <span class="bp">True</span>
+</pre>
+<div class="line-block">
+<div class="line"><strong>trio.match</strong><tt class="docutils literal">(self, path_pattern)</tt>:</div>
+<div class="line"><a class="reference external" href="https://trio.readthedocs.io/en/latest/reference-io.html#trio.Path.match">docs</a> <a class="reference external" href="https://github.com/python-trio/trio/blob/master/trio/_path.py">source (_path.py)</a></div>
 </div>
 <pre class="code python literal-block">
 <span class="k">def</span> <span class="nf">match</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">path_pattern</span><span class="p">):</span>
@@ -5186,6 +5735,7 @@
 <div class="line"><strong>os.mkdir</strong><tt class="docutils literal">(path, mode=511, *, dir_fd=None)</tt></div>
 <div class="line"><strong>pathlib.mkdir</strong><tt class="docutils literal">(self, mode=511, parents=False, exist_ok=False)</tt></div>
 <div class="line"><strong>pathpy.mkdir</strong><tt class="docutils literal">(self, mode=511)</tt></div>
+<div class="line"><strong>trio.mkdir</strong><tt class="docutils literal">(self, *args, **kwargs)</tt></div>
 </div>
 <div class="line-block">
 <div class="line"><strong>os.mkdir</strong><tt class="docutils literal">(path, mode=511, *, dir_fd=None)</tt>:</div>
@@ -5234,6 +5784,19 @@
     <span class="sd">&quot;&quot;&quot; .. seealso:: :func:`os.mkdir` &quot;&quot;&quot;</span>
     <span class="n">os</span><span class="o">.</span><span class="n">mkdir</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">mode</span><span class="p">)</span>
     <span class="k">return</span> <span class="bp">self</span>
+</pre>
+<div class="line-block">
+<div class="line"><strong>trio.mkdir</strong><tt class="docutils literal">(self, *args, **kwargs)</tt>:</div>
+<div class="line"><a class="reference external" href="https://trio.readthedocs.io/en/latest/reference-io.html#trio.Path.mkdir">docs</a> <a class="reference external" href="https://github.com/python-trio/trio/blob/master/trio/_path.py">source (_path.py)</a></div>
+</div>
+<pre class="code python literal-block">
+<span class="nd">&#64;async_wraps</span><span class="p">(</span><span class="bp">cls</span><span class="p">,</span> <span class="n">pathlib</span><span class="o">.</span><span class="n">Path</span><span class="p">,</span> <span class="n">meth_name</span><span class="p">)</span>
+<span class="n">async</span> <span class="k">def</span> <span class="nf">wrapper</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
+    <span class="n">args</span> <span class="o">=</span> <span class="n">unwrap_paths</span><span class="p">(</span><span class="n">args</span><span class="p">)</span>
+    <span class="n">meth</span> <span class="o">=</span> <span class="nb">getattr</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">_wrapped</span><span class="p">,</span> <span class="n">meth_name</span><span class="p">)</span>
+    <span class="n">func</span> <span class="o">=</span> <span class="n">partial</span><span class="p">(</span><span class="n">meth</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span>
+    <span class="n">value</span> <span class="o">=</span> <span class="n">await</span> <span class="n">trio</span><span class="o">.</span><span class="n">run_sync_in_worker_thread</span><span class="p">(</span><span class="n">func</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">rewrap_path</span><span class="p">(</span><span class="n">value</span><span class="p">)</span>
 </pre>
 </div>
 <div class="section" id="mkdir-p">
@@ -5562,6 +6125,7 @@
 <div class="line"><strong>os.open</strong><tt class="docutils literal">(path, flags, mode=511, *, dir_fd=None)</tt></div>
 <div class="line"><strong>pathlib.open</strong><tt class="docutils literal">(self, <span class="pre">mode='r',</span> <span class="pre">buffering=-1,</span> encoding=None, errors=None, newline=None)</tt></div>
 <div class="line"><strong>pathpy.open</strong><tt class="docutils literal">(self, *args, **kwargs)</tt></div>
+<div class="line"><strong>trio.open</strong><tt class="docutils literal">(self, <span class="pre">mode='r',</span> <span class="pre">buffering=-1,</span> encoding=None, errors=None, newline=None)</tt></div>
 </div>
 <div class="line-block">
 <div class="line"><strong>os.open</strong><tt class="docutils literal">(path, flags, mode=511, *, dir_fd=None)</tt>:</div>
@@ -5604,6 +6168,22 @@
     &quot;&quot;&quot;</span>
     <span class="k">with</span> <span class="n">io_error_compat</span><span class="p">():</span>
         <span class="k">return</span> <span class="n">io</span><span class="o">.</span><span class="n">open</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span>
+</pre>
+<div class="line-block">
+<div class="line"><strong>trio.open</strong><tt class="docutils literal">(self, <span class="pre">mode='r',</span> <span class="pre">buffering=-1,</span> encoding=None, errors=None, newline=None)</tt>:</div>
+<div class="line"><a class="reference external" href="https://trio.readthedocs.io/en/latest/reference-io.html#trio.Path.open">docs</a> <a class="reference external" href="https://github.com/python-trio/trio/blob/master/trio/_path.py">source (_path.py)</a></div>
+</div>
+<pre class="code python literal-block">
+<span class="k">def</span> <span class="nf">open</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">mode</span><span class="o">=</span><span class="s1">'r'</span><span class="p">,</span> <span class="n">buffering</span><span class="o">=-</span><span class="mi">1</span><span class="p">,</span> <span class="n">encoding</span><span class="o">=</span><span class="bp">None</span><span class="p">,</span>
+         <span class="n">errors</span><span class="o">=</span><span class="bp">None</span><span class="p">,</span> <span class="n">newline</span><span class="o">=</span><span class="bp">None</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;
+    Open the file pointed by this path and return a file object, as
+    the built-in open() function does.
+    &quot;&quot;&quot;</span>
+    <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">_closed</span><span class="p">:</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">_raise_closed</span><span class="p">()</span>
+    <span class="k">return</span> <span class="n">io</span><span class="o">.</span><span class="n">open</span><span class="p">(</span><span class="nb">str</span><span class="p">(</span><span class="bp">self</span><span class="p">),</span> <span class="n">mode</span><span class="p">,</span> <span class="n">buffering</span><span class="p">,</span> <span class="n">encoding</span><span class="p">,</span> <span class="n">errors</span><span class="p">,</span> <span class="n">newline</span><span class="p">,</span>
+                   <span class="n">opener</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">_opener</span><span class="p">)</span>
 </pre>
 </div>
 <div class="section" id="os">
@@ -5667,6 +6247,7 @@
 <h2><a class="toc-backref" href="#id142"><tt class="docutils literal">owner</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>pathlib.owner</strong><tt class="docutils literal">(self)</tt></div>
+<div class="line"><strong>trio.owner</strong><tt class="docutils literal">(self, *args, **kwargs)</tt></div>
 </div>
 <div class="line-block">
 <div class="line">seealso: <a class="reference external" href="#get-owner">pathpy.get_owner</a></div>
@@ -5691,6 +6272,19 @@
 <span class="n">Name</span> <span class="n">of</span> <span class="n">the</span> <span class="n">owner</span> <span class="n">of</span> <span class="n">this</span> <span class="nb">file</span> <span class="ow">or</span> <span class="n">directory</span><span class="o">.</span>
 
 <span class="o">..</span> <span class="n">seealso</span><span class="p">::</span> <span class="p">:</span><span class="n">meth</span><span class="p">:</span><span class="sb">`get_owner`</span>
+</pre>
+<div class="line-block">
+<div class="line"><strong>trio.owner</strong><tt class="docutils literal">(self, *args, **kwargs)</tt>:</div>
+<div class="line"><a class="reference external" href="https://trio.readthedocs.io/en/latest/reference-io.html#trio.Path.owner">docs</a> <a class="reference external" href="https://github.com/python-trio/trio/blob/master/trio/_path.py">source (_path.py)</a></div>
+</div>
+<pre class="code python literal-block">
+<span class="nd">&#64;async_wraps</span><span class="p">(</span><span class="bp">cls</span><span class="p">,</span> <span class="n">pathlib</span><span class="o">.</span><span class="n">Path</span><span class="p">,</span> <span class="n">meth_name</span><span class="p">)</span>
+<span class="n">async</span> <span class="k">def</span> <span class="nf">wrapper</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
+    <span class="n">args</span> <span class="o">=</span> <span class="n">unwrap_paths</span><span class="p">(</span><span class="n">args</span><span class="p">)</span>
+    <span class="n">meth</span> <span class="o">=</span> <span class="nb">getattr</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">_wrapped</span><span class="p">,</span> <span class="n">meth_name</span><span class="p">)</span>
+    <span class="n">func</span> <span class="o">=</span> <span class="n">partial</span><span class="p">(</span><span class="n">meth</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span>
+    <span class="n">value</span> <span class="o">=</span> <span class="n">await</span> <span class="n">trio</span><span class="o">.</span><span class="n">run_sync_in_worker_thread</span><span class="p">(</span><span class="n">func</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">rewrap_path</span><span class="p">(</span><span class="n">value</span><span class="p">)</span>
 </pre>
 </div>
 <div class="section" id="pardir">
@@ -5855,6 +6449,7 @@
 <h2><a class="toc-backref" href="#id150"><tt class="docutils literal">read_bytes</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>pathlib.read_bytes</strong><tt class="docutils literal">(self)</tt></div>
+<div class="line"><strong>trio.read_bytes</strong><tt class="docutils literal">(self, *args, **kwargs)</tt></div>
 </div>
 <div class="line-block">
 <div class="line"><strong>pathlib.read_bytes</strong><tt class="docutils literal">(self)</tt>:</div>
@@ -5867,6 +6462,19 @@
     &quot;&quot;&quot;</span>
     <span class="k">with</span> <span class="bp">self</span><span class="o">.</span><span class="n">open</span><span class="p">(</span><span class="n">mode</span><span class="o">=</span><span class="s1">'rb'</span><span class="p">)</span> <span class="k">as</span> <span class="n">f</span><span class="p">:</span>
         <span class="k">return</span> <span class="n">f</span><span class="o">.</span><span class="n">read</span><span class="p">()</span>
+</pre>
+<div class="line-block">
+<div class="line"><strong>trio.read_bytes</strong><tt class="docutils literal">(self, *args, **kwargs)</tt>:</div>
+<div class="line"><a class="reference external" href="https://trio.readthedocs.io/en/latest/reference-io.html#trio.Path.read_bytes">docs</a> <a class="reference external" href="https://github.com/python-trio/trio/blob/master/trio/_path.py">source (_path.py)</a></div>
+</div>
+<pre class="code python literal-block">
+<span class="nd">&#64;async_wraps</span><span class="p">(</span><span class="bp">cls</span><span class="p">,</span> <span class="n">pathlib</span><span class="o">.</span><span class="n">Path</span><span class="p">,</span> <span class="n">meth_name</span><span class="p">)</span>
+<span class="n">async</span> <span class="k">def</span> <span class="nf">wrapper</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
+    <span class="n">args</span> <span class="o">=</span> <span class="n">unwrap_paths</span><span class="p">(</span><span class="n">args</span><span class="p">)</span>
+    <span class="n">meth</span> <span class="o">=</span> <span class="nb">getattr</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">_wrapped</span><span class="p">,</span> <span class="n">meth_name</span><span class="p">)</span>
+    <span class="n">func</span> <span class="o">=</span> <span class="n">partial</span><span class="p">(</span><span class="n">meth</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span>
+    <span class="n">value</span> <span class="o">=</span> <span class="n">await</span> <span class="n">trio</span><span class="o">.</span><span class="n">run_sync_in_worker_thread</span><span class="p">(</span><span class="n">func</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">rewrap_path</span><span class="p">(</span><span class="n">value</span><span class="p">)</span>
 </pre>
 </div>
 <div class="section" id="read-hash">
@@ -5941,6 +6549,7 @@
 <h2><a class="toc-backref" href="#id154"><tt class="docutils literal">read_text</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>pathlib.read_text</strong><tt class="docutils literal">(self, encoding=None, errors=None)</tt></div>
+<div class="line"><strong>trio.read_text</strong><tt class="docutils literal">(self, *args, **kwargs)</tt></div>
 </div>
 <div class="line-block">
 <div class="line"><strong>pathlib.read_text</strong><tt class="docutils literal">(self, encoding=None, errors=None)</tt>:</div>
@@ -5953,6 +6562,19 @@
     &quot;&quot;&quot;</span>
     <span class="k">with</span> <span class="bp">self</span><span class="o">.</span><span class="n">open</span><span class="p">(</span><span class="n">mode</span><span class="o">=</span><span class="s1">'r'</span><span class="p">,</span> <span class="n">encoding</span><span class="o">=</span><span class="n">encoding</span><span class="p">,</span> <span class="n">errors</span><span class="o">=</span><span class="n">errors</span><span class="p">)</span> <span class="k">as</span> <span class="n">f</span><span class="p">:</span>
         <span class="k">return</span> <span class="n">f</span><span class="o">.</span><span class="n">read</span><span class="p">()</span>
+</pre>
+<div class="line-block">
+<div class="line"><strong>trio.read_text</strong><tt class="docutils literal">(self, *args, **kwargs)</tt>:</div>
+<div class="line"><a class="reference external" href="https://trio.readthedocs.io/en/latest/reference-io.html#trio.Path.read_text">docs</a> <a class="reference external" href="https://github.com/python-trio/trio/blob/master/trio/_path.py">source (_path.py)</a></div>
+</div>
+<pre class="code python literal-block">
+<span class="nd">&#64;async_wraps</span><span class="p">(</span><span class="bp">cls</span><span class="p">,</span> <span class="n">pathlib</span><span class="o">.</span><span class="n">Path</span><span class="p">,</span> <span class="n">meth_name</span><span class="p">)</span>
+<span class="n">async</span> <span class="k">def</span> <span class="nf">wrapper</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
+    <span class="n">args</span> <span class="o">=</span> <span class="n">unwrap_paths</span><span class="p">(</span><span class="n">args</span><span class="p">)</span>
+    <span class="n">meth</span> <span class="o">=</span> <span class="nb">getattr</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">_wrapped</span><span class="p">,</span> <span class="n">meth_name</span><span class="p">)</span>
+    <span class="n">func</span> <span class="o">=</span> <span class="n">partial</span><span class="p">(</span><span class="n">meth</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span>
+    <span class="n">value</span> <span class="o">=</span> <span class="n">await</span> <span class="n">trio</span><span class="o">.</span><span class="n">run_sync_in_worker_thread</span><span class="p">(</span><span class="n">func</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">rewrap_path</span><span class="p">(</span><span class="n">value</span><span class="p">)</span>
 </pre>
 </div>
 <div class="section" id="readlink">
@@ -6052,10 +6674,48 @@ symbolic links encountered in the path.&quot;&quot;&quot;</span>
 <h2><a class="toc-backref" href="#id158"><tt class="docutils literal">relative_to</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>pathlib.relative_to</strong><tt class="docutils literal">(self, *other)</tt></div>
+<div class="line"><strong>trio.relative_to</strong><tt class="docutils literal">(self, *other)</tt></div>
 </div>
 <div class="line-block">
 <div class="line"><strong>pathlib.relative_to</strong><tt class="docutils literal">(self, *other)</tt>:</div>
 <div class="line"><a class="reference external" href="https://docs.python.org/3/library/pathlib.html#pathlib.Path.relative_to">docs</a> <a class="reference external" href="https://github.com/python/cpython/blob/3.6/Lib/pathlib.py">source (pathlib.py)</a></div>
+</div>
+<pre class="code python literal-block">
+<span class="k">def</span> <span class="nf">relative_to</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="o">*</span><span class="n">other</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;Return the relative path to another path identified by the passed
+    arguments.  If the operation is not possible (because this is not
+    a subpath of the other path), raise ValueError.
+    &quot;&quot;&quot;</span>
+    <span class="c1"># For the purpose of this method, drive and root are considered</span>
+    <span class="c1"># separate parts, i.e.:</span>
+    <span class="c1">#   Path('c:/').relative_to('c:')  gives Path('/')</span>
+    <span class="c1">#   Path('c:/').relative_to('/')   raise ValueError</span>
+    <span class="k">if</span> <span class="ow">not</span> <span class="n">other</span><span class="p">:</span>
+        <span class="k">raise</span> <span class="ne">TypeError</span><span class="p">(</span><span class="s2">&quot;need at least one argument&quot;</span><span class="p">)</span>
+    <span class="n">parts</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_parts</span>
+    <span class="n">drv</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_drv</span>
+    <span class="n">root</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_root</span>
+    <span class="k">if</span> <span class="n">root</span><span class="p">:</span>
+        <span class="n">abs_parts</span> <span class="o">=</span> <span class="p">[</span><span class="n">drv</span><span class="p">,</span> <span class="n">root</span><span class="p">]</span> <span class="o">+</span> <span class="n">parts</span><span class="p">[</span><span class="mi">1</span><span class="p">:]</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="n">abs_parts</span> <span class="o">=</span> <span class="n">parts</span>
+    <span class="n">to_drv</span><span class="p">,</span> <span class="n">to_root</span><span class="p">,</span> <span class="n">to_parts</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_parse_args</span><span class="p">(</span><span class="n">other</span><span class="p">)</span>
+    <span class="k">if</span> <span class="n">to_root</span><span class="p">:</span>
+        <span class="n">to_abs_parts</span> <span class="o">=</span> <span class="p">[</span><span class="n">to_drv</span><span class="p">,</span> <span class="n">to_root</span><span class="p">]</span> <span class="o">+</span> <span class="n">to_parts</span><span class="p">[</span><span class="mi">1</span><span class="p">:]</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="n">to_abs_parts</span> <span class="o">=</span> <span class="n">to_parts</span>
+    <span class="n">n</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">to_abs_parts</span><span class="p">)</span>
+    <span class="n">cf</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_flavour</span><span class="o">.</span><span class="n">casefold_parts</span>
+    <span class="k">if</span> <span class="p">(</span><span class="n">root</span> <span class="ow">or</span> <span class="n">drv</span><span class="p">)</span> <span class="k">if</span> <span class="n">n</span> <span class="o">==</span> <span class="mi">0</span> <span class="k">else</span> <span class="n">cf</span><span class="p">(</span><span class="n">abs_parts</span><span class="p">[:</span><span class="n">n</span><span class="p">])</span> <span class="o">!=</span> <span class="n">cf</span><span class="p">(</span><span class="n">to_abs_parts</span><span class="p">):</span>
+        <span class="n">formatted</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_format_parsed_parts</span><span class="p">(</span><span class="n">to_drv</span><span class="p">,</span> <span class="n">to_root</span><span class="p">,</span> <span class="n">to_parts</span><span class="p">)</span>
+        <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span><span class="s2">&quot;{!r} does not start with {!r}&quot;</span>
+                         <span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="nb">str</span><span class="p">(</span><span class="bp">self</span><span class="p">),</span> <span class="nb">str</span><span class="p">(</span><span class="n">formatted</span><span class="p">)))</span>
+    <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_from_parsed_parts</span><span class="p">(</span><span class="s1">''</span><span class="p">,</span> <span class="n">root</span> <span class="k">if</span> <span class="n">n</span> <span class="o">==</span> <span class="mi">1</span> <span class="k">else</span> <span class="s1">''</span><span class="p">,</span>
+                                   <span class="n">abs_parts</span><span class="p">[</span><span class="n">n</span><span class="p">:])</span>
+</pre>
+<div class="line-block">
+<div class="line"><strong>trio.relative_to</strong><tt class="docutils literal">(self, *other)</tt>:</div>
+<div class="line"><a class="reference external" href="https://trio.readthedocs.io/en/latest/reference-io.html#trio.Path.relative_to">docs</a> <a class="reference external" href="https://github.com/python-trio/trio/blob/master/trio/_path.py">source (_path.py)</a></div>
 </div>
 <pre class="code python literal-block">
 <span class="k">def</span> <span class="nf">relative_to</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="o">*</span><span class="n">other</span><span class="p">):</span>
@@ -6328,6 +6988,7 @@ symbolic links encountered in the path.&quot;&quot;&quot;</span>
 <div class="line"><strong>os.rename</strong><tt class="docutils literal">(src, dst, *, src_dir_fd=None, dst_dir_fd=None)</tt></div>
 <div class="line"><strong>pathlib.rename</strong><tt class="docutils literal">(self, target)</tt></div>
 <div class="line"><strong>pathpy.rename</strong><tt class="docutils literal">(self, new)</tt></div>
+<div class="line"><strong>trio.rename</strong><tt class="docutils literal">(self, *args, **kwargs)</tt></div>
 </div>
 <div class="line-block">
 <div class="line"><strong>os.rename</strong><tt class="docutils literal">(src, dst, *, src_dir_fd=None, dst_dir_fd=None)</tt>:</div>
@@ -6364,6 +7025,19 @@ symbolic links encountered in the path.&quot;&quot;&quot;</span>
     <span class="sd">&quot;&quot;&quot; .. seealso:: :func:`os.rename` &quot;&quot;&quot;</span>
     <span class="n">os</span><span class="o">.</span><span class="n">rename</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">new</span><span class="p">)</span>
     <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_next_class</span><span class="p">(</span><span class="n">new</span><span class="p">)</span>
+</pre>
+<div class="line-block">
+<div class="line"><strong>trio.rename</strong><tt class="docutils literal">(self, *args, **kwargs)</tt>:</div>
+<div class="line"><a class="reference external" href="https://trio.readthedocs.io/en/latest/reference-io.html#trio.Path.rename">docs</a> <a class="reference external" href="https://github.com/python-trio/trio/blob/master/trio/_path.py">source (_path.py)</a></div>
+</div>
+<pre class="code python literal-block">
+<span class="nd">&#64;async_wraps</span><span class="p">(</span><span class="bp">cls</span><span class="p">,</span> <span class="n">pathlib</span><span class="o">.</span><span class="n">Path</span><span class="p">,</span> <span class="n">meth_name</span><span class="p">)</span>
+<span class="n">async</span> <span class="k">def</span> <span class="nf">wrapper</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
+    <span class="n">args</span> <span class="o">=</span> <span class="n">unwrap_paths</span><span class="p">(</span><span class="n">args</span><span class="p">)</span>
+    <span class="n">meth</span> <span class="o">=</span> <span class="nb">getattr</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">_wrapped</span><span class="p">,</span> <span class="n">meth_name</span><span class="p">)</span>
+    <span class="n">func</span> <span class="o">=</span> <span class="n">partial</span><span class="p">(</span><span class="n">meth</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span>
+    <span class="n">value</span> <span class="o">=</span> <span class="n">await</span> <span class="n">trio</span><span class="o">.</span><span class="n">run_sync_in_worker_thread</span><span class="p">(</span><span class="n">func</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">rewrap_path</span><span class="p">(</span><span class="n">value</span><span class="p">)</span>
 </pre>
 </div>
 <div class="section" id="renames">
@@ -6419,6 +7093,7 @@ symbolic links encountered in the path.&quot;&quot;&quot;</span>
 <div class="line-block">
 <div class="line"><strong>os.replace</strong><tt class="docutils literal">(src, dst, *, src_dir_fd=None, dst_dir_fd=None)</tt></div>
 <div class="line"><strong>pathlib.replace</strong><tt class="docutils literal">(self, target)</tt></div>
+<div class="line"><strong>trio.replace</strong><tt class="docutils literal">(self, *args, **kwargs)</tt></div>
 </div>
 <div class="line-block">
 <div class="line"><strong>os.replace</strong><tt class="docutils literal">(src, dst, *, src_dir_fd=None, dst_dir_fd=None)</tt>:</div>
@@ -6458,11 +7133,25 @@ symbolic links encountered in the path.&quot;&quot;&quot;</span>
 <span class="n">old</span> <span class="n">replaced</span> <span class="n">by</span> <span class="n">new</span><span class="o">.</span>  <span class="n">If</span> <span class="n">the</span> <span class="n">optional</span> <span class="n">argument</span> <span class="n">count</span> <span class="ow">is</span>
 <span class="n">given</span><span class="p">,</span> <span class="n">only</span> <span class="n">the</span> <span class="n">first</span> <span class="n">count</span> <span class="n">occurrences</span> <span class="n">are</span> <span class="n">replaced</span><span class="o">.</span>
 </pre>
+<div class="line-block">
+<div class="line"><strong>trio.replace</strong><tt class="docutils literal">(self, *args, **kwargs)</tt>:</div>
+<div class="line"><a class="reference external" href="https://trio.readthedocs.io/en/latest/reference-io.html#trio.Path.replace">docs</a> <a class="reference external" href="https://github.com/python-trio/trio/blob/master/trio/_path.py">source (_path.py)</a></div>
+</div>
+<pre class="code python literal-block">
+<span class="nd">&#64;async_wraps</span><span class="p">(</span><span class="bp">cls</span><span class="p">,</span> <span class="n">pathlib</span><span class="o">.</span><span class="n">Path</span><span class="p">,</span> <span class="n">meth_name</span><span class="p">)</span>
+<span class="n">async</span> <span class="k">def</span> <span class="nf">wrapper</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
+    <span class="n">args</span> <span class="o">=</span> <span class="n">unwrap_paths</span><span class="p">(</span><span class="n">args</span><span class="p">)</span>
+    <span class="n">meth</span> <span class="o">=</span> <span class="nb">getattr</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">_wrapped</span><span class="p">,</span> <span class="n">meth_name</span><span class="p">)</span>
+    <span class="n">func</span> <span class="o">=</span> <span class="n">partial</span><span class="p">(</span><span class="n">meth</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span>
+    <span class="n">value</span> <span class="o">=</span> <span class="n">await</span> <span class="n">trio</span><span class="o">.</span><span class="n">run_sync_in_worker_thread</span><span class="p">(</span><span class="n">func</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">rewrap_path</span><span class="p">(</span><span class="n">value</span><span class="p">)</span>
+</pre>
 </div>
 <div class="section" id="resolve">
 <h2><a class="toc-backref" href="#id168"><tt class="docutils literal">resolve</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>pathlib.resolve</strong><tt class="docutils literal">(self, strict=False)</tt></div>
+<div class="line"><strong>trio.resolve</strong><tt class="docutils literal">(self, *args, **kwargs)</tt></div>
 </div>
 <div class="line-block">
 <div class="line"><strong>pathlib.resolve</strong><tt class="docutils literal">(self, strict=False)</tt>:</div>
@@ -6489,6 +7178,19 @@ symbolic links encountered in the path.&quot;&quot;&quot;</span>
     <span class="n">obj</span><span class="o">.</span><span class="n">_init</span><span class="p">(</span><span class="n">template</span><span class="o">=</span><span class="bp">self</span><span class="p">)</span>
     <span class="k">return</span> <span class="n">obj</span>
 </pre>
+<div class="line-block">
+<div class="line"><strong>trio.resolve</strong><tt class="docutils literal">(self, *args, **kwargs)</tt>:</div>
+<div class="line"><a class="reference external" href="https://trio.readthedocs.io/en/latest/reference-io.html#trio.Path.resolve">docs</a> <a class="reference external" href="https://github.com/python-trio/trio/blob/master/trio/_path.py">source (_path.py)</a></div>
+</div>
+<pre class="code python literal-block">
+<span class="nd">&#64;async_wraps</span><span class="p">(</span><span class="bp">cls</span><span class="p">,</span> <span class="n">pathlib</span><span class="o">.</span><span class="n">Path</span><span class="p">,</span> <span class="n">meth_name</span><span class="p">)</span>
+<span class="n">async</span> <span class="k">def</span> <span class="nf">wrapper</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
+    <span class="n">args</span> <span class="o">=</span> <span class="n">unwrap_paths</span><span class="p">(</span><span class="n">args</span><span class="p">)</span>
+    <span class="n">meth</span> <span class="o">=</span> <span class="nb">getattr</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">_wrapped</span><span class="p">,</span> <span class="n">meth_name</span><span class="p">)</span>
+    <span class="n">func</span> <span class="o">=</span> <span class="n">partial</span><span class="p">(</span><span class="n">meth</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span>
+    <span class="n">value</span> <span class="o">=</span> <span class="n">await</span> <span class="n">trio</span><span class="o">.</span><span class="n">run_sync_in_worker_thread</span><span class="p">(</span><span class="n">func</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">rewrap_path</span><span class="p">(</span><span class="n">value</span><span class="p">)</span>
+</pre>
 </div>
 <div class="section" id="rfind">
 <h2><a class="toc-backref" href="#id169"><tt class="docutils literal">rfind</tt></a></h2>
@@ -6510,6 +7212,7 @@ symbolic links encountered in the path.&quot;&quot;&quot;</span>
 <h2><a class="toc-backref" href="#id170"><tt class="docutils literal">rglob</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>pathlib.rglob</strong><tt class="docutils literal">(self, pattern)</tt></div>
+<div class="line"><strong>trio.rglob</strong><tt class="docutils literal">(self, *args, **kwargs)</tt></div>
 </div>
 <div class="line-block">
 <div class="line"><strong>pathlib.rglob</strong><tt class="docutils literal">(self, pattern)</tt>:</div>
@@ -6527,6 +7230,19 @@ symbolic links encountered in the path.&quot;&quot;&quot;</span>
     <span class="n">selector</span> <span class="o">=</span> <span class="n">_make_selector</span><span class="p">((</span><span class="s2">&quot;**&quot;</span><span class="p">,)</span> <span class="o">+</span> <span class="nb">tuple</span><span class="p">(</span><span class="n">pattern_parts</span><span class="p">))</span>
     <span class="k">for</span> <span class="n">p</span> <span class="ow">in</span> <span class="n">selector</span><span class="o">.</span><span class="n">select_from</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
         <span class="k">yield</span> <span class="n">p</span>
+</pre>
+<div class="line-block">
+<div class="line"><strong>trio.rglob</strong><tt class="docutils literal">(self, *args, **kwargs)</tt>:</div>
+<div class="line"><a class="reference external" href="https://trio.readthedocs.io/en/latest/reference-io.html#trio.Path.rglob">docs</a> <a class="reference external" href="https://github.com/python-trio/trio/blob/master/trio/_path.py">source (_path.py)</a></div>
+</div>
+<pre class="code python literal-block">
+<span class="nd">&#64;async_wraps</span><span class="p">(</span><span class="bp">cls</span><span class="p">,</span> <span class="n">pathlib</span><span class="o">.</span><span class="n">Path</span><span class="p">,</span> <span class="n">meth_name</span><span class="p">)</span>
+<span class="n">async</span> <span class="k">def</span> <span class="nf">wrapper</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
+    <span class="n">args</span> <span class="o">=</span> <span class="n">unwrap_paths</span><span class="p">(</span><span class="n">args</span><span class="p">)</span>
+    <span class="n">meth</span> <span class="o">=</span> <span class="nb">getattr</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">_wrapped</span><span class="p">,</span> <span class="n">meth_name</span><span class="p">)</span>
+    <span class="n">func</span> <span class="o">=</span> <span class="n">partial</span><span class="p">(</span><span class="n">meth</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span>
+    <span class="n">value</span> <span class="o">=</span> <span class="n">await</span> <span class="n">trio</span><span class="o">.</span><span class="n">run_sync_in_worker_thread</span><span class="p">(</span><span class="n">func</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">rewrap_path</span><span class="p">(</span><span class="n">value</span><span class="p">)</span>
 </pre>
 </div>
 <div class="section" id="rindex">
@@ -6564,6 +7280,7 @@ symbolic links encountered in the path.&quot;&quot;&quot;</span>
 <div class="line"><strong>os.rmdir</strong><tt class="docutils literal">(path, *, dir_fd=None)</tt></div>
 <div class="line"><strong>pathlib.rmdir</strong><tt class="docutils literal">(self)</tt></div>
 <div class="line"><strong>pathpy.rmdir</strong><tt class="docutils literal">(self)</tt></div>
+<div class="line"><strong>trio.rmdir</strong><tt class="docutils literal">(self, *args, **kwargs)</tt></div>
 </div>
 <div class="line-block">
 <div class="line"><strong>os.rmdir</strong><tt class="docutils literal">(path, *, dir_fd=None)</tt>:</div>
@@ -6599,6 +7316,19 @@ symbolic links encountered in the path.&quot;&quot;&quot;</span>
     <span class="sd">&quot;&quot;&quot; .. seealso:: :func:`os.rmdir` &quot;&quot;&quot;</span>
     <span class="n">os</span><span class="o">.</span><span class="n">rmdir</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span>
     <span class="k">return</span> <span class="bp">self</span>
+</pre>
+<div class="line-block">
+<div class="line"><strong>trio.rmdir</strong><tt class="docutils literal">(self, *args, **kwargs)</tt>:</div>
+<div class="line"><a class="reference external" href="https://trio.readthedocs.io/en/latest/reference-io.html#trio.Path.rmdir">docs</a> <a class="reference external" href="https://github.com/python-trio/trio/blob/master/trio/_path.py">source (_path.py)</a></div>
+</div>
+<pre class="code python literal-block">
+<span class="nd">&#64;async_wraps</span><span class="p">(</span><span class="bp">cls</span><span class="p">,</span> <span class="n">pathlib</span><span class="o">.</span><span class="n">Path</span><span class="p">,</span> <span class="n">meth_name</span><span class="p">)</span>
+<span class="n">async</span> <span class="k">def</span> <span class="nf">wrapper</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
+    <span class="n">args</span> <span class="o">=</span> <span class="n">unwrap_paths</span><span class="p">(</span><span class="n">args</span><span class="p">)</span>
+    <span class="n">meth</span> <span class="o">=</span> <span class="nb">getattr</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">_wrapped</span><span class="p">,</span> <span class="n">meth_name</span><span class="p">)</span>
+    <span class="n">func</span> <span class="o">=</span> <span class="n">partial</span><span class="p">(</span><span class="n">meth</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span>
+    <span class="n">value</span> <span class="o">=</span> <span class="n">await</span> <span class="n">trio</span><span class="o">.</span><span class="n">run_sync_in_worker_thread</span><span class="p">(</span><span class="n">func</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">rewrap_path</span><span class="p">(</span><span class="n">value</span><span class="p">)</span>
 </pre>
 </div>
 <div class="section" id="rmdir-p">
@@ -6824,6 +7554,7 @@ symbolic links encountered in the path.&quot;&quot;&quot;</span>
 <div class="line"><strong>os.path.samefile</strong><tt class="docutils literal">(f1, f2)</tt></div>
 <div class="line"><strong>pathlib.samefile</strong><tt class="docutils literal">(self, other_path)</tt></div>
 <div class="line"><strong>pathpy.samefile</strong><tt class="docutils literal">(self, other)</tt></div>
+<div class="line"><strong>trio.samefile</strong><tt class="docutils literal">(self, *args, **kwargs)</tt></div>
 </div>
 <div class="line-block">
 <div class="line"><strong>os.path.samefile</strong><tt class="docutils literal">(f1, f2)</tt>:</div>
@@ -6863,6 +7594,19 @@ symbolic links encountered in the path.&quot;&quot;&quot;</span>
         <span class="n">other</span> <span class="o">=</span> <span class="n">Path</span><span class="p">(</span><span class="n">other</span><span class="p">)</span><span class="o">.</span><span class="n">realpath</span><span class="p">()</span><span class="o">.</span><span class="n">normpath</span><span class="p">()</span><span class="o">.</span><span class="n">normcase</span><span class="p">()</span>
         <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">realpath</span><span class="p">()</span><span class="o">.</span><span class="n">normpath</span><span class="p">()</span><span class="o">.</span><span class="n">normcase</span><span class="p">()</span> <span class="o">==</span> <span class="n">other</span>
     <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">module</span><span class="o">.</span><span class="n">samefile</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">other</span><span class="p">)</span>
+</pre>
+<div class="line-block">
+<div class="line"><strong>trio.samefile</strong><tt class="docutils literal">(self, *args, **kwargs)</tt>:</div>
+<div class="line"><a class="reference external" href="https://trio.readthedocs.io/en/latest/reference-io.html#trio.Path.samefile">docs</a> <a class="reference external" href="https://github.com/python-trio/trio/blob/master/trio/_path.py">source (_path.py)</a></div>
+</div>
+<pre class="code python literal-block">
+<span class="nd">&#64;async_wraps</span><span class="p">(</span><span class="bp">cls</span><span class="p">,</span> <span class="n">pathlib</span><span class="o">.</span><span class="n">Path</span><span class="p">,</span> <span class="n">meth_name</span><span class="p">)</span>
+<span class="n">async</span> <span class="k">def</span> <span class="nf">wrapper</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
+    <span class="n">args</span> <span class="o">=</span> <span class="n">unwrap_paths</span><span class="p">(</span><span class="n">args</span><span class="p">)</span>
+    <span class="n">meth</span> <span class="o">=</span> <span class="nb">getattr</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">_wrapped</span><span class="p">,</span> <span class="n">meth_name</span><span class="p">)</span>
+    <span class="n">func</span> <span class="o">=</span> <span class="n">partial</span><span class="p">(</span><span class="n">meth</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span>
+    <span class="n">value</span> <span class="o">=</span> <span class="n">await</span> <span class="n">trio</span><span class="o">.</span><span class="n">run_sync_in_worker_thread</span><span class="p">(</span><span class="n">func</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">rewrap_path</span><span class="p">(</span><span class="n">value</span><span class="p">)</span>
 </pre>
 </div>
 <div class="section" id="sameopenfile">
@@ -7183,6 +7927,7 @@ symbolic links encountered in the path.&quot;&quot;&quot;</span>
 <div class="line"><strong>os.stat</strong><tt class="docutils literal">(path, *, dir_fd=None, follow_symlinks=True)</tt></div>
 <div class="line"><strong>pathlib.stat</strong><tt class="docutils literal">(self)</tt></div>
 <div class="line"><strong>pathpy.stat</strong><tt class="docutils literal">(self)</tt></div>
+<div class="line"><strong>trio.stat</strong><tt class="docutils literal">(self, *args, **kwargs)</tt></div>
 </div>
 <div class="line-block">
 <div class="line">seealso: <a class="reference external" href="#lstat">os.lstat</a>, <a class="reference external" href="#lstat">pathlib.lstat</a>, <a class="reference external" href="#lstat">pathpy.lstat</a></div>
@@ -7254,6 +7999,19 @@ symbolic links encountered in the path.&quot;&quot;&quot;</span>
     .. seealso:: :meth:`lstat`, :func:`os.stat`
     &quot;&quot;&quot;</span>
     <span class="k">return</span> <span class="n">os</span><span class="o">.</span><span class="n">stat</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span>
+</pre>
+<div class="line-block">
+<div class="line"><strong>trio.stat</strong><tt class="docutils literal">(self, *args, **kwargs)</tt>:</div>
+<div class="line"><a class="reference external" href="https://trio.readthedocs.io/en/latest/reference-io.html#trio.Path.stat">docs</a> <a class="reference external" href="https://github.com/python-trio/trio/blob/master/trio/_path.py">source (_path.py)</a></div>
+</div>
+<pre class="code python literal-block">
+<span class="nd">&#64;async_wraps</span><span class="p">(</span><span class="bp">cls</span><span class="p">,</span> <span class="n">pathlib</span><span class="o">.</span><span class="n">Path</span><span class="p">,</span> <span class="n">meth_name</span><span class="p">)</span>
+<span class="n">async</span> <span class="k">def</span> <span class="nf">wrapper</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
+    <span class="n">args</span> <span class="o">=</span> <span class="n">unwrap_paths</span><span class="p">(</span><span class="n">args</span><span class="p">)</span>
+    <span class="n">meth</span> <span class="o">=</span> <span class="nb">getattr</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">_wrapped</span><span class="p">,</span> <span class="n">meth_name</span><span class="p">)</span>
+    <span class="n">func</span> <span class="o">=</span> <span class="n">partial</span><span class="p">(</span><span class="n">meth</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span>
+    <span class="n">value</span> <span class="o">=</span> <span class="n">await</span> <span class="n">trio</span><span class="o">.</span><span class="n">run_sync_in_worker_thread</span><span class="p">(</span><span class="n">func</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">rewrap_path</span><span class="p">(</span><span class="n">value</span><span class="p">)</span>
 </pre>
 </div>
 <div class="section" id="statvfs">
@@ -7418,6 +8176,7 @@ symbolic links encountered in the path.&quot;&quot;&quot;</span>
 <h2><a class="toc-backref" href="#id204"><tt class="docutils literal">symlink_to</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>pathlib.symlink_to</strong><tt class="docutils literal">(self, target, target_is_directory=False)</tt></div>
+<div class="line"><strong>trio.symlink_to</strong><tt class="docutils literal">(self, *args, **kwargs)</tt></div>
 </div>
 <div class="line-block">
 <div class="line"><strong>pathlib.symlink_to</strong><tt class="docutils literal">(self, target, target_is_directory=False)</tt>:</div>
@@ -7432,6 +8191,19 @@ symbolic links encountered in the path.&quot;&quot;&quot;</span>
     <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">_closed</span><span class="p">:</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">_raise_closed</span><span class="p">()</span>
     <span class="bp">self</span><span class="o">.</span><span class="n">_accessor</span><span class="o">.</span><span class="n">symlink</span><span class="p">(</span><span class="n">target</span><span class="p">,</span> <span class="bp">self</span><span class="p">,</span> <span class="n">target_is_directory</span><span class="p">)</span>
+</pre>
+<div class="line-block">
+<div class="line"><strong>trio.symlink_to</strong><tt class="docutils literal">(self, *args, **kwargs)</tt>:</div>
+<div class="line"><a class="reference external" href="https://trio.readthedocs.io/en/latest/reference-io.html#trio.Path.symlink_to">docs</a> <a class="reference external" href="https://github.com/python-trio/trio/blob/master/trio/_path.py">source (_path.py)</a></div>
+</div>
+<pre class="code python literal-block">
+<span class="nd">&#64;async_wraps</span><span class="p">(</span><span class="bp">cls</span><span class="p">,</span> <span class="n">pathlib</span><span class="o">.</span><span class="n">Path</span><span class="p">,</span> <span class="n">meth_name</span><span class="p">)</span>
+<span class="n">async</span> <span class="k">def</span> <span class="nf">wrapper</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
+    <span class="n">args</span> <span class="o">=</span> <span class="n">unwrap_paths</span><span class="p">(</span><span class="n">args</span><span class="p">)</span>
+    <span class="n">meth</span> <span class="o">=</span> <span class="nb">getattr</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">_wrapped</span><span class="p">,</span> <span class="n">meth_name</span><span class="p">)</span>
+    <span class="n">func</span> <span class="o">=</span> <span class="n">partial</span><span class="p">(</span><span class="n">meth</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span>
+    <span class="n">value</span> <span class="o">=</span> <span class="n">await</span> <span class="n">trio</span><span class="o">.</span><span class="n">run_sync_in_worker_thread</span><span class="p">(</span><span class="n">func</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">rewrap_path</span><span class="p">(</span><span class="n">value</span><span class="p">)</span>
 </pre>
 </div>
 <div class="section" id="text">
@@ -7477,6 +8249,7 @@ symbolic links encountered in the path.&quot;&quot;&quot;</span>
 <div class="line-block">
 <div class="line"><strong>pathlib.touch</strong><tt class="docutils literal">(self, mode=438, exist_ok=True)</tt></div>
 <div class="line"><strong>pathpy.touch</strong><tt class="docutils literal">(self)</tt></div>
+<div class="line"><strong>trio.touch</strong><tt class="docutils literal">(self, *args, **kwargs)</tt></div>
 </div>
 <div class="line-block">
 <div class="line"><strong>pathlib.touch</strong><tt class="docutils literal">(self, mode=438, exist_ok=True)</tt>:</div>
@@ -7520,6 +8293,19 @@ symbolic links encountered in the path.&quot;&quot;&quot;</span>
     <span class="n">os</span><span class="o">.</span><span class="n">utime</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="bp">None</span><span class="p">)</span>
     <span class="k">return</span> <span class="bp">self</span>
 </pre>
+<div class="line-block">
+<div class="line"><strong>trio.touch</strong><tt class="docutils literal">(self, *args, **kwargs)</tt>:</div>
+<div class="line"><a class="reference external" href="https://trio.readthedocs.io/en/latest/reference-io.html#trio.Path.touch">docs</a> <a class="reference external" href="https://github.com/python-trio/trio/blob/master/trio/_path.py">source (_path.py)</a></div>
+</div>
+<pre class="code python literal-block">
+<span class="nd">&#64;async_wraps</span><span class="p">(</span><span class="bp">cls</span><span class="p">,</span> <span class="n">pathlib</span><span class="o">.</span><span class="n">Path</span><span class="p">,</span> <span class="n">meth_name</span><span class="p">)</span>
+<span class="n">async</span> <span class="k">def</span> <span class="nf">wrapper</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
+    <span class="n">args</span> <span class="o">=</span> <span class="n">unwrap_paths</span><span class="p">(</span><span class="n">args</span><span class="p">)</span>
+    <span class="n">meth</span> <span class="o">=</span> <span class="nb">getattr</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">_wrapped</span><span class="p">,</span> <span class="n">meth_name</span><span class="p">)</span>
+    <span class="n">func</span> <span class="o">=</span> <span class="n">partial</span><span class="p">(</span><span class="n">meth</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span>
+    <span class="n">value</span> <span class="o">=</span> <span class="n">await</span> <span class="n">trio</span><span class="o">.</span><span class="n">run_sync_in_worker_thread</span><span class="p">(</span><span class="n">func</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">rewrap_path</span><span class="p">(</span><span class="n">value</span><span class="p">)</span>
+</pre>
 </div>
 <div class="section" id="translate">
 <h2><a class="toc-backref" href="#id208"><tt class="docutils literal">translate</tt></a></h2>
@@ -7555,6 +8341,7 @@ symbolic links encountered in the path.&quot;&quot;&quot;</span>
 <div class="line"><strong>os.unlink</strong><tt class="docutils literal">(path, *, dir_fd=None)</tt></div>
 <div class="line"><strong>pathlib.unlink</strong><tt class="docutils literal">(self)</tt></div>
 <div class="line"><strong>pathpy.unlink</strong><tt class="docutils literal">(self)</tt></div>
+<div class="line"><strong>trio.unlink</strong><tt class="docutils literal">(self, *args, **kwargs)</tt></div>
 </div>
 <div class="line-block">
 <div class="line">seealso: <a class="reference external" href="#remove">os.remove</a>, <a class="reference external" href="#remove">pathpy.remove</a></div>
@@ -7594,6 +8381,19 @@ symbolic links encountered in the path.&quot;&quot;&quot;</span>
     <span class="sd">&quot;&quot;&quot; .. seealso:: :func:`os.unlink` &quot;&quot;&quot;</span>
     <span class="n">os</span><span class="o">.</span><span class="n">unlink</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span>
     <span class="k">return</span> <span class="bp">self</span>
+</pre>
+<div class="line-block">
+<div class="line"><strong>trio.unlink</strong><tt class="docutils literal">(self, *args, **kwargs)</tt>:</div>
+<div class="line"><a class="reference external" href="https://trio.readthedocs.io/en/latest/reference-io.html#trio.Path.unlink">docs</a> <a class="reference external" href="https://github.com/python-trio/trio/blob/master/trio/_path.py">source (_path.py)</a></div>
+</div>
+<pre class="code python literal-block">
+<span class="nd">&#64;async_wraps</span><span class="p">(</span><span class="bp">cls</span><span class="p">,</span> <span class="n">pathlib</span><span class="o">.</span><span class="n">Path</span><span class="p">,</span> <span class="n">meth_name</span><span class="p">)</span>
+<span class="n">async</span> <span class="k">def</span> <span class="nf">wrapper</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
+    <span class="n">args</span> <span class="o">=</span> <span class="n">unwrap_paths</span><span class="p">(</span><span class="n">args</span><span class="p">)</span>
+    <span class="n">meth</span> <span class="o">=</span> <span class="nb">getattr</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">_wrapped</span><span class="p">,</span> <span class="n">meth_name</span><span class="p">)</span>
+    <span class="n">func</span> <span class="o">=</span> <span class="n">partial</span><span class="p">(</span><span class="n">meth</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span>
+    <span class="n">value</span> <span class="o">=</span> <span class="n">await</span> <span class="n">trio</span><span class="o">.</span><span class="n">run_sync_in_worker_thread</span><span class="p">(</span><span class="n">func</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">rewrap_path</span><span class="p">(</span><span class="n">value</span><span class="p">)</span>
 </pre>
 </div>
 <div class="section" id="unlink-p">
@@ -8016,10 +8816,27 @@ symbolic links encountered in the path.&quot;&quot;&quot;</span>
 <h2><a class="toc-backref" href="#id218"><tt class="docutils literal">with_name</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>pathlib.with_name</strong><tt class="docutils literal">(self, name)</tt></div>
+<div class="line"><strong>trio.with_name</strong><tt class="docutils literal">(self, name)</tt></div>
 </div>
 <div class="line-block">
 <div class="line"><strong>pathlib.with_name</strong><tt class="docutils literal">(self, name)</tt>:</div>
 <div class="line"><a class="reference external" href="https://docs.python.org/3/library/pathlib.html#pathlib.Path.with_name">docs</a> <a class="reference external" href="https://github.com/python/cpython/blob/3.6/Lib/pathlib.py">source (pathlib.py)</a></div>
+</div>
+<pre class="code python literal-block">
+<span class="k">def</span> <span class="nf">with_name</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">name</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;Return a new path with the file name changed.&quot;&quot;&quot;</span>
+    <span class="k">if</span> <span class="ow">not</span> <span class="bp">self</span><span class="o">.</span><span class="n">name</span><span class="p">:</span>
+        <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span><span class="s2">&quot;</span><span class="si">%r</span><span class="s2"> has an empty name&quot;</span> <span class="o">%</span> <span class="p">(</span><span class="bp">self</span><span class="p">,))</span>
+    <span class="n">drv</span><span class="p">,</span> <span class="n">root</span><span class="p">,</span> <span class="n">parts</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_flavour</span><span class="o">.</span><span class="n">parse_parts</span><span class="p">((</span><span class="n">name</span><span class="p">,))</span>
+    <span class="k">if</span> <span class="p">(</span><span class="ow">not</span> <span class="n">name</span> <span class="ow">or</span> <span class="n">name</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span> <span class="ow">in</span> <span class="p">[</span><span class="bp">self</span><span class="o">.</span><span class="n">_flavour</span><span class="o">.</span><span class="n">sep</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">_flavour</span><span class="o">.</span><span class="n">altsep</span><span class="p">]</span>
+        <span class="ow">or</span> <span class="n">drv</span> <span class="ow">or</span> <span class="n">root</span> <span class="ow">or</span> <span class="nb">len</span><span class="p">(</span><span class="n">parts</span><span class="p">)</span> <span class="o">!=</span> <span class="mi">1</span><span class="p">):</span>
+        <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span><span class="s2">&quot;Invalid name </span><span class="si">%r</span><span class="s2">&quot;</span> <span class="o">%</span> <span class="p">(</span><span class="n">name</span><span class="p">))</span>
+    <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_from_parsed_parts</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">_drv</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">_root</span><span class="p">,</span>
+                                   <span class="bp">self</span><span class="o">.</span><span class="n">_parts</span><span class="p">[:</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span> <span class="o">+</span> <span class="p">[</span><span class="n">name</span><span class="p">])</span>
+</pre>
+<div class="line-block">
+<div class="line"><strong>trio.with_name</strong><tt class="docutils literal">(self, name)</tt>:</div>
+<div class="line"><a class="reference external" href="https://trio.readthedocs.io/en/latest/reference-io.html#trio.Path.with_name">docs</a> <a class="reference external" href="https://github.com/python-trio/trio/blob/master/trio/_path.py">source (_path.py)</a></div>
 </div>
 <pre class="code python literal-block">
 <span class="k">def</span> <span class="nf">with_name</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">name</span><span class="p">):</span>
@@ -8039,6 +8856,7 @@ symbolic links encountered in the path.&quot;&quot;&quot;</span>
 <div class="line-block">
 <div class="line"><strong>pathlib.with_suffix</strong><tt class="docutils literal">(self, suffix)</tt></div>
 <div class="line"><strong>pathpy.with_suffix</strong><tt class="docutils literal">(self, suffix)</tt></div>
+<div class="line"><strong>trio.with_suffix</strong><tt class="docutils literal">(self, suffix)</tt></div>
 </div>
 <div class="line-block">
 <div class="line"><strong>pathlib.with_suffix</strong><tt class="docutils literal">(self, suffix)</tt>:</div>
@@ -8088,12 +8906,37 @@ symbolic links encountered in the path.&quot;&quot;&quot;</span>
 
     <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">stripext</span><span class="p">()</span> <span class="o">+</span> <span class="n">suffix</span>
 </pre>
+<div class="line-block">
+<div class="line"><strong>trio.with_suffix</strong><tt class="docutils literal">(self, suffix)</tt>:</div>
+<div class="line"><a class="reference external" href="https://trio.readthedocs.io/en/latest/reference-io.html#trio.Path.with_suffix">docs</a> <a class="reference external" href="https://github.com/python-trio/trio/blob/master/trio/_path.py">source (_path.py)</a></div>
+</div>
+<pre class="code python literal-block">
+<span class="k">def</span> <span class="nf">with_suffix</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">suffix</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;Return a new path with the file suffix changed (or added, if none).&quot;&quot;&quot;</span>
+    <span class="c1"># XXX if suffix is None, should the current suffix be removed?</span>
+    <span class="n">f</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_flavour</span>
+    <span class="k">if</span> <span class="n">f</span><span class="o">.</span><span class="n">sep</span> <span class="ow">in</span> <span class="n">suffix</span> <span class="ow">or</span> <span class="n">f</span><span class="o">.</span><span class="n">altsep</span> <span class="ow">and</span> <span class="n">f</span><span class="o">.</span><span class="n">altsep</span> <span class="ow">in</span> <span class="n">suffix</span><span class="p">:</span>
+        <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span><span class="s2">&quot;Invalid suffix </span><span class="si">%r</span><span class="s2">&quot;</span> <span class="o">%</span> <span class="p">(</span><span class="n">suffix</span><span class="p">))</span>
+    <span class="k">if</span> <span class="n">suffix</span> <span class="ow">and</span> <span class="ow">not</span> <span class="n">suffix</span><span class="o">.</span><span class="n">startswith</span><span class="p">(</span><span class="s1">'.'</span><span class="p">)</span> <span class="ow">or</span> <span class="n">suffix</span> <span class="o">==</span> <span class="s1">'.'</span><span class="p">:</span>
+        <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span><span class="s2">&quot;Invalid suffix </span><span class="si">%r</span><span class="s2">&quot;</span> <span class="o">%</span> <span class="p">(</span><span class="n">suffix</span><span class="p">))</span>
+    <span class="n">name</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">name</span>
+    <span class="k">if</span> <span class="ow">not</span> <span class="n">name</span><span class="p">:</span>
+        <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span><span class="s2">&quot;</span><span class="si">%r</span><span class="s2"> has an empty name&quot;</span> <span class="o">%</span> <span class="p">(</span><span class="bp">self</span><span class="p">,))</span>
+    <span class="n">old_suffix</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">suffix</span>
+    <span class="k">if</span> <span class="ow">not</span> <span class="n">old_suffix</span><span class="p">:</span>
+        <span class="n">name</span> <span class="o">=</span> <span class="n">name</span> <span class="o">+</span> <span class="n">suffix</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="n">name</span> <span class="o">=</span> <span class="n">name</span><span class="p">[:</span><span class="o">-</span><span class="nb">len</span><span class="p">(</span><span class="n">old_suffix</span><span class="p">)]</span> <span class="o">+</span> <span class="n">suffix</span>
+    <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_from_parsed_parts</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">_drv</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">_root</span><span class="p">,</span>
+                                   <span class="bp">self</span><span class="o">.</span><span class="n">_parts</span><span class="p">[:</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span> <span class="o">+</span> <span class="p">[</span><span class="n">name</span><span class="p">])</span>
+</pre>
 </div>
 <div class="section" id="write-bytes">
 <h2><a class="toc-backref" href="#id220"><tt class="docutils literal">write_bytes</tt></a></h2>
 <div class="line-block">
 <div class="line"><strong>pathlib.write_bytes</strong><tt class="docutils literal">(self, data)</tt></div>
 <div class="line"><strong>pathpy.write_bytes</strong><tt class="docutils literal">(self, bytes, append=False)</tt></div>
+<div class="line"><strong>trio.write_bytes</strong><tt class="docutils literal">(self, *args, **kwargs)</tt></div>
 </div>
 <div class="line-block">
 <div class="line"><strong>pathlib.write_bytes</strong><tt class="docutils literal">(self, data)</tt>:</div>
@@ -8126,6 +8969,19 @@ symbolic links encountered in the path.&quot;&quot;&quot;</span>
         <span class="n">mode</span> <span class="o">=</span> <span class="s1">'wb'</span>
     <span class="k">with</span> <span class="bp">self</span><span class="o">.</span><span class="n">open</span><span class="p">(</span><span class="n">mode</span><span class="p">)</span> <span class="k">as</span> <span class="n">f</span><span class="p">:</span>
         <span class="n">f</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="nb">bytes</span><span class="p">)</span>
+</pre>
+<div class="line-block">
+<div class="line"><strong>trio.write_bytes</strong><tt class="docutils literal">(self, *args, **kwargs)</tt>:</div>
+<div class="line"><a class="reference external" href="https://trio.readthedocs.io/en/latest/reference-io.html#trio.Path.write_bytes">docs</a> <a class="reference external" href="https://github.com/python-trio/trio/blob/master/trio/_path.py">source (_path.py)</a></div>
+</div>
+<pre class="code python literal-block">
+<span class="nd">&#64;async_wraps</span><span class="p">(</span><span class="bp">cls</span><span class="p">,</span> <span class="n">pathlib</span><span class="o">.</span><span class="n">Path</span><span class="p">,</span> <span class="n">meth_name</span><span class="p">)</span>
+<span class="n">async</span> <span class="k">def</span> <span class="nf">wrapper</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
+    <span class="n">args</span> <span class="o">=</span> <span class="n">unwrap_paths</span><span class="p">(</span><span class="n">args</span><span class="p">)</span>
+    <span class="n">meth</span> <span class="o">=</span> <span class="nb">getattr</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">_wrapped</span><span class="p">,</span> <span class="n">meth_name</span><span class="p">)</span>
+    <span class="n">func</span> <span class="o">=</span> <span class="n">partial</span><span class="p">(</span><span class="n">meth</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span>
+    <span class="n">value</span> <span class="o">=</span> <span class="n">await</span> <span class="n">trio</span><span class="o">.</span><span class="n">run_sync_in_worker_thread</span><span class="p">(</span><span class="n">func</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">rewrap_path</span><span class="p">(</span><span class="n">value</span><span class="p">)</span>
 </pre>
 </div>
 <div class="section" id="write-lines">
@@ -8193,6 +9049,7 @@ symbolic links encountered in the path.&quot;&quot;&quot;</span>
 <div class="line-block">
 <div class="line"><strong>pathlib.write_text</strong><tt class="docutils literal">(self, data, encoding=None, errors=None)</tt></div>
 <div class="line"><strong>pathpy.write_text</strong><tt class="docutils literal">(self, text, encoding=None, <span class="pre">errors='strict',</span> <span class="pre">linesep='\n',</span> append=False)</tt></div>
+<div class="line"><strong>trio.write_text</strong><tt class="docutils literal">(self, *args, **kwargs)</tt></div>
 </div>
 <div class="line-block">
 <div class="line"><strong>pathlib.write_text</strong><tt class="docutils literal">(self, data, encoding=None, errors=None)</tt>:</div>
@@ -8287,6 +9144,19 @@ symbolic links encountered in the path.&quot;&quot;&quot;</span>
         <span class="k">assert</span> <span class="n">encoding</span> <span class="ow">is</span> <span class="bp">None</span>
         <span class="n">text</span> <span class="o">=</span> <span class="n">NEWLINE</span><span class="o">.</span><span class="n">sub</span><span class="p">(</span><span class="n">linesep</span><span class="p">,</span> <span class="n">text</span><span class="p">)</span>
     <span class="bp">self</span><span class="o">.</span><span class="n">write_bytes</span><span class="p">(</span><span class="n">text</span><span class="p">,</span> <span class="n">append</span><span class="o">=</span><span class="n">append</span><span class="p">)</span>
+</pre>
+<div class="line-block">
+<div class="line"><strong>trio.write_text</strong><tt class="docutils literal">(self, *args, **kwargs)</tt>:</div>
+<div class="line"><a class="reference external" href="https://trio.readthedocs.io/en/latest/reference-io.html#trio.Path.write_text">docs</a> <a class="reference external" href="https://github.com/python-trio/trio/blob/master/trio/_path.py">source (_path.py)</a></div>
+</div>
+<pre class="code python literal-block">
+<span class="nd">&#64;async_wraps</span><span class="p">(</span><span class="bp">cls</span><span class="p">,</span> <span class="n">pathlib</span><span class="o">.</span><span class="n">Path</span><span class="p">,</span> <span class="n">meth_name</span><span class="p">)</span>
+<span class="n">async</span> <span class="k">def</span> <span class="nf">wrapper</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
+    <span class="n">args</span> <span class="o">=</span> <span class="n">unwrap_paths</span><span class="p">(</span><span class="n">args</span><span class="p">)</span>
+    <span class="n">meth</span> <span class="o">=</span> <span class="nb">getattr</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">_wrapped</span><span class="p">,</span> <span class="n">meth_name</span><span class="p">)</span>
+    <span class="n">func</span> <span class="o">=</span> <span class="n">partial</span><span class="p">(</span><span class="n">meth</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span>
+    <span class="n">value</span> <span class="o">=</span> <span class="n">await</span> <span class="n">trio</span><span class="o">.</span><span class="n">run_sync_in_worker_thread</span><span class="p">(</span><span class="n">func</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">rewrap_path</span><span class="p">(</span><span class="n">value</span><span class="p">)</span>
 </pre>
 </div>
 <div class="section" id="zfill">
