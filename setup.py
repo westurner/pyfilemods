@@ -7,11 +7,12 @@ setup(
     install_requires=[
         'docutils',
         'path.py',
+        'trio',
     ],
     author='@westurner',
     description=(
         'Identify and compare Python file functions/methods and attributes '
-        'from os, os.path, shutil, pathlib, and path.py'),
+        'from os, os.path, shutil, pathlib, path.py, and trio'),
     license='PSF, MIT',
     url='https://github.com/westurner/pyfilemods',
     project_urls={

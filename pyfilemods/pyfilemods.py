@@ -31,6 +31,7 @@ import pathlib as _pathlib
 import textwrap
 
 import path as _path
+import trio as _trio
 
 meta = {}
 meta['os'] = {
@@ -64,7 +65,12 @@ meta['pathpy'] = {
     'docs': 'https://pathpy.readthedocs.io/en/latest/',
     'docsbaseurl': 'https://pathpy.readthedocs.io/en/latest/api.html#path.Path.',
 }
-
+meta['trio'] = {
+    'source': 'https://github.com/python-trio/trio/blob/master/trio/_path.py',
+    'docs': 'https://trio.readthedocs.io/en/latest/reference-io.html#trio.Path',
+    'src': 'https://github.com/python-trio/trio',
+    'docsbaseurl': 'https://trio.readthedocs.io/en/latest/reference-io.html#trio.Path.'
+}
 
 def maybe_list(obj):
     if isinstance(obj, (tuple, list)):
@@ -294,6 +300,7 @@ def build_methods():
     methods['os'] = dict(get_signatures(_os))
     methods['os.path'] = dict(get_signatures(_ospath))
     methods['shutil'] = dict(get_signatures(_shutil))
+    methods['trio'] = dict(get_signatures(_trio.Path))
     return methods
 
 
@@ -323,6 +330,8 @@ def build_sets(methods):
         set(methods['pathlib']).difference(methods['pathpy']))
     sets['pathpy_not_pathlib'] = sorted(
         set(methods['pathpy']).difference(methods['pathlib']))
+    sets['pathlib_not_trio'] = sorted(
+        set(methods['pathlib']).difference(methods['trio']))
     return sets
 
 
@@ -338,7 +347,7 @@ def print_report_header():
     print('')
     print('- Objective: Identify and compare Python file '
           'functions/methods and attributes from '
-          'os, os.path, shutil, pathlib, and path.py')
+          'os, os.path, shutil, pathlib, path.py, and trio')
     print('- Source: https://github.com/westurner/pyfilemods')
     print('- Docs: https://westurner.github.io/pyfilemods/')
     print('')
@@ -354,18 +363,19 @@ print_report_header()
 
 
 def print_table(sets=sets, methods=methods):
-    hdr = '================== == ======= ====== ======= ======='
+    hdr = '================== == ======= ====== ======= ======= ===='
     print(hdr)
-    print('attr               os os.path shutil pathlib path.py ')
+    print('attr               os os.path shutil pathlib path.py trio')
     print(hdr)
     for attr in sets['union']:
-        print('%-18s %-2s %-7s %-6s %-8s %-7s' % (
+        print('%-18s %-2s %-7s %-6s %-8s %-7s %-4s' % (
             '`%s`_' % attr,
             'X' if attr in methods['os'] else ' ',
             'X' if attr in methods['os.path'] else ' ',
             'X' if attr in methods['shutil'] else ' ',
             'X' if attr in methods['pathlib'] else ' ',
             'X' if attr in methods['pathpy'] else ' ',
+            'X' if attr in methods['trio'] else ' '
         ))
     print(hdr)
     print('')
@@ -431,7 +441,7 @@ def fmtsignature(obj):
         return '*attribute*'
 
 
-modnames = ['os', 'os.path', 'shutil', 'pathlib', 'pathpy']
+modnames = ['os', 'os.path', 'shutil', 'pathlib', 'pathpy', 'trio']
 
 
 def print_attr_methods(sets=sets, methods=methods, modnames=modnames):
