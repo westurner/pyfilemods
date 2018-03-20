@@ -53,7 +53,7 @@ meta['shutil'] = {
 meta['pathlib'] = {
     'source': 'https://github.com/python/cpython/blob/3.6/Lib/pathlib.py',
     'docs': 'https://docs.python.org/3/library/pathlib.html',
-    'docsbaseurl': 'https://docs.python.org/3/library/pathlib.html#pathlib.Path.', #pathlib.PurePath.
+    'docsbaseurl': 'https://docs.python.org/3/library/pathlib.html#pathlib.Path.', # pathlib.PurePath.
 }
 meta['pathpy'] = {
     'source': [
@@ -63,6 +63,7 @@ meta['pathpy'] = {
     'docs': 'https://pathpy.readthedocs.io/en/latest/',
     'docsbaseurl': 'https://pathpy.readthedocs.io/en/latest/api.html#path.Path.',
 }
+
 
 def maybe_list(obj):
     if isinstance(obj, (tuple, list)):
@@ -283,10 +284,10 @@ def get_signatures(obj, additional_attrs=None):
 def build_methods():
     methods = {}
 
-    pathlib_path = _pathlib.Path #('/')
+    pathlib_path = _pathlib.Path
     methods['pathlib'] = dict(get_signatures(pathlib_path))
 
-    pathpy_path = _path.Path #('/')
+    pathpy_path = _path.Path
     methods['pathpy'] = dict(get_signatures(pathpy_path,
                                             ['__div__', '__rdiv__']))
     methods['os'] = dict(get_signatures(_os))
@@ -424,16 +425,18 @@ def fmtsignature(obj):
         return '*attribute*'
 
 
-def print_attr_methods(sets=sets, methods=methods):
+modnames = ['os', 'os.path', 'shutil', 'pathlib', 'pathpy']
+
+
+def print_attr_methods(sets=sets, methods=methods, modnames=modnames):
     seealso = build_seealso(mappings=mappings)
     for method in sets['union']:
         methodstr = '``{}``'.format(method)
         print(methodstr)
         print('=' * (len(methodstr)+1))
-        modnames = ['os', 'os.path', 'shutil', 'pathlib', 'pathpy',]
         attrs = {}
-        for thing in modnames:
-            attrs[thing] = methods[thing].get(method)
+        for modname in modnames:
+            attrs[modname] = methods[modname].get(method)
 
         for name in modnames:
             obj = attrs[name]
@@ -458,17 +461,18 @@ def print_attr_methods(sets=sets, methods=methods):
         for modname in modnames:
             metadata = meta[modname]
             obj = attrs[modname]
-            if obj: #and obj.iscallable:
-                print('| **%s.%s**%s:' % (modname, method,
-                        ('\ %s' % fmtsignature(obj) if obj and obj.signature else '')))
+            if obj:
+                print('| **%s.%s**%s:' % (
+                    modname, method,
+                    ('\ %s' % fmtsignature(obj) if obj and obj.signature
+                        else '')))
                 source_links = [
                     '`source (%s) <%s>`__' % (_ospath.basename(l), l)
-                        for l in maybe_list(metadata['source'])]
+                    for l in maybe_list(metadata['source'])]
                 print('| `docs <%s%s>`__ %s' % (
                     metadata['docsbaseurl'],
                     method,
-                    ' '.join(source_links),
-                ))
+                    ' '.join(source_links)))
                 if obj.source:
                     print_code(obj, 'source')
                 else:
