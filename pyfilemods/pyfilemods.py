@@ -58,8 +58,8 @@ meta['pathlib'] = {
 meta['pathpy'] = {
     'source': [
         'https://github.com/jaraco/path.py/blob/master/path.py',
-        'https://github.com/jaraco/path.py',
     ],
+    'src': 'https://github.com/jaraco/path.py',
     'docs': 'https://pathpy.readthedocs.io/en/latest/',
     'docsbaseurl': 'https://pathpy.readthedocs.io/en/latest/api.html#path.Path.',
 }
@@ -76,6 +76,8 @@ def print_header__modules():
     for key, data in meta.items():
         print('- %s' % key)
         print('')
+        for url in maybe_list(data.get('src', [])):
+            print('  - Src: %s' % url)
         for url in maybe_list(data['source']):
             print('  - Source: %s' % url)
         for url in maybe_list(data['docs']):
@@ -459,10 +461,14 @@ def print_attr_methods(sets=sets, methods=methods):
             if obj: #and obj.iscallable:
                 print('| **%s.%s**%s:' % (modname, method,
                         ('\ %s' % fmtsignature(obj) if obj and obj.signature else '')))
-                print('| `source <%s>`__ `docs <%s%s>`__' % (
-                    maybe_list(metadata['source'])[0],  # TODO
+                source_links = [
+                    '`source (%s) <%s>`__' % (_ospath.basename(l), l)
+                        for l in maybe_list(metadata['source'])]
+                print('| `docs <%s%s>`__ %s' % (
                     metadata['docsbaseurl'],
-                    method))
+                    method,
+                    ' '.join(source_links),
+                ))
                 if obj.source:
                     print_code(obj, 'source')
                 else:
