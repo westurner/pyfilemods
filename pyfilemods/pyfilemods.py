@@ -22,6 +22,7 @@ TODO:
 import collections
 import functools
 import inspect
+import itertools
 import os as _os
 import os.path as _ospath
 import shutil as _shutil
@@ -118,27 +119,27 @@ mappings['pathpy'] = {
     },
     'name': {
         'os.path': 'basename',
-        'path.py': 'basename',
+        'pathpy': 'basename',
     },
     'parent': {
         'os.path': 'dirname',
-        'path.py': 'dirname',
+        'pathpy': 'dirname',
     },
     'read_md5': {
-        'path.py': 'read_hash',
+        'pathpy': 'read_hash',
     },
     'readlink': {
-        'path.py': 'readlinkabs',
+        'pathpy': 'readlinkabs',
     },
     'readlinkabs': {
         'os': 'readlink',
     },
     'splitpath': {
-        'path.py': ['parent', 'name'],
+        'pathpy': ['parent', 'name'],
         'os.path': 'split',
     },
     'stat': {
-        'path.py': 'lstat',
+        'pathpy': 'lstat',
     },
     'size': {
         'os.path': 'getsize',
@@ -170,14 +171,14 @@ mappings['pathlib'] = {
     },
     'name': {
         'os.path': 'basename',
-        'path.py': 'basename',
+        'pathpy': 'basename',
     },
     'owner': {
         'pathpy': 'get_owner',
     },
     'parent': {
         'os.path': 'dirname',
-        'path.py': ['parent', 'dirname'],
+        'pathpy': ['parent', 'dirname'],
     },
     'stat': {
         'pathlib': 'lstat',
@@ -440,15 +441,16 @@ def print_attr_methods(sets=sets, methods=methods):
 
         _seealso = seealso.get(method, {})
         if _seealso:
-            seealsostrs = []
+            seealsostrs = {m: list() for m in modnames}
             for methodname, mods in _seealso.items():
-                _mods = frozenset(mods)
-                for mod in [m for m in modnames if m in _mods]:
-                    seealsostrs.append(
+                for mod in mods:
+                    seealsostrs[mod].append(
                         '`%s <#%s>`_' % (
                             '%s.%s' % (mod, methodname),
-                            methodname.replace('_', '-')))
-            print('| seealso: %s' % ', '.join(seealsostrs))
+                            methodname.replace('_', '-').strip('-')))
+            print('| seealso: %s' % ', '.join(
+                itertools.chain.from_iterable(
+                    (sorted(v) for v in seealsostrs.values()))))
             print(' ')
 
         for modname in modnames:
